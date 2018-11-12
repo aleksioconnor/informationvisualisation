@@ -1,3 +1,5 @@
+var focus; // hacky global var 
+
 // Initialize slider
 function initSlider() {
     var formatDateIntoYear = d3.timeFormat("%b"); // set %Y to display year instead of months below slider
@@ -74,6 +76,7 @@ function initSlider() {
         .attr("class", "handle")
         .attr("r", 9);
 
+    // What happens when you move the slider should be defined in here
     function moveSlider(h) {
         handle.attr("cx", x(h));
         label
@@ -82,7 +85,86 @@ function initSlider() {
     }
 }
 
+// Initialize line chart
+
+
+function lineChartInit() {
+    // set the dimensions and margins of the graph
+    var margin = {
+            top: 20,
+            right: 20,
+            bottom: 30,
+            left: 50
+        },
+        width = 960 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+    // parse the date / time
+    var parseTime = d3.timeParse("%Y-%m");
+
+    // set the ranges
+    var x = d3.scaleTime().range([0, width]);
+    var y = d3.scaleLinear().range([height, 0]);
+
+    // define the line
+    var valueline = d3.line()
+        .x(function (d) {
+            return x(d.date);
+        })
+        .y(function (d) {
+            return y(d["Sugar (kg, SYP)"]); // need this format to acces json key with spaces
+        });
+
+    // append the svg obgect to the body of the page
+    // appends a 'group' element to 'svg'
+    // moves the 'group' element to the top left margin
+    var svg = d3.select("body").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform",
+            "translate(" + margin.left + "," + margin.top + ")");
+
+
+    focus = svg.append("g") // define focus boy
+        .style("display", "none");
+
+    // Load the data 
+    d3.json("data/foodPrices.json").then(function (data) {
+        data.foodPrices.forEach(function (d) {
+            d.date = parseTime(d.date);
+            d["Sugar (kg, SYP)"] = +d["Sugar (kg, SYP)"];
+        })
+        x.domain(d3.extent(data.foodPrices, function (d) {
+            return d.date;
+        }));
+        y.domain([0, d3.max(data.foodPrices, function (d) {
+            return Math.max(d["Sugar (kg, SYP)"]);
+        })])
+
+        // Load the intersection circle thing
+        focus.append("circle")
+            .attr("class", "y")
+            .style("fill", "none")
+            .style("stroke", "blue")
+            .attr("r", 4)
+
+        svg.append("path")
+            .data([data.foodPrices])
+            .attr("class", "line")
+            .attr("d", valueline)
+
+        svg.append("g")
+            .attr("transform", "translate(0," + height + ")")
+            .call(d3.axisBottom(x));
+
+        svg.append("g")
+            .call(d3.axisLeft(y));
+    })
+}
+
 // Window onload
 window.onload = function () {
     initSlider();
+    lineChartInit();
 };
