@@ -167,32 +167,58 @@ function europeMapInit() {
     var w = 800;
     var h = 600;
 
-    var projection = d3.geoMercator() //utiliser une projection standard pour aplatir les pôles, voir D3 projection plugin
-        .center([13, 52]) //comment centrer la carte, longitude, latitude
-        .translate([w / 2, h / 2]) // centrer l'image obtenue dans le svg
+    var margin = {
+            top: 20,
+            right: 20,
+            bottom: 30,
+            left: 50
+        },
+        width = 960 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+    console.log('test');
+
+    var projection = d3
+        .geoMercator()
+        .center([13, 52])
+        .translate([w / 2, h / 2])
         .scale([w / 1.5]);
 
-    var path = d3.geoPath()
+    var path = d3
+        .geoPath()
         .projection(projection);
 
+    var svg = d3
+        .select("#map")
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h);
 
-    d3.json("data/europe.json", function (json) {
+    //Load in GeoJSON data
+    d3.json("data/europe.json").then(function (json) {
 
         //Bind data and create one path per GeoJSON feature
-        svg.append("path")
+        svg.selectAll("path")
             .data(json.features)
             .enter()
             .append("path")
             .attr("d", path)
             .attr("stroke", "rgba(8, 81, 156, 0.2)")
-            .attr("fill", "rgba(8, 81, 156, 0.6)");
+            // .attr("stroke", "rgba(255, 255, 255, 1)")
+            // .attr("fill", "rgba(8, 81, 156, 0.6)");
+            .attr("fill", "rgba(255, 255, 255, 1)");
+
 
     });
 }
 
 // Window onload
 window.onload = function () {
+
+    console.log("c1")
     initSlider();
-    lineChartInit();
+
+    console.log("c2")
     europeMapInit();
+    lineChartInit();
 };
