@@ -206,7 +206,8 @@ function europeMapInit() {
             .attr("stroke", "rgba(8, 81, 156, 0.2)")
             // .attr("stroke", "rgba(255, 255, 255, 1)")
             // .attr("fill", "rgba(8, 81, 156, 0.6)");
-            .attr("fill", "rgba(255, 255, 255, 1)");
+            // .attr("fill", "rgba(255, 255, 255, 1)")
+            .attr("fill", "none")
 
 
     });
