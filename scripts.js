@@ -163,8 +163,63 @@ function lineChartInit() {
     })
 }
 
+function europeMapInit() {
+    var w = 800;
+    var h = 600;
+
+    var margin = {
+            top: 20,
+            right: 20,
+            bottom: 30,
+            left: 50
+        },
+        width = 960 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+    console.log('test');
+
+    var projection = d3
+        .geoMercator()
+        .center([13, 52])
+        .translate([w / 2, h / 2])
+        .scale([w / 1.5]);
+
+    var path = d3
+        .geoPath()
+        .projection(projection);
+
+    var svg = d3
+        .select("#map")
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h);
+
+    //Load in GeoJSON data
+    d3.json("data/europe.json").then(function (json) {
+
+        //Bind data and create one path per GeoJSON feature
+        svg.selectAll("path")
+            .data(json.features)
+            .enter()
+            .append("path")
+            .attr("d", path)
+            .attr("stroke", "rgba(8, 81, 156, 0.2)")
+            // .attr("stroke", "rgba(255, 255, 255, 1)")
+            // .attr("fill", "rgba(8, 81, 156, 0.6)");
+            // .attr("fill", "rgba(255, 255, 255, 1)")
+            .attr("fill", "none")
+
+
+    });
+}
+
 // Window onload
 window.onload = function () {
+
+    console.log("c1")
     initSlider();
+
+    console.log("c2")
+    europeMapInit();
     lineChartInit();
 };
