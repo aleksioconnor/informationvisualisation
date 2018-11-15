@@ -253,7 +253,7 @@ function barChart_init() {
          //.attr("x", (data) => xScale(data.provinceDeathcount?))
          //.attr("width",xScale.bandwidth());
     
-        });
+        //});
     
 
     });
