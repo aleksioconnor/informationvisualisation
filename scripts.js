@@ -17,8 +17,6 @@ function initSlider() {
         width = 960 - margin.left - margin.right,
         height = 100 - margin.top - margin.bottom;
 
-        var test = 0;
-
     var svg = d3.select("#slider")
         .append("svg")
         .attr("width", width + margin.left + margin.right)
