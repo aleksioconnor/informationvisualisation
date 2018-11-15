@@ -29,7 +29,6 @@ function initSlider() {
         .range([0, width])
         .clamp(true);
 
-    debugger
 
     var slider = svg.append("g")
         .attr("class", "slider")
@@ -185,15 +184,15 @@ function europeMapInit() {
 
 
 
-    // var projection = d3
-    //     .geoMercator()
-    //     .center([13, 52])
-    //     .translate([w / 2, h / 2])
-    //     .scale([w / 0.8]);
+    var projection = d3
+        .geoMercator()
+        .center([13, 52])
+        .translate([w / 2, h / 2])
+        .scale([w / 0.8]);
 
-    // var path = d3
-    //     .geoPath()
-    //     .projection(projection);
+    var path = d3
+        .geoPath()
+        .projection(projection);
 
     var svg = d3
         .select("#map")
@@ -205,22 +204,22 @@ function europeMapInit() {
     console.log('test');
 
     //Load in GeoJSON data
-    // d3.json("data/europe.json").then(function (json) {
+    d3.json("data/europe.json").then(function (json) {
 
-    //     //Bind data and create one path per GeoJSON feature
-    //     svg.selectAll("path")
-    //         .data(json.features)
-    //         .enter()
-    //         .append("path")
-    //         .attr("d", path)
-    //         .attr("stroke", "rgba(8, 81, 156, 0.4)")
-    //         .attr("fill", "none")
-    //     // .attr("class", function (d) {
-    //     //     console.log('d', d.properties.name);
-    //     //     return "country " + d.properties.name;
-    //     // })
+        //Bind data and create one path per GeoJSON feature
+        svg.selectAll("path")
+            .data(json.features)
+            .enter()
+            .append("path")
+            .attr("d", path)
+            .attr("stroke", "rgba(8, 81, 156, 0.4)")
+            .attr("fill", "none")
+        // .attr("class", function (d) {
+        //     console.log('d', d.properties.name);
+        //     return "country " + d.properties.name;
+        // })
 
-    // });
+    });
 
 
     // d3.json("data/foodPrices.json").
@@ -251,7 +250,9 @@ function europeMapInit() {
         .rangeRound([600, 860]);
 
     const g = svg.append("g")
-        .attr("transform", "translate(0,40)");
+        .attr("transform", "translate("+(-w+40)+","+(h-40)+")")
+        // .attr("width", 100)
+        // .attr("height", 100)
 
 
     // var svg = d3
@@ -259,8 +260,8 @@ function europeMapInit() {
     //     .append("svg")
 
     g.selectAll("rect")
-        // .data(color.range().map(d => color.invertExtent(d)))
-        // .enter().append("rect")
+        .data(color.range().map(d => color.invertExtent(d)))
+        .enter().append("rect")
         .attr("height", 8)
         .attr("x", d => x(d[0]))
         .attr("width", d => x(d[1]) - x(d[0]))
@@ -273,7 +274,7 @@ function europeMapInit() {
         .attr("fill", "#000")
         .attr("text-anchor", "start")
         .attr("font-weight", "bold")
-        .text(data.title);
+        .text("Refugees in europe");
 
     g.call(d3.axisBottom(x)
             .tickSize(13)
