@@ -229,29 +229,35 @@ function barChart_init() {
             .attr("width",w)
             .attr("height",h);
 
-    var xScale = d3.scaleBand()
+    xScale = d3.scaleBand()
         .range([0, w])
         .domain([0, 100])
         .padding(0.2)
 
-    var xaxis = d3.axisBottom()
-        .scale(xScale);
-
-    var yScale = d3.scaleLinear()
-        .range([0, h])
+    yScale = d3.scaleLinear()
+        .range([h, 0])
         .domain([0, 100]);
 
-    var yaxis = d3.axisLeft()
-        .scale(yScale);
-
     svg.append("g")
-        .call(yaxis);
+        .call(d3.axisLeft(yScale));
 
     svg.append("g")
         .attr('transform', `translate(0, ${h})`)
-        .call(xaxis);
+        .call(d3.axisBottom(xScale));
+
+    //svg.selectAll("rect")
+      //  .data(data)
+        //.enter().append("rect")
+         //.attr("fill","purple")
+         //.attr("y", (data) => yScale(data.provinceDeathcount?))
+         //.attr("x", (data) => xScale(data.provinceDeathcount?))
+         //.attr("width",xScale.bandwidth());
+    
+        });
+    
 
     });
+
 
 }
 
@@ -262,7 +268,7 @@ window.onload = function () {
     initSlider();
 
     console.log("c2")
-    //europeMapInit();
-    //lineChartInit();
+    europeMapInit();
+    lineChartInit();
     barChart_init();
 };
