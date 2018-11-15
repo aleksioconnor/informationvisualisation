@@ -213,6 +213,73 @@ function europeMapInit() {
     });
 }
 
+function barChart_init() {
+    var w = 800;
+    var h = 600;
+
+    var svg = d3.select("#the_chart")
+                .append("svg")
+                .attr("width",w)
+                .attr("height",h);
+
+    // Load the data
+    d3.json("allDeaths.json").then(function (data) {
+        deathsDataset = data;
+    });
+
+    // parse the date / time
+    var parseTime = d3.timeParse("%Y-%m");
+    deathsDataset.Date = parseTime(deathsDataset.Date);
+
+    var padding = 30;
+    var bar_w = 15;
+
+    var hscale = d3.scaleLinear()
+                         .domain([10,0])
+                         .range([padding,h-padding]);
+
+    var xscale = d3.scaleLinear()
+                         .domain([0,deathsDataset.length])
+                         .range([padding,w-padding]);
+
+
+    var yaxis = d3.axisLeft()
+                  .scale(hscale);
+
+    var xaxis = d3.axisBottom()
+              .scale(d3.scaleLinear()
+              .domain([deathsDataset[0].deathsDataset.Date,deathsDataset[deathsDataset.length-1].deathsDataset.Date])
+              .range([padding+bar_w/2,w-padding-bar_w/2]))
+              .tickFormat(d3.format("d"))
+              .ticks(deathsDataset.length/4);
+              //.ticks(20);
+
+    svg.append("g")
+   	.attr("transform","translate(30,0)")
+	.attr("class","y axis")
+	.call(yaxis);
+
+    svg.append("g")
+   	.attr("transform","translate(0," + (h-padding) + ")")
+  .call(xaxis);
+  
+    svg.selectAll("rect")
+    .data(deathsDataset)
+    .enter().append("rect")
+    .attr("width",Math.floor((w-padding*2)/dataset.length)-1)
+    .attr("height",function(d) {
+                          return h-padding-hscale(deathsDataset.totalDeathcount);
+                   })
+     .attr("fill","purple")
+     .attr("x",function(d, i) {
+                          return xscale(i);
+                   })
+     .attr("y",function(d) {
+                   return hscale(deathsDataset.totalDeathcount);
+                   });
+
+}
+
 // Window onload
 window.onload = function () {
 
@@ -222,4 +289,5 @@ window.onload = function () {
     console.log("c2")
     europeMapInit();
     lineChartInit();
+    barChart_init();
 };

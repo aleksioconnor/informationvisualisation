@@ -1,0 +1,3601 @@
+[{
+    "date": "2013-01",
+    "totalDeathcount": 4131,
+    "provinceDeathcount": {
+        "Idlib": 414,
+        "Damascus_suburbs": 1079,
+        "Aleppo": 859,
+        "Daraa": 349,
+        "Tartous": 4,
+        "Homs": 537,
+        "Damascus": 290,
+        "Other": 36,
+        "Hama": 241,
+        "Deir_ezzor": 171,
+        "Hasakeh": 37,
+        "Quneitra": 15,
+        "Lattakia": 23,
+        "Raqqa": 68,
+        "Sweida": 8,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 4121,
+        "Syrian government and affiliated militias": 9,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 1,
+        "Not identified": 0,
+        "Armed opposition groups": 0,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 3262,
+        "child-m": 325,
+        "child-f": 192,
+        "adult-f": 352
+    },
+    "deathcauseCount": {
+        "Shelling": 1118,
+        "Detention - Torture": 91,
+        "Shooting": 1445,
+        "Field Execution": 533,
+        "Warplane shelling": 698,
+        "Detention - Execution": 46,
+        "Kidnapping - Execution": 69,
+        "Kidnapping - Torture": 5,
+        "Detention - Torture - Execution": 24,
+        "Other": 8,
+        "Explosion": 74,
+        "Un-allowed to seek Medical help": 8,
+        "Kidnapping - Torture - Execution": 12,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 3073,
+        "Non-Civilian": 1058
+    }
+}, {
+    "date": "2013-02",
+    "totalDeathcount": 3976,
+    "provinceDeathcount": {
+        "Idlib": 272,
+        "Damascus_suburbs": 888,
+        "Aleppo": 1094,
+        "Daraa": 309,
+        "Tartous": 2,
+        "Homs": 347,
+        "Damascus": 421,
+        "Other": 62,
+        "Hama": 261,
+        "Deir_ezzor": 195,
+        "Hasakeh": 30,
+        "Quneitra": 8,
+        "Lattakia": 4,
+        "Raqqa": 79,
+        "Sweida": 4,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 3965,
+        "Syrian government and affiliated militias": 9,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 0,
+        "Not identified": 2,
+        "Armed opposition groups": 0,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 3123,
+        "child-m": 352,
+        "child-f": 193,
+        "adult-f": 308
+    },
+    "deathcauseCount": {
+        "Shelling": 1303,
+        "Detention - Torture": 120,
+        "Shooting": 1460,
+        "Field Execution": 399,
+        "Warplane shelling": 429,
+        "Detention - Execution": 24,
+        "Kidnapping - Execution": 16,
+        "Kidnapping - Torture": 3,
+        "Detention - Torture - Execution": 17,
+        "Other": 5,
+        "Explosion": 184,
+        "Un-allowed to seek Medical help": 4,
+        "Kidnapping - Torture - Execution": 12,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 2766,
+        "Non-Civilian": 1210
+    }
+}, {
+    "date": "2013-03",
+    "totalDeathcount": 4183,
+    "provinceDeathcount": {
+        "Idlib": 329,
+        "Damascus_suburbs": 1037,
+        "Aleppo": 723,
+        "Daraa": 386,
+        "Tartous": 5,
+        "Homs": 545,
+        "Damascus": 459,
+        "Other": 40,
+        "Hama": 201,
+        "Deir_ezzor": 193,
+        "Hasakeh": 58,
+        "Quneitra": 54,
+        "Lattakia": 19,
+        "Raqqa": 131,
+        "Sweida": 3,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 4170,
+        "Syrian government and affiliated militias": 13,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 0,
+        "Not identified": 0,
+        "Armed opposition groups": 0,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 3379,
+        "child-m": 339,
+        "child-f": 131,
+        "adult-f": 334
+    },
+    "deathcauseCount": {
+        "Shelling": 1397,
+        "Detention - Torture": 151,
+        "Shooting": 1702,
+        "Field Execution": 343,
+        "Warplane shelling": 365,
+        "Detention - Execution": 36,
+        "Kidnapping - Execution": 14,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 40,
+        "Other": 4,
+        "Explosion": 89,
+        "Un-allowed to seek Medical help": 4,
+        "Kidnapping - Torture - Execution": 7,
+        "Chemical and toxic gases": 30,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 2782,
+        "Non-Civilian": 1401
+    }
+}, {
+    "date": "2013-04",
+    "totalDeathcount": 3784,
+    "provinceDeathcount": {
+        "Idlib": 384,
+        "Damascus_suburbs": 962,
+        "Aleppo": 695,
+        "Daraa": 320,
+        "Tartous": 2,
+        "Homs": 508,
+        "Damascus": 291,
+        "Other": 68,
+        "Hama": 245,
+        "Deir_ezzor": 173,
+        "Hasakeh": 30,
+        "Quneitra": 35,
+        "Lattakia": 21,
+        "Raqqa": 45,
+        "Sweida": 5,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 3760,
+        "Syrian government and affiliated militias": 21,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 0,
+        "Not identified": 3,
+        "Armed opposition groups": 0,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 3103,
+        "child-m": 289,
+        "child-f": 122,
+        "adult-f": 270
+    },
+    "deathcauseCount": {
+        "Shelling": 1234,
+        "Detention - Torture": 190,
+        "Shooting": 1562,
+        "Field Execution": 318,
+        "Warplane shelling": 277,
+        "Detention - Execution": 22,
+        "Kidnapping - Execution": 8,
+        "Kidnapping - Torture": 3,
+        "Detention - Torture - Execution": 79,
+        "Other": 6,
+        "Explosion": 58,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 11,
+        "Chemical and toxic gases": 16,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 2384,
+        "Non-Civilian": 1400
+    }
+}, {
+    "date": "2013-05",
+    "totalDeathcount": 3466,
+    "provinceDeathcount": {
+        "Idlib": 257,
+        "Damascus_suburbs": 790,
+        "Aleppo": 562,
+        "Daraa": 264,
+        "Tartous": 203,
+        "Homs": 616,
+        "Damascus": 169,
+        "Other": 24,
+        "Hama": 278,
+        "Deir_ezzor": 146,
+        "Hasakeh": 19,
+        "Quneitra": 29,
+        "Lattakia": 35,
+        "Raqqa": 73,
+        "Sweida": 1,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 3451,
+        "Syrian government and affiliated militias": 14,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 0,
+        "Not identified": 1,
+        "Armed opposition groups": 0,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 2862,
+        "child-m": 238,
+        "child-f": 124,
+        "adult-f": 242
+    },
+    "deathcauseCount": {
+        "Shelling": 999,
+        "Detention - Torture": 154,
+        "Shooting": 1591,
+        "Field Execution": 373,
+        "Warplane shelling": 172,
+        "Detention - Execution": 75,
+        "Kidnapping - Execution": 6,
+        "Kidnapping - Torture": 3,
+        "Detention - Torture - Execution": 8,
+        "Other": 5,
+        "Explosion": 62,
+        "Un-allowed to seek Medical help": 4,
+        "Kidnapping - Torture - Execution": 5,
+        "Chemical and toxic gases": 9,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 2017,
+        "Non-Civilian": 1449
+    }
+}, {
+    "date": "2013-06",
+    "totalDeathcount": 2952,
+    "provinceDeathcount": {
+        "Idlib": 226,
+        "Damascus_suburbs": 649,
+        "Aleppo": 770,
+        "Daraa": 225,
+        "Tartous": 4,
+        "Homs": 355,
+        "Damascus": 197,
+        "Other": 24,
+        "Hama": 161,
+        "Deir_ezzor": 158,
+        "Hasakeh": 63,
+        "Quneitra": 33,
+        "Lattakia": 8,
+        "Raqqa": 75,
+        "Sweida": 4,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 2915,
+        "Syrian government and affiliated militias": 34,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 0,
+        "Not identified": 2,
+        "Armed opposition groups": 1,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 2305,
+        "child-m": 271,
+        "child-f": 117,
+        "adult-f": 259
+    },
+    "deathcauseCount": {
+        "Shelling": 807,
+        "Detention - Torture": 199,
+        "Shooting": 1358,
+        "Field Execution": 349,
+        "Warplane shelling": 126,
+        "Detention - Execution": 22,
+        "Kidnapping - Execution": 6,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 5,
+        "Other": 12,
+        "Explosion": 39,
+        "Un-allowed to seek Medical help": 9,
+        "Kidnapping - Torture - Execution": 4,
+        "Chemical and toxic gases": 15,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1824,
+        "Non-Civilian": 1128
+    }
+}, {
+    "date": "2013-07",
+    "totalDeathcount": 3482,
+    "provinceDeathcount": {
+        "Idlib": 441,
+        "Damascus_suburbs": 845,
+        "Aleppo": 612,
+        "Daraa": 383,
+        "Tartous": 19,
+        "Homs": 342,
+        "Damascus": 356,
+        "Other": 30,
+        "Hama": 180,
+        "Deir_ezzor": 114,
+        "Hasakeh": 50,
+        "Quneitra": 46,
+        "Lattakia": 12,
+        "Raqqa": 51,
+        "Sweida": 1,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 2848,
+        "Syrian government and affiliated militias": 629,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 2,
+        "Not identified": 3,
+        "Armed opposition groups": 0,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 2803,
+        "child-m": 278,
+        "child-f": 140,
+        "adult-f": 261
+    },
+    "deathcauseCount": {
+        "Shelling": 1251,
+        "Detention - Torture": 180,
+        "Shooting": 1440,
+        "Field Execution": 166,
+        "Warplane shelling": 289,
+        "Detention - Execution": 24,
+        "Kidnapping - Execution": 20,
+        "Kidnapping - Torture": 5,
+        "Detention - Torture - Execution": 8,
+        "Other": 10,
+        "Explosion": 79,
+        "Un-allowed to seek Medical help": 8,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 2,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 2118,
+        "Non-Civilian": 1364
+    }
+}, {
+    "date": "2013-08",
+    "totalDeathcount": 4622,
+    "provinceDeathcount": {
+        "Idlib": 637,
+        "Damascus_suburbs": 1694,
+        "Aleppo": 690,
+        "Daraa": 411,
+        "Tartous": 3,
+        "Homs": 309,
+        "Damascus": 261,
+        "Other": 42,
+        "Hama": 178,
+        "Deir_ezzor": 250,
+        "Hasakeh": 24,
+        "Quneitra": 23,
+        "Lattakia": 54,
+        "Raqqa": 46,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 3889,
+        "Syrian government and affiliated militias": 730,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 0,
+        "Not identified": 3,
+        "Armed opposition groups": 0,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 3416,
+        "child-m": 422,
+        "child-f": 210,
+        "adult-f": 574
+    },
+    "deathcauseCount": {
+        "Shelling": 1241,
+        "Detention - Torture": 160,
+        "Shooting": 1518,
+        "Field Execution": 154,
+        "Warplane shelling": 480,
+        "Detention - Execution": 20,
+        "Kidnapping - Execution": 5,
+        "Kidnapping - Torture": 3,
+        "Detention - Torture - Execution": 8,
+        "Other": 19,
+        "Explosion": 86,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 5,
+        "Chemical and toxic gases": 922,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 3121,
+        "Non-Civilian": 1501
+    }
+}, {
+    "date": "2013-09",
+    "totalDeathcount": 2760,
+    "provinceDeathcount": {
+        "Idlib": 355,
+        "Damascus_suburbs": 727,
+        "Aleppo": 399,
+        "Daraa": 357,
+        "Tartous": 1,
+        "Homs": 227,
+        "Damascus": 133,
+        "Other": 30,
+        "Hama": 228,
+        "Deir_ezzor": 132,
+        "Hasakeh": 31,
+        "Quneitra": 45,
+        "Lattakia": 10,
+        "Raqqa": 79,
+        "Sweida": 6,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 2655,
+        "Syrian government and affiliated militias": 99,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 2,
+        "Not identified": 4,
+        "Armed opposition groups": 0,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 2234,
+        "child-m": 230,
+        "child-f": 103,
+        "adult-f": 193
+    },
+    "deathcauseCount": {
+        "Shelling": 749,
+        "Detention - Torture": 129,
+        "Shooting": 1361,
+        "Field Execution": 135,
+        "Warplane shelling": 222,
+        "Detention - Execution": 9,
+        "Kidnapping - Execution": 10,
+        "Kidnapping - Torture": 6,
+        "Detention - Torture - Execution": 3,
+        "Other": 16,
+        "Explosion": 108,
+        "Un-allowed to seek Medical help": 12,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1481,
+        "Non-Civilian": 1279
+    }
+}, {
+    "date": "2013-10",
+    "totalDeathcount": 2678,
+    "provinceDeathcount": {
+        "Idlib": 234,
+        "Damascus_suburbs": 640,
+        "Aleppo": 496,
+        "Daraa": 339,
+        "Tartous": 15,
+        "Homs": 280,
+        "Damascus": 173,
+        "Other": 29,
+        "Hama": 162,
+        "Deir_ezzor": 200,
+        "Hasakeh": 22,
+        "Quneitra": 49,
+        "Lattakia": 12,
+        "Raqqa": 26,
+        "Sweida": 1,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 2661,
+        "Syrian government and affiliated militias": 5,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 7,
+        "Not identified": 3,
+        "Armed opposition groups": 1,
+        "Al-Nusra Front": 1,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 2129,
+        "child-m": 247,
+        "child-f": 113,
+        "adult-f": 189
+    },
+    "deathcauseCount": {
+        "Shelling": 797,
+        "Detention - Torture": 140,
+        "Shooting": 1053,
+        "Field Execution": 89,
+        "Warplane shelling": 272,
+        "Detention - Execution": 19,
+        "Kidnapping - Execution": 11,
+        "Kidnapping - Torture": 0,
+        "Detention - Torture - Execution": 11,
+        "Other": 20,
+        "Explosion": 248,
+        "Un-allowed to seek Medical help": 16,
+        "Kidnapping - Torture - Execution": 2,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1684,
+        "Non-Civilian": 994
+    }
+}, {
+    "date": "2013-11",
+    "totalDeathcount": 2537,
+    "provinceDeathcount": {
+        "Idlib": 180,
+        "Damascus_suburbs": 650,
+        "Aleppo": 704,
+        "Daraa": 214,
+        "Tartous": 0,
+        "Homs": 283,
+        "Damascus": 154,
+        "Other": 27,
+        "Hama": 145,
+        "Deir_ezzor": 71,
+        "Hasakeh": 12,
+        "Quneitra": 59,
+        "Lattakia": 8,
+        "Raqqa": 26,
+        "Sweida": 4,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 2421,
+        "Syrian government and affiliated militias": 88,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 5,
+        "Not identified": 12,
+        "Armed opposition groups": 3,
+        "Al-Nusra Front": 3,
+        "Self administration forces": 5,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1992,
+        "child-m": 259,
+        "child-f": 76,
+        "adult-f": 210
+    },
+    "deathcauseCount": {
+        "Shelling": 759,
+        "Detention - Torture": 134,
+        "Shooting": 1096,
+        "Field Execution": 136,
+        "Warplane shelling": 295,
+        "Detention - Execution": 20,
+        "Kidnapping - Execution": 3,
+        "Kidnapping - Torture": 2,
+        "Detention - Torture - Execution": 1,
+        "Other": 18,
+        "Explosion": 48,
+        "Un-allowed to seek Medical help": 19,
+        "Kidnapping - Torture - Execution": 5,
+        "Chemical and toxic gases": 1,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1537,
+        "Non-Civilian": 1000
+    }
+}, {
+    "date": "2013-12",
+    "totalDeathcount": 3128,
+    "provinceDeathcount": {
+        "Idlib": 134,
+        "Damascus_suburbs": 901,
+        "Aleppo": 1113,
+        "Daraa": 272,
+        "Tartous": 2,
+        "Homs": 238,
+        "Damascus": 115,
+        "Other": 38,
+        "Hama": 87,
+        "Deir_ezzor": 127,
+        "Hasakeh": 4,
+        "Quneitra": 38,
+        "Lattakia": 23,
+        "Raqqa": 34,
+        "Sweida": 2,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 3089,
+        "Syrian government and affiliated militias": 6,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 16,
+        "Not identified": 15,
+        "Armed opposition groups": 0,
+        "Al-Nusra Front": 2,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 2197,
+        "child-m": 394,
+        "child-f": 208,
+        "adult-f": 329
+    },
+    "deathcauseCount": {
+        "Shelling": 668,
+        "Detention - Torture": 127,
+        "Shooting": 1016,
+        "Field Execution": 171,
+        "Warplane shelling": 924,
+        "Detention - Execution": 14,
+        "Kidnapping - Execution": 15,
+        "Kidnapping - Torture": 3,
+        "Detention - Torture - Execution": 16,
+        "Other": 126,
+        "Explosion": 34,
+        "Un-allowed to seek Medical help": 12,
+        "Kidnapping - Torture - Execution": 1,
+        "Chemical and toxic gases": 1,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 2332,
+        "Non-Civilian": 796
+    }
+}, {
+    "date": "2014-01",
+    "totalDeathcount": 3106,
+    "provinceDeathcount": {
+        "Idlib": 217,
+        "Damascus_suburbs": 465,
+        "Aleppo": 1295,
+        "Daraa": 275,
+        "Tartous": 7,
+        "Homs": 294,
+        "Damascus": 202,
+        "Other": 24,
+        "Hama": 134,
+        "Deir_ezzor": 58,
+        "Hasakeh": 23,
+        "Quneitra": 49,
+        "Lattakia": 12,
+        "Raqqa": 47,
+        "Sweida": 4,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 2375,
+        "Syrian government and affiliated militias": 9,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 625,
+        "Not identified": 77,
+        "Armed opposition groups": 19,
+        "Al-Nusra Front": 1,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 2474,
+        "child-m": 279,
+        "child-f": 113,
+        "adult-f": 240
+    },
+    "deathcauseCount": {
+        "Shelling": 521,
+        "Detention - Torture": 190,
+        "Shooting": 1220,
+        "Field Execution": 97,
+        "Warplane shelling": 655,
+        "Detention - Execution": 15,
+        "Kidnapping - Execution": 104,
+        "Kidnapping - Torture": 4,
+        "Detention - Torture - Execution": 2,
+        "Other": 114,
+        "Explosion": 134,
+        "Un-allowed to seek Medical help": 10,
+        "Kidnapping - Torture - Execution": 36,
+        "Chemical and toxic gases": 4,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 2015,
+        "Non-Civilian": 1091
+    }
+}, {
+    "date": "2014-02",
+    "totalDeathcount": 3112,
+    "provinceDeathcount": {
+        "Idlib": 226,
+        "Damascus_suburbs": 414,
+        "Aleppo": 1295,
+        "Daraa": 333,
+        "Tartous": 2,
+        "Homs": 234,
+        "Damascus": 114,
+        "Other": 17,
+        "Hama": 228,
+        "Deir_ezzor": 106,
+        "Hasakeh": 53,
+        "Quneitra": 67,
+        "Lattakia": 14,
+        "Raqqa": 8,
+        "Sweida": 1,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 2785,
+        "Syrian government and affiliated militias": 6,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 258,
+        "Not identified": 54,
+        "Armed opposition groups": 5,
+        "Al-Nusra Front": 4,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 2434,
+        "child-m": 287,
+        "child-f": 142,
+        "adult-f": 249
+    },
+    "deathcauseCount": {
+        "Shelling": 401,
+        "Detention - Torture": 197,
+        "Shooting": 894,
+        "Field Execution": 151,
+        "Warplane shelling": 1071,
+        "Detention - Execution": 10,
+        "Kidnapping - Execution": 81,
+        "Kidnapping - Torture": 2,
+        "Detention - Torture - Execution": 3,
+        "Other": 68,
+        "Explosion": 227,
+        "Un-allowed to seek Medical help": 7,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 2243,
+        "Non-Civilian": 869
+    }
+}, {
+    "date": "2014-03",
+    "totalDeathcount": 2436,
+    "provinceDeathcount": {
+        "Idlib": 287,
+        "Damascus_suburbs": 546,
+        "Aleppo": 599,
+        "Daraa": 224,
+        "Tartous": 2,
+        "Homs": 281,
+        "Damascus": 129,
+        "Other": 32,
+        "Hama": 135,
+        "Deir_ezzor": 134,
+        "Hasakeh": 12,
+        "Quneitra": 18,
+        "Lattakia": 13,
+        "Raqqa": 18,
+        "Sweida": 6,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1971,
+        "Syrian government and affiliated militias": 256,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 165,
+        "Not identified": 43,
+        "Armed opposition groups": 1,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1984,
+        "child-m": 200,
+        "child-f": 98,
+        "adult-f": 154
+    },
+    "deathcauseCount": {
+        "Shelling": 350,
+        "Detention - Torture": 210,
+        "Shooting": 1039,
+        "Field Execution": 72,
+        "Warplane shelling": 517,
+        "Detention - Execution": 19,
+        "Kidnapping - Execution": 68,
+        "Kidnapping - Torture": 4,
+        "Detention - Torture - Execution": 0,
+        "Other": 67,
+        "Explosion": 63,
+        "Un-allowed to seek Medical help": 5,
+        "Kidnapping - Torture - Execution": 11,
+        "Chemical and toxic gases": 11,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1448,
+        "Non-Civilian": 988
+    }
+}, {
+    "date": "2014-04",
+    "totalDeathcount": 2954,
+    "provinceDeathcount": {
+        "Idlib": 321,
+        "Damascus_suburbs": 737,
+        "Aleppo": 809,
+        "Daraa": 231,
+        "Tartous": 5,
+        "Homs": 273,
+        "Damascus": 123,
+        "Other": 15,
+        "Hama": 166,
+        "Deir_ezzor": 205,
+        "Hasakeh": 7,
+        "Quneitra": 25,
+        "Lattakia": 15,
+        "Raqqa": 22,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 2437,
+        "Syrian government and affiliated militias": 338,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 164,
+        "Not identified": 14,
+        "Armed opposition groups": 1,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 2375,
+        "child-m": 251,
+        "child-f": 128,
+        "adult-f": 200
+    },
+    "deathcauseCount": {
+        "Shelling": 460,
+        "Detention - Torture": 222,
+        "Shooting": 1328,
+        "Field Execution": 83,
+        "Warplane shelling": 740,
+        "Detention - Execution": 15,
+        "Kidnapping - Execution": 11,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 0,
+        "Other": 27,
+        "Explosion": 52,
+        "Un-allowed to seek Medical help": 2,
+        "Kidnapping - Torture - Execution": 1,
+        "Chemical and toxic gases": 12,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1634,
+        "Non-Civilian": 1320
+    }
+}, {
+    "date": "2014-05",
+    "totalDeathcount": 2526,
+    "provinceDeathcount": {
+        "Idlib": 270,
+        "Damascus_suburbs": 458,
+        "Aleppo": 711,
+        "Daraa": 334,
+        "Tartous": 4,
+        "Homs": 138,
+        "Damascus": 105,
+        "Other": 21,
+        "Hama": 185,
+        "Deir_ezzor": 249,
+        "Hasakeh": 4,
+        "Quneitra": 18,
+        "Lattakia": 15,
+        "Raqqa": 14,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 2215,
+        "Syrian government and affiliated militias": 69,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 215,
+        "Not identified": 20,
+        "Armed opposition groups": 5,
+        "Al-Nusra Front": 1,
+        "Self administration forces": 1,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 2035,
+        "child-m": 227,
+        "child-f": 94,
+        "adult-f": 170
+    },
+    "deathcauseCount": {
+        "Shelling": 393,
+        "Detention - Torture": 323,
+        "Shooting": 969,
+        "Field Execution": 24,
+        "Warplane shelling": 587,
+        "Detention - Execution": 3,
+        "Kidnapping - Execution": 32,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 1,
+        "Other": 36,
+        "Explosion": 155,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 1,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1599,
+        "Non-Civilian": 927
+    }
+}, {
+    "date": "2014-06",
+    "totalDeathcount": 2303,
+    "provinceDeathcount": {
+        "Idlib": 237,
+        "Damascus_suburbs": 556,
+        "Aleppo": 569,
+        "Daraa": 194,
+        "Tartous": 2,
+        "Homs": 254,
+        "Damascus": 93,
+        "Other": 6,
+        "Hama": 123,
+        "Deir_ezzor": 198,
+        "Hasakeh": 3,
+        "Quneitra": 18,
+        "Lattakia": 7,
+        "Raqqa": 41,
+        "Sweida": 2,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1953,
+        "Syrian government and affiliated militias": 201,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 105,
+        "Not identified": 38,
+        "Armed opposition groups": 6,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1806,
+        "child-m": 215,
+        "child-f": 110,
+        "adult-f": 172
+    },
+    "deathcauseCount": {
+        "Shelling": 376,
+        "Detention - Torture": 297,
+        "Shooting": 759,
+        "Field Execution": 11,
+        "Warplane shelling": 740,
+        "Detention - Execution": 5,
+        "Kidnapping - Execution": 21,
+        "Kidnapping - Torture": 5,
+        "Detention - Torture - Execution": 2,
+        "Other": 25,
+        "Explosion": 61,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1530,
+        "Non-Civilian": 773
+    }
+}, {
+    "date": "2014-07",
+    "totalDeathcount": 1898,
+    "provinceDeathcount": {
+        "Idlib": 268,
+        "Damascus_suburbs": 383,
+        "Aleppo": 437,
+        "Daraa": 287,
+        "Tartous": 3,
+        "Homs": 109,
+        "Damascus": 56,
+        "Other": 16,
+        "Hama": 185,
+        "Deir_ezzor": 108,
+        "Hasakeh": 19,
+        "Quneitra": 12,
+        "Lattakia": 5,
+        "Raqqa": 9,
+        "Sweida": 1,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1661,
+        "Syrian government and affiliated militias": 64,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 125,
+        "Not identified": 35,
+        "Armed opposition groups": 7,
+        "Al-Nusra Front": 6,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1520,
+        "child-m": 157,
+        "child-f": 91,
+        "adult-f": 130
+    },
+    "deathcauseCount": {
+        "Shelling": 313,
+        "Detention - Torture": 164,
+        "Shooting": 711,
+        "Field Execution": 21,
+        "Warplane shelling": 568,
+        "Detention - Execution": 4,
+        "Kidnapping - Execution": 21,
+        "Kidnapping - Torture": 2,
+        "Detention - Torture - Execution": 0,
+        "Other": 19,
+        "Explosion": 74,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1178,
+        "Non-Civilian": 720
+    }
+}, {
+    "date": "2014-08",
+    "totalDeathcount": 2029,
+    "provinceDeathcount": {
+        "Idlib": 174,
+        "Damascus_suburbs": 472,
+        "Aleppo": 388,
+        "Daraa": 203,
+        "Tartous": 3,
+        "Homs": 175,
+        "Damascus": 89,
+        "Other": 12,
+        "Hama": 207,
+        "Deir_ezzor": 229,
+        "Hasakeh": 11,
+        "Quneitra": 18,
+        "Lattakia": 6,
+        "Raqqa": 40,
+        "Sweida": 2,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1782,
+        "Syrian government and affiliated militias": 31,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 174,
+        "Not identified": 31,
+        "Armed opposition groups": 8,
+        "Al-Nusra Front": 2,
+        "Self administration forces": 0,
+        "Russian troops": 1,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1587,
+        "child-m": 203,
+        "child-f": 88,
+        "adult-f": 151
+    },
+    "deathcauseCount": {
+        "Shelling": 257,
+        "Detention - Torture": 239,
+        "Shooting": 569,
+        "Field Execution": 13,
+        "Warplane shelling": 732,
+        "Detention - Execution": 2,
+        "Kidnapping - Execution": 128,
+        "Kidnapping - Torture": 0,
+        "Detention - Torture - Execution": 0,
+        "Other": 18,
+        "Explosion": 66,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 5,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1495,
+        "Non-Civilian": 534
+    }
+}, {
+    "date": "2014-09",
+    "totalDeathcount": 2066,
+    "provinceDeathcount": {
+        "Idlib": 267,
+        "Damascus_suburbs": 583,
+        "Aleppo": 300,
+        "Daraa": 148,
+        "Tartous": 2,
+        "Homs": 183,
+        "Damascus": 84,
+        "Other": 8,
+        "Hama": 216,
+        "Deir_ezzor": 119,
+        "Hasakeh": 25,
+        "Quneitra": 45,
+        "Lattakia": 12,
+        "Raqqa": 74,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1972,
+        "Syrian government and affiliated militias": 25,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 38,
+        "Not identified": 27,
+        "Armed opposition groups": 4,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1598,
+        "child-m": 184,
+        "child-f": 98,
+        "adult-f": 186
+    },
+    "deathcauseCount": {
+        "Shelling": 291,
+        "Detention - Torture": 130,
+        "Shooting": 631,
+        "Field Execution": 48,
+        "Warplane shelling": 877,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 7,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 1,
+        "Other": 22,
+        "Explosion": 50,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 7,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1377,
+        "Non-Civilian": 689
+    }
+}, {
+    "date": "2014-10",
+    "totalDeathcount": 1701,
+    "provinceDeathcount": {
+        "Idlib": 236,
+        "Damascus_suburbs": 408,
+        "Aleppo": 235,
+        "Daraa": 276,
+        "Tartous": 0,
+        "Homs": 288,
+        "Damascus": 61,
+        "Other": 9,
+        "Hama": 96,
+        "Deir_ezzor": 54,
+        "Hasakeh": 4,
+        "Quneitra": 21,
+        "Lattakia": 10,
+        "Raqqa": 3,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1503,
+        "Syrian government and affiliated militias": 68,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 39,
+        "Not identified": 86,
+        "Armed opposition groups": 4,
+        "Al-Nusra Front": 1,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1288,
+        "child-m": 183,
+        "child-f": 121,
+        "adult-f": 109
+    },
+    "deathcauseCount": {
+        "Shelling": 213,
+        "Detention - Torture": 141,
+        "Shooting": 608,
+        "Field Execution": 3,
+        "Warplane shelling": 540,
+        "Detention - Execution": 3,
+        "Kidnapping - Execution": 28,
+        "Kidnapping - Torture": 3,
+        "Detention - Torture - Execution": 7,
+        "Other": 10,
+        "Explosion": 141,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 2,
+        "Chemical and toxic gases": 2,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1065,
+        "Non-Civilian": 636
+    }
+}, {
+    "date": "2014-11",
+    "totalDeathcount": 1534,
+    "provinceDeathcount": {
+        "Idlib": 100,
+        "Damascus_suburbs": 276,
+        "Aleppo": 236,
+        "Daraa": 396,
+        "Tartous": 0,
+        "Homs": 156,
+        "Damascus": 55,
+        "Other": 10,
+        "Hama": 101,
+        "Deir_ezzor": 55,
+        "Hasakeh": 9,
+        "Quneitra": 4,
+        "Lattakia": 9,
+        "Raqqa": 126,
+        "Sweida": 1,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1297,
+        "Syrian government and affiliated militias": 132,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 55,
+        "Not identified": 26,
+        "Armed opposition groups": 18,
+        "Al-Nusra Front": 6,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1220,
+        "child-m": 144,
+        "child-f": 54,
+        "adult-f": 116
+    },
+    "deathcauseCount": {
+        "Shelling": 204,
+        "Detention - Torture": 177,
+        "Shooting": 482,
+        "Field Execution": 82,
+        "Warplane shelling": 506,
+        "Detention - Execution": 2,
+        "Kidnapping - Execution": 29,
+        "Kidnapping - Torture": 2,
+        "Detention - Torture - Execution": 0,
+        "Other": 16,
+        "Explosion": 33,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1085,
+        "Non-Civilian": 449
+    }
+}, {
+    "date": "2014-12",
+    "totalDeathcount": 1830,
+    "provinceDeathcount": {
+        "Idlib": 175,
+        "Damascus_suburbs": 338,
+        "Aleppo": 536,
+        "Daraa": 280,
+        "Tartous": 1,
+        "Homs": 147,
+        "Damascus": 71,
+        "Other": 6,
+        "Hama": 69,
+        "Deir_ezzor": 133,
+        "Hasakeh": 9,
+        "Quneitra": 15,
+        "Lattakia": 4,
+        "Raqqa": 44,
+        "Sweida": 2,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1343,
+        "Syrian government and affiliated militias": 277,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 51,
+        "Not identified": 38,
+        "Armed opposition groups": 15,
+        "Al-Nusra Front": 6,
+        "Self administration forces": 1,
+        "Russian troops": 0,
+        "International coalition forces": 99
+    },
+    "genderDeathcount": {
+        "adult-m": 1470,
+        "child-m": 178,
+        "child-f": 66,
+        "adult-f": 116
+    },
+    "deathcauseCount": {
+        "Shelling": 160,
+        "Detention - Torture": 91,
+        "Shooting": 626,
+        "Field Execution": 47,
+        "Warplane shelling": 714,
+        "Detention - Execution": 0,
+        "Kidnapping - Execution": 52,
+        "Kidnapping - Torture": 5,
+        "Detention - Torture - Execution": 46,
+        "Other": 38,
+        "Explosion": 46,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 1,
+        "Chemical and toxic gases": 3,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1258,
+        "Non-Civilian": 572
+    }
+}, {
+    "date": "2015-01",
+    "totalDeathcount": 1065,
+    "provinceDeathcount": {
+        "Idlib": 103,
+        "Damascus_suburbs": 273,
+        "Aleppo": 157,
+        "Daraa": 159,
+        "Tartous": 1,
+        "Homs": 82,
+        "Damascus": 62,
+        "Other": 10,
+        "Hama": 49,
+        "Deir_ezzor": 81,
+        "Hasakeh": 78,
+        "Quneitra": 2,
+        "Lattakia": 4,
+        "Raqqa": 4,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 971,
+        "Syrian government and affiliated militias": 9,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 48,
+        "Not identified": 22,
+        "Armed opposition groups": 9,
+        "Al-Nusra Front": 6,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 828,
+        "child-m": 98,
+        "child-f": 56,
+        "adult-f": 83
+    },
+    "deathcauseCount": {
+        "Shelling": 108,
+        "Detention - Torture": 90,
+        "Shooting": 336,
+        "Field Execution": 7,
+        "Warplane shelling": 363,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 43,
+        "Kidnapping - Torture": 4,
+        "Detention - Torture - Execution": 1,
+        "Other": 68,
+        "Explosion": 41,
+        "Un-allowed to seek Medical help": 2,
+        "Kidnapping - Torture - Execution": 1,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 755,
+        "Non-Civilian": 310
+    }
+}, {
+    "date": "2015-02",
+    "totalDeathcount": 1381,
+    "provinceDeathcount": {
+        "Idlib": 137,
+        "Damascus_suburbs": 491,
+        "Aleppo": 288,
+        "Daraa": 212,
+        "Tartous": 1,
+        "Homs": 70,
+        "Damascus": 29,
+        "Other": 8,
+        "Hama": 45,
+        "Deir_ezzor": 58,
+        "Hasakeh": 15,
+        "Quneitra": 7,
+        "Lattakia": 7,
+        "Raqqa": 13,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1165,
+        "Syrian government and affiliated militias": 157,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 29,
+        "Not identified": 19,
+        "Armed opposition groups": 5,
+        "Al-Nusra Front": 6,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1101,
+        "child-m": 99,
+        "child-f": 55,
+        "adult-f": 126
+    },
+    "deathcauseCount": {
+        "Shelling": 169,
+        "Detention - Torture": 79,
+        "Shooting": 464,
+        "Field Execution": 67,
+        "Warplane shelling": 490,
+        "Detention - Execution": 2,
+        "Kidnapping - Execution": 27,
+        "Kidnapping - Torture": 2,
+        "Detention - Torture - Execution": 1,
+        "Other": 37,
+        "Explosion": 41,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 1,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 919,
+        "Non-Civilian": 462
+    }
+}, {
+    "date": "2015-03",
+    "totalDeathcount": 1898,
+    "provinceDeathcount": {
+        "Idlib": 250,
+        "Damascus_suburbs": 563,
+        "Aleppo": 169,
+        "Daraa": 350,
+        "Tartous": 1,
+        "Homs": 110,
+        "Damascus": 165,
+        "Other": 15,
+        "Hama": 103,
+        "Deir_ezzor": 76,
+        "Hasakeh": 75,
+        "Quneitra": 5,
+        "Lattakia": 13,
+        "Raqqa": 3,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1782,
+        "Syrian government and affiliated militias": 33,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 33,
+        "Not identified": 23,
+        "Armed opposition groups": 8,
+        "Al-Nusra Front": 19,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1573,
+        "child-m": 106,
+        "child-f": 69,
+        "adult-f": 150
+    },
+    "deathcauseCount": {
+        "Shelling": 186,
+        "Detention - Torture": 684,
+        "Shooting": 445,
+        "Field Execution": 16,
+        "Warplane shelling": 390,
+        "Detention - Execution": 12,
+        "Kidnapping - Execution": 31,
+        "Kidnapping - Torture": 2,
+        "Detention - Torture - Execution": 0,
+        "Other": 22,
+        "Explosion": 101,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 2,
+        "Chemical and toxic gases": 7,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1434,
+        "Non-Civilian": 464
+    }
+}, {
+    "date": "2015-04",
+    "totalDeathcount": 1630,
+    "provinceDeathcount": {
+        "Idlib": 390,
+        "Damascus_suburbs": 264,
+        "Aleppo": 371,
+        "Daraa": 248,
+        "Tartous": 1,
+        "Homs": 91,
+        "Damascus": 91,
+        "Other": 8,
+        "Hama": 58,
+        "Deir_ezzor": 73,
+        "Hasakeh": 16,
+        "Quneitra": 3,
+        "Lattakia": 4,
+        "Raqqa": 12,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1270,
+        "Syrian government and affiliated militias": 185,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 152,
+        "Not identified": 11,
+        "Armed opposition groups": 11,
+        "Al-Nusra Front": 1,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1263,
+        "child-m": 144,
+        "child-f": 82,
+        "adult-f": 141
+    },
+    "deathcauseCount": {
+        "Shelling": 182,
+        "Detention - Torture": 137,
+        "Shooting": 475,
+        "Field Execution": 15,
+        "Warplane shelling": 666,
+        "Detention - Execution": 4,
+        "Kidnapping - Execution": 50,
+        "Kidnapping - Torture": 8,
+        "Detention - Torture - Execution": 2,
+        "Other": 22,
+        "Explosion": 68,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 1,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1139,
+        "Non-Civilian": 491
+    }
+}, {
+    "date": "2015-05",
+    "totalDeathcount": 1799,
+    "provinceDeathcount": {
+        "Idlib": 299,
+        "Damascus_suburbs": 239,
+        "Aleppo": 570,
+        "Daraa": 169,
+        "Tartous": 0,
+        "Homs": 142,
+        "Damascus": 29,
+        "Other": 3,
+        "Hama": 97,
+        "Deir_ezzor": 195,
+        "Hasakeh": 42,
+        "Quneitra": 4,
+        "Lattakia": 3,
+        "Raqqa": 6,
+        "Sweida": 1,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1465,
+        "Syrian government and affiliated militias": 128,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 185,
+        "Not identified": 8,
+        "Armed opposition groups": 9,
+        "Al-Nusra Front": 3,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 1
+    },
+    "genderDeathcount": {
+        "adult-m": 1333,
+        "child-m": 184,
+        "child-f": 110,
+        "adult-f": 172
+    },
+    "deathcauseCount": {
+        "Shelling": 199,
+        "Detention - Torture": 52,
+        "Shooting": 473,
+        "Field Execution": 16,
+        "Warplane shelling": 879,
+        "Detention - Execution": 8,
+        "Kidnapping - Execution": 97,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 0,
+        "Other": 25,
+        "Explosion": 42,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 7,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1299,
+        "Non-Civilian": 500
+    }
+}, {
+    "date": "2015-06",
+    "totalDeathcount": 1821,
+    "provinceDeathcount": {
+        "Idlib": 263,
+        "Damascus_suburbs": 199,
+        "Aleppo": 596,
+        "Daraa": 351,
+        "Tartous": 0,
+        "Homs": 190,
+        "Damascus": 19,
+        "Other": 1,
+        "Hama": 91,
+        "Deir_ezzor": 74,
+        "Hasakeh": 19,
+        "Quneitra": 10,
+        "Lattakia": 3,
+        "Raqqa": 5,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1253,
+        "Syrian government and affiliated militias": 145,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 403,
+        "Not identified": 13,
+        "Armed opposition groups": 3,
+        "Al-Nusra Front": 4,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1309,
+        "child-m": 170,
+        "child-f": 98,
+        "adult-f": 244
+    },
+    "deathcauseCount": {
+        "Shelling": 192,
+        "Detention - Torture": 61,
+        "Shooting": 718,
+        "Field Execution": 4,
+        "Warplane shelling": 709,
+        "Detention - Execution": 3,
+        "Kidnapping - Execution": 48,
+        "Kidnapping - Torture": 0,
+        "Detention - Torture - Execution": 1,
+        "Other": 21,
+        "Explosion": 61,
+        "Un-allowed to seek Medical help": 2,
+        "Kidnapping - Torture - Execution": 1,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1356,
+        "Non-Civilian": 465
+    }
+}, {
+    "date": "2015-07",
+    "totalDeathcount": 1386,
+    "provinceDeathcount": {
+        "Idlib": 201,
+        "Damascus_suburbs": 287,
+        "Aleppo": 297,
+        "Daraa": 240,
+        "Tartous": 1,
+        "Homs": 96,
+        "Damascus": 34,
+        "Other": 6,
+        "Hama": 100,
+        "Deir_ezzor": 93,
+        "Hasakeh": 12,
+        "Quneitra": 6,
+        "Lattakia": 0,
+        "Raqqa": 13,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1211,
+        "Syrian government and affiliated militias": 63,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 91,
+        "Not identified": 9,
+        "Armed opposition groups": 6,
+        "Al-Nusra Front": 6,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1020,
+        "child-m": 143,
+        "child-f": 85,
+        "adult-f": 138
+    },
+    "deathcauseCount": {
+        "Shelling": 185,
+        "Detention - Torture": 61,
+        "Shooting": 422,
+        "Field Execution": 12,
+        "Warplane shelling": 580,
+        "Detention - Execution": 0,
+        "Kidnapping - Execution": 52,
+        "Kidnapping - Torture": 3,
+        "Detention - Torture - Execution": 2,
+        "Other": 17,
+        "Explosion": 52,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 956,
+        "Non-Civilian": 430
+    }
+}, {
+    "date": "2015-08",
+    "totalDeathcount": 1795,
+    "provinceDeathcount": {
+        "Idlib": 257,
+        "Damascus_suburbs": 885,
+        "Aleppo": 172,
+        "Daraa": 137,
+        "Tartous": 1,
+        "Homs": 94,
+        "Damascus": 36,
+        "Other": 4,
+        "Hama": 71,
+        "Deir_ezzor": 98,
+        "Hasakeh": 9,
+        "Quneitra": 1,
+        "Lattakia": 3,
+        "Raqqa": 27,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1389,
+        "Syrian government and affiliated militias": 259,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 122,
+        "Not identified": 11,
+        "Armed opposition groups": 5,
+        "Al-Nusra Front": 9,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1413,
+        "child-m": 149,
+        "child-f": 84,
+        "adult-f": 149
+    },
+    "deathcauseCount": {
+        "Shelling": 386,
+        "Detention - Torture": 64,
+        "Shooting": 536,
+        "Field Execution": 6,
+        "Warplane shelling": 681,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 46,
+        "Kidnapping - Torture": 0,
+        "Detention - Torture - Execution": 0,
+        "Other": 22,
+        "Explosion": 53,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1255,
+        "Non-Civilian": 540
+    }
+}, {
+    "date": "2015-09",
+    "totalDeathcount": 835,
+    "provinceDeathcount": {
+        "Idlib": 87,
+        "Damascus_suburbs": 328,
+        "Aleppo": 80,
+        "Daraa": 99,
+        "Tartous": 0,
+        "Homs": 133,
+        "Damascus": 27,
+        "Other": 3,
+        "Hama": 8,
+        "Deir_ezzor": 55,
+        "Hasakeh": 1,
+        "Quneitra": 12,
+        "Lattakia": 1,
+        "Raqqa": 1,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 772,
+        "Syrian government and affiliated militias": 24,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 29,
+        "Not identified": 8,
+        "Armed opposition groups": 1,
+        "Al-Nusra Front": 1,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 645,
+        "child-m": 75,
+        "child-f": 44,
+        "adult-f": 71
+    },
+    "deathcauseCount": {
+        "Shelling": 245,
+        "Detention - Torture": 30,
+        "Shooting": 310,
+        "Field Execution": 8,
+        "Warplane shelling": 219,
+        "Detention - Execution": 0,
+        "Kidnapping - Execution": 2,
+        "Kidnapping - Torture": 0,
+        "Detention - Torture - Execution": 0,
+        "Other": 8,
+        "Explosion": 13,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 533,
+        "Non-Civilian": 302
+    }
+}, {
+    "date": "2015-10",
+    "totalDeathcount": 1661,
+    "provinceDeathcount": {
+        "Idlib": 201,
+        "Damascus_suburbs": 386,
+        "Aleppo": 365,
+        "Daraa": 171,
+        "Tartous": 0,
+        "Homs": 240,
+        "Damascus": 15,
+        "Other": 14,
+        "Hama": 116,
+        "Deir_ezzor": 126,
+        "Hasakeh": 5,
+        "Quneitra": 4,
+        "Lattakia": 11,
+        "Raqqa": 7,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1520,
+        "Syrian government and affiliated militias": 26,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 70,
+        "Not identified": 35,
+        "Armed opposition groups": 5,
+        "Al-Nusra Front": 3,
+        "Self administration forces": 0,
+        "Russian troops": 2,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1302,
+        "child-m": 140,
+        "child-f": 83,
+        "adult-f": 136
+    },
+    "deathcauseCount": {
+        "Shelling": 223,
+        "Detention - Torture": 62,
+        "Shooting": 605,
+        "Field Execution": 7,
+        "Warplane shelling": 649,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 45,
+        "Kidnapping - Torture": 3,
+        "Detention - Torture - Execution": 0,
+        "Other": 11,
+        "Explosion": 51,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 3,
+        "Unknown": 1,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1036,
+        "Non-Civilian": 625
+    }
+}, {
+    "date": "2015-11",
+    "totalDeathcount": 1688,
+    "provinceDeathcount": {
+        "Idlib": 282,
+        "Damascus_suburbs": 370,
+        "Aleppo": 281,
+        "Daraa": 173,
+        "Tartous": 1,
+        "Homs": 152,
+        "Damascus": 31,
+        "Other": 12,
+        "Hama": 117,
+        "Deir_ezzor": 195,
+        "Hasakeh": 9,
+        "Quneitra": 4,
+        "Lattakia": 23,
+        "Raqqa": 37,
+        "Sweida": 1,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1476,
+        "Syrian government and affiliated militias": 31,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 112,
+        "Not identified": 19,
+        "Armed opposition groups": 35,
+        "Al-Nusra Front": 15,
+        "Self administration forces": 0,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1331,
+        "child-m": 176,
+        "child-f": 52,
+        "adult-f": 129
+    },
+    "deathcauseCount": {
+        "Shelling": 259,
+        "Detention - Torture": 75,
+        "Shooting": 614,
+        "Field Execution": 15,
+        "Warplane shelling": 569,
+        "Detention - Execution": 4,
+        "Kidnapping - Execution": 65,
+        "Kidnapping - Torture": 6,
+        "Detention - Torture - Execution": 0,
+        "Other": 15,
+        "Explosion": 60,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 3,
+        "Chemical and toxic gases": 2,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1032,
+        "Non-Civilian": 656
+    }
+}, {
+    "date": "2015-12",
+    "totalDeathcount": 1846,
+    "provinceDeathcount": {
+        "Idlib": 293,
+        "Damascus_suburbs": 505,
+        "Aleppo": 454,
+        "Daraa": 167,
+        "Tartous": 1,
+        "Homs": 139,
+        "Damascus": 27,
+        "Other": 4,
+        "Hama": 83,
+        "Deir_ezzor": 116,
+        "Hasakeh": 6,
+        "Quneitra": 2,
+        "Lattakia": 21,
+        "Raqqa": 28,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1644,
+        "Syrian government and affiliated militias": 18,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 139,
+        "Not identified": 23,
+        "Armed opposition groups": 20,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 0,
+        "Russian troops": 2,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1408,
+        "child-m": 179,
+        "child-f": 95,
+        "adult-f": 164
+    },
+    "deathcauseCount": {
+        "Shelling": 190,
+        "Detention - Torture": 35,
+        "Shooting": 579,
+        "Field Execution": 1,
+        "Warplane shelling": 878,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 74,
+        "Kidnapping - Torture": 2,
+        "Detention - Torture - Execution": 1,
+        "Other": 17,
+        "Explosion": 65,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 1,
+        "Unknown": 1,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1218,
+        "Non-Civilian": 628
+    }
+}, {
+    "date": "2016-01",
+    "totalDeathcount": 1588,
+    "provinceDeathcount": {
+        "Idlib": 283,
+        "Damascus_suburbs": 356,
+        "Aleppo": 286,
+        "Daraa": 148,
+        "Tartous": 5,
+        "Homs": 91,
+        "Damascus": 23,
+        "Other": 3,
+        "Hama": 70,
+        "Deir_ezzor": 221,
+        "Hasakeh": 24,
+        "Quneitra": 4,
+        "Lattakia": 13,
+        "Raqqa": 61,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1430,
+        "Syrian government and affiliated militias": 19,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 88,
+        "Not identified": 30,
+        "Armed opposition groups": 14,
+        "Al-Nusra Front": 4,
+        "Self administration forces": 0,
+        "Russian troops": 3,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1173,
+        "child-m": 183,
+        "child-f": 72,
+        "adult-f": 160
+    },
+    "deathcauseCount": {
+        "Shelling": 126,
+        "Detention - Torture": 61,
+        "Shooting": 468,
+        "Field Execution": 5,
+        "Warplane shelling": 783,
+        "Detention - Execution": 0,
+        "Kidnapping - Execution": 45,
+        "Kidnapping - Torture": 0,
+        "Detention - Torture - Execution": 0,
+        "Other": 36,
+        "Explosion": 61,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 2,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1086,
+        "Non-Civilian": 502
+    }
+}, {
+    "date": "2016-02",
+    "totalDeathcount": 1447,
+    "provinceDeathcount": {
+        "Idlib": 178,
+        "Damascus_suburbs": 294,
+        "Aleppo": 415,
+        "Daraa": 140,
+        "Tartous": 1,
+        "Homs": 144,
+        "Damascus": 25,
+        "Other": 2,
+        "Hama": 60,
+        "Deir_ezzor": 108,
+        "Hasakeh": 25,
+        "Quneitra": 0,
+        "Lattakia": 23,
+        "Raqqa": 31,
+        "Sweida": 1,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 1337,
+        "Syrian government and affiliated militias": 9,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 56,
+        "Not identified": 27,
+        "Armed opposition groups": 16,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 1,
+        "Russian troops": 1,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 1124,
+        "child-m": 136,
+        "child-f": 66,
+        "adult-f": 121
+    },
+    "deathcauseCount": {
+        "Shelling": 153,
+        "Detention - Torture": 36,
+        "Shooting": 605,
+        "Field Execution": 2,
+        "Warplane shelling": 548,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 45,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 0,
+        "Other": 32,
+        "Explosion": 24,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 817,
+        "Non-Civilian": 630
+    }
+}, {
+    "date": "2016-03",
+    "totalDeathcount": 824,
+    "provinceDeathcount": {
+        "Idlib": 103,
+        "Damascus_suburbs": 142,
+        "Aleppo": 124,
+        "Daraa": 151,
+        "Tartous": 0,
+        "Homs": 94,
+        "Damascus": 11,
+        "Other": 7,
+        "Hama": 35,
+        "Deir_ezzor": 114,
+        "Hasakeh": 6,
+        "Quneitra": 20,
+        "Lattakia": 6,
+        "Raqqa": 11,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 595,
+        "Syrian government and affiliated militias": 10,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 136,
+        "Not identified": 53,
+        "Armed opposition groups": 17,
+        "Al-Nusra Front": 10,
+        "Self administration forces": 3,
+        "Russian troops": 0,
+        "International coalition forces": 0
+    },
+    "genderDeathcount": {
+        "adult-m": 680,
+        "child-m": 60,
+        "child-f": 28,
+        "adult-f": 56
+    },
+    "deathcauseCount": {
+        "Shelling": 86,
+        "Detention - Torture": 36,
+        "Shooting": 380,
+        "Field Execution": 0,
+        "Warplane shelling": 191,
+        "Detention - Execution": 0,
+        "Kidnapping - Execution": 52,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 0,
+        "Other": 10,
+        "Explosion": 68,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 0,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 442,
+        "Non-Civilian": 382
+    }
+}, {
+    "date": "2016-04",
+    "totalDeathcount": 1324,
+    "provinceDeathcount": {
+        "Idlib": 235,
+        "Damascus_suburbs": 173,
+        "Aleppo": 450,
+        "Daraa": 81,
+        "Tartous": 1,
+        "Homs": 106,
+        "Damascus": 22,
+        "Other": 3,
+        "Hama": 78,
+        "Deir_ezzor": 111,
+        "Hasakeh": 13,
+        "Quneitra": 1,
+        "Lattakia": 13,
+        "Raqqa": 37,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 308,
+        "Syrian government and affiliated militias": 591,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 176,
+        "Not identified": 48,
+        "Armed opposition groups": 100,
+        "Al-Nusra Front": 2,
+        "Self administration forces": 64,
+        "Russian troops": 26,
+        "International coalition forces": 9
+    },
+    "genderDeathcount": {
+        "adult-m": 1077,
+        "child-m": 109,
+        "child-f": 50,
+        "adult-f": 88
+    },
+    "deathcauseCount": {
+        "Shelling": 177,
+        "Detention - Torture": 33,
+        "Shooting": 599,
+        "Field Execution": 3,
+        "Warplane shelling": 406,
+        "Detention - Execution": 0,
+        "Kidnapping - Execution": 39,
+        "Kidnapping - Torture": 0,
+        "Detention - Torture - Execution": 0,
+        "Other": 7,
+        "Explosion": 51,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 3,
+        "Unknown": 1,
+        "Siege": 5
+    },
+    "statusCount": {
+        "Civilian": 697,
+        "Non-Civilian": 627
+    }
+}, {
+    "date": "2016-05",
+    "totalDeathcount": 1184,
+    "provinceDeathcount": {
+        "Idlib": 191,
+        "Damascus_suburbs": 200,
+        "Aleppo": 352,
+        "Daraa": 88,
+        "Tartous": 0,
+        "Homs": 155,
+        "Damascus": 12,
+        "Other": 5,
+        "Hama": 44,
+        "Deir_ezzor": 99,
+        "Hasakeh": 12,
+        "Quneitra": 0,
+        "Lattakia": 8,
+        "Raqqa": 17,
+        "Sweida": 1,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 748,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 136,
+        "Not identified": 68,
+        "Armed opposition groups": 115,
+        "Al-Nusra Front": 6,
+        "Self administration forces": 16,
+        "Russian troops": 87,
+        "International coalition forces": 8
+    },
+    "genderDeathcount": {
+        "adult-m": 925,
+        "child-m": 108,
+        "child-f": 46,
+        "adult-f": 105
+    },
+    "deathcauseCount": {
+        "Shelling": 193,
+        "Detention - Torture": 45,
+        "Shooting": 515,
+        "Field Execution": 5,
+        "Warplane shelling": 313,
+        "Detention - Execution": 0,
+        "Kidnapping - Execution": 37,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 4,
+        "Other": 2,
+        "Explosion": 38,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 3,
+        "Chemical and toxic gases": 0,
+        "Unknown": 20,
+        "Siege": 7
+    },
+    "statusCount": {
+        "Civilian": 674,
+        "Non-Civilian": 510
+    }
+}, {
+    "date": "2016-06",
+    "totalDeathcount": 1647,
+    "provinceDeathcount": {
+        "Idlib": 280,
+        "Damascus_suburbs": 170,
+        "Aleppo": 747,
+        "Daraa": 42,
+        "Tartous": 0,
+        "Homs": 102,
+        "Damascus": 22,
+        "Other": 3,
+        "Hama": 66,
+        "Deir_ezzor": 142,
+        "Hasakeh": 7,
+        "Quneitra": 1,
+        "Lattakia": 11,
+        "Raqqa": 54,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 879,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 208,
+        "Not identified": 146,
+        "Armed opposition groups": 87,
+        "Al-Nusra Front": 3,
+        "Self administration forces": 35,
+        "Russian troops": 236,
+        "International coalition forces": 53
+    },
+    "genderDeathcount": {
+        "adult-m": 1236,
+        "child-m": 174,
+        "child-f": 87,
+        "adult-f": 150
+    },
+    "deathcauseCount": {
+        "Shelling": 239,
+        "Detention - Torture": 28,
+        "Shooting": 500,
+        "Field Execution": 8,
+        "Warplane shelling": 714,
+        "Detention - Execution": 3,
+        "Kidnapping - Execution": 22,
+        "Kidnapping - Torture": 2,
+        "Detention - Torture - Execution": 2,
+        "Other": 3,
+        "Explosion": 112,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 4,
+        "Unknown": 9,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1149,
+        "Non-Civilian": 498
+    }
+}, {
+    "date": "2016-07",
+    "totalDeathcount": 2070,
+    "provinceDeathcount": {
+        "Idlib": 264,
+        "Damascus_suburbs": 290,
+        "Aleppo": 1007,
+        "Daraa": 125,
+        "Tartous": 0,
+        "Homs": 176,
+        "Damascus": 19,
+        "Other": 2,
+        "Hama": 61,
+        "Deir_ezzor": 99,
+        "Hasakeh": 0,
+        "Quneitra": 3,
+        "Lattakia": 1,
+        "Raqqa": 22,
+        "Sweida": 0,
+        "Unknown": 1
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 1096,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 161,
+        "Not identified": 285,
+        "Armed opposition groups": 67,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 22,
+        "Russian troops": 281,
+        "International coalition forces": 158
+    },
+    "genderDeathcount": {
+        "adult-m": 1486,
+        "child-m": 245,
+        "child-f": 119,
+        "adult-f": 220
+    },
+    "deathcauseCount": {
+        "Shelling": 290,
+        "Detention - Torture": 35,
+        "Shooting": 466,
+        "Field Execution": 36,
+        "Warplane shelling": 1067,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 23,
+        "Kidnapping - Torture": 3,
+        "Detention - Torture - Execution": 1,
+        "Other": 5,
+        "Explosion": 100,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 35,
+        "Siege": 7
+    },
+    "statusCount": {
+        "Civilian": 1600,
+        "Non-Civilian": 470
+    }
+}, {
+    "date": "2016-08",
+    "totalDeathcount": 1762,
+    "provinceDeathcount": {
+        "Idlib": 396,
+        "Damascus_suburbs": 214,
+        "Aleppo": 657,
+        "Daraa": 70,
+        "Tartous": 0,
+        "Homs": 169,
+        "Damascus": 13,
+        "Other": 3,
+        "Hama": 123,
+        "Deir_ezzor": 94,
+        "Hasakeh": 3,
+        "Quneitra": 0,
+        "Lattakia": 4,
+        "Raqqa": 15,
+        "Sweida": 0,
+        "Unknown": 1
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 1183,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 181,
+        "Not identified": 117,
+        "Armed opposition groups": 119,
+        "Al-Nusra Front": 1,
+        "Self administration forces": 22,
+        "Russian troops": 132,
+        "International coalition forces": 7
+    },
+    "genderDeathcount": {
+        "adult-m": 1298,
+        "child-m": 190,
+        "child-f": 99,
+        "adult-f": 175
+    },
+    "deathcauseCount": {
+        "Shelling": 294,
+        "Detention - Torture": 26,
+        "Shooting": 614,
+        "Field Execution": 8,
+        "Warplane shelling": 634,
+        "Detention - Execution": 2,
+        "Kidnapping - Execution": 25,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 0,
+        "Other": 0,
+        "Explosion": 139,
+        "Un-allowed to seek Medical help": 2,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 3,
+        "Unknown": 13,
+        "Siege": 1
+    },
+    "statusCount": {
+        "Civilian": 1191,
+        "Non-Civilian": 571
+    }
+}, {
+    "date": "2016-09",
+    "totalDeathcount": 1700,
+    "provinceDeathcount": {
+        "Idlib": 263,
+        "Damascus_suburbs": 157,
+        "Aleppo": 770,
+        "Daraa": 141,
+        "Tartous": 0,
+        "Homs": 79,
+        "Damascus": 9,
+        "Other": 2,
+        "Hama": 174,
+        "Deir_ezzor": 86,
+        "Hasakeh": 3,
+        "Quneitra": 10,
+        "Lattakia": 0,
+        "Raqqa": 2,
+        "Sweida": 1,
+        "Unknown": 3
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 947,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 125,
+        "Not identified": 50,
+        "Armed opposition groups": 50,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 4,
+        "Russian troops": 518,
+        "International coalition forces": 6
+    },
+    "genderDeathcount": {
+        "adult-m": 1261,
+        "child-m": 189,
+        "child-f": 105,
+        "adult-f": 145
+    },
+    "deathcauseCount": {
+        "Shelling": 164,
+        "Detention - Torture": 24,
+        "Shooting": 409,
+        "Field Execution": 9,
+        "Warplane shelling": 954,
+        "Detention - Execution": 2,
+        "Kidnapping - Execution": 21,
+        "Kidnapping - Torture": 0,
+        "Detention - Torture - Execution": 0,
+        "Other": 0,
+        "Explosion": 90,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 2,
+        "Unknown": 24,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 1254,
+        "Non-Civilian": 446
+    }
+}, {
+    "date": "2016-10",
+    "totalDeathcount": 1417,
+    "provinceDeathcount": {
+        "Idlib": 246,
+        "Damascus_suburbs": 173,
+        "Aleppo": 615,
+        "Daraa": 118,
+        "Tartous": 1,
+        "Homs": 86,
+        "Damascus": 22,
+        "Other": 1,
+        "Hama": 110,
+        "Deir_ezzor": 36,
+        "Hasakeh": 0,
+        "Quneitra": 4,
+        "Lattakia": 2,
+        "Raqqa": 3,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 791,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 190,
+        "Not identified": 58,
+        "Armed opposition groups": 78,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 9,
+        "Russian troops": 248,
+        "International coalition forces": 43
+    },
+    "genderDeathcount": {
+        "adult-m": 1043,
+        "child-m": 137,
+        "child-f": 91,
+        "adult-f": 146
+    },
+    "deathcauseCount": {
+        "Shelling": 207,
+        "Detention - Torture": 18,
+        "Shooting": 454,
+        "Field Execution": 1,
+        "Warplane shelling": 570,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 23,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 0,
+        "Other": 0,
+        "Explosion": 126,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 13,
+        "Siege": 3
+    },
+    "statusCount": {
+        "Civilian": 928,
+        "Non-Civilian": 489
+    }
+}, {
+    "date": "2016-11",
+    "totalDeathcount": 1582,
+    "provinceDeathcount": {
+        "Idlib": 276,
+        "Damascus_suburbs": 213,
+        "Aleppo": 745,
+        "Daraa": 51,
+        "Tartous": 0,
+        "Homs": 117,
+        "Damascus": 8,
+        "Other": 14,
+        "Hama": 113,
+        "Deir_ezzor": 13,
+        "Hasakeh": 1,
+        "Quneitra": 2,
+        "Lattakia": 1,
+        "Raqqa": 26,
+        "Sweida": 0,
+        "Unknown": 2
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 972,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 88,
+        "Not identified": 118,
+        "Armed opposition groups": 46,
+        "Al-Nusra Front": 6,
+        "Self administration forces": 11,
+        "Russian troops": 312,
+        "International coalition forces": 29
+    },
+    "genderDeathcount": {
+        "adult-m": 1083,
+        "child-m": 209,
+        "child-f": 118,
+        "adult-f": 172
+    },
+    "deathcauseCount": {
+        "Shelling": 285,
+        "Detention - Torture": 35,
+        "Shooting": 401,
+        "Field Execution": 1,
+        "Warplane shelling": 739,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 17,
+        "Kidnapping - Torture": 3,
+        "Detention - Torture - Execution": 4,
+        "Other": 0,
+        "Explosion": 74,
+        "Un-allowed to seek Medical help": 5,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 1,
+        "Unknown": 14,
+        "Siege": 2
+    },
+    "statusCount": {
+        "Civilian": 1206,
+        "Non-Civilian": 376
+    }
+}, {
+    "date": "2016-12",
+    "totalDeathcount": 1019,
+    "provinceDeathcount": {
+        "Idlib": 137,
+        "Damascus_suburbs": 147,
+        "Aleppo": 491,
+        "Daraa": 52,
+        "Tartous": 0,
+        "Homs": 54,
+        "Damascus": 9,
+        "Other": 2,
+        "Hama": 71,
+        "Deir_ezzor": 51,
+        "Hasakeh": 0,
+        "Quneitra": 1,
+        "Lattakia": 0,
+        "Raqqa": 3,
+        "Sweida": 0,
+        "Unknown": 1
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 554,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 58,
+        "Not identified": 170,
+        "Armed opposition groups": 53,
+        "Al-Nusra Front": 1,
+        "Self administration forces": 7,
+        "Russian troops": 127,
+        "International coalition forces": 49
+    },
+    "genderDeathcount": {
+        "adult-m": 721,
+        "child-m": 135,
+        "child-f": 67,
+        "adult-f": 96
+    },
+    "deathcauseCount": {
+        "Shelling": 200,
+        "Detention - Torture": 14,
+        "Shooting": 208,
+        "Field Execution": 94,
+        "Warplane shelling": 408,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 4,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 0,
+        "Other": 3,
+        "Explosion": 44,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 36,
+        "Unknown": 4,
+        "Siege": 2
+    },
+    "statusCount": {
+        "Civilian": 820,
+        "Non-Civilian": 199
+    }
+}, {
+    "date": "2017-01",
+    "totalDeathcount": 763,
+    "provinceDeathcount": {
+        "Idlib": 61,
+        "Damascus_suburbs": 166,
+        "Aleppo": 245,
+        "Daraa": 65,
+        "Tartous": 9,
+        "Homs": 58,
+        "Damascus": 13,
+        "Other": 2,
+        "Hama": 16,
+        "Deir_ezzor": 121,
+        "Hasakeh": 0,
+        "Quneitra": 2,
+        "Lattakia": 1,
+        "Raqqa": 3,
+        "Sweida": 0,
+        "Unknown": 1
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 387,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 106,
+        "Not identified": 138,
+        "Armed opposition groups": 17,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 1,
+        "Russian troops": 77,
+        "International coalition forces": 37
+    },
+    "genderDeathcount": {
+        "adult-m": 609,
+        "child-m": 55,
+        "child-f": 25,
+        "adult-f": 74
+    },
+    "deathcauseCount": {
+        "Shelling": 191,
+        "Detention - Torture": 8,
+        "Shooting": 204,
+        "Field Execution": 18,
+        "Warplane shelling": 267,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 6,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 0,
+        "Other": 4,
+        "Explosion": 52,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 9,
+        "Siege": 1
+    },
+    "statusCount": {
+        "Civilian": 548,
+        "Non-Civilian": 215
+    }
+}, {
+    "date": "2017-02",
+    "totalDeathcount": 1443,
+    "provinceDeathcount": {
+        "Idlib": 189,
+        "Damascus_suburbs": 122,
+        "Aleppo": 425,
+        "Daraa": 287,
+        "Tartous": 7,
+        "Homs": 112,
+        "Damascus": 21,
+        "Other": 18,
+        "Hama": 164,
+        "Deir_ezzor": 45,
+        "Hasakeh": 1,
+        "Quneitra": 1,
+        "Lattakia": 10,
+        "Raqqa": 30,
+        "Sweida": 9,
+        "Unknown": 2
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 557,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 355,
+        "Not identified": 214,
+        "Armed opposition groups": 202,
+        "Al-Nusra Front": 8,
+        "Self administration forces": 6,
+        "Russian troops": 74,
+        "International coalition forces": 27
+    },
+    "genderDeathcount": {
+        "adult-m": 1149,
+        "child-m": 129,
+        "child-f": 48,
+        "adult-f": 117
+    },
+    "deathcauseCount": {
+        "Shelling": 212,
+        "Detention - Torture": 18,
+        "Shooting": 433,
+        "Field Execution": 52,
+        "Warplane shelling": 351,
+        "Detention - Execution": 96,
+        "Kidnapping - Execution": 15,
+        "Kidnapping - Torture": 3,
+        "Detention - Torture - Execution": 0,
+        "Other": 4,
+        "Explosion": 235,
+        "Un-allowed to seek Medical help": 4,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 1,
+        "Unknown": 16,
+        "Siege": 3
+    },
+    "statusCount": {
+        "Civilian": 849,
+        "Non-Civilian": 594
+    }
+}, {
+    "date": "2017-03",
+    "totalDeathcount": 1168,
+    "provinceDeathcount": {
+        "Idlib": 174,
+        "Damascus_suburbs": 193,
+        "Aleppo": 266,
+        "Daraa": 114,
+        "Tartous": 1,
+        "Homs": 87,
+        "Damascus": 58,
+        "Other": 4,
+        "Hama": 85,
+        "Deir_ezzor": 51,
+        "Hasakeh": 8,
+        "Quneitra": 3,
+        "Lattakia": 4,
+        "Raqqa": 112,
+        "Sweida": 0,
+        "Unknown": 8
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 598,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 122,
+        "Not identified": 87,
+        "Armed opposition groups": 16,
+        "Al-Nusra Front": 32,
+        "Self administration forces": 13,
+        "Russian troops": 100,
+        "International coalition forces": 200
+    },
+    "genderDeathcount": {
+        "adult-m": 898,
+        "child-m": 106,
+        "child-f": 56,
+        "adult-f": 108
+    },
+    "deathcauseCount": {
+        "Shelling": 99,
+        "Detention - Torture": 12,
+        "Shooting": 321,
+        "Field Execution": 30,
+        "Warplane shelling": 518,
+        "Detention - Execution": 0,
+        "Kidnapping - Execution": 15,
+        "Kidnapping - Torture": 0,
+        "Detention - Torture - Execution": 1,
+        "Other": 6,
+        "Explosion": 153,
+        "Un-allowed to seek Medical help": 3,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 7,
+        "Siege": 3
+    },
+    "statusCount": {
+        "Civilian": 822,
+        "Non-Civilian": 346
+    }
+}, {
+    "date": "2017-04",
+    "totalDeathcount": 1249,
+    "provinceDeathcount": {
+        "Idlib": 270,
+        "Damascus_suburbs": 266,
+        "Aleppo": 109,
+        "Daraa": 167,
+        "Tartous": 5,
+        "Homs": 68,
+        "Damascus": 40,
+        "Other": 22,
+        "Hama": 180,
+        "Deir_ezzor": 51,
+        "Hasakeh": 0,
+        "Quneitra": 0,
+        "Lattakia": 1,
+        "Raqqa": 30,
+        "Sweida": 0,
+        "Unknown": 40
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 720,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 81,
+        "Not identified": 70,
+        "Armed opposition groups": 112,
+        "Al-Nusra Front": 20,
+        "Self administration forces": 11,
+        "Russian troops": 159,
+        "International coalition forces": 76
+    },
+    "genderDeathcount": {
+        "adult-m": 896,
+        "child-m": 148,
+        "child-f": 87,
+        "adult-f": 118
+    },
+    "deathcauseCount": {
+        "Shelling": 111,
+        "Detention - Torture": 10,
+        "Shooting": 417,
+        "Field Execution": 16,
+        "Warplane shelling": 480,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 8,
+        "Kidnapping - Torture": 0,
+        "Detention - Torture - Execution": 0,
+        "Other": 8,
+        "Explosion": 85,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 1,
+        "Chemical and toxic gases": 89,
+        "Unknown": 21,
+        "Siege": 1
+    },
+    "statusCount": {
+        "Civilian": 794,
+        "Non-Civilian": 455
+    }
+}, {
+    "date": "2017-05",
+    "totalDeathcount": 894,
+    "provinceDeathcount": {
+        "Idlib": 70,
+        "Damascus_suburbs": 176,
+        "Aleppo": 125,
+        "Daraa": 92,
+        "Tartous": 0,
+        "Homs": 88,
+        "Damascus": 31,
+        "Other": 0,
+        "Hama": 80,
+        "Deir_ezzor": 202,
+        "Hasakeh": 0,
+        "Quneitra": 1,
+        "Lattakia": 0,
+        "Raqqa": 27,
+        "Sweida": 0,
+        "Unknown": 2
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 314,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 157,
+        "Not identified": 69,
+        "Armed opposition groups": 121,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 25,
+        "Russian troops": 54,
+        "International coalition forces": 154
+    },
+    "genderDeathcount": {
+        "adult-m": 660,
+        "child-m": 89,
+        "child-f": 58,
+        "adult-f": 87
+    },
+    "deathcauseCount": {
+        "Shelling": 121,
+        "Detention - Torture": 14,
+        "Shooting": 295,
+        "Field Execution": 27,
+        "Warplane shelling": 292,
+        "Detention - Execution": 2,
+        "Kidnapping - Execution": 10,
+        "Kidnapping - Torture": 2,
+        "Detention - Torture - Execution": 0,
+        "Other": 8,
+        "Explosion": 96,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 3,
+        "Chemical and toxic gases": 0,
+        "Unknown": 23,
+        "Siege": 1
+    },
+    "statusCount": {
+        "Civilian": 558,
+        "Non-Civilian": 336
+    }
+}, {
+    "date": "2017-06",
+    "totalDeathcount": 900,
+    "provinceDeathcount": {
+        "Idlib": 79,
+        "Damascus_suburbs": 89,
+        "Aleppo": 79,
+        "Daraa": 221,
+        "Tartous": 1,
+        "Homs": 75,
+        "Damascus": 15,
+        "Other": 3,
+        "Hama": 28,
+        "Deir_ezzor": 203,
+        "Hasakeh": 0,
+        "Quneitra": 46,
+        "Lattakia": 0,
+        "Raqqa": 61,
+        "Sweida": 0,
+        "Unknown": 0
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 386,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 84,
+        "Not identified": 120,
+        "Armed opposition groups": 54,
+        "Al-Nusra Front": 4,
+        "Self administration forces": 41,
+        "Russian troops": 41,
+        "International coalition forces": 170
+    },
+    "genderDeathcount": {
+        "adult-m": 751,
+        "child-m": 52,
+        "child-f": 44,
+        "adult-f": 53
+    },
+    "deathcauseCount": {
+        "Shelling": 120,
+        "Detention - Torture": 14,
+        "Shooting": 316,
+        "Field Execution": 15,
+        "Warplane shelling": 309,
+        "Detention - Execution": 2,
+        "Kidnapping - Execution": 4,
+        "Kidnapping - Torture": 3,
+        "Detention - Torture - Execution": 0,
+        "Other": 5,
+        "Explosion": 103,
+        "Un-allowed to seek Medical help": 2,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 7,
+        "Siege": 0
+    },
+    "statusCount": {
+        "Civilian": 540,
+        "Non-Civilian": 360
+    }
+}, {
+    "date": "2017-07",
+    "totalDeathcount": 957,
+    "provinceDeathcount": {
+        "Idlib": 70,
+        "Damascus_suburbs": 135,
+        "Aleppo": 93,
+        "Daraa": 63,
+        "Tartous": 0,
+        "Homs": 90,
+        "Damascus": 16,
+        "Other": 2,
+        "Hama": 47,
+        "Deir_ezzor": 226,
+        "Hasakeh": 3,
+        "Quneitra": 3,
+        "Lattakia": 0,
+        "Raqqa": 193,
+        "Sweida": 15,
+        "Unknown": 1
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 272,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 99,
+        "Not identified": 114,
+        "Armed opposition groups": 34,
+        "Al-Nusra Front": 2,
+        "Self administration forces": 51,
+        "Russian troops": 105,
+        "International coalition forces": 280
+    },
+    "genderDeathcount": {
+        "adult-m": 638,
+        "child-m": 119,
+        "child-f": 78,
+        "adult-f": 122
+    },
+    "deathcauseCount": {
+        "Shelling": 120,
+        "Detention - Torture": 14,
+        "Shooting": 199,
+        "Field Execution": 9,
+        "Warplane shelling": 466,
+        "Detention - Execution": 2,
+        "Kidnapping - Execution": 6,
+        "Kidnapping - Torture": 0,
+        "Detention - Torture - Execution": 0,
+        "Other": 5,
+        "Explosion": 117,
+        "Un-allowed to seek Medical help": 0,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 17,
+        "Siege": 2
+    },
+    "statusCount": {
+        "Civilian": 748,
+        "Non-Civilian": 209
+    }
+}, {
+    "date": "2017-08",
+    "totalDeathcount": 753,
+    "provinceDeathcount": {
+        "Idlib": 55,
+        "Damascus_suburbs": 105,
+        "Aleppo": 44,
+        "Daraa": 93,
+        "Tartous": 0,
+        "Homs": 130,
+        "Damascus": 21,
+        "Other": 0,
+        "Hama": 35,
+        "Deir_ezzor": 53,
+        "Hasakeh": 0,
+        "Quneitra": 8,
+        "Lattakia": 0,
+        "Raqqa": 205,
+        "Sweida": 3,
+        "Unknown": 1
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 213,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 65,
+        "Not identified": 113,
+        "Armed opposition groups": 49,
+        "Al-Nusra Front": 2,
+        "Self administration forces": 29,
+        "Russian troops": 34,
+        "International coalition forces": 248
+    },
+    "genderDeathcount": {
+        "adult-m": 523,
+        "child-m": 70,
+        "child-f": 58,
+        "adult-f": 102
+    },
+    "deathcauseCount": {
+        "Shelling": 122,
+        "Detention - Torture": 16,
+        "Shooting": 156,
+        "Field Execution": 8,
+        "Warplane shelling": 313,
+        "Detention - Execution": 1,
+        "Kidnapping - Execution": 8,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 0,
+        "Other": 8,
+        "Explosion": 108,
+        "Un-allowed to seek Medical help": 4,
+        "Kidnapping - Torture - Execution": 1,
+        "Chemical and toxic gases": 0,
+        "Unknown": 4,
+        "Siege": 3
+    },
+    "statusCount": {
+        "Civilian": 556,
+        "Non-Civilian": 197
+    }
+}, {
+    "date": "2017-09",
+    "totalDeathcount": 1003,
+    "provinceDeathcount": {
+        "Idlib": 236,
+        "Damascus_suburbs": 107,
+        "Aleppo": 31,
+        "Daraa": 42,
+        "Tartous": 0,
+        "Homs": 61,
+        "Damascus": 8,
+        "Other": 1,
+        "Hama": 94,
+        "Deir_ezzor": 318,
+        "Hasakeh": 0,
+        "Quneitra": 3,
+        "Lattakia": 0,
+        "Raqqa": 101,
+        "Sweida": 0,
+        "Unknown": 1
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 398,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 62,
+        "Not identified": 49,
+        "Armed opposition groups": 13,
+        "Al-Nusra Front": 1,
+        "Self administration forces": 5,
+        "Russian troops": 331,
+        "International coalition forces": 144
+    },
+    "genderDeathcount": {
+        "adult-m": 732,
+        "child-m": 86,
+        "child-f": 36,
+        "adult-f": 149
+    },
+    "deathcauseCount": {
+        "Shelling": 115,
+        "Detention - Torture": 16,
+        "Shooting": 171,
+        "Field Execution": 38,
+        "Warplane shelling": 585,
+        "Detention - Execution": 0,
+        "Kidnapping - Execution": 7,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 0,
+        "Other": 18,
+        "Explosion": 45,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 2,
+        "Siege": 4
+    },
+    "statusCount": {
+        "Civilian": 780,
+        "Non-Civilian": 223
+    }
+}, {
+    "date": "2017-10",
+    "totalDeathcount": 908,
+    "provinceDeathcount": {
+        "Idlib": 61,
+        "Damascus_suburbs": 94,
+        "Aleppo": 30,
+        "Daraa": 62,
+        "Tartous": 0,
+        "Homs": 164,
+        "Damascus": 17,
+        "Other": 0,
+        "Hama": 42,
+        "Deir_ezzor": 287,
+        "Hasakeh": 0,
+        "Quneitra": 0,
+        "Lattakia": 1,
+        "Raqqa": 144,
+        "Sweida": 0,
+        "Unknown": 6
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 250,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 138,
+        "Not identified": 76,
+        "Armed opposition groups": 16,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 33,
+        "Russian troops": 159,
+        "International coalition forces": 236
+    },
+    "genderDeathcount": {
+        "adult-m": 654,
+        "child-m": 86,
+        "child-f": 57,
+        "adult-f": 111
+    },
+    "deathcauseCount": {
+        "Shelling": 131,
+        "Detention - Torture": 14,
+        "Shooting": 141,
+        "Field Execution": 94,
+        "Warplane shelling": 460,
+        "Detention - Execution": 2,
+        "Kidnapping - Execution": 10,
+        "Kidnapping - Torture": 1,
+        "Detention - Torture - Execution": 0,
+        "Other": 4,
+        "Explosion": 41,
+        "Un-allowed to seek Medical help": 1,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 4,
+        "Siege": 5
+    },
+    "statusCount": {
+        "Civilian": 715,
+        "Non-Civilian": 193
+    }
+}, {
+    "date": "2017-11",
+    "totalDeathcount": 832,
+    "provinceDeathcount": {
+        "Idlib": 60,
+        "Damascus_suburbs": 282,
+        "Aleppo": 91,
+        "Daraa": 43,
+        "Tartous": 0,
+        "Homs": 22,
+        "Damascus": 25,
+        "Other": 4,
+        "Hama": 32,
+        "Deir_ezzor": 184,
+        "Hasakeh": 0,
+        "Quneitra": 0,
+        "Lattakia": 1,
+        "Raqqa": 82,
+        "Sweida": 0,
+        "Unknown": 6
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 420,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 93,
+        "Not identified": 50,
+        "Armed opposition groups": 26,
+        "Al-Nusra Front": 2,
+        "Self administration forces": 3,
+        "Russian troops": 228,
+        "International coalition forces": 10
+    },
+    "genderDeathcount": {
+        "adult-m": 637,
+        "child-m": 68,
+        "child-f": 51,
+        "adult-f": 76
+    },
+    "deathcauseCount": {
+        "Shelling": 139,
+        "Detention - Torture": 7,
+        "Shooting": 176,
+        "Field Execution": 0,
+        "Warplane shelling": 350,
+        "Detention - Execution": 0,
+        "Kidnapping - Execution": 2,
+        "Kidnapping - Torture": 2,
+        "Detention - Torture - Execution": 0,
+        "Other": 5,
+        "Explosion": 121,
+        "Un-allowed to seek Medical help": 4,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 8,
+        "Siege": 18
+    },
+    "statusCount": {
+        "Civilian": 634,
+        "Non-Civilian": 198
+    }
+}, {
+    "date": "2017-12",
+    "totalDeathcount": 731,
+    "provinceDeathcount": {
+        "Idlib": 155,
+        "Damascus_suburbs": 164,
+        "Aleppo": 28,
+        "Daraa": 14,
+        "Tartous": 0,
+        "Homs": 39,
+        "Damascus": 22,
+        "Other": 16,
+        "Hama": 30,
+        "Deir_ezzor": 176,
+        "Hasakeh": 0,
+        "Quneitra": 1,
+        "Lattakia": 2,
+        "Raqqa": 82,
+        "Sweida": 1,
+        "Unknown": 1
+    },
+    "actorDeathcount": {
+        "NA": 0,
+        "Syrian government and affiliated militias": 365,
+        "The organization of the Islamic State in Iraq and the Levant - ISIS": 119,
+        "Not identified": 56,
+        "Armed opposition groups": 13,
+        "Al-Nusra Front": 0,
+        "Self administration forces": 11,
+        "Russian troops": 96,
+        "International coalition forces": 71
+    },
+    "genderDeathcount": {
+        "adult-m": 495,
+        "child-m": 96,
+        "child-f": 43,
+        "adult-f": 97
+    },
+    "deathcauseCount": {
+        "Shelling": 93,
+        "Detention - Torture": 5,
+        "Shooting": 148,
+        "Field Execution": 9,
+        "Warplane shelling": 306,
+        "Detention - Execution": 0,
+        "Kidnapping - Execution": 13,
+        "Kidnapping - Torture": 0,
+        "Detention - Torture - Execution": 0,
+        "Other": 1,
+        "Explosion": 140,
+        "Un-allowed to seek Medical help": 2,
+        "Kidnapping - Torture - Execution": 0,
+        "Chemical and toxic gases": 0,
+        "Unknown": 4,
+        "Siege": 10
+    },
+    "statusCount": {
+        "Civilian": 551,
+        "Non-Civilian": 180
+    }
+}]
