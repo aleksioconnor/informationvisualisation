@@ -17,6 +17,8 @@ function initSlider() {
         width = 960 - margin.left - margin.right,
         height = 100 - margin.top - margin.bottom;
 
+        var test = 0;
+
     var svg = d3.select("#slider")
         .append("svg")
         .attr("width", width + margin.left + margin.right)
@@ -223,10 +225,9 @@ function barChart_init() {
                 .attr("height",h);
 
     // Load the data
-    d3.json("allDeaths.json").then(function (data) {
+    d3.json("data/allDeaths.json").then(function (data) {
         deathsDataset = data;
-    });
-
+    
     // parse the date / time
     var parseTime = d3.timeParse("%Y-%m");
     deathsDataset.Date = parseTime(deathsDataset.Date);
@@ -248,7 +249,7 @@ function barChart_init() {
 
     var xaxis = d3.axisBottom()
               .scale(d3.scaleLinear()
-              .domain([deathsDataset[0].deathsDataset.Date,deathsDataset[deathsDataset.length-1].deathsDataset.Date])
+              .domain([deathsDataset[0].Date,deathsDataset[deathsDataset.length-1].Date])
               .range([padding+bar_w/2,w-padding-bar_w/2]))
               .tickFormat(d3.format("d"))
               .ticks(deathsDataset.length/4);
@@ -265,7 +266,7 @@ function barChart_init() {
     svg.selectAll("rect")
     .data(deathsDataset)
     .enter().append("rect")
-    .attr("width",Math.floor((w-padding*2)/dataset.length)-1)
+    .attr("width",Math.floor((w-padding*2)/deathsDataset.length)-1)
     .attr("height",function(d) {
                           return h-padding-hscale(deathsDataset.totalDeathcount);
                    })
@@ -276,6 +277,8 @@ function barChart_init() {
      .attr("y",function(d) {
                    return hscale(deathsDataset.totalDeathcount);
                    });
+
+    });
 
 }
 
