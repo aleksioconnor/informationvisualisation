@@ -61,22 +61,6 @@ path:hover {
   cursor: pointer;
 }
 
-.axis path, .axis line {
-  fill: none;
-  stroke: black;
-
+.bar-chart {
+  background-color: #C7D9D9;
 }
-
-.axis text {
-  font-family: calibri, sans serif;
-  font-size: 10pt;
-}
-
-.btn {
-  width: 100px;
-  font-family: calibri, sans serif;
-  padding: 10px;
-  border: solid 1px black;
-  color: white;
-}
-

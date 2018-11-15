@@ -86,8 +86,6 @@ function initSlider() {
 }
 
 // Initialize line chart
-
-
 function lineChartInit() {
     // set the dimensions and margins of the graph
     var margin = {
@@ -217,64 +215,41 @@ function barChart_init() {
     var w = 800;
     var h = 600;
 
-    var svg = d3.select("#the_chart")
-                .append("svg")
-                .attr("width",w)
-                .attr("height",h);
+    // parse the date / time
+    var parseTime = d3.timeParse("%Y-%m");
 
     // Load the data
     d3.json("data/allDeaths.json").then(function (data) {
-        deathsDataset = data;
-    
-    // parse the date / time
-    var parseTime = d3.timeParse("%Y-%m");
-    deathsDataset.Date = parseTime(deathsDataset.Date);
+        data.forEach(function (d) {
+            d.date = parseTime(d.date);
+        })
 
-    var padding = 30;
-    var bar_w = 15;
+    var svg = d3.select("#bar_chart")
+            .append("svg")
+            .attr("width",w)
+            .attr("height",h);
 
-    var hscale = d3.scaleLinear()
-                         .domain([10,0])
-                         .range([padding,h-padding]);
-
-    var xscale = d3.scaleLinear()
-                         .domain([0,deathsDataset.length])
-                         .range([padding,w-padding]);
-
-
-    var yaxis = d3.axisLeft()
-                  .scale(hscale);
+    var xScale = d3.scaleBand()
+        .range([0, w])
+        .domain([0, 100])
+        .padding(0.2)
 
     var xaxis = d3.axisBottom()
-              .scale(d3.scaleLinear()
-              .domain([deathsDataset[0].Date,deathsDataset[deathsDataset.length-1].Date])
-              .range([padding+bar_w/2,w-padding-bar_w/2]))
-              .tickFormat(d3.format("d"))
-              .ticks(deathsDataset.length/4);
+        .scale(xScale);
+
+    var yScale = d3.scaleLinear()
+        .range([0, h])
+        .domain([0, 100]);
+
+    var yaxis = d3.axisLeft()
+        .scale(yScale);
 
     svg.append("g")
-   	.attr("transform","translate(30,0)")
-	.attr("class","y axis")
-	.call(yaxis);
+        .call(yaxis);
 
     svg.append("g")
-   	.attr("transform","translate(0," + (h-padding) + ")")
-  .call(xaxis);
-  
-    svg.selectAll("rect")
-    .data(deathsDataset)
-    .enter().append("rect")
-    .attr("width",Math.floor((w-padding*2)/deathsDataset.length)-1)
-    .attr("height",function(d) {
-                          return h-padding-hscale(deathsDataset.totalDeathcount);
-                   })
-     .attr("fill","purple")
-     .attr("x",function(d, i) {
-                          return xscale(i);
-                   })
-     .attr("y",function(d) {
-                   return hscale(deathsDataset.totalDeathcount);
-                   });
+        .attr('transform', `translate(0, ${h})`)
+        .call(xaxis);
 
     });
 
@@ -287,7 +262,7 @@ window.onload = function () {
     initSlider();
 
     console.log("c2")
-    europeMapInit();
-    lineChartInit();
+    //europeMapInit();
+    //lineChartInit();
     barChart_init();
 };
