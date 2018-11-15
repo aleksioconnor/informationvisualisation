@@ -252,7 +252,6 @@ function barChart_init() {
               .range([padding+bar_w/2,w-padding-bar_w/2]))
               .tickFormat(d3.format("d"))
               .ticks(deathsDataset.length/4);
-              //.ticks(20);
 
     svg.append("g")
    	.attr("transform","translate(30,0)")
