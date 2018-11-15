@@ -245,10 +245,11 @@ function barChart_init() {
         .scale(yScale);
 
     svg.append("g")
-        .call(yaxis);
+        .attr('transform', 'translate(100,0)') // play around with this value and figure out a variable to use
+        .call(yaxis)
 
     svg.append("g")
-        .attr('transform', `translate(0, ${h})`)
+        .attr('transform', 'translate(0,550)') // instead of 550 put in a variable and subtract the height of the x-axis
         .call(xaxis);
 
     });
