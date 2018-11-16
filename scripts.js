@@ -212,8 +212,15 @@ function europeMapInit() {
 }
 
 function barChart_init() {
-    var w = 800;
-    var h = 600;
+    var margin = {
+        top: 20,
+        right: 20,
+        bottom: 30,
+        left: 50
+    };
+
+    w = 960 - margin.left - margin.right,
+    h = 500 - margin.top - margin.bottom;
 
     // parse the date / time
     var parseTime = d3.timeParse("%Y-%m");
@@ -224,6 +231,8 @@ function barChart_init() {
             d.date = parseTime(d.date);
         })
 
+    console.log(data);
+
     var svg = d3.select("#bar_chart")
             .append("svg")
             .attr("width",w)
@@ -231,12 +240,12 @@ function barChart_init() {
 
     xScale = d3.scaleBand()
         .range([0, w])
-        .domain(data.map((d) => d.provinceDeathcount))
+        .domain(data.map((d) => d.date))
         .padding(0.2)
 
     yScale = d3.scaleLinear()
         .range([h, 0])
-        .domain([0, 100]);
+        .domain([0,5000]);
 
     svg.append("g")
         .call(d3.axisLeft(yScale));
@@ -245,15 +254,14 @@ function barChart_init() {
         .attr('transform', `translate(0, ${h})`)
         .call(d3.axisBottom(xScale));
 
-    //svg.selectAll("rect")
-      //  .data(data)
-        //.enter().append("rect")
-         //.attr("fill","purple")
-         //.attr("y", (data) => yScale(data.provinceDeathcount?))
-         //.attr("x", (data) => xScale(data.provinceDeathcount?))
-         //.attr("width",xScale.bandwidth());
-    
-        //});
+    svg.selectAll("rect")
+        .data(data)
+        .enter().append("rect")
+         .attr("fill","purple")
+         .attr("y", (data) => yScale(data.totalDeathcount))
+         .attr("x", (data) => xScale(data.date))
+         .attr("width",xScale.bandwidth())
+         .attr("height", (d) => h - yScale(d.totalDeathcount));
     
 
     });
