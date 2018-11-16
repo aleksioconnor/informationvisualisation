@@ -261,7 +261,7 @@ function barChart_init() {
             .call(d3.axisBottom(xScale));
 
         svg.append("g")
-            .call(d3.axisLeft(yScale));
+            .call(d3.axisLeft(yScale).tickFormat(d3.format("d")).ticks(data.length / 4));
 
         svg.selectAll("rect")
             .data(data)
@@ -271,8 +271,6 @@ function barChart_init() {
             .attr("x", (data) => xScale(data.date))
             .attr("width", xScale.bandwidth())
             .attr("height", (d) => h - yScale(d.totalDeathcount));
-
-
     });
 
 
