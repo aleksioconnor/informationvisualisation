@@ -240,17 +240,17 @@ function barChart_init() {
             .attr("width",w)
             .attr("height",h);
 
-    xScale = d3.scaleBand()
+    var xScale = d3.scaleBand()
         .range([padding, w-padding])
         .domain(data.map((d) => d.date))
-        .padding(0.2)
+        .padding(0.2);
 
-    yScale = d3.scaleLinear()
+    var yScale = d3.scaleLinear()
         .range([h-padding, padding])
         .domain([0,5000]);
 
     svg.append("g")
-        .call(d3.axisLeft(yScale));
+        .call(d3.axisLeft(yScale).tickFormat(d3.format("d")).ticks(data.length/4));
 
     svg.append("g")
         .attr('transform', `translate(0, ${h})`)
