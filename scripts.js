@@ -233,7 +233,7 @@ function barChart_init() {
             d.date = parseTime(d.date);
         })
 
-    console.log(data);
+    //console.log(data);
 
     var svg = d3.select("#bar_chart")
             .append("svg")
