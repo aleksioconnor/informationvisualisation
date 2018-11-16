@@ -222,7 +222,7 @@ function barChart_init() {
     var padding = 30;
 
     w = 960 - margin.left - margin.right,
-    h = 500 - margin.top - margin.bottom;
+        h = 500 - margin.top - margin.bottom;
 
     // parse the date / time
     var parseTime = d3.timeParse("%Y-%m");
@@ -233,38 +233,45 @@ function barChart_init() {
             d.date = parseTime(d.date);
         })
 
-    console.log(data);
+        // var svg = d3.select("#bar_chart")
+        //     .append("svg")
+        //     .attr("width", w + margin.left + margin.right)
+        //     .attr("height", h + margin.top + margin.bottom)
+        //     .attr("transform",
+        //         "translate(" + margin.left + "," + margin.top + ")");
 
-    var svg = d3.select("#bar_chart")
-            .append("svg")
-            .attr("width",w)
-            .attr("height",h);
+        var svg = d3.select("body").append("svg")
+            .attr("width", w + margin.left + margin.right)
+            .attr("height", h + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
 
-    xScale = d3.scaleBand()
-        .range([padding, w-padding])
-        .domain(data.map((d) => d.date))
-        .padding(0.2)
+        var xScale = d3.scaleBand()
+            .range([0, w])
+            .domain(data.map((d) => d.date))
+            .padding(0.2)
 
-    yScale = d3.scaleLinear()
-        .range([h-padding, padding])
-        .domain([0,5000]);
+        var yScale = d3.scaleLinear()
+            .range([h, 0])
+            .domain([0, 5000]);
 
-    svg.append("g")
-        .call(d3.axisLeft(yScale));
+        svg.append("g")
+            .attr('transform', 'translate(0,' + h + ')')
+            .call(d3.axisBottom(xScale));
 
-    svg.append("g")
-        .attr('transform', `translate(0, ${h})`)
-        .call(d3.axisBottom(xScale));
+        svg.append("g")
+            .call(d3.axisLeft(yScale));
 
-    svg.selectAll("rect")
-        .data(data)
-        .enter().append("rect")
-         .attr("fill","purple")
-         .attr("y", (data) => yScale(data.totalDeathcount))
-         .attr("x", (data) => xScale(data.date))
-         .attr("width",xScale.bandwidth())
-         .attr("height", (d) => h - yScale(d.totalDeathcount));
-    
+        svg.selectAll("rect")
+            .data(data)
+            .enter().append("rect")
+            .attr("fill", "purple")
+            .attr("y", (data) => yScale(data.totalDeathcount))
+            .attr("x", (data) => xScale(data.date))
+            .attr("width", xScale.bandwidth())
+            .attr("height", (d) => h - yScale(d.totalDeathcount));
+
 
     });
 
@@ -274,11 +281,9 @@ function barChart_init() {
 // Window onload
 window.onload = function () {
 
-    console.log("c1")
-    initSlider();
+    //initSlider();
 
-    console.log("c2")
-    europeMapInit();
-    lineChartInit();
+    //europeMapInit();
+    // lineChartInit();
     barChart_init();
 };
