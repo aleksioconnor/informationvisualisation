@@ -259,7 +259,7 @@ function barChart_init() {
     svg.selectAll("rect")
         .data(data)
         .enter().append("rect")
-         .attr("fill","purple")
+         .attr("fill","darkblue")
          .attr("y", (data) => yScale(data.totalDeathcount))
          .attr("x", (data) => xScale(data.date))
          .attr("width",xScale.bandwidth())
