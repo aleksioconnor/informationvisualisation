@@ -231,7 +231,7 @@ function barChart_init() {
 
     xScale = d3.scaleBand()
         .range([0, w])
-        .domain([0, 100])
+        .domain(data.map((d) => d.provinceDeathcount))
         .padding(0.2)
 
     yScale = d3.scaleLinear()
