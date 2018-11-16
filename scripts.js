@@ -219,6 +219,8 @@ function barChart_init() {
         left: 50
     };
 
+    var padding = 30;
+
     w = 960 - margin.left - margin.right,
     h = 500 - margin.top - margin.bottom;
 
@@ -239,12 +241,12 @@ function barChart_init() {
             .attr("height",h);
 
     xScale = d3.scaleBand()
-        .range([0, w])
+        .range([padding, w-padding])
         .domain(data.map((d) => d.date))
         .padding(0.2)
 
     yScale = d3.scaleLinear()
-        .range([h, 0])
+        .range([h-padding, padding])
         .domain([0,5000]);
 
     svg.append("g")
