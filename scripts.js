@@ -49,7 +49,8 @@ function europeMapInit() {
     colorScheme.unshift("#eee");
     var colorScale = d3
         .scaleThreshold()
-        .domain([1, 6, 11, 26, 101, 1001])
+        .domain([1, 1000, 5000, 10000, 20000, 100000])
+        // .domain([1, 100, 1000, 10000, 100000, 516916])
         .range(colorScheme);
 
     // Load external data and boot
@@ -124,7 +125,7 @@ function europeMapInit() {
 
         console.log("in rerender map")
 
-        d3.json("data/refugees2.json").then(data => {
+        d3.json("data/refugees3.json").then(data => {
             const test = data[date];
             // debugger
 
