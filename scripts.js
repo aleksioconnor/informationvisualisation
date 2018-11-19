@@ -247,6 +247,14 @@ function initSlider() {
 
 // Initialize line chart
 function lineChartInit() {
+    // hacky fix
+    var mapping = {
+        "sugar": "Sugar (kg, SYP)",
+        "bread": "Bread (SYP)",
+        "fuel": "Fuel (diesel, liter, SYP)",
+        "rice": "Rice (kg, SYP)",
+        "tea": "Tea (kg, SYP)"
+    }
     // set the dimensions and margins of the graph
     var margin = {
             top: 20,
@@ -264,51 +272,88 @@ function lineChartInit() {
     var x = d3.scaleTime().range([0, width]);
     var y = d3.scaleLinear().range([height, 0]);
 
+    var valuelines = {
+        "sugar": d3.line().x(function (d) {
+                return x(d.date);
+            })
+            .y(function (d) {
+                return y(d["Sugar (kg, SYP)"])
+            }),
+        "bread": d3.line()
+            .x(function (d) {
+                return x(d.date);
+            })
+            .y(function (d) {
+                return y(d["Bread (SYP)"]);
+            }),
+        "fuel": d3.line()
+            .x(function (d) {
+                return x(d.date);
+            })
+            .y(function (d) {
+                return y(d["Fuel (diesel, liter, SYP)"]);
+            }),
+        "rice": d3.line()
+            .x(function (d) {
+                return x(d.date);
+            })
+            .y(function (d) {
+                return y(d["Rice (kg, SYP)"]);
+            }),
+        "tea": d3.line()
+            .x(function (d) {
+                return x(d.date);
+            })
+            .y(function (d) {
+                return y(d["Tea (kg, SYP)"]);
+            })
+    }
     // define the line
-    var valueline = d3.line()
-        .x(function (d) {
-            return x(d.date);
-        })
-        .y(function (d) {
-            return y(d["Sugar (kg, SYP)"]); // need this format to acces json key with spaces
-        });
+    // var valueline = d3.line()
+    //     .x(function (d) {
+    //         return x(d.date);
+    //     })
+    //     .y(function (d) {
+    //         return y(d["Sugar (kg, SYP)"]);
+    //     });
 
-    var valueline2 = d3.line()
-        .x(function (d) {
-            return x(d.date);
-        })
-        .y(function (d) {
-            return y(d["Bread (SYP)"]); // need this format to acces json key with spaces
-        });
+    // var valueline2 = d3.line()
+    //     .x(function (d) {
+    //         return x(d.date);
+    //     })
+    //     .y(function (d) {
+    //         return y(d["Bread (SYP)"]);
+    //     });
 
-    var valueline3 = d3.line()
-        .x(function (d) {
-            return x(d.date);
-        })
-        .y(function (d) {
-            return y(d["Fuel (diesel, liter, SYP)"]); // need this format to acces json key with spaces
-        });
+    // var valueline3 = d3.line()
+    //     .x(function (d) {
+    //         return x(d.date);
+    //     })
+    //     .y(function (d) {
+    //         return y(d["Fuel (diesel, liter, SYP)"]);
+    //     });
 
 
-    var valueline4 = d3.line()
-        .x(function (d) {
-            return x(d.date);
-        })
-        .y(function (d) {
-            return y(d["Rice (kg, SYP)"]); // need this format to acces json key with spaces
-        });
+    // var valueline4 = d3.line()
+    //     .x(function (d) {
+    //         return x(d.date);
+    //     })
+    //     .y(function (d) {
+    //         return y(d["Rice (kg, SYP)"]);
+    //     });
 
-    var valueline5 = d3.line()
-        .x(function (d) {
-            return x(d.date);
-        })
-        .y(function (d) {
-            return y(d["Tea (kg, SYP)"]); // need this format to acces json key with spaces
-        });
+    // var valueline5 = d3.line()
+    //     .x(function (d) {
+    //         return x(d.date);
+    //     })
+    //     .y(function (d) {
+    //         return y(d["Tea (kg, SYP)"]);
+    //     });
     // append the svg obgect to the body of the page
     // appends a 'group' element to 'svg'
     // moves the 'group' element to the top left margin
-    var svg = d3.select("body").append("svg")
+
+    var svg = d3.select("#linechart").append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
@@ -344,56 +389,48 @@ function lineChartInit() {
 
         var previouslySelected = "sugar";
 
-        svg.append("path")
-            .data([data.foodPrices])
-            .attr("class", "line")
-            .attr("id", "sugar")
-            .attr("d", valueline)
+        // svg.append("path")
+        //     .data([data.foodPrices])
+        //     .attr("class", "line")
+        //     .attr("id", "sugar")
+        //     .attr("d", valueline)
 
         svg.append("path")
             .data([data.foodPrices])
             .attr("class", "line")
-            .attr("id", "bread")
-            .attr("class", "hidden")
-            .attr("d", valueline2)
-        svg.append("path")
-            .data([data.foodPrices])
-            .attr("class", "line")
-            .attr("id", "fuel")
-            .attr("class", "hidden")
-            .attr("d", valueline3)
-        svg.append("path")
-            .data([data.foodPrices])
-            .attr("class", "line")
-            .attr("id", "rice")
-            .attr("class", "hidden")
-            .attr("d", valueline4)
-        svg.append("path")
-            .data([data.foodPrices])
-            .attr("class", "line")
-            .attr("id", "tea")
-            .attr("class", "hidden")
-            .attr("d", valueline5)
+            .attr("id", "sugar")
+            .attr("d", valuelines.sugar);
 
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
 
-        svg.append("g")
+        var yAxis = svg.append("g")
+            .attr("id", "yaxis")
             .call(d3.axisLeft(y));
 
         var dropdown = d3.select("#line-chart-dropdown")
             .attr("class", "test")
             .on("change", function (d) {
                 var selected = d3.select("#line-chart-dropdown").node().value;
-                d3.select("path#" + previouslySelected)
-                    .attr("class", "hidden");
-                
-                previouslySelected = selected;
+                d3.select("path#" + previouslySelected).remove();
 
-                d3.select("path#" + selected)
-                    .classed("hidden", false)
+                previouslySelected = selected;
+                y.domain([0, d3.max(data.foodPrices, function (d) {
+                    return Math.max(d[mapping[selected]]);
+                })])
+                d3.select("#yaxis")
+                    .call(d3.axisLeft(y));
+
+                svg.append("path")
+                    .data([data.foodPrices])
                     .attr("class", "line")
+                    .attr("id", selected)
+                    .attr("d", valuelines[selected]);
+
+                // d3.select("path#" + selected)
+                //     .classed("hidden", false)
+                //     .attr("class", "line")
             });
 
     });
