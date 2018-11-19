@@ -222,50 +222,86 @@ function barChart_init() {
     var padding = 30;
 
     w = 960 - margin.left - margin.right,
-    h = 500 - margin.top - margin.bottom;
+        h = 500 - margin.top - margin.bottom;
 
     // parse the date / time
     var parseTime = d3.timeParse("%Y-%m");
 
     // Load the data
     d3.json("data/allDeaths.json").then(function (data) {
+        console.log(data[0].provinceDeathcount)
         data.forEach(function (d) {
             d.date = parseTime(d.date);
+
         })
+        var tempdata = []
+        for (var property in data[0].provinceDeathcount) {
+            var obj = {
+                "province": property, 
+                "quantity": data[0].provinceDeathcount[property]
+            }
+            tempdata.push(obj)
+        }
+        console.log(tempdata)
 
-    //console.log(data);
 
-    var svg = d3.select("#bar_chart")
-            .append("svg")
-            .attr("width",w)
-            .attr("height",h);
+        // var svg = d3.select("#bar_chart")
+        //     .append("svg")
+        //     .attr("width", w + margin.left + margin.right)
+        //     .attr("height", h + margin.top + margin.bottom)
+        //     .attr("transform",
+        //         "translate(" + margin.left + "," + margin.top + ")");
 
-    var xScale = d3.scaleBand()
-        .range([padding, w-padding])
-        .domain(data.map((d) => d.date))
-        .padding(0.2);
+        var svg = d3.select("body").append("svg")
+            .attr("width", w + margin.left + margin.right)
+            .attr("height", h + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform",
+                "translate(" + margin.left + "," + margin.top + ")");
 
-    var yScale = d3.scaleLinear()
-        .range([h-padding, padding])
-        .domain([0,5000]);
+        var xScale = d3.scaleBand().rangeRound([0, w]).padding(0.03);
 
-    svg.append("g")
-        .call(d3.axisLeft(yScale).tickFormat(d3.format("d")).ticks(data.length/4));
+        var yScale = d3.scaleLinear()
+            .range([h, 0]);
 
-    svg.append("g")
-        .attr('transform', `translate(0, ${h})`)
-        .call(d3.axisBottom(xScale));
+        var xAxis = d3.axisBottom(xScale);
+          
+          
+        var yAxis = d3.axisLeft(yScale); 
 
-    svg.selectAll("rect")
-        .data(data)
-        .enter().append("rect")
-         .attr("fill","darkblue")
-         .attr("y", (data) => yScale(data.totalDeathcount))
-         .attr("x", (data) => xScale(data.date))
-         .attr("width",xScale.bandwidth())
-         .attr("height", (d) => h - yScale(d.totalDeathcount));
+        xScale.domain(tempdata.map(function(d) { return d.province; }));
+        yScale.domain([0, d3.max(tempdata, function(d) { return d.quantity; })]);
+            
+        svg.append("g")
+            .attr('transform', 'translate(0,' + h + ')')
+            .call(xAxis);
+
+        var yAxis_g = svg.append("g")
+            .attr("class", "y axis")
+            .call(yAxis)
+            .append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 6).attr("dy", ".71em")
+            //.style("text-anchor", "end").text("Number of Applicatons"); 
     
+        svg.selectAll(".bar")
+            .data(tempdata)
+            .enter()
+            .append("rect")
+            .attr("class", "bar")
+            .attr("x", function(d) { return xScale(d.province); })
+            .attr("width", xScale.bandwidth())
+            .attr("y", function(d) { return yScale(d.quantity); })
+            .attr("height", function(d) { return h - yScale(d.quantity); });
 
+        //svg.selectAll("rect")
+          //  .data(tempdata)
+            //.enter().append("rect")
+            //.attr("fill", "darkblue")
+            //.attr("y", (tempdata) => yScale(tempdata.quantity))
+            //.attr("x", (tempdata) => xScale(tempdata.province))
+            //.attr("width", xScale.bandwidth())
+            //.attr("height", (tempdata) => h - yScale(tempdata.quantity));
     });
 
 
@@ -274,10 +310,8 @@ function barChart_init() {
 // Window onload
 window.onload = function () {
 
-    console.log("c1")
     initSlider();
 
-    console.log("c2")
     europeMapInit();
     lineChartInit();
     barChart_init();
