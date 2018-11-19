@@ -45,6 +45,12 @@ body {
   stroke-width: 2px;
 }
 
+.hidden {
+  fill: none;
+  stroke: none;
+  stroke-width: 0px;
+}
+
 .map {
   width: 800px;
   margin-left: auto;
