@@ -273,6 +273,38 @@ function lineChartInit() {
             return y(d["Sugar (kg, SYP)"]); // need this format to acces json key with spaces
         });
 
+    var valueline2 = d3.line()
+        .x(function (d) {
+            return x(d.date);
+        })
+        .y(function (d) {
+            return y(d["Bread (SYP)"]); // need this format to acces json key with spaces
+        });
+
+    var valueline3 = d3.line()
+        .x(function (d) {
+            return x(d.date);
+        })
+        .y(function (d) {
+            return y(d["Fuel (diesel, liter, SYP)"]); // need this format to acces json key with spaces
+        });
+
+
+    var valueline4 = d3.line()
+        .x(function (d) {
+            return x(d.date);
+        })
+        .y(function (d) {
+            return y(d["Rice (kg, SYP)"]); // need this format to acces json key with spaces
+        });
+
+    var valueline5 = d3.line()
+        .x(function (d) {
+            return x(d.date);
+        })
+        .y(function (d) {
+            return y(d["Tea (kg, SYP)"]); // need this format to acces json key with spaces
+        });
     // append the svg obgect to the body of the page
     // appends a 'group' element to 'svg'
     // moves the 'group' element to the top left margin
@@ -291,7 +323,11 @@ function lineChartInit() {
         data.foodPrices.forEach(function (d) {
             d.date = parseTime(d.date);
             d["Sugar (kg, SYP)"] = +d["Sugar (kg, SYP)"];
-        })
+            d["Bread (SYP)"] = +d["Bread (SYP)"];
+            d["Fuel (diesel, liter, SYP)"] = +d["Fuel (diesel, liter, SYP)"];
+            d["Rice (kg, SYP)"] = +d["Rice (kg, SYP)"];
+            d["Tea (kg, SYP)"] = +d["Tea (kg, SYP)"];
+        });
         x.domain(d3.extent(data.foodPrices, function (d) {
             return d.date;
         }));
@@ -300,16 +336,44 @@ function lineChartInit() {
         })])
 
         // Load the intersection circle thing
-        focus.append("circle")
-            .attr("class", "y")
-            .style("fill", "none")
-            .style("stroke", "blue")
-            .attr("r", 4)
+        // focus.append("circle")
+        //     .attr("class", "y")
+        //     .style("fill", "none")
+        //     .style("stroke", "blue")
+        //     .attr("r", 4)
+
+        var previouslySelected = "sugar";
 
         svg.append("path")
             .data([data.foodPrices])
             .attr("class", "line")
+            .attr("id", "sugar")
             .attr("d", valueline)
+
+        svg.append("path")
+            .data([data.foodPrices])
+            .attr("class", "line")
+            .attr("id", "bread")
+            .attr("class", "hidden")
+            .attr("d", valueline2)
+        svg.append("path")
+            .data([data.foodPrices])
+            .attr("class", "line")
+            .attr("id", "fuel")
+            .attr("class", "hidden")
+            .attr("d", valueline3)
+        svg.append("path")
+            .data([data.foodPrices])
+            .attr("class", "line")
+            .attr("id", "rice")
+            .attr("class", "hidden")
+            .attr("d", valueline4)
+        svg.append("path")
+            .data([data.foodPrices])
+            .attr("class", "line")
+            .attr("id", "tea")
+            .attr("class", "hidden")
+            .attr("d", valueline5)
 
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
@@ -317,8 +381,24 @@ function lineChartInit() {
 
         svg.append("g")
             .call(d3.axisLeft(y));
-    })
+
+        var dropdown = d3.select("#line-chart-dropdown")
+            .attr("class", "test")
+            .on("change", function (d) {
+                var selected = d3.select("#line-chart-dropdown").node().value;
+                d3.select("path#" + previouslySelected)
+                    .attr("class", "hidden");
+                
+                previouslySelected = selected;
+
+                d3.select("path#" + selected)
+                    .classed("hidden", false)
+                    .attr("class", "line")
+            });
+
+    });
 }
+
 
 // Window onload
 window.onload = function () {
