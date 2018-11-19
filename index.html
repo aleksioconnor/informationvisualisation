@@ -6,15 +6,23 @@
     <script src="d3.v5.min.js" charset="utf-8"></script>
     <!-- <script src="//d3js.org/topojson.v1.min.js"></script> -->
     <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
     <script src="scripts.js"></script>
 </head>
 
 <body>
     <div id='slider'></div>
     <div id='vis'></div>
-    <div id='linechart'></div>
     <div id='map'></div>
     <div id='bar_chart'></div>
+    <select id="line-chart-dropdown">
+        <option value="sugar">Sugar</option>
+        <option value="bread">Bread</option>
+        <option value="fuel">Fuel</option>
+        <option value="rice">Rice</option>
+        <option value="tea">Tea</option>
+      </select>
+    <div id='linechart'></div>
     <script>
     </script>
 </body>

@@ -45,6 +45,12 @@ body {
   stroke-width: 2px;
 }
 
+.hidden {
+  fill: none;
+  stroke: none;
+  stroke-width: 0px;
+}
+
 .map {
   width: 800px;
   margin-left: auto;
@@ -53,11 +59,7 @@ body {
   padding: 20px;
   background-color: white;
   box-shadow: 1px 1px 1px 2px rgb(217, 217, 217);
+ 
 }
 
-
-path:hover {
-  fill: rgba(8, 81, 156, 0.2);
-  cursor: pointer;
-}
 
