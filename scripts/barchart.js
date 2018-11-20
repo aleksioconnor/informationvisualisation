@@ -1,3 +1,7 @@
+//----------------------------
+// Barchart idiom
+//----------------------------
+
 function barChartInit() {
     var margin = {
         top: 20,
@@ -6,122 +10,105 @@ function barChartInit() {
         left: 50
     };
 
-    var padding = 30;
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
-    w = 960 - margin.left - margin.right,
-        h = 500 - margin.top - margin.bottom;
+    var xScale = d3
+        .scaleBand()
+        .rangeRound([0, width])
+        .padding(0.03);
 
-    // parse the date / time
-    var parseTime = d3.timeParse("%Y-%m");
+    var yScale = d3
+        .scaleLinear()
+        .range([height, 0]);
 
+    var xAxis = d3
+        .axisBottom(xScale);
 
-    var barChartType = "province"
+    var yAxis = d3
+        .axisLeft(yScale);
 
+    var barChartSVG = d3
+        .select("body")
+        .append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom)
+        .append("g")
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    // Load the data
-    d3.json(`data/${barChartType}.json`).then(function (data) {
+   
 
+    //----------------------------
+    // Draw barchart
+    //----------------------------
 
-        currentDate = "2017-03"
+    updateBarchart = function(){
+        // for now the only type is province
+        var barChartType = "province"
+        
+        d3.json(`data/${barChartType}.json`).then(function (data) {
+         
+            var dataCurrentDate = data[currentDate]
+            console.log(dataCurrentDate)
 
-        console.log(data[currentDate])
+            xScale.domain(dataCurrentDate.map(function (d) {
+                return d.province;
 
-        var tempdata = data[currentDate]
+            }));
+            yScale.domain([0, d3.max(dataCurrentDate, function (d) {
+                return d.quantity;
+            })]);
 
-        // console.log(data[0].provinceDeathcount)
+            // if (currentDate !== "2013-01") {
+            //     barChartSVG
+            //         .data(dataCurrentDate)
+            //         .attr("x", function (d) {
+            //             // barChartType cannot be used here?
+            //             return xScale(dataCurrentDate.province);
+            //         })
+            //         .attr("y", function (d) {
+            //             return yScale(dataCurrentDate.quantity);
+            //         })
+            //         .attr("height", function (d) {
+            //             return height - yScale(dataCurrentDate.quantity);
+            //         });    
+            // }
+            // else{
+                barChartSVG.selectAll(".bar")
+                    .data(dataCurrentDate)
+                    .enter()
+                    .append("rect")
+                    .attr("class", "bar")
+                    .attr("x", function (d) {
+                        // barChartType cannot be used here?
+                        return xScale(d.province);
+                    })
+                    .attr("width", xScale.bandwidth())
+                    .attr("y", function (d) {
+                        return yScale(d.quantity);
+                    })
+                    .attr("height", function (d) {
+                        return height - yScale(d.quantity);
+                    });
+                
+                barChartSVG.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + (height) + ")")
+                    .call(xAxis)
+                    .selectAll("text");
+                
+                barChartSVG.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxis)
+                    .append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 6).attr("dy", ".71em")
+            // }
+        
+        });
 
-        // const dataForGivenMonth = data[currentDate]
+    }
 
-        // console.log(data[0].provinceDeathcount)
-        // data.forEach(function (d) {
-        //     d.date = parseTime(d.date);
-
-        // })
-        // var tempdata = []
-        // for (var property in data[0].provinceDeathcount) {
-        //     var obj = {
-        //         "province": property,
-        //         "quantity": data[0].provinceDeathcount[property]
-        //     }
-        //     tempdata.push(obj)
-        // }
-        // console.log(tempdata)
-
-
-        // // var svg = d3.select("#bar_chart")
-        // //     .append("svg")
-        // //     .attr("width", w + margin.left + margin.right)
-        // //     .attr("height", h + margin.top + margin.bottom)
-        // //     .attr("transform",
-        // //         "translate(" + margin.left + "," + margin.top + ")");
-
-        var svg = d3.select("body").append("svg")
-            .attr("width", w + margin.left + margin.right)
-            .attr("height", h + margin.top + margin.bottom)
-            .append("g")
-            .attr("transform",
-                "translate(" + margin.left + "," + margin.top + ")");
-
-        var xScale = d3.scaleBand().rangeRound([0, w]).padding(0.03);
-
-        var yScale = d3.scaleLinear()
-            .range([h, 0]);
-
-        var xAxis = d3.axisBottom(xScale);
-
-
-        var yAxis = d3.axisLeft(yScale);
-
-        xScale.domain(tempdata.map(function (d) {
-            return d.province;
-        }));
-        yScale.domain([0, d3.max(tempdata, function (d) {
-            return d.quantity;
-        })]);
-
-        svg.append("g")
-            .attr('transform', 'translate(0,' + h + ')')
-            .call(xAxis);
-
-        var yAxis_g = svg.append("g")
-            .attr("class", "y axis")
-            .call(yAxis)
-            .append("text")
-            .attr("transform", "rotate(-90)")
-            .attr("y", 6).attr("dy", ".71em")
-        //.style("text-anchor", "end").text("Number of Applicatons"); 
-
-        svg.selectAll(".bar")
-            .data(tempdata)
-            .enter()
-            .append("rect")
-            .attr("class", "bar")
-            .attr("x", function (d) {
-                return xScale(d.province);
-            })
-            .attr("width", xScale.bandwidth())
-
-
-            // HERE
-            .attr("y", function (d) {
-                return yScale(d.quantity);
-            })
-
-
-
-            .attr("height", function (d) {
-                return h - yScale(d.quantity);
-            });
-
-        // HERE
-
-        //svg.selectAll("rect")
-        //  .data(tempdata)
-        //.enter().append("rect")
-        //.attr("fill", "darkblue")
-        //.attr("y", (tempdata) => yScale(tempdata.quantity))
-        //.attr("x", (tempdata) => xScale(tempdata.province))
-        //.attr("width", xScale.bandwidth())
-        //.attr("height", (tempdata) => h - yScale(tempdata.quantity));
-    });
+    updateBarchart()
+   
 }
