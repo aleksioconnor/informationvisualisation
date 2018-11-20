@@ -452,9 +452,54 @@ function barChart_init() {
     // parse the date / time
     var parseTime = d3.timeParse("%Y-%m");
 
+    // value is based on the tab navigator
+    var barChartType = "Province"
+
+    // Files we will need:
+    // allDeathsProvince, allDeathsGender, allDeathsCause, allDeathsActor, allDeathsCivilian
+
+    const templateJSON = {
+        "2013-01": [
+            {
+                // "province" is example, script should take an argument called barChartType with string 
+                // that we will use
+                // i.e. "gender", "Province", "civilian status"
+                province: "Damascus",
+                quantity: 123
+            },
+            {
+                province: "ABCD",
+                quantity: 1111
+            }
+        ],
+
+        "2016-07": [
+            {
+                province: "Damascus",
+                quantity: 11
+            },
+            {
+                province: "ABCD",
+                quantity: 156
+            }
+        ], 
+
+    }
+
+
     // Load the data
-    d3.json("data/allDeaths.json").then(function (data) {
+    // resuklt string - data/allDeathsCity.json
+    d3.json(`data/allDeaths${barChartType}.json`).then(function (data) {
+       
         console.log(data[0].provinceDeathcount)
+
+        const dataForGivenMonth = data[currentDate]
+
+
+
+        // --------------------
+        // --------------------
+
         data.forEach(function (d) {
             d.date = parseTime(d.date);
 
@@ -462,7 +507,7 @@ function barChart_init() {
         var tempdata = []
         for (var property in data[0].provinceDeathcount) {
             var obj = {
-                "province": property, 
+                [barChartType]: property,
                 "quantity": data[0].provinceDeathcount[property]
             }
             tempdata.push(obj)
@@ -490,13 +535,17 @@ function barChart_init() {
             .range([h, 0]);
 
         var xAxis = d3.axisBottom(xScale);
-          
-          
-        var yAxis = d3.axisLeft(yScale); 
 
-        xScale.domain(tempdata.map(function(d) { return d.province; }));
-        yScale.domain([0, d3.max(tempdata, function(d) { return d.quantity; })]);
-            
+
+        var yAxis = d3.axisLeft(yScale);
+
+        xScale.domain(tempdata.map(function (d) {
+            return d.province;
+        }));
+        yScale.domain([0, d3.max(tempdata, function (d) {
+            return d.quantity;
+        })]);
+
         svg.append("g")
             .attr('transform', 'translate(0,' + h + ')')
             .call(xAxis);
@@ -507,26 +556,32 @@ function barChart_init() {
             .append("text")
             .attr("transform", "rotate(-90)")
             .attr("y", 6).attr("dy", ".71em")
-            //.style("text-anchor", "end").text("Number of Applicatons"); 
-    
+        //.style("text-anchor", "end").text("Number of Applicatons"); 
+
         svg.selectAll(".bar")
             .data(tempdata)
             .enter()
             .append("rect")
             .attr("class", "bar")
-            .attr("x", function(d) { return xScale(d.province); })
+            .attr("x", function (d) {
+                return xScale(d.province);
+            })
             .attr("width", xScale.bandwidth())
-            .attr("y", function(d) { return yScale(d.quantity); })
-            .attr("height", function(d) { return h - yScale(d.quantity); });
+            .attr("y", function (d) {
+                return yScale(d.quantity);
+            })
+            .attr("height", function (d) {
+                return h - yScale(d.quantity);
+            });
 
         //svg.selectAll("rect")
-          //  .data(tempdata)
-            //.enter().append("rect")
-            //.attr("fill", "darkblue")
-            //.attr("y", (tempdata) => yScale(tempdata.quantity))
-            //.attr("x", (tempdata) => xScale(tempdata.province))
-            //.attr("width", xScale.bandwidth())
-            //.attr("height", (tempdata) => h - yScale(tempdata.quantity));
+        //  .data(tempdata)
+        //.enter().append("rect")
+        //.attr("fill", "darkblue")
+        //.attr("y", (tempdata) => yScale(tempdata.quantity))
+        //.attr("x", (tempdata) => xScale(tempdata.province))
+        //.attr("width", xScale.bandwidth())
+        //.attr("height", (tempdata) => h - yScale(tempdata.quantity));
     });
 
 
