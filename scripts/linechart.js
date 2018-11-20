@@ -13,10 +13,10 @@ function lineChartInit() {
             top: 20,
             right: 20,
             bottom: 30,
-            left: 50
+            left: 30
         },
-        width = 960 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+        width = (windowWidth/2) - margin.left - margin.right,
+        height = (windowHeight/2)- margin.top - margin.bottom;
 
     // parse the date / time
     var parseTime = d3.timeParse("%Y-%m");
