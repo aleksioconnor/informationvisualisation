@@ -73,19 +73,22 @@ function barChartInit() {
                 .attr("height", function (d) {
                     return height - yScale(d.quantity);
                 });
-            
+
+            if (currentDate === "2013-01"){
+            console.log(currentDate)
             barChartSVG.append("g")
                 .attr("class", "x axis")
                 .attr("transform", "translate(0," + (height) + ")")
                 .call(xAxis)
                 .selectAll("text");
-            
+                
             barChartSVG.append("g")
                 .attr("class", "y axis")
                 .call(yAxis)
                 .append("text")
                 .attr("transform", "rotate(-90)")
                 .attr("y", 6).attr("dy", ".71em")
+            }
         
         });
 
