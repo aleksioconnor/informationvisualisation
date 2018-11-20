@@ -36,8 +36,6 @@ function barChartInit() {
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-   
-
     //----------------------------
     // Draw barchart
     //----------------------------
@@ -45,65 +43,49 @@ function barChartInit() {
     updateBarchart = function(){
         // for now the only type is province
         var barChartType = "province"
-        
         d3.json(`data/${barChartType}.json`).then(function (data) {
-         
+        
             var dataCurrentDate = data[currentDate]
             console.log(dataCurrentDate)
 
             xScale.domain(dataCurrentDate.map(function (d) {
                 return d.province;
-
             }));
+
             yScale.domain([0, d3.max(dataCurrentDate, function (d) {
                 return d.quantity;
             })]);
 
-            // if (currentDate !== "2013-01") {
-            //     barChartSVG
-            //         .data(dataCurrentDate)
-            //         .attr("x", function (d) {
-            //             // barChartType cannot be used here?
-            //             return xScale(dataCurrentDate.province);
-            //         })
-            //         .attr("y", function (d) {
-            //             return yScale(dataCurrentDate.quantity);
-            //         })
-            //         .attr("height", function (d) {
-            //             return height - yScale(dataCurrentDate.quantity);
-            //         });    
-            // }
-            // else{
-                barChartSVG.selectAll(".bar")
-                    .data(dataCurrentDate)
-                    .enter()
-                    .append("rect")
-                    .attr("class", "bar")
-                    .attr("x", function (d) {
-                        // barChartType cannot be used here?
-                        return xScale(d.province);
-                    })
-                    .attr("width", xScale.bandwidth())
-                    .attr("y", function (d) {
-                        return yScale(d.quantity);
-                    })
-                    .attr("height", function (d) {
-                        return height - yScale(d.quantity);
-                    });
-                
-                barChartSVG.append("g")
-                    .attr("class", "x axis")
-                    .attr("transform", "translate(0," + (height) + ")")
-                    .call(xAxis)
-                    .selectAll("text");
-                
-                barChartSVG.append("g")
-                    .attr("class", "y axis")
-                    .call(yAxis)
-                    .append("text")
-                    .attr("transform", "rotate(-90)")
-                    .attr("y", 6).attr("dy", ".71em")
-            // }
+            barChartSVG
+                .attr("class", "bar")
+                .selectAll(".bar")
+                .data(dataCurrentDate)
+                .enter()
+                .append("rect")
+                .attr("x", function (d) {
+                    // barChartType cannot be used here?
+                    return xScale(d.province);
+                })
+                .attr("width", xScale.bandwidth())
+                .attr("y", function (d) {
+                    return yScale(d.quantity);
+                })
+                .attr("height", function (d) {
+                    return height - yScale(d.quantity);
+                });
+            
+            barChartSVG.append("g")
+                .attr("class", "x axis")
+                .attr("transform", "translate(0," + (height) + ")")
+                .call(xAxis)
+                .selectAll("text");
+            
+            barChartSVG.append("g")
+                .attr("class", "y axis")
+                .call(yAxis)
+                .append("text")
+                .attr("transform", "rotate(-90)")
+                .attr("y", 6).attr("dy", ".71em")
         
         });
 
