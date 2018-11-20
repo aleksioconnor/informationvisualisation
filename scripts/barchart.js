@@ -14,30 +14,46 @@ function barChartInit() {
     // parse the date / time
     var parseTime = d3.timeParse("%Y-%m");
 
+
+    var barChartType = "province"
+
+
     // Load the data
-    d3.json("data/allDeaths.json").then(function (data) {
-        console.log(data[0].provinceDeathcount)
-        data.forEach(function (d) {
-            d.date = parseTime(d.date);
-
-        })
-        var tempdata = []
-        for (var property in data[0].provinceDeathcount) {
-            var obj = {
-                "province": property,
-                "quantity": data[0].provinceDeathcount[property]
-            }
-            tempdata.push(obj)
-        }
-        console.log(tempdata)
+    d3.json(`data/${barChartType}.json`).then(function (data) {
 
 
-        // var svg = d3.select("#bar_chart")
-        //     .append("svg")
-        //     .attr("width", w + margin.left + margin.right)
-        //     .attr("height", h + margin.top + margin.bottom)
-        //     .attr("transform",
-        //         "translate(" + margin.left + "," + margin.top + ")");
+        currentDate = "2017-03"
+
+        console.log(data[currentDate])
+
+        var tempdata = data[currentDate]
+
+        // console.log(data[0].provinceDeathcount)
+
+        // const dataForGivenMonth = data[currentDate]
+
+        // console.log(data[0].provinceDeathcount)
+        // data.forEach(function (d) {
+        //     d.date = parseTime(d.date);
+
+        // })
+        // var tempdata = []
+        // for (var property in data[0].provinceDeathcount) {
+        //     var obj = {
+        //         "province": property,
+        //         "quantity": data[0].provinceDeathcount[property]
+        //     }
+        //     tempdata.push(obj)
+        // }
+        // console.log(tempdata)
+
+
+        // // var svg = d3.select("#bar_chart")
+        // //     .append("svg")
+        // //     .attr("width", w + margin.left + margin.right)
+        // //     .attr("height", h + margin.top + margin.bottom)
+        // //     .attr("transform",
+        // //         "translate(" + margin.left + "," + margin.top + ")");
 
         var svg = d3.select("body").append("svg")
             .attr("width", w + margin.left + margin.right)
@@ -84,12 +100,20 @@ function barChartInit() {
                 return xScale(d.province);
             })
             .attr("width", xScale.bandwidth())
+
+
+            // HERE
             .attr("y", function (d) {
                 return yScale(d.quantity);
             })
+
+
+
             .attr("height", function (d) {
                 return h - yScale(d.quantity);
             });
+
+        // HERE
 
         //svg.selectAll("rect")
         //  .data(tempdata)

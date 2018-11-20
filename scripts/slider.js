@@ -87,7 +87,8 @@ function initSlider() {
 
         if (newDate !== currentDate) {
             currentDate = newDate;
-            rerenderMap()
+            // rerenderMap()
+            barChartInit()
         }
 
         label.attr("x", x(h)).text(formatDate(h));
