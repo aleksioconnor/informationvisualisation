@@ -1,15 +1,15 @@
 function barChartInit() {
     var margin = {
-        top: 20,
-        right: 20,
-        bottom: 30,
-        left: 50
+        top: 0,
+        right: 0,
+        bottom: 20,
+        left: 34
     };
 
     var padding = 30;
 
-    w = 960 - margin.left - margin.right,
-        h = 500 - margin.top - margin.bottom;
+    var w = (windowWidth/2) - margin.left - margin.right;
+    var h = (windowHeight/2);
 
     // parse the date / time
     var parseTime = d3.timeParse("%Y-%m");
@@ -39,12 +39,12 @@ function barChartInit() {
         //     .attr("transform",
         //         "translate(" + margin.left + "," + margin.top + ")");
 
-        var svg = d3.select("body").append("svg")
+        var svg = d3.select("#bar_chart").append("svg")
             .attr("width", w + margin.left + margin.right)
             .attr("height", h + margin.top + margin.bottom)
             .append("g")
             .attr("transform",
-                "translate(" + margin.left + "," + margin.top + ")");
+                "translate(" + margin.left + "," + 0 + ")");
 
         var xScale = d3.scaleBand().rangeRound([0, w]).padding(0.03);
 

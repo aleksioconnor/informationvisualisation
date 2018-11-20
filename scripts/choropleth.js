@@ -10,8 +10,8 @@ function europeMapInit() {
         left: 50
     };
 
-    var w = 700 - margin.left - margin.right;
-    var h = 600 - margin.top - margin.bottom;
+    var w = (windowWidth / 2) - margin.left - margin.right;
+    var h = (windowHeight / 2) - margin.top - margin.bottom;
 
     var projection = d3
         .geoMercator()
@@ -78,6 +78,14 @@ function europeMapInit() {
 
     rerenderMap()
 
+    var aspect = w / h,
+        chart = d3.select('#map');
+    d3.select(window)
+        .on("resize", function () {
+            var targetWidth = chart.node().getBoundingClientRect().width;
+            chart.attr("width", targetWidth);
+            chart.attr("height", targetWidth / aspect);
+        });
     //----------------------------
     // Draw scale
     //----------------------------
