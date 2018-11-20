@@ -1,0 +1,2942 @@
+{
+    "2013-01": [{
+        "cause": "Shelling",
+        "quantity": 1118
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 91
+    }, {
+        "cause": "Shooting",
+        "quantity": 1445
+    }, {
+        "cause": "Field Execution",
+        "quantity": 533
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 698
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 46
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 69
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 5
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 24
+    }, {
+        "cause": "Other",
+        "quantity": 8
+    }, {
+        "cause": "Explosion",
+        "quantity": 74
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 8
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 12
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2013-02": [{
+        "cause": "Shelling",
+        "quantity": 1303
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 120
+    }, {
+        "cause": "Shooting",
+        "quantity": 1460
+    }, {
+        "cause": "Field Execution",
+        "quantity": 399
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 429
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 24
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 16
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 3
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 17
+    }, {
+        "cause": "Other",
+        "quantity": 5
+    }, {
+        "cause": "Explosion",
+        "quantity": 184
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 4
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 12
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2013-03": [{
+        "cause": "Shelling",
+        "quantity": 1397
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 151
+    }, {
+        "cause": "Shooting",
+        "quantity": 1702
+    }, {
+        "cause": "Field Execution",
+        "quantity": 343
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 365
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 36
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 14
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 40
+    }, {
+        "cause": "Other",
+        "quantity": 4
+    }, {
+        "cause": "Explosion",
+        "quantity": 89
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 4
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 7
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 30
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2013-04": [{
+        "cause": "Shelling",
+        "quantity": 1234
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 190
+    }, {
+        "cause": "Shooting",
+        "quantity": 1562
+    }, {
+        "cause": "Field Execution",
+        "quantity": 318
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 277
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 22
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 8
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 3
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 79
+    }, {
+        "cause": "Other",
+        "quantity": 6
+    }, {
+        "cause": "Explosion",
+        "quantity": 58
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 11
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 16
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2013-05": [{
+        "cause": "Shelling",
+        "quantity": 999
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 154
+    }, {
+        "cause": "Shooting",
+        "quantity": 1591
+    }, {
+        "cause": "Field Execution",
+        "quantity": 373
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 172
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 75
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 6
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 3
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 8
+    }, {
+        "cause": "Other",
+        "quantity": 5
+    }, {
+        "cause": "Explosion",
+        "quantity": 62
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 4
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 5
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 9
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2013-06": [{
+        "cause": "Shelling",
+        "quantity": 807
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 199
+    }, {
+        "cause": "Shooting",
+        "quantity": 1358
+    }, {
+        "cause": "Field Execution",
+        "quantity": 349
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 126
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 22
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 6
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 5
+    }, {
+        "cause": "Other",
+        "quantity": 12
+    }, {
+        "cause": "Explosion",
+        "quantity": 39
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 9
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 4
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 15
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2013-07": [{
+        "cause": "Shelling",
+        "quantity": 1251
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 180
+    }, {
+        "cause": "Shooting",
+        "quantity": 1440
+    }, {
+        "cause": "Field Execution",
+        "quantity": 166
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 289
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 24
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 20
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 5
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 8
+    }, {
+        "cause": "Other",
+        "quantity": 10
+    }, {
+        "cause": "Explosion",
+        "quantity": 79
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 8
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 2
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2013-08": [{
+        "cause": "Shelling",
+        "quantity": 1241
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 160
+    }, {
+        "cause": "Shooting",
+        "quantity": 1518
+    }, {
+        "cause": "Field Execution",
+        "quantity": 154
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 480
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 20
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 5
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 3
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 8
+    }, {
+        "cause": "Other",
+        "quantity": 19
+    }, {
+        "cause": "Explosion",
+        "quantity": 86
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 5
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 922
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2013-09": [{
+        "cause": "Shelling",
+        "quantity": 749
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 129
+    }, {
+        "cause": "Shooting",
+        "quantity": 1361
+    }, {
+        "cause": "Field Execution",
+        "quantity": 135
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 222
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 9
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 10
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 6
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 3
+    }, {
+        "cause": "Other",
+        "quantity": 16
+    }, {
+        "cause": "Explosion",
+        "quantity": 108
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 12
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2013-10": [{
+        "cause": "Shelling",
+        "quantity": 797
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 140
+    }, {
+        "cause": "Shooting",
+        "quantity": 1053
+    }, {
+        "cause": "Field Execution",
+        "quantity": 89
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 272
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 19
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 11
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 0
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 11
+    }, {
+        "cause": "Other",
+        "quantity": 20
+    }, {
+        "cause": "Explosion",
+        "quantity": 248
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 16
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2013-11": [{
+        "cause": "Shelling",
+        "quantity": 759
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 134
+    }, {
+        "cause": "Shooting",
+        "quantity": 1096
+    }, {
+        "cause": "Field Execution",
+        "quantity": 136
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 295
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 20
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 3
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 2
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Other",
+        "quantity": 18
+    }, {
+        "cause": "Explosion",
+        "quantity": 48
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 19
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 5
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 1
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2013-12": [{
+        "cause": "Shelling",
+        "quantity": 668
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 127
+    }, {
+        "cause": "Shooting",
+        "quantity": 1016
+    }, {
+        "cause": "Field Execution",
+        "quantity": 171
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 924
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 14
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 15
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 3
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 16
+    }, {
+        "cause": "Other",
+        "quantity": 126
+    }, {
+        "cause": "Explosion",
+        "quantity": 34
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 12
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 1
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2014-01": [{
+        "cause": "Shelling",
+        "quantity": 521
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 190
+    }, {
+        "cause": "Shooting",
+        "quantity": 1220
+    }, {
+        "cause": "Field Execution",
+        "quantity": 97
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 655
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 15
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 104
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 4
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Other",
+        "quantity": 114
+    }, {
+        "cause": "Explosion",
+        "quantity": 134
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 10
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 36
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 4
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2014-02": [{
+        "cause": "Shelling",
+        "quantity": 401
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 197
+    }, {
+        "cause": "Shooting",
+        "quantity": 894
+    }, {
+        "cause": "Field Execution",
+        "quantity": 151
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 1071
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 10
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 81
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 2
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 3
+    }, {
+        "cause": "Other",
+        "quantity": 68
+    }, {
+        "cause": "Explosion",
+        "quantity": 227
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 7
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2014-03": [{
+        "cause": "Shelling",
+        "quantity": 350
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 210
+    }, {
+        "cause": "Shooting",
+        "quantity": 1039
+    }, {
+        "cause": "Field Execution",
+        "quantity": 72
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 517
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 19
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 68
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 4
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 67
+    }, {
+        "cause": "Explosion",
+        "quantity": 63
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 5
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 11
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 11
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2014-04": [{
+        "cause": "Shelling",
+        "quantity": 460
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 222
+    }, {
+        "cause": "Shooting",
+        "quantity": 1328
+    }, {
+        "cause": "Field Execution",
+        "quantity": 83
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 740
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 15
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 11
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 27
+    }, {
+        "cause": "Explosion",
+        "quantity": 52
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 12
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2014-05": [{
+        "cause": "Shelling",
+        "quantity": 393
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 323
+    }, {
+        "cause": "Shooting",
+        "quantity": 969
+    }, {
+        "cause": "Field Execution",
+        "quantity": 24
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 587
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 3
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 32
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Other",
+        "quantity": 36
+    }, {
+        "cause": "Explosion",
+        "quantity": 155
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 1
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2014-06": [{
+        "cause": "Shelling",
+        "quantity": 376
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 297
+    }, {
+        "cause": "Shooting",
+        "quantity": 759
+    }, {
+        "cause": "Field Execution",
+        "quantity": 11
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 740
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 5
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 21
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 5
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Other",
+        "quantity": 25
+    }, {
+        "cause": "Explosion",
+        "quantity": 61
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2014-07": [{
+        "cause": "Shelling",
+        "quantity": 313
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 164
+    }, {
+        "cause": "Shooting",
+        "quantity": 711
+    }, {
+        "cause": "Field Execution",
+        "quantity": 21
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 568
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 4
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 21
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 2
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 19
+    }, {
+        "cause": "Explosion",
+        "quantity": 74
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2014-08": [{
+        "cause": "Shelling",
+        "quantity": 257
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 239
+    }, {
+        "cause": "Shooting",
+        "quantity": 569
+    }, {
+        "cause": "Field Execution",
+        "quantity": 13
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 732
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 128
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 0
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 18
+    }, {
+        "cause": "Explosion",
+        "quantity": 66
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 5
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2014-09": [{
+        "cause": "Shelling",
+        "quantity": 291
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 130
+    }, {
+        "cause": "Shooting",
+        "quantity": 631
+    }, {
+        "cause": "Field Execution",
+        "quantity": 48
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 877
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 7
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Other",
+        "quantity": 22
+    }, {
+        "cause": "Explosion",
+        "quantity": 50
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 7
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2014-10": [{
+        "cause": "Shelling",
+        "quantity": 213
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 141
+    }, {
+        "cause": "Shooting",
+        "quantity": 608
+    }, {
+        "cause": "Field Execution",
+        "quantity": 3
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 540
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 3
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 28
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 3
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 7
+    }, {
+        "cause": "Other",
+        "quantity": 10
+    }, {
+        "cause": "Explosion",
+        "quantity": 141
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 2
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2014-11": [{
+        "cause": "Shelling",
+        "quantity": 204
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 177
+    }, {
+        "cause": "Shooting",
+        "quantity": 482
+    }, {
+        "cause": "Field Execution",
+        "quantity": 82
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 506
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 29
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 2
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 16
+    }, {
+        "cause": "Explosion",
+        "quantity": 33
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2014-12": [{
+        "cause": "Shelling",
+        "quantity": 160
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 91
+    }, {
+        "cause": "Shooting",
+        "quantity": 626
+    }, {
+        "cause": "Field Execution",
+        "quantity": 47
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 714
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 52
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 5
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 46
+    }, {
+        "cause": "Other",
+        "quantity": 38
+    }, {
+        "cause": "Explosion",
+        "quantity": 46
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 3
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2015-01": [{
+        "cause": "Shelling",
+        "quantity": 108
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 90
+    }, {
+        "cause": "Shooting",
+        "quantity": 336
+    }, {
+        "cause": "Field Execution",
+        "quantity": 7
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 363
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 43
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 4
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Other",
+        "quantity": 68
+    }, {
+        "cause": "Explosion",
+        "quantity": 41
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2015-02": [{
+        "cause": "Shelling",
+        "quantity": 169
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 79
+    }, {
+        "cause": "Shooting",
+        "quantity": 464
+    }, {
+        "cause": "Field Execution",
+        "quantity": 67
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 490
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 27
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 2
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Other",
+        "quantity": 37
+    }, {
+        "cause": "Explosion",
+        "quantity": 41
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2015-03": [{
+        "cause": "Shelling",
+        "quantity": 186
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 684
+    }, {
+        "cause": "Shooting",
+        "quantity": 445
+    }, {
+        "cause": "Field Execution",
+        "quantity": 16
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 390
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 12
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 31
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 2
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 22
+    }, {
+        "cause": "Explosion",
+        "quantity": 101
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 7
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2015-04": [{
+        "cause": "Shelling",
+        "quantity": 182
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 137
+    }, {
+        "cause": "Shooting",
+        "quantity": 475
+    }, {
+        "cause": "Field Execution",
+        "quantity": 15
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 666
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 4
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 50
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 8
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Other",
+        "quantity": 22
+    }, {
+        "cause": "Explosion",
+        "quantity": 68
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2015-05": [{
+        "cause": "Shelling",
+        "quantity": 199
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 52
+    }, {
+        "cause": "Shooting",
+        "quantity": 473
+    }, {
+        "cause": "Field Execution",
+        "quantity": 16
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 879
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 8
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 97
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 25
+    }, {
+        "cause": "Explosion",
+        "quantity": 42
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 7
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2015-06": [{
+        "cause": "Shelling",
+        "quantity": 192
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 61
+    }, {
+        "cause": "Shooting",
+        "quantity": 718
+    }, {
+        "cause": "Field Execution",
+        "quantity": 4
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 709
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 3
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 48
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 0
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Other",
+        "quantity": 21
+    }, {
+        "cause": "Explosion",
+        "quantity": 61
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2015-07": [{
+        "cause": "Shelling",
+        "quantity": 185
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 61
+    }, {
+        "cause": "Shooting",
+        "quantity": 422
+    }, {
+        "cause": "Field Execution",
+        "quantity": 12
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 580
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 52
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 3
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Other",
+        "quantity": 17
+    }, {
+        "cause": "Explosion",
+        "quantity": 52
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2015-08": [{
+        "cause": "Shelling",
+        "quantity": 386
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 64
+    }, {
+        "cause": "Shooting",
+        "quantity": 536
+    }, {
+        "cause": "Field Execution",
+        "quantity": 6
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 681
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 46
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 0
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 22
+    }, {
+        "cause": "Explosion",
+        "quantity": 53
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2015-09": [{
+        "cause": "Shelling",
+        "quantity": 245
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 30
+    }, {
+        "cause": "Shooting",
+        "quantity": 310
+    }, {
+        "cause": "Field Execution",
+        "quantity": 8
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 219
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 0
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 8
+    }, {
+        "cause": "Explosion",
+        "quantity": 13
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2015-10": [{
+        "cause": "Shelling",
+        "quantity": 223
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 62
+    }, {
+        "cause": "Shooting",
+        "quantity": 605
+    }, {
+        "cause": "Field Execution",
+        "quantity": 7
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 649
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 45
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 3
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 11
+    }, {
+        "cause": "Explosion",
+        "quantity": 51
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 3
+    }, {
+        "cause": "Unknown",
+        "quantity": 1
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2015-11": [{
+        "cause": "Shelling",
+        "quantity": 259
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 75
+    }, {
+        "cause": "Shooting",
+        "quantity": 614
+    }, {
+        "cause": "Field Execution",
+        "quantity": 15
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 569
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 4
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 65
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 6
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 15
+    }, {
+        "cause": "Explosion",
+        "quantity": 60
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 3
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 2
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2015-12": [{
+        "cause": "Shelling",
+        "quantity": 190
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 35
+    }, {
+        "cause": "Shooting",
+        "quantity": 579
+    }, {
+        "cause": "Field Execution",
+        "quantity": 1
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 878
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 74
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 2
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Other",
+        "quantity": 17
+    }, {
+        "cause": "Explosion",
+        "quantity": 65
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 1
+    }, {
+        "cause": "Unknown",
+        "quantity": 1
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2016-01": [{
+        "cause": "Shelling",
+        "quantity": 126
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 61
+    }, {
+        "cause": "Shooting",
+        "quantity": 468
+    }, {
+        "cause": "Field Execution",
+        "quantity": 5
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 783
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 45
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 0
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 36
+    }, {
+        "cause": "Explosion",
+        "quantity": 61
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2016-02": [{
+        "cause": "Shelling",
+        "quantity": 153
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 36
+    }, {
+        "cause": "Shooting",
+        "quantity": 605
+    }, {
+        "cause": "Field Execution",
+        "quantity": 2
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 548
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 45
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 32
+    }, {
+        "cause": "Explosion",
+        "quantity": 24
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2016-03": [{
+        "cause": "Shelling",
+        "quantity": 86
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 36
+    }, {
+        "cause": "Shooting",
+        "quantity": 380
+    }, {
+        "cause": "Field Execution",
+        "quantity": 0
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 191
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 52
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 10
+    }, {
+        "cause": "Explosion",
+        "quantity": 68
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 0
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2016-04": [{
+        "cause": "Shelling",
+        "quantity": 177
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 33
+    }, {
+        "cause": "Shooting",
+        "quantity": 599
+    }, {
+        "cause": "Field Execution",
+        "quantity": 3
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 406
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 39
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 0
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 7
+    }, {
+        "cause": "Explosion",
+        "quantity": 51
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 3
+    }, {
+        "cause": "Unknown",
+        "quantity": 1
+    }, {
+        "cause": "Siege",
+        "quantity": 5
+    }],
+    "2016-05": [{
+        "cause": "Shelling",
+        "quantity": 193
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 45
+    }, {
+        "cause": "Shooting",
+        "quantity": 515
+    }, {
+        "cause": "Field Execution",
+        "quantity": 5
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 313
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 37
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 4
+    }, {
+        "cause": "Other",
+        "quantity": 2
+    }, {
+        "cause": "Explosion",
+        "quantity": 38
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 3
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 20
+    }, {
+        "cause": "Siege",
+        "quantity": 7
+    }],
+    "2016-06": [{
+        "cause": "Shelling",
+        "quantity": 239
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 28
+    }, {
+        "cause": "Shooting",
+        "quantity": 500
+    }, {
+        "cause": "Field Execution",
+        "quantity": 8
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 714
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 3
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 22
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 2
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Other",
+        "quantity": 3
+    }, {
+        "cause": "Explosion",
+        "quantity": 112
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 4
+    }, {
+        "cause": "Unknown",
+        "quantity": 9
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2016-07": [{
+        "cause": "Shelling",
+        "quantity": 290
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 35
+    }, {
+        "cause": "Shooting",
+        "quantity": 466
+    }, {
+        "cause": "Field Execution",
+        "quantity": 36
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 1067
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 23
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 3
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Other",
+        "quantity": 5
+    }, {
+        "cause": "Explosion",
+        "quantity": 100
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 35
+    }, {
+        "cause": "Siege",
+        "quantity": 7
+    }],
+    "2016-08": [{
+        "cause": "Shelling",
+        "quantity": 294
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 26
+    }, {
+        "cause": "Shooting",
+        "quantity": 614
+    }, {
+        "cause": "Field Execution",
+        "quantity": 8
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 634
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 25
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 0
+    }, {
+        "cause": "Explosion",
+        "quantity": 139
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 3
+    }, {
+        "cause": "Unknown",
+        "quantity": 13
+    }, {
+        "cause": "Siege",
+        "quantity": 1
+    }],
+    "2016-09": [{
+        "cause": "Shelling",
+        "quantity": 164
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 24
+    }, {
+        "cause": "Shooting",
+        "quantity": 409
+    }, {
+        "cause": "Field Execution",
+        "quantity": 9
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 954
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 21
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 0
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 0
+    }, {
+        "cause": "Explosion",
+        "quantity": 90
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 2
+    }, {
+        "cause": "Unknown",
+        "quantity": 24
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2016-10": [{
+        "cause": "Shelling",
+        "quantity": 207
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 18
+    }, {
+        "cause": "Shooting",
+        "quantity": 454
+    }, {
+        "cause": "Field Execution",
+        "quantity": 1
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 570
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 23
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 0
+    }, {
+        "cause": "Explosion",
+        "quantity": 126
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 13
+    }, {
+        "cause": "Siege",
+        "quantity": 3
+    }],
+    "2016-11": [{
+        "cause": "Shelling",
+        "quantity": 285
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 35
+    }, {
+        "cause": "Shooting",
+        "quantity": 401
+    }, {
+        "cause": "Field Execution",
+        "quantity": 1
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 739
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 17
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 3
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 4
+    }, {
+        "cause": "Other",
+        "quantity": 0
+    }, {
+        "cause": "Explosion",
+        "quantity": 74
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 5
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 1
+    }, {
+        "cause": "Unknown",
+        "quantity": 14
+    }, {
+        "cause": "Siege",
+        "quantity": 2
+    }],
+    "2016-12": [{
+        "cause": "Shelling",
+        "quantity": 200
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 14
+    }, {
+        "cause": "Shooting",
+        "quantity": 208
+    }, {
+        "cause": "Field Execution",
+        "quantity": 94
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 408
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 4
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 3
+    }, {
+        "cause": "Explosion",
+        "quantity": 44
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 36
+    }, {
+        "cause": "Unknown",
+        "quantity": 4
+    }, {
+        "cause": "Siege",
+        "quantity": 2
+    }],
+    "2017-01": [{
+        "cause": "Shelling",
+        "quantity": 191
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 8
+    }, {
+        "cause": "Shooting",
+        "quantity": 204
+    }, {
+        "cause": "Field Execution",
+        "quantity": 18
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 267
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 6
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 4
+    }, {
+        "cause": "Explosion",
+        "quantity": 52
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 9
+    }, {
+        "cause": "Siege",
+        "quantity": 1
+    }],
+    "2017-02": [{
+        "cause": "Shelling",
+        "quantity": 212
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 18
+    }, {
+        "cause": "Shooting",
+        "quantity": 433
+    }, {
+        "cause": "Field Execution",
+        "quantity": 52
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 351
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 96
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 15
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 3
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 4
+    }, {
+        "cause": "Explosion",
+        "quantity": 235
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 4
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 1
+    }, {
+        "cause": "Unknown",
+        "quantity": 16
+    }, {
+        "cause": "Siege",
+        "quantity": 3
+    }],
+    "2017-03": [{
+        "cause": "Shelling",
+        "quantity": 99
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 12
+    }, {
+        "cause": "Shooting",
+        "quantity": 321
+    }, {
+        "cause": "Field Execution",
+        "quantity": 30
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 518
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 15
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 0
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Other",
+        "quantity": 6
+    }, {
+        "cause": "Explosion",
+        "quantity": 153
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 3
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 7
+    }, {
+        "cause": "Siege",
+        "quantity": 3
+    }],
+    "2017-04": [{
+        "cause": "Shelling",
+        "quantity": 111
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 10
+    }, {
+        "cause": "Shooting",
+        "quantity": 417
+    }, {
+        "cause": "Field Execution",
+        "quantity": 16
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 480
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 8
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 0
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 8
+    }, {
+        "cause": "Explosion",
+        "quantity": 85
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 89
+    }, {
+        "cause": "Unknown",
+        "quantity": 21
+    }, {
+        "cause": "Siege",
+        "quantity": 1
+    }],
+    "2017-05": [{
+        "cause": "Shelling",
+        "quantity": 121
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 14
+    }, {
+        "cause": "Shooting",
+        "quantity": 295
+    }, {
+        "cause": "Field Execution",
+        "quantity": 27
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 292
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 10
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 2
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 8
+    }, {
+        "cause": "Explosion",
+        "quantity": 96
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 3
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 23
+    }, {
+        "cause": "Siege",
+        "quantity": 1
+    }],
+    "2017-06": [{
+        "cause": "Shelling",
+        "quantity": 120
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 14
+    }, {
+        "cause": "Shooting",
+        "quantity": 316
+    }, {
+        "cause": "Field Execution",
+        "quantity": 15
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 309
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 4
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 3
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 5
+    }, {
+        "cause": "Explosion",
+        "quantity": 103
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 7
+    }, {
+        "cause": "Siege",
+        "quantity": 0
+    }],
+    "2017-07": [{
+        "cause": "Shelling",
+        "quantity": 120
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 14
+    }, {
+        "cause": "Shooting",
+        "quantity": 199
+    }, {
+        "cause": "Field Execution",
+        "quantity": 9
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 466
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 6
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 0
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 5
+    }, {
+        "cause": "Explosion",
+        "quantity": 117
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 17
+    }, {
+        "cause": "Siege",
+        "quantity": 2
+    }],
+    "2017-08": [{
+        "cause": "Shelling",
+        "quantity": 122
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 16
+    }, {
+        "cause": "Shooting",
+        "quantity": 156
+    }, {
+        "cause": "Field Execution",
+        "quantity": 8
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 313
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 8
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 8
+    }, {
+        "cause": "Explosion",
+        "quantity": 108
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 4
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 1
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 4
+    }, {
+        "cause": "Siege",
+        "quantity": 3
+    }],
+    "2017-09": [{
+        "cause": "Shelling",
+        "quantity": 115
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 16
+    }, {
+        "cause": "Shooting",
+        "quantity": 171
+    }, {
+        "cause": "Field Execution",
+        "quantity": 38
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 585
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 7
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 18
+    }, {
+        "cause": "Explosion",
+        "quantity": 45
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 2
+    }, {
+        "cause": "Siege",
+        "quantity": 4
+    }],
+    "2017-10": [{
+        "cause": "Shelling",
+        "quantity": 131
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 14
+    }, {
+        "cause": "Shooting",
+        "quantity": 141
+    }, {
+        "cause": "Field Execution",
+        "quantity": 94
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 460
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 10
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 1
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 4
+    }, {
+        "cause": "Explosion",
+        "quantity": 41
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 1
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 4
+    }, {
+        "cause": "Siege",
+        "quantity": 5
+    }],
+    "2017-11": [{
+        "cause": "Shelling",
+        "quantity": 139
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 7
+    }, {
+        "cause": "Shooting",
+        "quantity": 176
+    }, {
+        "cause": "Field Execution",
+        "quantity": 0
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 350
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 2
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 5
+    }, {
+        "cause": "Explosion",
+        "quantity": 121
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 4
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 8
+    }, {
+        "cause": "Siege",
+        "quantity": 18
+    }],
+    "2017-12": [{
+        "cause": "Shelling",
+        "quantity": 93
+    }, {
+        "cause": "Detention - Torture",
+        "quantity": 5
+    }, {
+        "cause": "Shooting",
+        "quantity": 148
+    }, {
+        "cause": "Field Execution",
+        "quantity": 9
+    }, {
+        "cause": "Warplane shelling",
+        "quantity": 306
+    }, {
+        "cause": "Detention - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Kidnapping - Execution",
+        "quantity": 13
+    }, {
+        "cause": "Kidnapping - Torture",
+        "quantity": 0
+    }, {
+        "cause": "Detention - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Other",
+        "quantity": 1
+    }, {
+        "cause": "Explosion",
+        "quantity": 140
+    }, {
+        "cause": "Un-allowed to seek Medical help",
+        "quantity": 2
+    }, {
+        "cause": "Kidnapping - Torture - Execution",
+        "quantity": 0
+    }, {
+        "cause": "Chemical and toxic gases",
+        "quantity": 0
+    }, {
+        "cause": "Unknown",
+        "quantity": 4
+    }, {
+        "cause": "Siege",
+        "quantity": 10
+    }]
+}
