@@ -4,4 +4,5 @@ window.onload = function () {
     europeMapInit();
     lineChartInit();
     barChartInit();
+    sankeyInit();
 };
