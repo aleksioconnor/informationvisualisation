@@ -88,6 +88,8 @@ function initSlider() {
         if (newDate !== currentDate) {
             currentDate = newDate;
             rerenderMap()
+            // drawScale()
+            drawLineChart()
         }
 
         label.attr("x", x(h)).text(formatDate(h));

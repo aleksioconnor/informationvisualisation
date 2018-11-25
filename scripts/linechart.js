@@ -1,3 +1,5 @@
+var lineChart = null
+
 // Initialize line chart
 function lineChartInit() {
     // hacky fix
@@ -15,8 +17,8 @@ function lineChartInit() {
             bottom: 30,
             left: 30
         },
-        width = (windowWidth/2) - margin.left - margin.right,
-        height = (windowHeight/2)- margin.top - margin.bottom;
+        width = (windowWidth / 2) - margin.left - margin.right,
+        height = (windowHeight / 2) - margin.top - margin.bottom;
 
     // parse the date / time
     var parseTime = d3.timeParse("%Y-%m");
@@ -25,109 +27,91 @@ function lineChartInit() {
     var x = d3.scaleTime().range([0, width]);
     var y = d3.scaleLinear().range([height, 0]);
 
-    var valuelines = {
-        "sugar": d3.line().x(function (d) {
-                return x(d.date);
+    var valueLines = {
+        "Sugar (kg, SYP)": d3.line().x(function (d) {
+                return x(parseTime(d.date));
             })
             .y(function (d) {
                 return y(d["Sugar (kg, SYP)"])
             }),
-        "bread": d3.line()
-            .x(function (d) {
-                return x(d.date);
-            })
-            .y(function (d) {
-                return y(d["Bread (SYP)"]);
-            }),
-        "fuel": d3.line()
-            .x(function (d) {
-                return x(d.date);
-            })
-            .y(function (d) {
-                return y(d["Fuel (diesel, liter, SYP)"]);
-            }),
-        "rice": d3.line()
-            .x(function (d) {
-                return x(d.date);
-            })
-            .y(function (d) {
-                return y(d["Rice (kg, SYP)"]);
-            }),
-        "tea": d3.line()
-            .x(function (d) {
-                return x(d.date);
-            })
-            .y(function (d) {
-                return y(d["Tea (kg, SYP)"]);
-            })
     }
 
-    // append the svg obgect to the body of the page
-    // appends a 'group' element to 'svg'
-    // moves the 'group' element to the top left margin
-
-    var svg = d3.select("#linechart").append("svg")
+    lineChart = d3
+        .select("#linechart")
+        .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
         .append("g")
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
-    focus = svg.append("g") // define focus boy
+    focus = lineChart.append("g") // define focus boy
         .style("display", "none");
 
-    // Load the data
-    d3.json("data/foodPrices.json").then(function (data) {
-        data.foodPrices.forEach(function (d) {
-            d.date = parseTime(d.date);
-            d["Sugar (kg, SYP)"] = +d["Sugar (kg, SYP)"];
-            d["Bread (SYP)"] = +d["Bread (SYP)"];
-            d["Fuel (diesel, liter, SYP)"] = +d["Fuel (diesel, liter, SYP)"];
-            d["Rice (kg, SYP)"] = +d["Rice (kg, SYP)"];
-            d["Tea (kg, SYP)"] = +d["Tea (kg, SYP)"];
-        });
-        x.domain(d3.extent(data.foodPrices, function (d) {
-            return d.date;
-        }));
-        y.domain([0, d3.max(data.foodPrices, function (d) {
-            return Math.max(d["Sugar (kg, SYP)"]);
-        })])
 
-        var previouslySelected = "sugar";
+    drawLineChart = function () {
 
-        svg.append("path")
-            .data([data.foodPrices])
-            .attr("class", "line")
-            .attr("id", "sugar")
-            .attr("d", valuelines.sugar);
+        // Load the data
+        d3.json("data/foodPrices2.json").then(function (data) {
 
-        svg.append("g")
-            .attr("transform", "translate(0," + height + ")")
-            .call(d3.axisBottom(x));
+            const foodPricesBig = Object.values(data)
+            const currentDateIndex = foodPricesBig.findIndex(item => item.date === currentDate)
+            const foodPrices = foodPricesBig.slice(0, currentDateIndex)
 
-        var yAxis = svg.append("g")
-            .attr("id", "yaxis")
-            .call(d3.axisLeft(y));
+            x.domain(d3.extent(Object.keys(data), function (d) {
+                return parseTime(d);
+            }));
+            y.domain([0, 500])
 
-        var dropdown = d3.select("#line-chart-dropdown")
-            .attr("class", "test")
-            .on("change", function (d) {
-                var selected = d3.select("#line-chart-dropdown").node().value;
-                d3.select("path#" + previouslySelected).remove();
+            var previouslySelected = "Sugar (kg, SYP)";
 
-                previouslySelected = selected;
-                y.domain([0, d3.max(data.foodPrices, function (d) {
-                    return Math.max(d[mapping[selected]]);
-                })])
-                d3.select("#yaxis")
-                    .call(d3.axisLeft(y));
-
-                svg.append("path")
-                    .data([data.foodPrices])
+            if (currentDate !== "2013-01") {
+                lineChart
+                    .selectAll("path")
+                    .data([foodPrices])
                     .attr("class", "line")
-                    .attr("id", selected)
-                    .attr("d", valuelines[selected]);
-            });
+                    .attr("d", valueLines["Sugar (kg, SYP)"]);
 
-    });
+            } else {
+                lineChart
+                    .append("path")
+                    .data([foodPrices])
+                    .attr("class", "line")
+                    // .attr("id", "sugar")
+                    .attr("d", valueLines["Sugar (kg, SYP)"]);
+
+                lineChart.append("g")
+                    .attr("transform", "translate(0," + height + ")")
+                    .call(d3.axisBottom(x));
+
+                var yAxis = lineChart.append("g")
+                    .attr("id", "yaxis")
+                    .call(d3.axisLeft(y));
+            }
+
+
+
+            // var dropdown = d3.select("#line-chart-dropdown")
+            //     .attr("class", "test")
+            //     .on("change", function (d) {
+            //         var selected = d3.select("#line-chart-dropdown").node().value;
+            //         d3.select("path#" + previouslySelected).remove();
+
+            //         previouslySelected = selected;
+            //         y.domain([0, d3.max(data.foodPrices, function (d) {
+            //             return Math.max(d[mapping[selected]]);
+            //         })])
+            //         d3.select("#yaxis")
+            //             .call(d3.axisLeft(y));
+
+            //         lineChart.append("path")
+            //             .data([data.foodPrices])
+            //             .attr("class", "line")
+            //             .attr("id", selected)
+            //             .attr("d", valueLines[selected]);
+            //     });
+
+        });
+    }
+    drawLineChart()
 }

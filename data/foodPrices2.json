@@ -1,0 +1,542 @@
+{
+    "2013-01": {
+        "USD to SYP": 69.85096,
+        "Sugar (kg, SYP)": 71.75,
+        "Rice (kg, SYP)": 73.75,
+        "Tea (kg, SYP)": 535,
+        "Bread (SYP)": 137.5,
+        "Fuel (diesel, liter, SYP)": 88.75,
+        "date": "2013-01"
+    },
+    "2013-02": {
+        "USD to SYP": 70.00607,
+        "Sugar (kg, SYP)": 73.75,
+        "Rice (kg, SYP)": 75,
+        "Tea (kg, SYP)": 538.75,
+        "Bread (SYP)": 150,
+        "Fuel (diesel, liter, SYP)": 88.75,
+        "date": "2013-02"
+    },
+    "2013-03": {
+        "USD to SYP": 69.69989,
+        "Sugar (kg, SYP)": 71.5,
+        "Rice (kg, SYP)": 72.5,
+        "Tea (kg, SYP)": 502.5,
+        "Bread (SYP)": 125,
+        "Fuel (diesel, liter, SYP)": 88.75,
+        "date": "2013-03"
+    },
+    "2013-04": {
+        "USD to SYP": 69.2429,
+        "Sugar (kg, SYP)": 73.75,
+        "Rice (kg, SYP)": 75,
+        "Tea (kg, SYP)": 521.25,
+        "Bread (SYP)": 125,
+        "Fuel (diesel, liter, SYP)": 88.75,
+        "date": "2013-04"
+    },
+    "2013-05": {
+        "USD to SYP": 82.78289,
+        "Sugar (kg, SYP)": 87.75,
+        "Rice (kg, SYP)": 111.25,
+        "Tea (kg, SYP)": 760,
+        "Bread (SYP)": 125,
+        "Fuel (diesel, liter, SYP)": 88.75,
+        "date": "2013-05"
+    },
+    "2013-06": {
+        "USD to SYP": 98.24748,
+        "Sugar (kg, SYP)": 90,
+        "Rice (kg, SYP)": 130.75,
+        "Tea (kg, SYP)": 875,
+        "Bread (SYP)": 125,
+        "Fuel (diesel, liter, SYP)": 105,
+        "date": "2013-06"
+    },
+    "2013-07": {
+        "USD to SYP": 103.29648,
+        "Sugar (kg, SYP)": 117.6,
+        "Rice (kg, SYP)": 192.8,
+        "Tea (kg, SYP)": 1380,
+        "Bread (SYP)": 225,
+        "Fuel (diesel, liter, SYP)": 224,
+        "date": "2013-07"
+    },
+    "2013-08": {
+        "USD to SYP": 107.7909,
+        "Sugar (kg, SYP)": 147.5,
+        "Rice (kg, SYP)": 227.5,
+        "Tea (kg, SYP)": 1200,
+        "Bread (SYP)": 175,
+        "Fuel (diesel, liter, SYP)": 162.5,
+        "date": "2013-08"
+    },
+    "2013-09": {
+        "USD to SYP": 129.10467,
+        "Sugar (kg, SYP)": 177,
+        "Rice (kg, SYP)": 257,
+        "Tea (kg, SYP)": 1300,
+        "Bread (SYP)": 195,
+        "Fuel (diesel, liter, SYP)": 240,
+        "date": "2013-09"
+    },
+    "2013-10": {
+        "USD to SYP": 136.61826,
+        "Sugar (kg, SYP)": 147.5,
+        "Rice (kg, SYP)": 227.5,
+        "Tea (kg, SYP)": 1200,
+        "Bread (SYP)": 175,
+        "Fuel (diesel, liter, SYP)": 162.5,
+        "date": "2013-10"
+    },
+    "2013-11": {
+        "USD to SYP": 138.84017,
+        "Sugar (kg, SYP)": 116,
+        "Rice (kg, SYP)": 140,
+        "Tea (kg, SYP)": 1050,
+        "Bread (SYP)": 62.5,
+        "Fuel (diesel, liter, SYP)": 100,
+        "date": "2013-11"
+    },
+    "2013-12": {
+        "USD to SYP": 140.30097,
+        "Sugar (kg, SYP)": 98.8,
+        "Rice (kg, SYP)": 129.6,
+        "Tea (kg, SYP)": 880,
+        "Bread (SYP)": 85,
+        "Fuel (diesel, liter, SYP)": 118,
+        "date": "2013-12"
+    },
+    "2014-01": {
+        "USD to SYP": 139.88129,
+        "Sugar (kg, SYP)": 87.6,
+        "Rice (kg, SYP)": 142.4,
+        "Tea (kg, SYP)": 880,
+        "Bread (SYP)": 100,
+        "Fuel (diesel, liter, SYP)": 140,
+        "date": "2014-01"
+    },
+    "2014-02": {
+        "USD to SYP": 142.4525,
+        "Sugar (kg, SYP)": 91.25,
+        "Rice (kg, SYP)": 157.5,
+        "Tea (kg, SYP)": 900,
+        "Bread (SYP)": 75,
+        "Fuel (diesel, liter, SYP)": 85,
+        "date": "2014-02"
+    },
+    "2014-03": {
+        "USD to SYP": 142.33161,
+        "Sugar (kg, SYP)": 97,
+        "Rice (kg, SYP)": 155,
+        "Tea (kg, SYP)": 875,
+        "Bread (SYP)": 50,
+        "Fuel (diesel, liter, SYP)": 72.75,
+        "date": "2014-03"
+    },
+    "2014-04": {
+        "USD to SYP": 145.93667,
+        "Sugar (kg, SYP)": 95,
+        "Rice (kg, SYP)": 173,
+        "Tea (kg, SYP)": 1087.5,
+        "Bread (SYP)": 56.25,
+        "Fuel (diesel, liter, SYP)": 80,
+        "date": "2014-04"
+    },
+    "2014-05": {
+        "USD to SYP": 148.56613,
+        "Sugar (kg, SYP)": 89.8,
+        "Rice (kg, SYP)": 166,
+        "Tea (kg, SYP)": 950,
+        "Bread (SYP)": 50,
+        "Fuel (diesel, liter, SYP)": 83,
+        "date": "2014-05"
+    },
+    "2014-06": {
+        "USD to SYP": 149.06333,
+        "Sugar (kg, SYP)": 90.5,
+        "Rice (kg, SYP)": 153,
+        "Tea (kg, SYP)": 875,
+        "Bread (SYP)": 50,
+        "Fuel (diesel, liter, SYP)": 73.75,
+        "date": "2014-06"
+    },
+    "2014-07": {
+        "USD to SYP": 149.49839,
+        "Sugar (kg, SYP)": 90.5,
+        "Rice (kg, SYP)": 153,
+        "Tea (kg, SYP)": 875,
+        "Bread (SYP)": 50,
+        "Fuel (diesel, liter, SYP)": 73.75,
+        "date": "2014-07"
+    },
+    "2014-08": {
+        "USD to SYP": 150.86871,
+        "Sugar (kg, SYP)": 92.75,
+        "Rice (kg, SYP)": 173.75,
+        "Tea (kg, SYP)": 900,
+        "Bread (SYP)": 75,
+        "Fuel (diesel, liter, SYP)": 125,
+        "date": "2014-08"
+    },
+    "2014-09": {
+        "USD to SYP": 155.98333,
+        "Sugar (kg, SYP)": 92.75,
+        "Rice (kg, SYP)": 173.75,
+        "Tea (kg, SYP)": 900,
+        "Bread (SYP)": 75,
+        "Fuel (diesel, liter, SYP)": 125,
+        "date": "2014-09"
+    },
+    "2014-10": {
+        "USD to SYP": 155.98333,
+        "Sugar (kg, SYP)": 92.75,
+        "Rice (kg, SYP)": 173.75,
+        "Tea (kg, SYP)": 900,
+        "Bread (SYP)": 75,
+        "Fuel (diesel, liter, SYP)": 125,
+        "date": "2014-10"
+    },
+    "2014-11": {
+        "USD to SYP": 155.98333,
+        "Sugar (kg, SYP)": 92.75,
+        "Rice (kg, SYP)": 173.75,
+        "Tea (kg, SYP)": 900,
+        "Bread (SYP)": 75,
+        "Fuel (diesel, liter, SYP)": 125,
+        "date": "2014-11"
+    },
+    "2014-12": {
+        "USD to SYP": 175.57742,
+        "Sugar (kg, SYP)": 97,
+        "Rice (kg, SYP)": 192,
+        "Tea (kg, SYP)": 1090,
+        "Bread (SYP)": 125,
+        "Fuel (diesel, liter, SYP)": 237,
+        "date": "2014-12"
+    },
+    "2015-01": {
+        "USD to SYP": 181.18226,
+        "Sugar (kg, SYP)": 92,
+        "Rice (kg, SYP)": 190,
+        "Tea (kg, SYP)": 1163,
+        "Bread (SYP)": 125,
+        "Fuel (diesel, liter, SYP)": 365,
+        "date": "2015-01"
+    },
+    "2015-02": {
+        "USD to SYP": 200.34107,
+        "Sugar (kg, SYP)": 97,
+        "Rice (kg, SYP)": 205,
+        "Tea (kg, SYP)": 1250,
+        "Bread (SYP)": 125,
+        "Fuel (diesel, liter, SYP)": 226,
+        "date": "2015-02"
+    },
+    "2015-03": {
+        "USD to SYP": 208.35484,
+        "Sugar (kg, SYP)": 100,
+        "Rice (kg, SYP)": 220,
+        "Tea (kg, SYP)": 1256,
+        "Bread (SYP)": 140,
+        "Fuel (diesel, liter, SYP)": 199,
+        "date": "2015-03"
+    },
+    "2015-04": {
+        "USD to SYP": 212.47333,
+        "Sugar (kg, SYP)": 131,
+        "Rice (kg, SYP)": 235,
+        "Tea (kg, SYP)": 1662.5,
+        "Bread (SYP)": 140,
+        "Fuel (diesel, liter, SYP)": 177.5,
+        "date": "2015-04"
+    },
+    "2015-05": {
+        "USD to SYP": 217.56129,
+        "Sugar (kg, SYP)": 142.2,
+        "Rice (kg, SYP)": 249.2,
+        "Tea (kg, SYP)": 1520,
+        "Bread (SYP)": 143,
+        "Fuel (diesel, liter, SYP)": 155,
+        "date": "2015-05"
+    },
+    "2015-06": {
+        "USD to SYP": 217.04,
+        "Sugar (kg, SYP)": 153.25,
+        "Rice (kg, SYP)": 271.25,
+        "Tea (kg, SYP)": 1550,
+        "Bread (SYP)": 145,
+        "Fuel (diesel, liter, SYP)": 152.5,
+        "date": "2015-06"
+    },
+    "2015-07": {
+        "USD to SYP": 218.06452,
+        "Sugar (kg, SYP)": 158.25,
+        "Rice (kg, SYP)": 291.25,
+        "Tea (kg, SYP)": 1500,
+        "Bread (SYP)": 136.25,
+        "Fuel (diesel, liter, SYP)": 187.5,
+        "date": "2015-07"
+    },
+    "2015-08": {
+        "USD to SYP": 219.45484,
+        "Sugar (kg, SYP)": 163.75,
+        "Rice (kg, SYP)": 298.75,
+        "Tea (kg, SYP)": 1500,
+        "Bread (SYP)": 135,
+        "Fuel (diesel, liter, SYP)": 241.25,
+        "date": "2015-08"
+    },
+    "2015-09": {
+        "USD to SYP": 220.09667,
+        "Sugar (kg, SYP)": 174,
+        "Rice (kg, SYP)": 292.5,
+        "Tea (kg, SYP)": 1587.5,
+        "Bread (SYP)": 150,
+        "Fuel (diesel, liter, SYP)": 235,
+        "date": "2015-09"
+    },
+    "2015-10": {
+        "USD to SYP": 220.38548,
+        "Sugar (kg, SYP)": 234,
+        "Rice (kg, SYP)": 308,
+        "Tea (kg, SYP)": 1688,
+        "Bread (SYP)": 150,
+        "Fuel (diesel, liter, SYP)": 253,
+        "date": "2015-10"
+    },
+    "2015-11": {
+        "USD to SYP": 220.68033,
+        "Sugar (kg, SYP)": 242,
+        "Rice (kg, SYP)": 315,
+        "Tea (kg, SYP)": 1738,
+        "Bread (SYP)": 150,
+        "Fuel (diesel, liter, SYP)": 234,
+        "date": "2015-11"
+    },
+    "2015-12": {
+        "USD to SYP": 220.16129,
+        "Sugar (kg, SYP)": 218,
+        "Rice (kg, SYP)": 305,
+        "Tea (kg, SYP)": 1800,
+        "Bread (SYP)": 153,
+        "Fuel (diesel, liter, SYP)": 221,
+        "date": "2015-12"
+    },
+    "2016-01": {
+        "USD to SYP": 219.69226,
+        "Sugar (kg, SYP)": 203.3333,
+        "Rice (kg, SYP)": 266.6667,
+        "Tea (kg, SYP)": 1700,
+        "Bread (SYP)": 100,
+        "Fuel (diesel, liter, SYP)": 250,
+        "date": "2016-01"
+    },
+    "2016-02": {
+        "USD to SYP": 219.66483,
+        "Sugar (kg, SYP)": 200,
+        "Rice (kg, SYP)": 235,
+        "Tea (kg, SYP)": 1700,
+        "Bread (SYP)": 100,
+        "Fuel (diesel, liter, SYP)": 225,
+        "date": "2016-02"
+    },
+    "2016-03": {
+        "USD to SYP": 219.36613,
+        "Sugar (kg, SYP)": 350,
+        "Rice (kg, SYP)": 382.5,
+        "Tea (kg, SYP)": 2550,
+        "Bread (SYP)": 100,
+        "Fuel (diesel, liter, SYP)": 170,
+        "date": "2016-03"
+    },
+    "2016-04": {
+        "USD to SYP": 218.77933,
+        "Sugar (kg, SYP)": 250,
+        "Rice (kg, SYP)": 355,
+        "Tea (kg, SYP)": 1900,
+        "Bread (SYP)": 100,
+        "Fuel (diesel, liter, SYP)": 250,
+        "date": "2016-04"
+    },
+    "2016-05": {
+        "USD to SYP": 218.39677,
+        "Sugar (kg, SYP)": 375,
+        "Rice (kg, SYP)": 462,
+        "Tea (kg, SYP)": 2500,
+        "Bread (SYP)": 100,
+        "Fuel (diesel, liter, SYP)": 250,
+        "date": "2016-05"
+    },
+    "2016-06": {
+        "USD to SYP": 217.195,
+        "Sugar (kg, SYP)": 183,
+        "Rice (kg, SYP)": 500,
+        "Tea (kg, SYP)": 2800,
+        "Bread (SYP)": 100,
+        "Fuel (diesel, liter, SYP)": 275,
+        "date": "2016-06"
+    },
+    "2016-07": {
+        "USD to SYP": 215.95032,
+        "Sugar (kg, SYP)": 358,
+        "Rice (kg, SYP)": 513,
+        "Tea (kg, SYP)": 2800,
+        "Bread (SYP)": 100,
+        "Fuel (diesel, liter, SYP)": 300,
+        "date": "2016-07"
+    },
+    "2016-08": {
+        "USD to SYP": 214.88355,
+        "Sugar (kg, SYP)": 400,
+        "Rice (kg, SYP)": 400,
+        "Tea (kg, SYP)": 2850,
+        "Bread (SYP)": 105,
+        "Fuel (diesel, liter, SYP)": 300,
+        "date": "2016-08"
+    },
+    "2016-09": {
+        "USD to SYP": 214.64288,
+        "Sugar (kg, SYP)": 425,
+        "Rice (kg, SYP)": 400,
+        "Tea (kg, SYP)": 2500,
+        "Bread (SYP)": 200,
+        "Fuel (diesel, liter, SYP)": 300,
+        "date": "2016-09"
+    },
+    "2016-10": {
+        "USD to SYP": 214.56716,
+        "Sugar (kg, SYP)": 425,
+        "Rice (kg, SYP)": 400,
+        "Tea (kg, SYP)": 2750,
+        "Bread (SYP)": 200,
+        "Fuel (diesel, liter, SYP)": 185,
+        "date": "2016-10"
+    },
+    "2016-11": {
+        "USD to SYP": 214.83744,
+        "Sugar (kg, SYP)": 437.5,
+        "Rice (kg, SYP)": 525,
+        "Tea (kg, SYP)": 2950,
+        "Bread (SYP)": 275,
+        "Fuel (diesel, liter, SYP)": 185,
+        "date": "2016-11"
+    },
+    "2016-12": {
+        "USD to SYP": 214.38854,
+        "Sugar (kg, SYP)": 405,
+        "Rice (kg, SYP)": 500,
+        "Tea (kg, SYP)": 3000,
+        "Bread (SYP)": 275,
+        "Fuel (diesel, liter, SYP)": 185,
+        "date": "2016-12"
+    },
+    "2017-01": {
+        "USD to SYP": 214.85173,
+        "Sugar (kg, SYP)": 385,
+        "Rice (kg, SYP)": 500,
+        "Tea (kg, SYP)": 3225,
+        "Bread (SYP)": 275,
+        "Fuel (diesel, liter, SYP)": 185,
+        "date": "2017-01"
+    },
+    "2017-02": {
+        "USD to SYP": 214.17483,
+        "Sugar (kg, SYP)": 395,
+        "Rice (kg, SYP)": 500,
+        "Tea (kg, SYP)": 3200,
+        "Bread (SYP)": 283,
+        "Fuel (diesel, liter, SYP)": 325,
+        "date": "2017-02"
+    },
+    "2017-03": {
+        "USD to SYP": 214.55526,
+        "Sugar (kg, SYP)": 395,
+        "Rice (kg, SYP)": 500,
+        "Tea (kg, SYP)": 3450,
+        "Bread (SYP)": 290,
+        "Fuel (diesel, liter, SYP)": 363,
+        "date": "2017-03"
+    },
+    "2017-04": {
+        "USD to SYP": 214.70036,
+        "Sugar (kg, SYP)": 395,
+        "Rice (kg, SYP)": 500,
+        "Tea (kg, SYP)": 3625,
+        "Bread (SYP)": 290,
+        "Fuel (diesel, liter, SYP)": 375,
+        "date": "2017-04"
+    },
+    "2017-05": {
+        "USD to SYP": 214.93102,
+        "Sugar (kg, SYP)": 360,
+        "Rice (kg, SYP)": 500,
+        "Tea (kg, SYP)": 3750,
+        "Bread (SYP)": 290,
+        "Fuel (diesel, liter, SYP)": 350,
+        "date": "2017-05"
+    },
+    "2017-06": {
+        "USD to SYP": 214.33476,
+        "Sugar (kg, SYP)": 350,
+        "Rice (kg, SYP)": 490,
+        "Tea (kg, SYP)": 3750,
+        "Bread (SYP)": 295,
+        "Fuel (diesel, liter, SYP)": 325,
+        "date": "2017-06"
+    },
+    "2017-07": {
+        "USD to SYP": 214.31857,
+        "Sugar (kg, SYP)": 350,
+        "Rice (kg, SYP)": 475,
+        "Tea (kg, SYP)": 3700,
+        "Bread (SYP)": 300,
+        "Fuel (diesel, liter, SYP)": 325,
+        "date": "2017-07"
+    },
+    "2017-08": {
+        "USD to SYP": 214.71601,
+        "Sugar (kg, SYP)": 345,
+        "Rice (kg, SYP)": 460,
+        "Tea (kg, SYP)": 3500,
+        "Bread (SYP)": 300,
+        "Fuel (diesel, liter, SYP)": 325,
+        "date": "2017-08"
+    },
+    "2017-09": {
+        "USD to SYP": 214.8231,
+        "Sugar (kg, SYP)": 380,
+        "Rice (kg, SYP)": 480,
+        "Tea (kg, SYP)": 3600,
+        "Bread (SYP)": 300,
+        "Fuel (diesel, liter, SYP)": 325,
+        "date": "2017-09"
+    },
+    "2017-10": {
+        "USD to SYP": 214.46956,
+        "Sugar (kg, SYP)": 420,
+        "Rice (kg, SYP)": 515,
+        "Tea (kg, SYP)": 3800,
+        "Bread (SYP)": 300,
+        "Fuel (diesel, liter, SYP)": 325,
+        "date": "2017-10"
+    },
+    "2017-11": {
+        "USD to SYP": 214.01096,
+        "Sugar (kg, SYP)": 420,
+        "Rice (kg, SYP)": 525,
+        "Tea (kg, SYP)": 4000,
+        "Bread (SYP)": 300,
+        "Fuel (diesel, liter, SYP)": 325,
+        "date": "2017-11"
+    },
+    "2017-12": {
+        "USD to SYP": 214.65018,
+        "Sugar (kg, SYP)": 410,
+        "Rice (kg, SYP)": 525,
+        "Tea (kg, SYP)": 3900,
+        "Bread (SYP)": 300,
+        "Fuel (diesel, liter, SYP)": 338,
+        "date": "2017-12"
+    }
+}
