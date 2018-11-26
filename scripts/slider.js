@@ -7,15 +7,18 @@ function initSlider() {
     var startDate = new Date("2013-01-01"),
         endDate = new Date("2017-12-01");
 
-    var width = windowWidth - margin.left - margin.right,
-        height = 100 - margin.top - margin.bottom;
+
+        console.log('sliderHei', sliderHeight);
+
+    var width = windowWidth,
+        height = sliderHeight;
 
     var svg = d3
         .select("#slider")
         .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height)
-        .attr("style", "margin: 0 auto; display: block"); // could be included in stylesheet, centering slider
+        .attr("style", "margin: 0 auto; display: block; padding-top: 10"); // could be included in stylesheet, centering slider
 
     var x = d3
         .scaleTime()
@@ -61,7 +64,7 @@ function initSlider() {
         .enter()
         .append("text")
         .attr("x", x)
-        .attr("y", 10)
+        .attr("y", 5)
         .attr("text-anchor", "middle")
         .text(function (d) {
             return formatDateIntoYear(d);
@@ -72,7 +75,7 @@ function initSlider() {
         .attr("class", "label")
         .attr("text-anchor", "middle")
         .text(formatDate(startDate))
-        .attr("transform", "translate(0," + -25 + ")");
+        .attr("transform", "translate(0," + -20 + ")");
 
     var handle = slider
         .insert("circle", ".track-overlay")

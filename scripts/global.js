@@ -10,10 +10,11 @@ var margin = {
     left: 30
 };
 
-//calculate screen width
 
-var windowHeight = $(window).height();
-var windowWidth = $(window).width();
+//calculate screen width
+var sliderHeight = 70;
+var windowHeight = $(window).height() - sliderHeight - margin.top - margin.bottom;
+var windowWidth = $(window).width() - margin.left - margin.right;
 //----------------------------
 // Color generator
 //----------------------------
