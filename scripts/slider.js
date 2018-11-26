@@ -7,7 +7,7 @@ function initSlider() {
     var startDate = new Date("2013-01-01"),
         endDate = new Date("2017-12-01");
 
-    var width = 700 - margin.left - margin.right,
+    var width = windowWidth - margin.left - margin.right,
         height = 100 - margin.top - margin.bottom;
 
     var svg = d3

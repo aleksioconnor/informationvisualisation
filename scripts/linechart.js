@@ -12,9 +12,9 @@ function lineChartInit() {
     }
     // set the dimensions and margins of the graph
     var margin = {
-            top: 20,
+            top: 5,
             right: 20,
-            bottom: 30,
+            bottom: 20,
             left: 30
         },
         width = (windowWidth / 2) - margin.left - margin.right,

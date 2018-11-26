@@ -4,10 +4,10 @@
 var currentDate = "2013-01";
 
 var margin = {
-    top: 0,
-    right: 50,
+    top: 20,
+    right: 30,
     bottom: 0,
-    left: 50
+    left: 30
 };
 
 //calculate screen width
