@@ -9,9 +9,9 @@ function europeMapInit() {
 
     var projection = d3
         .geoMercator()
-        .center([13, 52])
+        .center([5, 51])
         .translate([w / 2, h / 2])
-        .scale([w / 0.8]);
+        .scale([w / 1.7]);
 
     var path = d3.geoPath().projection(projection);
 
@@ -88,17 +88,17 @@ function europeMapInit() {
         const x = d3
             .scaleLinear()
             .domain(d3.extent(color.domain()))
-            .rangeRound([600, 860]);
+            .rangeRound([600, 760]);
 
         const g = svg
             .append("g")
-            .attr("transform", "translate(" + (-w + 40) + "," + (h - 40) + ")");
+            .attr("transform", "translate(" + (-w + 20) + "," + (20) + ")");
 
         g.selectAll("rect")
             .data(color.range().map(d => color.invertExtent(d)))
             .enter()
             .append("rect")
-            .attr("height", 8)
+            .attr("height", 15)
             .attr("x", d => x(d[0]))
             .attr("width", d => x(d[1]) - x(d[0]))
             .attr("fill", d => color(d[0]));
