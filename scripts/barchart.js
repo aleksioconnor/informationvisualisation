@@ -52,9 +52,10 @@ function barChartInit() {
                 return d.province;
             }));
 
-            yScale.domain([0, d3.max(dataCurrentDate, function (d) {
-                return d.quantity;
-            })]);
+            // yScale.domain([0, d3.max(dataCurrentDate, function (d) {
+            //     return d.quantity;
+            // })]);
+            yScale.domain([0, 1700])
 
 
 
@@ -99,8 +100,8 @@ function barChartInit() {
                     // .enter()
                     // .append("rect")
                     .remove()
-                    // .exit()
-                    // .data(dataCurrentDate)
+                // .exit()
+                // .data(dataCurrentDate)
 
                 barChartSVG
                     .attr("class", "bar")
