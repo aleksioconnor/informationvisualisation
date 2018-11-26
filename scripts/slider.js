@@ -90,6 +90,7 @@ function initSlider() {
             rerenderMap()
             // drawScale()
             drawLineChart()
+            updateBarchart()
         }
 
         label.attr("x", x(h)).text(formatDate(h));

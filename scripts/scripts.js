@@ -1,8 +1,8 @@
 // Window onload
 window.onload = function () {
     initSlider();
-    europeMapInit();
-    lineChartInit();
+    // europeMapInit();
+    // lineChartInit();
     barChartInit();
     sankeyInit();
 };
