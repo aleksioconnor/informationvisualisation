@@ -85,7 +85,7 @@ function barChartInit() {
             // yScale.domain([0, d3.max(dataCurrentDate, function (d) {
             //     return d.quantity;
             // })]);
-            yScale.domain([0, max])
+            yScale.domain([0, 3500])
 
             if (currentDate === "2013-01") {
                 barChartSVG
@@ -123,6 +123,12 @@ function barChartInit() {
                     .append("text")
                     .attr("transform", "rotate(-90)")
                     .attr("y", 6).attr("dy", ".71em")
+
+                barChartSVG.selectAll("g.y.axis")
+                    .call(yAxis);
+
+                barChartSVG.selectAll("g.x.axis")
+                    .call(xAxis);
                     
             } else {
                 console.log(currentDate)
@@ -155,6 +161,12 @@ function barChartInit() {
                     .attr("height", function (d) {
                         return height - yScale(d.quantity);
                     })
+
+                    barChartSVG.selectAll("g.y.axis")
+                    .call(yAxis);
+
+                    barChartSVG.selectAll("g.x.axis")
+                    .call(xAxis);
 
                 console.log('1das', );
 

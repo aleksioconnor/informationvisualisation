@@ -61,8 +61,6 @@ body {
   display: none;
 }
 
-
-
 #slider {
   position: fixed;
   top: 0px;
@@ -103,6 +101,11 @@ body {
   shape-rendering: crispEdges;
 }
 
+h1 { 
+  font-size: 18pt;
+  font-family: calibri, arial, sans serif;
+}
+
 .node text {
   pointer-events: none;
   text-shadow: 0 1px 0 #fff;
@@ -117,3 +120,11 @@ body {
 .link:hover {
   stroke-opacity: .5;
 }
+
+/* .btn {
+	width: 10px;
+	font-family: calibri, sans serif;
+	padding: 10px;
+	border: solid 1px black;
+	color: white;
+} */
