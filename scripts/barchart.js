@@ -1,10 +1,10 @@
 function barChartInit() {
-    var margin = {
-        top: 0,
-        right: 0,
-        bottom: 20,
-        left: 34
-    };
+    // var margin = {
+    //     top: 0,
+    //     right: 0,
+    //     bottom: 20,
+    //     left: 34
+    // };
 
     var padding = 30;
 
