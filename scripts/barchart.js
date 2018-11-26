@@ -29,10 +29,11 @@ function barChartInit() {
         .axisLeft(yScale);
 
     var barChartSVG = d3
-        .select("body")
+        .select("#bar_chart")
         .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
+        .attr("style", "margin: 0 auto; display: block;  border: 3px solid black;")
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 

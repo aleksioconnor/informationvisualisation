@@ -372,8 +372,8 @@ function sankeyInit() {
         }]
     }
     // mock data
-    var width = (windowWidth / 2) - 70
-    var height = (windowHeight / 2) - 30
+    var width = (windowWidth / 2) 
+    var height = (windowHeight / 2) 
 
     function format(d) {
         const f = d3.format(",.0f");
