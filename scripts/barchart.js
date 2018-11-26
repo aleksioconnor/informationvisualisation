@@ -10,8 +10,8 @@ function barChartInit() {
         left: 34
     };
 
-    width = 960 - margin.left - margin.right,
-        height = 500 - margin.top - margin.bottom;
+    width = (windowWidth / 2) - margin.left - margin.right,
+        height = (windowHeight / 2) - margin.top - margin.bottom;
 
     var xScale = d3
         .scaleBand()
