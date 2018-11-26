@@ -5,7 +5,7 @@ var currentDate = "2013-01";
 
 var margin = {
     top: 20,
-    right: 10,
+    right: 30,
     bottom: 0,
     left: 30
 };
