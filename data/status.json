@@ -1,0 +1,422 @@
+{
+    "2013-01": [{
+        "status": "Civilian",
+        "quantity": 3073
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 1058
+    }],
+    "2013-02": [{
+        "status": "Civilian",
+        "quantity": 2766
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 1210
+    }],
+    "2013-03": [{
+        "status": "Civilian",
+        "quantity": 2782
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 1401
+    }],
+    "2013-04": [{
+        "status": "Civilian",
+        "quantity": 2384
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 1400
+    }],
+    "2013-05": [{
+        "status": "Civilian",
+        "quantity": 2017
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 1449
+    }],
+    "2013-06": [{
+        "status": "Civilian",
+        "quantity": 1824
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 1128
+    }],
+    "2013-07": [{
+        "status": "Civilian",
+        "quantity": 2118
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 1364
+    }],
+    "2013-08": [{
+        "status": "Civilian",
+        "quantity": 3121
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 1501
+    }],
+    "2013-09": [{
+        "status": "Civilian",
+        "quantity": 1481
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 1279
+    }],
+    "2013-10": [{
+        "status": "Civilian",
+        "quantity": 1684
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 994
+    }],
+    "2013-11": [{
+        "status": "Civilian",
+        "quantity": 1537
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 1000
+    }],
+    "2013-12": [{
+        "status": "Civilian",
+        "quantity": 2332
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 796
+    }],
+    "2014-01": [{
+        "status": "Civilian",
+        "quantity": 2015
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 1091
+    }],
+    "2014-02": [{
+        "status": "Civilian",
+        "quantity": 2243
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 869
+    }],
+    "2014-03": [{
+        "status": "Civilian",
+        "quantity": 1448
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 988
+    }],
+    "2014-04": [{
+        "status": "Civilian",
+        "quantity": 1634
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 1320
+    }],
+    "2014-05": [{
+        "status": "Civilian",
+        "quantity": 1599
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 927
+    }],
+    "2014-06": [{
+        "status": "Civilian",
+        "quantity": 1530
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 773
+    }],
+    "2014-07": [{
+        "status": "Civilian",
+        "quantity": 1178
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 720
+    }],
+    "2014-08": [{
+        "status": "Civilian",
+        "quantity": 1495
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 534
+    }],
+    "2014-09": [{
+        "status": "Civilian",
+        "quantity": 1377
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 689
+    }],
+    "2014-10": [{
+        "status": "Civilian",
+        "quantity": 1065
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 636
+    }],
+    "2014-11": [{
+        "status": "Civilian",
+        "quantity": 1085
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 449
+    }],
+    "2014-12": [{
+        "status": "Civilian",
+        "quantity": 1258
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 572
+    }],
+    "2015-01": [{
+        "status": "Civilian",
+        "quantity": 755
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 310
+    }],
+    "2015-02": [{
+        "status": "Civilian",
+        "quantity": 919
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 462
+    }],
+    "2015-03": [{
+        "status": "Civilian",
+        "quantity": 1434
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 464
+    }],
+    "2015-04": [{
+        "status": "Civilian",
+        "quantity": 1139
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 491
+    }],
+    "2015-05": [{
+        "status": "Civilian",
+        "quantity": 1299
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 500
+    }],
+    "2015-06": [{
+        "status": "Civilian",
+        "quantity": 1356
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 465
+    }],
+    "2015-07": [{
+        "status": "Civilian",
+        "quantity": 956
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 430
+    }],
+    "2015-08": [{
+        "status": "Civilian",
+        "quantity": 1255
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 540
+    }],
+    "2015-09": [{
+        "status": "Civilian",
+        "quantity": 533
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 302
+    }],
+    "2015-10": [{
+        "status": "Civilian",
+        "quantity": 1036
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 625
+    }],
+    "2015-11": [{
+        "status": "Civilian",
+        "quantity": 1032
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 656
+    }],
+    "2015-12": [{
+        "status": "Civilian",
+        "quantity": 1218
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 628
+    }],
+    "2016-01": [{
+        "status": "Civilian",
+        "quantity": 1086
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 502
+    }],
+    "2016-02": [{
+        "status": "Civilian",
+        "quantity": 817
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 630
+    }],
+    "2016-03": [{
+        "status": "Civilian",
+        "quantity": 442
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 382
+    }],
+    "2016-04": [{
+        "status": "Civilian",
+        "quantity": 697
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 627
+    }],
+    "2016-05": [{
+        "status": "Civilian",
+        "quantity": 674
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 510
+    }],
+    "2016-06": [{
+        "status": "Civilian",
+        "quantity": 1149
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 498
+    }],
+    "2016-07": [{
+        "status": "Civilian",
+        "quantity": 1600
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 470
+    }],
+    "2016-08": [{
+        "status": "Civilian",
+        "quantity": 1191
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 571
+    }],
+    "2016-09": [{
+        "status": "Civilian",
+        "quantity": 1254
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 446
+    }],
+    "2016-10": [{
+        "status": "Civilian",
+        "quantity": 928
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 489
+    }],
+    "2016-11": [{
+        "status": "Civilian",
+        "quantity": 1206
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 376
+    }],
+    "2016-12": [{
+        "status": "Civilian",
+        "quantity": 820
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 199
+    }],
+    "2017-01": [{
+        "status": "Civilian",
+        "quantity": 548
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 215
+    }],
+    "2017-02": [{
+        "status": "Civilian",
+        "quantity": 849
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 594
+    }],
+    "2017-03": [{
+        "status": "Civilian",
+        "quantity": 822
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 346
+    }],
+    "2017-04": [{
+        "status": "Civilian",
+        "quantity": 794
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 455
+    }],
+    "2017-05": [{
+        "status": "Civilian",
+        "quantity": 558
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 336
+    }],
+    "2017-06": [{
+        "status": "Civilian",
+        "quantity": 540
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 360
+    }],
+    "2017-07": [{
+        "status": "Civilian",
+        "quantity": 748
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 209
+    }],
+    "2017-08": [{
+        "status": "Civilian",
+        "quantity": 556
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 197
+    }],
+    "2017-09": [{
+        "status": "Civilian",
+        "quantity": 780
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 223
+    }],
+    "2017-10": [{
+        "status": "Civilian",
+        "quantity": 715
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 193
+    }],
+    "2017-11": [{
+        "status": "Civilian",
+        "quantity": 634
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 198
+    }],
+    "2017-12": [{
+        "status": "Civilian",
+        "quantity": 551
+    }, {
+        "status": "Non-Civilian",
+        "quantity": 180
+    }]
+}
