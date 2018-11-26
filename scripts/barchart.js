@@ -4,10 +4,10 @@
 
 function barChartInit() {
     var margin = {
-        top: 20,
-        right: 20,
-        bottom: 30,
-        left: 50
+        top: 0,
+        right: 0,
+        bottom: 20,
+        left: 34
     };
 
     width = 960 - margin.left - margin.right,

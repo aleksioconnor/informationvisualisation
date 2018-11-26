@@ -2,35 +2,46 @@
 
 <head>
     <title>Visualization on Syrian civil war</title>
+    <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="d3.v5.min.js" charset="utf-8"></script>
+    <script src="plugins/d3.v5.min.js" charset="utf-8"></script>
+    <script src="plugins/jquery.3.3.1.min.js" charset="utf-8"></script>
     <!-- <script src="//d3js.org/topojson.v1.min.js"></script> -->
     <script src="//d3js.org/topojson.v1.min.js"></script>
     <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+    <script src="plugins/d3-array.min.js"></script>
+    <script src="plugins/d3-collection.min.js"></script>
+    <script src="plugins/d3-path.min.js"></script>
+    <script src="plugins/d3-shape.min.js"></script>
+    <script src="plugins/d3-sankey.min.js"></script>
     <script src="scripts/global.js"></script>
     <script src="scripts/choropleth.js"></script>
     <script src="scripts/barchart.js"></script>
     <script src="scripts/slider.js"></script>
     <script src="scripts/linechart.js"></script>
+    <script src="scripts/sankey.js"></script>
     <script src="scripts/scripts.js"></script>
 
 </head>
 
 <body>
-    <div id='slider'></div>
-    <div id='vis'></div>
-    <div id='map'></div>
-    <div id='bar_chart'></div>
-    <select id="line-chart-dropdown">
-        <option value="sugar">Sugar</option>
-        <option value="bread">Bread</option>
-        <option value="fuel">Fuel</option>
-        <option value="rice">Rice</option>
-        <option value="tea">Tea</option>
-      </select>
-    <div id='linechart'></div>
-    <script>
-    </script>
+    <div class='flex-container'>
+        <div id='slider'></div>
+        <div id='map'></div>
+        <div id='bar_chart'></div>
+    </div>
+    <div class='flex-container'>
+        <select id="line-chart-dropdown">
+            <option value="sugar">Sugar</option>
+            <option value="bread">Bread</option>
+            <option value="fuel">Fuel</option>
+            <option value="rice">Rice</option>
+            <option value="tea">Tea</option>
+        </select>
+        <div id='sankey'></div>
+
+        <div id='linechart'></div>
+    </div>
 </body>
 
 </html>

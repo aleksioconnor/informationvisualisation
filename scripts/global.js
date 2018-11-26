@@ -10,6 +10,10 @@ var margin = {
     left: 50
 };
 
+//calculate screen width
+
+var windowHeight = $(window).height();
+var windowWidth = $(window).width();
 //----------------------------
 // Color generator
 //----------------------------

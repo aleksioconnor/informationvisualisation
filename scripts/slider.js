@@ -87,7 +87,9 @@ function initSlider() {
 
         if (newDate !== currentDate) {
             currentDate = newDate;
-            // rerenderMap()
+            rerenderMap()
+            // drawScale()
+            drawLineChart()
             updateBarchart()
         }
 

@@ -51,15 +51,49 @@ body {
   stroke-width: 0px;
 }
 
-.map {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 20px;
-  padding: 20px;
-  background-color: white;
-  box-shadow: 1px 1px 1px 2px rgb(217, 217, 217);
- 
+/* map container */
+#map {}
+
+#line-chart-dropdown {
+  display: none;
 }
 
 
+
+#slider {
+  position: fixed;
+  bottom: 0px;
+  background-color: white;
+  opacity: 0.2;
+  transition: all 0.6s;
+}
+
+#slider:hover {
+  opacity: 0.9;
+}
+
+.flex-container {
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+
+.node rect {
+  cursor: move;
+  fill-opacity: .9;
+  shape-rendering: crispEdges;
+}
+ 
+.node text {
+  pointer-events: none;
+  text-shadow: 0 1px 0 #fff;
+}
+ 
+.link {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: .2;
+}
+ 
+.link:hover {
+  stroke-opacity: .5;
+}

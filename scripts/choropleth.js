@@ -10,8 +10,8 @@ function europeMapInit() {
         left: 50
     };
 
-    var w = 700 - margin.left - margin.right;
-    var h = 600 - margin.top - margin.bottom;
+    var w = (windowWidth / 2) - margin.left - margin.right;
+    var h = (windowHeight / 2) - margin.top - margin.bottom;
 
     var projection = d3
         .geoMercator()
@@ -78,49 +78,60 @@ function europeMapInit() {
 
     rerenderMap()
 
+    var aspect = w / h,
+        chart = d3.select('#map');
+    d3.select(window)
+        .on("resize", function () {
+            var targetWidth = chart.node().getBoundingClientRect().width;
+            chart.attr("width", targetWidth);
+            chart.attr("height", targetWidth / aspect);
+        });
     //----------------------------
     // Draw scale
     //----------------------------
 
-    const x = d3
-        .scaleLinear()
-        .domain(d3.extent(color.domain()))
-        .rangeRound([600, 860]);
+    drawScale = function () {
+        const x = d3
+            .scaleLinear()
+            .domain(d3.extent(color.domain()))
+            .rangeRound([600, 860]);
 
-    const g = svg
-        .append("g")
-        .attr("transform", "translate(" + (-w + 40) + "," + (h - 40) + ")");
+        const g = svg
+            .append("g")
+            .attr("transform", "translate(" + (-w + 40) + "," + (h - 40) + ")");
 
-    g.selectAll("rect")
-        .data(color.range().map(d => color.invertExtent(d)))
-        .enter()
-        .append("rect")
-        .attr("height", 8)
-        .attr("x", d => x(d[0]))
-        .attr("width", d => x(d[1]) - x(d[0]))
-        .attr("fill", d => color(d[0]));
+        g.selectAll("rect")
+            .data(color.range().map(d => color.invertExtent(d)))
+            .enter()
+            .append("rect")
+            .attr("height", 8)
+            .attr("x", d => x(d[0]))
+            .attr("width", d => x(d[1]) - x(d[0]))
+            .attr("fill", d => color(d[0]));
 
-    g.append("text")
-        .attr("class", "caption")
-        .attr("x", x.range()[0])
-        .attr("y", -6)
-        .attr("fill", "#000")
-        .attr("text-anchor", "start")
-        .attr("font-weight", "bold")
-        .text("Refugees in europe");
+        g.append("text")
+            .attr("class", "caption")
+            .attr("x", x.range()[0])
+            .attr("y", -6)
+            .attr("fill", "#000")
+            .attr("text-anchor", "start")
+            .attr("font-weight", "bold")
+            .text("Refugees in europe");
 
-    g.call(
-            d3
-            .axisBottom(x)
-            .tickSize(13)
-            .tickFormat(d3.format(""))
-            .tickValues(
-                color
-                .range()
-                .slice(1)
-                .map(d => color.invertExtent(d)[0])
+        g.call(
+                d3
+                .axisBottom(x)
+                .tickSize(13)
+                .tickFormat(d3.format(""))
+                .tickValues(
+                    color
+                    .range()
+                    .slice(1)
+                    .map(d => color.invertExtent(d)[0])
+                )
             )
-        )
-        .select(".domain")
-        .remove();
+            .select(".domain")
+            .remove();
+    }
+    drawScale()
 }
