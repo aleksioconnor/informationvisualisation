@@ -11,7 +11,7 @@ function barChartInit() {
     };
 
     width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+        height = 500 - margin.top - margin.bottom;
 
     var xScale = d3
         .scaleBand()
@@ -40,11 +40,11 @@ function barChartInit() {
     // Draw barchart
     //----------------------------
 
-    updateBarchart = function(){
+    updateBarchart = function () {
         // for now the only type is province
         var barChartType = "province"
         d3.json(`data/${barChartType}.json`).then(function (data) {
-        
+
             var dataCurrentDate = data[currentDate]
             console.log(dataCurrentDate)
 
@@ -56,44 +56,94 @@ function barChartInit() {
                 return d.quantity;
             })]);
 
-            barChartSVG
-                .attr("class", "bar")
-                .selectAll(".bar")
-                .data(dataCurrentDate)
-                .enter()
-                .append("rect")
-                .attr("x", function (d) {
-                    // barChartType cannot be used here?
-                    return xScale(d.province);
-                })
-                .attr("width", xScale.bandwidth())
-                .attr("y", function (d) {
-                    return yScale(d.quantity);
-                })
-                .attr("height", function (d) {
-                    return height - yScale(d.quantity);
-                });
 
-            if (currentDate === "2013-01"){
-            console.log(currentDate)
-            barChartSVG.append("g")
-                .attr("class", "x axis")
-                .attr("transform", "translate(0," + (height) + ")")
-                .call(xAxis)
-                .selectAll("text");
-                
-            barChartSVG.append("g")
-                .attr("class", "y axis")
-                .call(yAxis)
-                .append("text")
-                .attr("transform", "rotate(-90)")
-                .attr("y", 6).attr("dy", ".71em")
+
+            if (currentDate === "2013-01") {
+                barChartSVG
+                    .attr("class", "bar")
+                    .selectAll(".bar")
+                    .data(dataCurrentDate)
+                    .enter()
+                    .append("rect")
+                    .attr("x", function (d) {
+                        // barChartType cannot be used here?
+                        return xScale(d.province);
+                    })
+                    .attr("width", xScale.bandwidth())
+                    .attr("y", function (d) {
+                        return yScale(d.quantity);
+                    })
+                    .attr("height", function (d) {
+                        return height - yScale(d.quantity);
+                    })
+
+                barChartSVG.append("g")
+                    .attr("class", "x axis")
+                    .attr("transform", "translate(0," + (height) + ")")
+                    .call(xAxis)
+                    .selectAll("text");
+
+                barChartSVG.append("g")
+                    .attr("class", "y axis")
+                    .call(yAxis)
+                    .append("text")
+                    .attr("transform", "rotate(-90)")
+                    .attr("y", 6).attr("dy", ".71em")
+            } else {
+                console.log(currentDate)
+
+                barChartSVG
+                    // .attr("class", "bar")
+                    .selectAll("rect")
+                    // .data(dataCurrentDate)
+                    // .enter()
+                    // .append("rect")
+                    .remove()
+                    // .exit()
+                    // .data(dataCurrentDate)
+
+                barChartSVG
+                    .attr("class", "bar")
+                    .selectAll(".bar")
+                    .data(dataCurrentDate)
+                    .enter()
+                    .append("rect")
+                    .attr("x", function (d) {
+                        // barChartType cannot be used here?
+                        return xScale(d.province);
+                    })
+                    .attr("width", xScale.bandwidth())
+                    .attr("y", function (d) {
+                        return yScale(d.quantity);
+                    })
+                    .attr("height", function (d) {
+                        return height - yScale(d.quantity);
+                    })
+
+                console.log('1das', );
+
+
+                // bars
+                //     .enter()
+                //     .append("rect")
+                //     .attr("x", function (d) {
+                //         // barChartType cannot be used here?
+                //         return xScale(d.province);
+                //     })
+                //     .attr("width", xScale.bandwidth())
+                //     .attr("y", function (d) {
+                //         return yScale(d.quantity);
+                //     })
+                //     .attr("height", function (d) {
+                //         return height - yScale(d.quantity);
+                //     });
+
             }
-        
+
         });
 
     }
 
     updateBarchart()
-   
+
 }
