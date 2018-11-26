@@ -4,8 +4,8 @@
 
 function europeMapInit() {
 
-    var w = (windowWidth / 2) - margin.left - margin.right;
-    var h = (windowHeight / 2) - margin.top - margin.bottom;
+    var w = (windowWidth / 2)
+    var h = (windowHeight / 2)
 
     var projection = d3
         .geoMercator()

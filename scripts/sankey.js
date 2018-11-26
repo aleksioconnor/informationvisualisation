@@ -372,8 +372,8 @@ function sankeyInit() {
         }]
     }
     // mock data
-    var width = (windowWidth / 2) - 10
-    var height = (windowHeight / 2) - 10
+    var width = (windowWidth / 2) - 70
+    var height = (windowHeight / 2) - 30
 
     function format(d) {
         const f = d3.format(",.0f");
@@ -381,7 +381,8 @@ function sankeyInit() {
     }
     var svg = d3.select("#sankey").append("svg")
         .attr("width", width)
-        .attr("height", height);
+        .attr("height", height)
+        .attr("style", "margin: 0 auto; display: block;  border: 3px solid black;");
 
     var sankey = d3.sankey().size([width, height]); // Constructs a new Sankey generator with the default settings.
     var {
