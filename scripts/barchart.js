@@ -10,8 +10,31 @@ function barChartInit() {
     //     left: 34
     // };
 
+    var barChartType = "province";
+
+    d3.selectAll("#province")
+        .on("click", function() {
+        barChartType = "province"
+        console.log("province tab clicked")
+        updateBarchart()
+    });
+
+    d3.selectAll("#gender")
+        .on("click", function() {
+        barChartType = "gender"
+        console.log("gender tab clicked")
+        updateBarchart()
+    });
+
+    d3.selectAll("#status")
+        .on("click", function() {
+        barChartType = "status"
+        console.log("status tab clicked")
+        updateBarchart()
+    });
+
     width = (windowWidth / 2) - margin.left - margin.right,
-        height = (windowHeight / 2) - margin.top - margin.bottom;
+    height = (windowHeight / 2) - margin.top - margin.bottom;
 
     var xScale = d3
         .scaleBand()
@@ -42,34 +65,43 @@ function barChartInit() {
     //----------------------------
 
     updateBarchart = function () {
-        // for now the only type is province
-        var barChartType = "province"
+      
         d3.json(`data/${barChartType}.json`).then(function (data) {
 
             var dataCurrentDate = data[currentDate]
             console.log(dataCurrentDate)
 
+            var min = Infinity, max = -Infinity, x;
+            for(x in dataCurrentDate) {
+                if( dataCurrentDate[x].quantity < min) min = dataCurrentDate[x].quantity;
+                if( dataCurrentDate[x].quantity > max) max = dataCurrentDate[x].quantity;
+            };
+
             xScale.domain(dataCurrentDate.map(function (d) {
-                return d.province;
+            
+                return d[barChartType];
             }));
 
             // yScale.domain([0, d3.max(dataCurrentDate, function (d) {
             //     return d.quantity;
             // })]);
-            yScale.domain([0, 1700])
-
-
+            yScale.domain([0, max])
 
             if (currentDate === "2013-01") {
+                barChartSVG
+                    .selectAll("rect")
+                    .remove()
+
                 barChartSVG
                     .attr("class", "bar")
                     .selectAll(".bar")
                     .data(dataCurrentDate)
                     .enter()
                     .append("rect")
+                    .attr("fill", "darkblue")
                     .attr("x", function (d) {
                         // barChartType cannot be used here?
-                        return xScale(d.province);
+                        return xScale(d[barChartType]);
                     })
                     .attr("width", xScale.bandwidth())
                     .attr("y", function (d) {
@@ -91,6 +123,7 @@ function barChartInit() {
                     .append("text")
                     .attr("transform", "rotate(-90)")
                     .attr("y", 6).attr("dy", ".71em")
+                    
             } else {
                 console.log(currentDate)
 
@@ -110,9 +143,10 @@ function barChartInit() {
                     .data(dataCurrentDate)
                     .enter()
                     .append("rect")
+                    .attr("fill", "darkblue")
                     .attr("x", function (d) {
                         // barChartType cannot be used here?
-                        return xScale(d.province);
+                        return xScale(d[barChartType]);
                     })
                     .attr("width", xScale.bandwidth())
                     .attr("y", function (d) {
@@ -123,7 +157,6 @@ function barChartInit() {
                     })
 
                 console.log('1das', );
-
 
                 // bars
                 //     .enter()
