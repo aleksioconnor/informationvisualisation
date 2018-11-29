@@ -1,6 +1,6 @@
 var margin = {
         top: 10,
-        left: 10,
+        left: 100,
         bottom: 10,
         right: 10
     },
@@ -8,8 +8,8 @@ var margin = {
     width = width - margin.left - margin.right,
     mapRatio = .5,
     height = width * mapRatio,
-    mapRatioAdjuster = 4; // adjust map ratio here without changing map container size.
-syria_center = [38, 35]; // Syria's geographical center
+    mapRatioAdjuster = 4, // adjust map ratio here without changing map container size.
+    syria_center = [38, 35]; // Syria's geographical center
 
 //Define map projection
 var projection = d3.geo.mercator()
