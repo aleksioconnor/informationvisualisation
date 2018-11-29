@@ -2,7 +2,8 @@
 window.onload = function () {
     initSlider();
     europeMapInit();
-    lineChartInit();
+    syriaMapInit();
+    // lineChartInit();
     barChartInit();
     sankeyInit();
 };

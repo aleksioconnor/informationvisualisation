@@ -13,7 +13,9 @@ function europeMapInit() {
         .translate([w / 2, h / 2])
         .scale([w / 1.7]);
 
-    var path = d3.geoPath().projection(projection);
+    var path = d3
+        .geoPath()
+        .projection(projection);
 
     var svg = d3
         .select("#map")

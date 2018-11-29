@@ -1,56 +1,72 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Syria D3.js Map</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="D3.js map of Syria and its districts.">
-    <meta charset="utf-8">
-    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <h1>What is the impact of the Syrian civil war on the population?</h1>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="plugins/d3.v5.min.js" charset="utf-8"></script>
+    <script src="plugins/jquery.3.3.1.min.js" charset="utf-8"></script>
+    <!-- <script src="//d3js.org/topojson.v1.min.js"></script> -->
+    <script src="//d3js.org/topojson.v1.min.js"></script>
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
+    <script src="plugins/d3-array.min.js"></script>
+    <script src="plugins/d3-collection.min.js"></script>
+    <script src="plugins/d3-path.min.js"></script>
+    <script src="plugins/d3-shape.min.js"></script>
+    <script src="plugins/d3-sankey.min.js"></script>
+    <script src="scripts/global.js"></script>
+    <script src="scripts/choropleth.js"></script>
+    <script src="scripts/barchart.js"></script>
+    <script src="scripts/slider.js"></script>
+    <script src="scripts/linechart.js"></script>
+    <script src="scripts/sankey.js"></script>
+    <script src="scripts/scripts.js"></script>
+
+    <script src="scripts/syriaChrolopleth.js"></script>
+    <link rel="stylesheet" href="styles/syriaMapTooltips.css">
+
 </head>
 
 <body>
 
-    <!-- Tooltip box. It appears when user hovers over the map.  -->
-    <!-- <div id="tooltip" class="hidden">
+    <!-- HIDDEN - syria map tooltips  -->
+    <div id="tooltip" class="hidden">
         <div><strong>Governorate:</strong> <span id="governorate">100</span></div>
         <div><strong>District:</strong> <span id="district">200</span></div>
-    </div> -->
-
-
-    <!-- ADD D3.JS VISUALIZATION IN #VIZ.-->
-    <div class='container-fluid'>
-        <div class='row well well-lg'>
-            <div id="viz" class='col-md-8 text-center' style="border:3px solid gray; background-color: #f8f3ed;"></div>
-
-            <!-- <div class='col-md-4'>
-                <h1>Syria</h1>
-
-                <div>
-                    <strong>Governorate:</strong> <span id="governorate-name"></span>
-                </div>
-                <div>
-                    <strong>District:</strong> <span id="district-name"></span>
-                </div>
-            </div> -->
-        </div>
     </div>
 
+    <div class='main-container'>
+        <div class='info-box'>
+            <p>
+                Total deaths in this month: 1324
+            </p>
+        </div>
+        <div id='slider'></div>
+        <div class='flex-container'>
+            <div id='map'></div>
+            <!-- <div id='linechart'></div> -->
+            <div id="syriaMap"></div>
+        </div>
+        <div class='flex-container'>
+            <!-- <select id="line-chart-dropdown">
+            <option value="sugar">Sugar</option>
+            <option value="bread">Bread</option>
+            <option value="fuel">Fuel</option>
+            <option value="rice">Rice</option>
+            <option value="tea">Tea</option>
+        </select> -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
-    <!-- <script src="plugins/d3.v5.min.js" charset="utf-8"></script> -->
-    
-    
-    <script src="//d3js.org/topojson.v1.min.js"></script>
+            <div id='bar_chart'>
 
-    <!-- <link rel="stylesheet" href="tooltip.css"> -->
+                <span class="button" id="province">Province</span>
+                <span class="button" id="gender">Gender</span>
+                <span class="button" id="status">Status</span>
+            </div>
 
-    <!-- D3.js code creates map of Syria. -->
-    <script src="scripts/syria.js"></script>
+            <div id='sankey'></div>
+        </div>
+    </div>
 </body>
+
 
 </html>
