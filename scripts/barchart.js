@@ -3,6 +3,8 @@
 //----------------------------
 
 function barChartInit() {
+
+    // set the dimensions and margins of the chart
     var margin = {
         top: 60,
         right: 20,
@@ -13,6 +15,7 @@ function barChartInit() {
     width = (windowWidth / 2) - margin.left - margin.right,
     height = (windowHeight / 2) - margin.top - margin.bottom;
 
+    // define the scales and axes
     var xScale = d3
         .scaleBand()
         .rangeRound([0, width])
@@ -28,6 +31,7 @@ function barChartInit() {
     var yAxis = d3
         .axisLeft(yScale);
 
+    // define the SVG
     var barChartSVG = d3
         .select("#bar_chart")
         .append("svg")
@@ -72,6 +76,7 @@ function barChartInit() {
       
         d3.json(`data/${barChartType}.json`).then(function (data) {
 
+            // get the right data
             var dataCurrentDate = data[currentDate]
             console.log(dataCurrentDate)
 
@@ -186,6 +191,7 @@ function barChartInit() {
                     // d3.selectAll('.value')
                     //     .attr('opacity', 1)
               
+                    // change opacity and bar width back to normal
                     d3.select(this)
                         .transition()
                         .duration(300)
@@ -195,6 +201,7 @@ function barChartInit() {
                         })
                         .attr('width', xScale.bandwidth())
               
+                    // remove the line and additional text showing percentages
                     barChartSVG.selectAll('#limit').remove()
                     barChartSVG.selectAll('.divergence').remove()
             })
@@ -226,8 +233,6 @@ function barChartInit() {
             //----------------------------
             // Draw title and x and y-axes labels
             //----------------------------
-
-            console.log(dataCurrentDate)
 
             barChartSVG.selectAll()
                 .data(dataCurrentDate)

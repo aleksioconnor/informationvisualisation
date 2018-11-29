@@ -44,7 +44,7 @@ body {
 
 .line {
   fill: none;
-  stroke: green;
+  stroke: steelblue;
   stroke-width: 2px;
 }
 
@@ -137,7 +137,7 @@ h1 {
 /* Bar chart buttons */
 
 .button {
-  background-color: #4CAF50; /* Green */
+  background-color: steelblue; 
   border: none;
   color: white;
   padding: 15px 32px;
