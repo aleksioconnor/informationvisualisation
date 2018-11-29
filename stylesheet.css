@@ -102,8 +102,10 @@ body {
 }
 
 h1 { 
-  font-size: 18pt;
+  font-size: 25pt;
   font-family: calibri, arial, sans serif;
+  text-align: center;
+  font-weight: bold;
 }
 
 .node text {
@@ -117,14 +119,27 @@ h1 {
   stroke-opacity: .2;
 }
 
+.axis text {
+  font-family: calibri, sans serif;
+  font-size: 10pt;
+}
+
+.yxis text {
+  font-family: calibri, sans serif;
+  font-size: 10pt;
+}
+
 .link:hover {
   stroke-opacity: .5;
 }
 
-/* .btn {
-	width: 10px;
-	font-family: calibri, sans serif;
-	padding: 10px;
-	border: solid 1px black;
-	color: white;
-} */
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}

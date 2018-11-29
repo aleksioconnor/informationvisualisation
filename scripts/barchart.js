@@ -98,7 +98,7 @@ function barChartInit() {
                     .data(dataCurrentDate)
                     .enter()
                     .append("rect")
-                    .attr("fill", "darkblue")
+                    .attr("fill", "green")
                     .attr("x", function (d) {
                         // barChartType cannot be used here?
                         return xScale(d[barChartType]);
@@ -149,7 +149,7 @@ function barChartInit() {
                     .data(dataCurrentDate)
                     .enter()
                     .append("rect")
-                    .attr("fill", "darkblue")
+                    .attr("fill", "green")
                     .attr("x", function (d) {
                         // barChartType cannot be used here?
                         return xScale(d[barChartType]);
