@@ -68,14 +68,14 @@ function initSlider() {
         .attr("text-anchor", "middle")
         .text(function (d) {
             return formatDateIntoYear(d);
-        });
+        })
 
     var label = slider
         .append("text")
         .attr("class", "label")
         .attr("text-anchor", "middle")
         .text(formatDate(startDate))
-        .attr("transform", "translate(0," + -20 + ")");
+        .attr("transform", "translate(0," + -20 + ")")
 
     var handle = slider
         .insert("circle", ".track-overlay")

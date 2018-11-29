@@ -22,11 +22,11 @@ function syriaMapInit() {
 
 
 
-    var width = (windowWidth / 2),
-        mapRatio = .5,
+    var width = (windowWidth / 3),
+        mapRatio = 1.2,
         height = width * mapRatio,
-        mapRatioAdjuster = 4, // adjust map ratio here without changing map container size.
-        syria_center = [38, 35]; // Syria's geographical center
+        mapRatioAdjuster = 6, // adjust map ratio here without changing map container size.
+        syria_center = [39, 35]; // Syria's geographical center
 
     //Define map projection
     var projection = d3
@@ -45,7 +45,7 @@ function syriaMapInit() {
         .append("svg")
         .attr("width", width)
         .attr("height", height)
-        .attr("style", "margin: 0 auto; display: block;  border: 1px dotted black;");
+        .attr("style", "margin: 0 auto; display: block;  border: 1px dotted #bfbfbf;");
 
     d3.json("data/syria-districts-topojson.json").then(function (syr) {
         svg
@@ -54,8 +54,8 @@ function syriaMapInit() {
             .enter()
             .append("path")
             .attr("d", path)
-            .attr("fill", "#e8d8c3")
-            .attr("stroke", "#404040")
+            .attr("fill", "#bfbfbf")
+            .attr("stroke", "rgba(131,131,131, 0.4)")
             .attr("stroke-width", .3)
             // Update tooltip and info boxes when user hovers over a district on map
             .on("mousemove", function (d) {

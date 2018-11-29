@@ -22,7 +22,8 @@ function europeMapInit() {
         .append("svg")
         .attr("width", w)
         .attr("height", h)
-        .attr("style", "margin: 0 auto; display: block;  border: 3px solid black;");
+        .attr("style", "margin: 0 auto; display: block;  border: 1px dotted #bfbfbf;");
+
 
 
     //----------------------------
@@ -30,8 +31,8 @@ function europeMapInit() {
     //----------------------------
 
     var data = d3.map();
-    var colorScheme = d3.schemeReds[6];
-    colorScheme.unshift("#eee");
+    var colorScheme = d3.schemeBlues[6];
+    // colorScheme.unshift("#eee");
     var colorScale = d3
         .scaleThreshold()
         .domain([1, 1000, 5000, 10000, 20000, 100000])
@@ -61,11 +62,13 @@ function europeMapInit() {
                         .data(json.features)
                         .enter()
                         .append("path")
-                        .attr("fill", function (d) {
-                            return colorScale(data[currentDate][d.properties.name] || 0);
-                        })
+                        .attr("fill", "#bfbfbf")
+                        // .attr("fill", function (d) {
+                        //     return colorScale(data[currentDate][d.properties.name] || 0);
+                        // })
                         .attr("d", path)
-                        .attr("stroke", "rgba(8, 81, 156, 0.4)");
+                        .attr("stroke", "rgba(131,131,131, 0.4)")
+                        .attr("stroke-width", .3)
                 }
 
             });
