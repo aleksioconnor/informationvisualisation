@@ -44,7 +44,7 @@ body {
 
 .line {
   fill: none;
-  stroke: steelblue;
+  stroke: green;
   stroke-width: 2px;
 }
 
@@ -106,6 +106,7 @@ h1 {
   font-family: calibri, arial, sans serif;
   text-align: center;
   font-weight: bold;
+  padding: 30px;
 }
 
 .node text {
@@ -133,6 +134,8 @@ h1 {
   stroke-opacity: .5;
 }
 
+/* Bar chart buttons */
+
 .button {
   background-color: #4CAF50; /* Green */
   border: none;
@@ -142,4 +145,61 @@ h1 {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+}
+
+/* Bar chart */
+
+.bar {
+  fill: #80cbc4;
+}
+
+text {
+  font-size: 12px;
+  fill: #000;
+}
+
+path {
+  stroke: gray;
+}
+
+line {
+  stroke: gray;
+}
+
+line#limit {
+  stroke: #FED966;
+  stroke-width: 3;
+  stroke-dasharray: 3 6;
+}
+
+.grid path {
+  stroke-width: 3;
+}
+
+.grid .tick line {
+  stroke: #9FAAAE;
+  stroke-opacity: 0.2;
+}
+
+text.divergence {
+  font-size: 14px;
+  fill: gray;
+}
+
+text.value {
+  font-size: 14px;
+}
+
+text.title {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+text.label {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+text.source {
+  font-size: 10px;
 }
