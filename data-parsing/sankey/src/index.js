@@ -70,15 +70,16 @@ function splitData(data) {
     let currentDate = dateArray(data[0].deathdate);
 
     function parseDate(date) {
-        return date[0] + "-" + date[1];
+        return date[0]; // also switch this to return date[0] + "-" + date[1] if using months, check row 82
     }
 
     arrObj.date = parseDate(currentDate);
     arrObj.data = [];
 
+    // Splits the data into years
     _.forEach(data, item => {
         let splitDate = dateArray(item.deathdate);
-        if (splitDate[1] != currentDate[1]) {
+        if (splitDate[0] != currentDate[0]) { // switch this to splitDate[1] != currentDate[1] for months, check row 73
             const clone = _.clone(arrObj);
             arr.push(clone);
 
@@ -87,8 +88,10 @@ function splitData(data) {
                 'date': parseDate(currentDate),
                 'data': [],
             };
+            item.deathdate = dateArray(item.deathdate)[0] + "-" + dateArray(item.deathdate)[1];
             arrObj.data.push(item);
         } else {
+            item.deathdate = dateArray(item.deathdate)[0] + "-" + dateArray(item.deathdate)[1];
             arrObj.data.push(item);
         }
     })
@@ -164,6 +167,7 @@ function createLinksCollection(collection, sourceName, targetName) {
 
     // Compare 'store' to the unique value list (reducer), and calculate all unique values together, by incrementing
     // the 'value' key. We get a list of links.
+    console.log("output")
     const output = _.forEach(reducer, item => {
         let val = 0; // initial value
         _.forEach(store, storeItem => {
@@ -176,7 +180,6 @@ function createLinksCollection(collection, sourceName, targetName) {
     })
 
 
-
     // const nodes = filterAllKeys(output);
 
 
@@ -186,9 +189,10 @@ function createLinksCollection(collection, sourceName, targetName) {
 
 
 
-const dateToProvince = createLinksCollection(monthlyData[52].data, 'deathdate', 'province');
-const provinceToActor = createLinksCollection(monthlyData[52].data, 'province', 'actor');
-const actorToMethod = createLinksCollection(monthlyData[52].data, 'actor', 'deathcause');
+// const dateToProvince = createLinksCollection(monthlyData[52].data, 'deathdate', 'province');
+const dateToProvince = createLinksCollection(monthlyData[1].data, 'deathdate', 'deathcause')
+const provinceToActor = createLinksCollection(monthlyData[1].data, 'deathcause', 'actor');
+const actorToMethod = createLinksCollection(monthlyData[1].data, 'actor', 'province');
 
 const linksWithoutIndex = dateToProvince.concat(provinceToActor, actorToMethod);
 
@@ -198,7 +202,7 @@ const links = mapLinksToIndex(linksWithoutIndex, nodes);
 
 const data = {nodes, links}
 
-console.log(data);
+// console.log(data);
 
 
 // const jsonWriteLinks = JSON.stringify(linksWithIndex);
