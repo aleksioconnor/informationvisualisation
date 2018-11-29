@@ -148,23 +148,27 @@ function barChartInit() {
                         .attr("opacity", 0.6)
                         .attr('x', (a) => xScale(a[barChartType]) - 5)
                         .attr('width', xScale.bandwidth() + 10)
-
-                        // append text not working
-                        // .append('text')
-                        // .attr('class', 'divergence')
-                        // .attr('x', (a) => xScale(a[barChartType]) + xScale.bandwidth() / 2)
-                        // .attr('y', (a) => yScale(a.quantity) + 30)
-                        // .attr('fill', 'white')
-                        // .attr('text-anchor', 'middle')
-                        // .text("test")
-                        // .text((a, idx) => {
-                        // const divergence = (a.quantity - actual.quantity).toFixed(1)
-                        // let text = ''
-                        // if (divergence > 0) text += '+'
-                        // text += `${divergence}%`
+                        
+                    // draw text showing relative percentages
+                    barChartSVG.selectAll()
+                        .data(dataCurrentDate)
+                        .enter()
+                        .append('text')
+                        .attr('class', 'divergence')
+                        .attr('x', (a) => xScale(a[barChartType]) + xScale.bandwidth() / 2)
+                        .attr('y', (a) => yScale(a.quantity) - 30)
+                        .attr('fill', 'white')
+                        .attr('text-anchor', 'middle')
+                        .text("test")
+                        .text((a, idx) => {
+                        const divergence = (a.quantity - actual.quantity).toFixed(1)
+                        
+                        let text = ''
+                        if (divergence > 0) text += '+'
+                        text += `${divergence}%`
             
-                        // return idx !== i ? text : '';
-                        // })
+                        return idx !== i ? text : '';
+                         })
 
                     // draw line on top of bar
                     const y = yScale(actual.quantity)
@@ -231,9 +235,9 @@ function barChartInit() {
                 .append('text')
                 .attr('class', 'value')
                 .attr('x', (a) => xScale(a[barChartType]) + xScale.bandwidth() / 2)
-                .attr('y', (a) => yScale(a.quantity) + 30)
+                .attr('y', (a) => yScale(a.quantity) + -5)
                 .attr('text-anchor', 'middle')
-                .text((a) => `${a.quantity}%`)
+                .text((a) => `${a.quantity}`)
 
             barChartSVG.append('text')
                 .attr('class', 'label')
