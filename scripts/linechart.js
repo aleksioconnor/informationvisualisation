@@ -50,8 +50,7 @@ function lineChartInit() {
         .attr("height", height + margin.top + margin.bottom)
         .attr("style", "margin: 0 auto; display: block;  border: 3px solid black;")
         .append("g")
-        .attr("transform",
-            "translate(" + margin.left + "," + margin.top + ")");
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     focus = lineChart.append("g") // define focus boy
         .style("display", "none");
