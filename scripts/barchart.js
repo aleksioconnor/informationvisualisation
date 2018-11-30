@@ -50,21 +50,18 @@ function barChartInit() {
     d3.selectAll("#province")
         .on("click", function() {
         barChartType = "province"
-        console.log("province tab clicked")
         updateBarchart()
     });
 
     d3.selectAll("#actor")
         .on("click", function() {
         barChartType = "actor"
-        console.log("actor tab clicked")
         updateBarchart()
     });
 
     d3.selectAll("#cause")
         .on("click", function() {
         barChartType = "cause"
-        console.log("cause tab clicked")
         updateBarchart()
     });
 
@@ -78,7 +75,6 @@ function barChartInit() {
 
             // get the right data
             var dataCurrentDate = data[currentDate]
-            console.log(dataCurrentDate)
 
             //----------------------------
             // Define x and y-scale
