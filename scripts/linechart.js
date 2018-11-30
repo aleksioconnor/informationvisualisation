@@ -214,23 +214,41 @@ function lineChartInit() {
                 .tickFormat(''))
 
             //----------------------------
-            // Draw title and x and y-axes labels
+            // Draw labels
             //----------------------------
 
+            // y-axis label
             lineChart.append('text')
                 .attr('class', 'label')
-                .attr('x', -100)
-                .attr('y', -50)
+                .attr('x', -height/2)
+                .attr('y', -45)
                 .attr('transform', 'rotate(-90)')
                 .attr('text-anchor', 'middle')
                 .text('Value')
             
+            // title
             lineChart.append('text')
                 .attr('class', 'title')
                 .attr('x', width / 2 + 60)
                 .attr('y', -20)
                 .attr('text-anchor', 'middle')
                 .text('Prices of commodities during the war')
+
+            // x-axis label
+            lineChart.append('text')
+                .attr('class', 'label')
+                .attr('x', width/2)
+                .attr('y', 360)
+                .attr('text-anchor', 'middle')
+                .text("Date")
+
+            // source
+            lineChart.append('text')
+                .attr('class', 'source')
+                .attr('x', 900)
+                .attr('y', 360)
+                .attr('text-anchor', 'start')
+                .text('Source: ...')
           
         });
     }
@@ -266,6 +284,7 @@ function lineChartInit() {
             .style("opacity", "0");
 
         mousePerLine.append("text")
+            .attr('class', 'label')
             .attr("transform", "translate(10,3)");
 
         mouseG.append('svg:rect') // append a rect to catch mouse movements on canvas
@@ -302,7 +321,7 @@ function lineChartInit() {
 
         d3.selectAll(".mouse-per-line")
             .attr("transform", function(d, i) {
-                console.log(width/mouse[0])
+                //console.log(width/mouse[0])
                 var xDate = x.invert(mouse[0]),
                     bisect = d3.bisector(function(d) { return d.date; }).right;
                     idx = bisect(d.values, xDate);

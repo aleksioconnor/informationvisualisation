@@ -206,9 +206,10 @@ text.title {
 
 text.label {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: bold;
+  background: white;
 }
 
 text.source {
-  font-size: 10px;
+  font-size: 10px;  
 }

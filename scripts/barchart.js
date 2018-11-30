@@ -249,6 +249,7 @@ function barChartInit() {
             // Draw title and x and y-axes labels
             //----------------------------
 
+            // numbers on top of the bars
             barChartSVG.selectAll()
                 .data(dataCurrentDate)
                 .enter()
@@ -259,14 +260,24 @@ function barChartInit() {
                 .attr('text-anchor', 'middle')
                 .text((a) => `${a.quantity}`)
 
+            // y-axis label
             barChartSVG.append('text')
                 .attr('class', 'label')
-                .attr('x', -100)
+                .attr('x', -height/2)
                 .attr('y', -50)
                 .attr('transform', 'rotate(-90)')
                 .attr('text-anchor', 'middle')
                 .text('Number of casualties')
-            
+
+            // x-axis label
+            barChartSVG.append('text')
+                .attr('class', 'label')
+                .attr('x', width/2)
+                .attr('y', 360)
+                .attr('text-anchor', 'middle')
+                .text(barChartType)
+           
+            // title
             barChartSVG.append('text')
                 .attr('class', 'title')
                 .attr('x', width / 2 + 60)
@@ -274,10 +285,11 @@ function barChartInit() {
                 .attr('text-anchor', 'middle')
                 .text('Number of deaths caused by the war')
 
-            // svg.append('text')
+            // source
+            // barChartSVG.append('text')
             //     .attr('class', 'source')
-            //     .attr('x', width - margin / 2)
-            //     .attr('y', height + margin * 1.7)
+            //     .attr('x', 900)
+            //     .attr('y', 360)
             //     .attr('text-anchor', 'start')
             //     .text('Source: ...')
 
