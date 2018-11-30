@@ -272,8 +272,8 @@ function barChartInit() {
             // x-axis label
             barChartSVG.append('text')
                 .attr('class', 'label')
-                .attr('x', width/2)
-                .attr('y', 360)
+                .attr('x', 500)
+                .attr('y', 480)
                 .attr('text-anchor', 'middle')
                 .text(barChartType)
            

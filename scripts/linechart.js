@@ -237,8 +237,8 @@ function lineChartInit() {
             // x-axis label
             lineChart.append('text')
                 .attr('class', 'label')
-                .attr('x', width/2)
-                .attr('y', 360)
+                .attr('x', 500)
+                .attr('y', 480)
                 .attr('text-anchor', 'middle')
                 .text("Date")
 
