@@ -65,6 +65,7 @@ body {
 #slider {
   position: fixed;
   top: 0px;
+  /* align-content: center; */
   /* background-color: white; */
   /* opacity: 0.2;
   transition: all 0.6s; */
@@ -103,11 +104,12 @@ body {
 }
 
 h1 {
-  font-size: 25pt;
+  font-size: 14pt;
   font-family: calibri, arial, sans serif;
   text-align: center;
   font-weight: bold;
-  padding: 30px;
+  padding-top: 10px;
+  color: #bfbfbf;
 }
 
 .node text {

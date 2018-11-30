@@ -18,7 +18,7 @@ function initSlider() {
         .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height)
-        .attr("style", "margin: 0 auto; display: block; padding-top: 10"); // could be included in stylesheet, centering slider
+        .attr("style", "margin: 0 auto; display: block;"); // could be included in stylesheet, centering slider
 
     var x = d3
         .scaleTime()
