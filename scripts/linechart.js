@@ -78,16 +78,16 @@ function lineChartInit() {
 
     // change button colors onClick
     jQuery('#USDtoSYP').click(function() {
-        $(this).toggleClass('blue');
-      });
-
-    jQuery('#rice').click(function() {
-    $(this).toggleClass('blue');
-        });
+        $(this).toggleClass('darkblue');
+    });
 
     jQuery('#sugar').click(function() {
+        $(this).toggleClass('steelblue');
+    });
+
+      jQuery('#rice').click(function() {
         $(this).toggleClass('blue');
-      });
+    });
 
     var USDtoSYP = Boolean(false);
     var sugar = Boolean(false);
@@ -133,7 +133,7 @@ function lineChartInit() {
             x.domain(d3.extent(Object.keys(data), function (d) {
                 return parseTime(d);
             }));
-            y.domain([0, 500])     
+            y.domain([0, 600])     
 
             //----------------------------
             // Refresh view
@@ -155,21 +155,21 @@ function lineChartInit() {
             // Draw lines
             //----------------------------
 
-            if(sugar == true){
-                sugarLine = lineChart
-                    .append("path")
-                    .data([foodPrices])
-                    .attr("class", "line")
-                    // .attr("id", "sugar")
-                    .attr("d", valueLines["Sugar (kg, SYP)"]);
-            }
-
             if(USDtoSYP == true){
                 USDtoSYPLine = lineChart
                     .append("path")
                     .data([foodPrices])
                     .attr("class", "line")
+                    .style("stroke", "darkblue")
                     .attr("d", valueLines["USD to SYP"]);
+            }
+
+            if(sugar == true){
+                sugarLine = lineChart
+                    .append("path")
+                    .data([foodPrices])
+                    .attr("class", "line")
+                    .attr("d", valueLines["Sugar (kg, SYP)"]);
             }
             
             if(rice == true){
@@ -177,6 +177,7 @@ function lineChartInit() {
                     .append("path")
                     .data([foodPrices])
                     .attr("class", "line")
+                    .style("stroke", "lightblue")
                     .attr("d", valueLines["Rice (kg, SYP)"]);
             }
 

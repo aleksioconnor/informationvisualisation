@@ -42,12 +42,6 @@ body {
   stroke-width: 1.25px;
 }
 
-.line {
-  fill: none;
-  stroke: steelblue;
-  stroke-width: 2px;
-}
-
 .hidden {
   fill: none;
   stroke: none;
@@ -150,11 +144,13 @@ h1 {
 }
 
 .button:hover, .button:focus{
-  background-color: steelblue;
+  background-color: lightgrey;
   outline: none;
 }
 
-.button.blue { background:steelblue; }
+.button.steelblue { background:steelblue; }
+.button.darkblue { background:darkblue; }
+.button.blue { background: lightblue; }
 
 /* Bar chart */
 
@@ -169,10 +165,13 @@ text {
 
 path {
   stroke: gray;
+  
 }
 
-line {
-  stroke: gray;
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 3;
 }
 
 line#limit {
