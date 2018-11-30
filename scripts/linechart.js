@@ -76,7 +76,20 @@ function lineChartInit() {
     // Decide what clicking the buttons does
     //----------------------------
 
-    var USDtoSYP = Boolean(true);
+    // change button colors onClick
+    jQuery('#USDtoSYP').click(function() {
+        $(this).toggleClass('blue');
+      });
+
+    jQuery('#rice').click(function() {
+    $(this).toggleClass('blue');
+        });
+
+    jQuery('#sugar').click(function() {
+        $(this).toggleClass('blue');
+      });
+
+    var USDtoSYP = Boolean(false);
     var sugar = Boolean(false);
     var rice = Boolean(false);
 

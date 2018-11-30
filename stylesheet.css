@@ -134,18 +134,27 @@ h1 {
   stroke-opacity: .5;
 }
 
-/* Bar chart buttons */
+/* Buttons */
 
 .button {
-  background-color: steelblue; 
-  border: none;
+  background-color: #80cbc4; 
+  border: 1px solid #ccc;
   color: white;
   padding: 15px 32px;
+  border-radius: 3px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  cursor: pointer;
 }
+
+.button:hover, .button:focus{
+  background-color: steelblue;
+  outline: none;
+}
+
+.button.blue { background:steelblue; }
 
 /* Bar chart */
 
