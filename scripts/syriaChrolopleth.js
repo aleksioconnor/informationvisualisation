@@ -23,7 +23,7 @@ function syriaMapInit() {
 
 
     var width = (windowWidth / 3),
-        mapRatio = 1.2,
+        mapRatio = 1.1,
         height = width * mapRatio,
         mapRatioAdjuster = 6, // adjust map ratio here without changing map container size.
         syria_center = [39, 35]; // Syria's geographical center

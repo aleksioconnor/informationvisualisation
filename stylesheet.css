@@ -55,46 +55,59 @@ body {
   stroke-width: 0px;
 }
 
-/* map container */
-#map {}
-
 #line-chart-dropdown {
   display: none;
 }
 
+/* ------------------------------ */
+/* ------------------------------ */
+/* SLIDER */
 #slider {
   position: fixed;
   top: 0px;
-  /* align-content: center; */
-  /* background-color: white; */
-  /* opacity: 0.2;
-  transition: all 0.6s; */
+  background-color: #1a1a1a;
+}
+
+#slider:hover {
+  /* opacity: 0.9; */
 }
 
 .main-container {
   position: relative;
 }
 
+/* ------------------------------ */
+/* ------------------------------ */
+/* TODAL NUMEBERS CENTER BOX */
 .info-box {
-  width: 130px;
-  height: 20px;
-  position: absolute;
-  left: 620px;
-  top: 300px;
-  /* color: black; */
-  /* border: 1px black solid; */
-  /* background-color: white; */
-  text-align: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   padding: 20px;
+  color: #bfbfbf;
+  background-color: #1a1a1a;
+  border: 1px solid #bfbfbf;
 }
 
-#slider:hover {
-  opacity: 0.9;
+th,
+td {
+  padding: 5px;
+  text-align: left;
 }
+
+#total {
+  color: #b40d0d;
+  font-weight: bold;
+}
+
+#total.blue {
+  color: #80cbc4;
+}
+
 
 .flex-container {
   display: flex;
-  /* justify-content: space-evenly; */
 }
 
 .node rect {
@@ -105,9 +118,8 @@ body {
 
 h1 {
   font-size: 14pt;
-  font-family: calibri, arial, sans serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center;
-  font-weight: bold;
   padding-top: 10px;
   color: #bfbfbf;
 }
