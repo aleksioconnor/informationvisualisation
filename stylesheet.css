@@ -114,9 +114,10 @@ h1 {
 }
 
 .link {
-  fill: none;
+  /* fill: none;
   stroke: #000;
-  stroke-opacity: .2;
+  stroke-opacity: .2; */
+  /* transition: all 0.2s; */
 }
 
 .axis text {
