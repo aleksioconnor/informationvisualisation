@@ -10,7 +10,7 @@ function lineChartInit() {
     // set the dimensions and margins of the graph
     var margin = {
         top: 60,
-        right: 20,
+        right: 60,
         bottom: 60,
         left: 75
     },
@@ -41,7 +41,7 @@ function lineChartInit() {
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-    focus = lineChart.append("g") // define focus boy
+    focus = lineChart.append("g") // define focus body
         .style("display", "none");
 
     //----------------------------
@@ -89,31 +89,31 @@ function lineChartInit() {
         $(this).toggleClass('blue');
     });
 
-    var USDtoSYP = Boolean(false);
-    var sugar = Boolean(false);
-    var rice = Boolean(false);
+    var bUSDtoSYP = Boolean(false);
+    var bSugar = Boolean(false);
+    var bRice = Boolean(false);
 
     d3.selectAll("#USDtoSYP")
         .on("click", function() {
               
-        USDtoSYP = !USDtoSYP;
-        drawLineChart()
+        bUSDtoSYP = !bUSDtoSYP;
+        updateLineChart()
        
     });
 
     d3.selectAll("#sugar")
         .on("click", function() {
        
-        sugar = !sugar;
-        drawLineChart()
+        bSugar = !bSugar;
+        updateLineChart()
         
     });
 
     d3.selectAll("#rice")
         .on("click", function() {
         
-        rice = !rice;
-        drawLineChart()
+        bRice = !bRice;
+        updateLineChart()
       
     });
 
@@ -121,7 +121,7 @@ function lineChartInit() {
     // Draw linechart
     //----------------------------
 
-    drawLineChart = function () {
+    updateLineChart = function () {
 
         // Load the data
         d3.json("data/foodPrices2.json").then(function (data) {
@@ -149,36 +149,49 @@ function lineChartInit() {
 
             lineChart
                 .selectAll('g')
-                .remove()
+                .remove()         
 
             //----------------------------
             // Draw lines
             //----------------------------
 
-            if(USDtoSYP == true){
-                USDtoSYPLine = lineChart
-                    .append("path")
+            if(bUSDtoSYP == true){
+                var sUSDtoSYP = "USD to SYP"
+                var color = "darkblue"
+                var line = lineChart.append("path")
                     .data([foodPrices])
                     .attr("class", "line")
-                    .style("stroke", "darkblue")
-                    .attr("d", valueLines["USD to SYP"]);
+                    .style("stroke", color)
+                    .attr("d", valueLines[sUSDtoSYP]);
+
+                makeInteractive(foodPrices, color)
+
             }
 
-            if(sugar == true){
-                sugarLine = lineChart
-                    .append("path")
+            if(bSugar == true){
+                var sSugar = "Sugar (kg, SYP)"
+                var color = "steelblue"
+                var line = lineChart.append("path")
                     .data([foodPrices])
                     .attr("class", "line")
-                    .attr("d", valueLines["Sugar (kg, SYP)"]);
+                    .style("stroke", color)
+                    .attr("d", valueLines[sSugar]);
+
+                makeInteractive(foodPrices, color)
+
             }
             
-            if(rice == true){
-                riceLine = lineChart
-                    .append("path")
+            if(bRice == true){
+                var sRice = "Rice (kg, SYP)"
+                var color = "lightblue"
+                var line = lineChart.append("path")
                     .data([foodPrices])
                     .attr("class", "line")
-                    .style("stroke", "lightblue")
-                    .attr("d", valueLines["Rice (kg, SYP)"]);
+                    .style("stroke", color)
+                    .attr("d", valueLines[sRice]);
+
+                makeInteractive(foodPrices, color)
+                
             }
 
             //----------------------------
@@ -218,9 +231,111 @@ function lineChartInit() {
                 .attr('y', -20)
                 .attr('text-anchor', 'middle')
                 .text('Prices of commodities during the war')
-
+          
         });
     }
 
-    drawLineChart()
+    //----------------------------
+    // Define interactivity
+    //----------------------------
+    
+    function makeInteractive(foodPrices, color){
+
+        var mouseG = lineChart.append("g")
+            .attr("class", "mouse-over-effects");
+
+        mouseG.append("path") // this is the black vertical line to follow mouse
+            .attr("class", "mouse-line")
+            .style("stroke", "black")
+            .style("stroke-width", "1px")
+            .style("opacity", "0");
+        
+        var lines = document.getElementsByClassName('line');
+
+        var mousePerLine = mouseG.selectAll('.mouse-per-line')
+            .data([foodPrices])
+            .enter()
+            .append("g")
+            .attr("class", "mouse-per-line");
+
+        mousePerLine.append("circle")
+            .attr("r", 7)
+            .style("stroke", color)
+            .style("fill", "none")
+            .style("stroke-width", "1px")
+            .style("opacity", "0");
+
+        mousePerLine.append("text")
+            .attr("transform", "translate(10,3)");
+
+        mouseG.append('svg:rect') // append a rect to catch mouse movements on canvas
+            .attr('width', width) // can't catch mouse events on a g element
+            .attr('height', height)
+            .attr('fill', 'none')
+            .attr('pointer-events', 'all')
+            .on('mouseout', function() { // on mouse out hide line, circles and text
+                d3.select(".mouse-line")
+                .style("opacity", "0");
+                d3.selectAll(".mouse-per-line circle")
+                .style("opacity", "0");
+                d3.selectAll(".mouse-per-line text")
+                .style("opacity", "0");
+        })
+
+        .on('mouseover', function() { // on mouse in show line, circles and text
+            d3.select(".mouse-line")
+            .style("opacity", "1");
+            d3.selectAll(".mouse-per-line circle")
+            .style("opacity", "1");
+            d3.selectAll(".mouse-per-line text")
+            .style("opacity", "1");
+        })
+
+        .on('mousemove', function() { // mouse moving over canvas
+            var mouse = d3.mouse(this);
+            d3.select(".mouse-line")
+                .attr("d", function() {
+                    var d = "M" + mouse[0] + "," + height;
+                    d += " " + mouse[0] + "," + 0;
+                    return d;
+            });
+
+        d3.selectAll(".mouse-per-line")
+            .attr("transform", function(d, i) {
+                console.log(width/mouse[0])
+                var xDate = x.invert(mouse[0]),
+                    bisect = d3.bisector(function(d) { return d.date; }).right;
+                    idx = bisect(d.values, xDate);
+                
+                var beginning = 0,
+                    end = lines[i].getTotalLength(),
+                    target = null;
+
+                while (true){
+                    target = Math.floor((beginning + end) / 2);
+                    pos = lines[i].getPointAtLength(target);
+
+                if ((target === end || target === beginning) && pos.x !== mouse[0]) {
+                    break;
+                }
+
+                if (pos.x > mouse[0])      end = target;
+
+                else if (pos.x < mouse[0]) beginning = target;
+
+                else break; //position found
+                }
+                
+                d3.select(this).select('text')
+                .text(y.invert(pos.y).toFixed(2));
+                
+                return "translate(" + mouse[0] + "," + pos.y +")";
+
+            });
+
+        });
+}
+
+    updateLineChart()
+
 }

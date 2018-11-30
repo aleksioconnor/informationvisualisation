@@ -92,7 +92,7 @@ function initSlider() {
             currentDate = newDate;
             rerenderMap()
             // drawScale()
-            drawLineChart()
+            updateLineChart()
             updateBarchart()
         }
 

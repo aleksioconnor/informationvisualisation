@@ -7,7 +7,7 @@ function barChartInit() {
     // set the dimensions and margins of the chart
     var margin = {
         top: 60,
-        right: 20,
+        right: 60,
         bottom: 60,
         left: 75
     },
@@ -44,6 +44,25 @@ function barChartInit() {
     //----------------------------
     // Decide what clicking the buttons does
     //----------------------------
+
+    // change button colors onClick
+    jQuery('#province').click(function() {
+        $(this).toggleClass('barsblue')
+        $('#actor').removeClass("barsblue")
+        $('#cause').removeClass("barsblue")
+    });
+
+    jQuery('#actor').click(function() {
+        $(this).toggleClass('barsblue')
+        $('#province').removeClass("barsblue")
+        $('#cause').removeClass("barsblue")
+    });
+
+    jQuery('#cause').click(function() {
+        $(this).toggleClass('barsblue')
+        $('#actor').removeClass("barsblue")
+        $('#province').removeClass("barsblue")
+    });
 
     var barChartType = "province";
 

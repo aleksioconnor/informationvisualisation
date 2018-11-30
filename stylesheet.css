@@ -131,7 +131,7 @@ h1 {
 /* Buttons */
 
 .button {
-  background-color: #80cbc4; 
+  background-color:lightgray; 
   border: 1px solid #ccc;
   color: white;
   padding: 15px 32px;
@@ -144,13 +144,14 @@ h1 {
 }
 
 .button:hover, .button:focus{
-  background-color: lightgrey;
+  background-color: grey;
   outline: none;
 }
 
 .button.steelblue { background:steelblue; }
 .button.darkblue { background:darkblue; }
 .button.blue { background: lightblue; }
+.button.barsblue { background: #80cbc4; }
 
 /* Bar chart */
 
@@ -171,7 +172,7 @@ path {
 .line {
   fill: none;
   stroke: steelblue;
-  stroke-width: 3;
+  stroke-width: 1.5;
 }
 
 line#limit {
