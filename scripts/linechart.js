@@ -243,12 +243,12 @@ function lineChartInit() {
                 .text("Date")
 
             // source
-            lineChart.append('text')
-                .attr('class', 'source')
-                .attr('x', 900)
-                .attr('y', 360)
-                .attr('text-anchor', 'start')
-                .text('Source: ...')
+            // lineChart.append('text')
+            //     .attr('class', 'source')
+            //     .attr('x', 900)
+            //     .attr('y', 360)
+            //     .attr('text-anchor', 'start')
+            //     .text('Source: ...')
           
         });
     }
