@@ -1,9 +1,9 @@
 <html>
 
 <head>
-    <h1>What is the impact of the Syrian civil war on the population?</h1>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="plugins/d3.v5.min.js" charset="utf-8"></script>
     <script src="plugins/jquery.3.3.1.min.js" charset="utf-8"></script>
     <!-- <script src="//d3js.org/topojson.v1.min.js"></script> -->
@@ -22,21 +22,57 @@
     <script src="scripts/sankey.js"></script>
     <script src="scripts/scripts.js"></script>
 
+    <script src="scripts/syriaChrolopleth.js"></script>
+    <link rel="stylesheet" href="styles/syriaMapTooltips.css">
+
 </head>
 
 <body>
+
+    <!-- HIDDEN - syria map tooltips  -->
+    <div id="tooltip" class="hidden">
+        <div><strong>Governorate:</strong> <span id="governorate">100</span></div>
+        <div><strong>District:</strong> <span id="district">200</span></div>
+    </div>
+
     <div class='main-container'>
+
+        <!-- Total numbers -->
         <div class='info-box'>
-            <p>
-                Total deaths in this month: 1324
-            </p>
+            <!-- <p>
+                Total deaths: 1324
+                Total refugees: 1324
+            </p> -->
+            <table style="width:100%">
+                <tr>
+                    <th>Total deaths</th>
+                    <th id='total'>1235</th>
+                </tr>
+                <tr>
+                    <td>Total refugees</td>
+                    <th id='total' class='blue'>555</th>
+                </tr>
+            </table>
         </div>
-        <div id='slider'></div>
+
+        <!-- Slider + title -->
+        <div id='slider'>
+            <h1>What is the impact of the Syrian civil war on its population?</h1>
+        </div>
+
+        <!-- Main contetn -->
         <div class='flex-container'>
             <div id='map'></div>
-            <div id='linechart'></div>
+
+            <div id='linechart'>
+                <span class="button" id="USDtoSYP">ASD to SYP</span>
+                <span class="button" id="sugar">Sugar</span>
+                <span class="button" id="rice">Rice</span>
+            </div>
+
         </div>
         <div class='flex-container'>
+            <div id="syriaMap"></div>
             <!-- <select id="line-chart-dropdown">
             <option value="sugar">Sugar</option>
             <option value="bread">Bread</option>
@@ -44,15 +80,14 @@
             <option value="rice">Rice</option>
             <option value="tea">Tea</option>
         </select> -->
-            
-        <div id='bar_chart'>
-               
+
+            <!-- <div id='bar_chart'>
                 <span class="button" id="province">Province</span>
-                <span class="button" id="gender">Gender</span>
-                <span class="button" id="status">Status</span>
-        </div>
-        
-        <div id='sankey'></div>
+                <span class="button" id="actor">Actor</span>
+                <span class="button" id="cause">Cause</span>
+            </div> -->
+
+            <div id='sankey'></div>
         </div>
     </div>
 </body>

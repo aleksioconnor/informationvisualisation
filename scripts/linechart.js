@@ -1,7 +1,12 @@
+//----------------------------
+// Linechart idiom
+//----------------------------
+
 var lineChart = null
 
 // Initialize line chart
 function lineChartInit() {
+
     // hacky fix
     var mapping = {
         "sugar": "Sugar (kg, SYP)",
@@ -10,15 +15,17 @@ function lineChartInit() {
         "rice": "Rice (kg, SYP)",
         "tea": "Tea (kg, SYP)"
     }
+
     // set the dimensions and margins of the graph
     var margin = {
-            top: 5,
-            right: 20,
-            bottom: 20,
-            left: 30
-        },
-        width = (windowWidth / 2) - margin.left - margin.right,
-        height = (windowHeight / 2) - margin.top - margin.bottom;
+        top: 60,
+        right: 20,
+        bottom: 60,
+        left: 75
+    },
+    
+    width = (windowWidth / 2) - margin.left - margin.right,
+    height = (windowHeight / 2) - margin.top - margin.bottom;
 
     // parse the date / time
     var parseTime = d3.timeParse("%Y-%m");
@@ -41,14 +48,43 @@ function lineChartInit() {
         .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
-        .attr("style", "margin: 0 auto; display: block;  border: 3px solid black;")
+        .attr("style", "margin: 0 auto; display: block;  border: 1px dotted white;")
         .append("g")
-        .attr("transform",
-            "translate(" + margin.left + "," + margin.top + ")");
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
     focus = lineChart.append("g") // define focus boy
         .style("display", "none");
 
+     //----------------------------
+    // Decide what clicking the buttons does
+    //----------------------------
+
+    var dataToShow = "USDtoSYP"
+
+    d3.selectAll("#USDtoSYP")
+        .on("click", function() {
+        dataToShow = "USDtoSYP"
+        console.log("USD to SYP tab clicked")
+        drawLineChart()
+    });
+
+    d3.selectAll("#sugar")
+        .on("click", function() {
+        dataToShow = "sugar"
+        console.log("sugar tab clicked")
+        drawLineChart()
+    });
+
+    d3.selectAll("#rice")
+        .on("click", function() {
+        dataToShow = "rice"
+        console.log("rice tab clicked")
+        drawLineChart()
+    });
+
+    //----------------------------
+    // Draw linechart
+    //----------------------------
 
     drawLineChart = function () {
 
@@ -90,8 +126,6 @@ function lineChartInit() {
                     .call(d3.axisLeft(y));
             }
 
-
-
             // var dropdown = d3.select("#line-chart-dropdown")
             //     .attr("class", "test")
             //     .on("change", function (d) {
@@ -114,5 +148,6 @@ function lineChartInit() {
 
         });
     }
+
     drawLineChart()
 }
