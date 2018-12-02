@@ -31,7 +31,7 @@ function europeMapInit() {
         .append("svg")
         .attr("width", w)
         .attr("height", h)
-        .attr("style", "margin: 0 auto; display: block;  border: 1px dotted #bfbfbf;");
+        .attr("style", "margin: 0 auto; display: block;");
 
 
 

@@ -6,7 +6,7 @@ function sankeyInit() {
     // .defer(d3.json, "../data-parsing/sankey/sankey2014.json")
     // .awaitAll(ready);
 
-    d3.json("../data-parsing/sankey/sankey2013final.json").then(function (data) {
+    d3.json("../data-parsing/sankey/sankey2016.json").then(function (data) {
         console.log(data);
         var width = 650
         var height = 500

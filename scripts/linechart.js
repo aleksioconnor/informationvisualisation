@@ -9,10 +9,10 @@ function lineChartInit() {
 
     // set the dimensions and margins of the graph
     var margin = {
-        top: 60,
+        top: 20,
         right: 60,
         bottom: 60,
-        left: 75
+        left: 60
     },
     
     width = (windowWidth / 2) - margin.left - margin.right,
@@ -37,7 +37,7 @@ function lineChartInit() {
         .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
-        .attr("style", "margin: 0 auto; display: block;  border: 1px dotted white;")
+        .attr("style", "margin: 0 auto; display: block;")
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -227,12 +227,12 @@ function lineChartInit() {
                 .text('Value')
             
             // title
-            lineChart.append('text')
-                .attr('class', 'title')
-                .attr('x', width / 2 + 60)
-                .attr('y', -20)
-                .attr('text-anchor', 'middle')
-                .text('Prices of commodities during the war')
+            // lineChart.append('text')
+            //     .attr('class', 'title')
+            //     .attr('x', width / 2 + 60)
+            //     .attr('y', -20)
+            //     .attr('text-anchor', 'middle')
+            //     .text('Prices of commodities during the war')
 
             // x-axis label
             lineChart.append('text')

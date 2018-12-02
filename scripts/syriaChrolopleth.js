@@ -45,7 +45,7 @@ function syriaMapInit() {
         .append("svg")
         .attr("width", width)
         .attr("height", height)
-        .attr("style", "margin: 0 auto; display: block;  border: 1px dotted #bfbfbf;");
+        .attr("style", "margin: 0 auto; display: block;");
 
 
     var colorScheme = d3.schemeReds[6];

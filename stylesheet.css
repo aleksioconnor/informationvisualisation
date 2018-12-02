@@ -1,11 +1,42 @@
 body {
-  font-family: "avenir next", Arial, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  color: #bfbfbf;
+  /* color: #bfbfbf; */
   padding: 10px;
   margin-top: 100px;
-  background-color: #1a1a1a;
+  /* background-color: #1a1a1a; */
 
+}
+
+#linechart {
+  padding-right: 40px;
+}
+
+#bar_chart {
+  padding-right: 40px;
+}
+
+.visualisation {
+  position: relative;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+
+.vis {
+  /* background-color: #373737; */
+  background-color: #f4f4f4;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.visualisation-title {
+  color: white;
+  background-color: gray;
+  /* change this */
+  padding-top: 15px;
+  text-align: center;
+  padding-bottom: 15px;
+  border-radius: 10px 10px 0px 0px;
 }
 
 .ticks {
@@ -47,6 +78,7 @@ body {
   fill: none;
   stroke: none;
   stroke-width: 0px;
+  display: none;
 }
 
 #line-chart-dropdown {
@@ -59,7 +91,7 @@ body {
 #slider {
   position: fixed;
   top: 0px;
-  background-color: #1a1a1a;
+  /* background-color: #1a1a1a; */
 }
 
 #slider:hover {
@@ -112,7 +144,7 @@ td {
 
 h1 {
   font-size: 14pt;
-  font-family: 'Roboto', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
   text-align: center;
   padding-top: 10px;
   color: #bfbfbf;
@@ -134,12 +166,12 @@ h1 {
 }
 
 .axis text {
-  font-family: calibri, sans serif;
+  /* font-family: calibri, sans serif; */
   font-size: 10pt;
 }
 
 .yxis text {
-  font-family: calibri, sans serif;
+  /* font-family: calibri, sans serif; */
   font-size: 10pt;
 }
 
@@ -149,29 +181,60 @@ h1 {
 
 /* Buttons */
 
+.linechart-buttons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 10px;
+  top: 57px;
+}
+
+.barchart-buttons {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 10px;
+  top: 55px;
+}
+
 .button {
-  background-color:lightgray; 
+  margin-top: 5px;
+  margin-bottom: 5px;
+  background-color: lightgray;
   border: 1px solid #ccc;
 
   color: white;
-  padding: 15px 32px;
+  padding: 5px;
   border-radius: 3px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 13px;
   cursor: pointer;
+  transition: 0.2s all;
 }
 
-.button:hover, .button:focus{
+.button:hover,
+.button:focus {
   background-color: grey;
   outline: none;
 }
 
-.button.steelblue { background:steelblue; }
-.button.darkblue { background:darkblue; }
-.button.blue { background: lightblue; }
-.button.barsblue { background: #80cbc4; }
+.button.steelblue {
+  background: steelblue;
+}
+
+.button.darkblue {
+  background: darkblue;
+}
+
+.button.blue {
+  background: lightblue;
+}
+
+.button.barsblue {
+  background: #80cbc4;
+}
 
 /* Bar chart */
 
@@ -184,9 +247,10 @@ text {
   fill: #bfbfbf;
 }
 
+/* careful, these affect ALL svg paths */
 path {
-  stroke: gray;
-  
+  stroke: black;
+
 }
 
 .line {
@@ -231,5 +295,5 @@ text.label {
 }
 
 text.source {
-  font-size: 10px;  
+  font-size: 10px;
 }

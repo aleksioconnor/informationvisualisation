@@ -6,7 +6,7 @@ function barChartInit() {
 
     // set the dimensions and margins of the chart
     var margin = {
-        top: 60,
+        top: 20,
         right: 60,
         bottom: 60,
         left: 75
@@ -37,7 +37,7 @@ function barChartInit() {
         .append("svg")
         .attr("width", width + margin.left + margin.right)
         .attr("height", height + margin.top + margin.bottom)
-        .attr("style", "margin: 0 auto; display: block;  border: 3px solid black;")
+        .attr("style", "margin: 0 auto; display: block; ")
         .append("g")
         .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
@@ -283,7 +283,7 @@ function barChartInit() {
                 .attr('x', width / 2 + 60)
                 .attr('y', -20)
                 .attr('text-anchor', 'middle')
-                .text('Number of deaths caused by the war')
+                // .text('Number of deaths caused by the war')
 
             // source
             // barChartSVG.append('text')
