@@ -43,12 +43,6 @@ body {
   stroke-width: 1.25px;
 }
 
-.line {
-  fill: none;
-  stroke: steelblue;
-  stroke-width: 2px;
-}
-
 .hidden {
   fill: none;
   stroke: none;
@@ -153,18 +147,31 @@ h1 {
   stroke-opacity: .5;
 }
 
-/* Bar chart buttons */
+/* Buttons */
 
 .button {
-  background-color: steelblue;
-  border: none;
+  background-color:lightgray; 
+  border: 1px solid #ccc;
+
   color: white;
   padding: 15px 32px;
+  border-radius: 3px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  cursor: pointer;
 }
+
+.button:hover, .button:focus{
+  background-color: grey;
+  outline: none;
+}
+
+.button.steelblue { background:steelblue; }
+.button.darkblue { background:darkblue; }
+.button.blue { background: lightblue; }
+.button.barsblue { background: #80cbc4; }
 
 /* Bar chart */
 
@@ -179,10 +186,13 @@ text {
 
 path {
   stroke: gray;
+  
 }
 
-line {
-  stroke: gray;
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5;
 }
 
 line#limit {
@@ -216,9 +226,10 @@ text.title {
 
 text.label {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: bold;
+  background: white;
 }
 
 text.source {
-  font-size: 10px;
+  font-size: 10px;  
 }

@@ -93,7 +93,9 @@ function initSlider() {
             rerenderMap()
             rerenderSyriaMap()
             // drawScale()
-            // drawLineChart()
+
+            updateLineChart()
+
             updateBarchart()
         }
 

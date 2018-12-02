@@ -7,7 +7,7 @@ function barChartInit() {
     // set the dimensions and margins of the chart
     var margin = {
         top: 60,
-        right: 20,
+        right: 60,
         bottom: 60,
         left: 75
     },
@@ -45,26 +45,42 @@ function barChartInit() {
     // Decide what clicking the buttons does
     //----------------------------
 
+    // change button colors onClick
+    jQuery('#province').click(function() {
+        $(this).toggleClass('barsblue')
+        $('#actor').removeClass("barsblue")
+        $('#cause').removeClass("barsblue")
+    });
+
+    jQuery('#actor').click(function() {
+        $(this).toggleClass('barsblue')
+        $('#province').removeClass("barsblue")
+        $('#cause').removeClass("barsblue")
+    });
+
+    jQuery('#cause').click(function() {
+        $(this).toggleClass('barsblue')
+        $('#actor').removeClass("barsblue")
+        $('#province').removeClass("barsblue")
+    });
+
     var barChartType = "province";
 
     d3.selectAll("#province")
         .on("click", function() {
         barChartType = "province"
-        console.log("province tab clicked")
         updateBarchart()
     });
 
     d3.selectAll("#actor")
         .on("click", function() {
         barChartType = "actor"
-        console.log("actor tab clicked")
         updateBarchart()
     });
 
     d3.selectAll("#cause")
         .on("click", function() {
         barChartType = "cause"
-        console.log("cause tab clicked")
         updateBarchart()
     });
 
@@ -78,7 +94,6 @@ function barChartInit() {
 
             // get the right data
             var dataCurrentDate = data[currentDate]
-            console.log(dataCurrentDate)
 
             //----------------------------
             // Define x and y-scale
@@ -234,6 +249,7 @@ function barChartInit() {
             // Draw title and x and y-axes labels
             //----------------------------
 
+            // numbers on top of the bars
             barChartSVG.selectAll()
                 .data(dataCurrentDate)
                 .enter()
@@ -244,14 +260,24 @@ function barChartInit() {
                 .attr('text-anchor', 'middle')
                 .text((a) => `${a.quantity}`)
 
+            // y-axis label
             barChartSVG.append('text')
                 .attr('class', 'label')
-                .attr('x', -100)
+                .attr('x', -height/2)
                 .attr('y', -50)
                 .attr('transform', 'rotate(-90)')
                 .attr('text-anchor', 'middle')
                 .text('Number of casualties')
-            
+
+            // x-axis label
+            barChartSVG.append('text')
+                .attr('class', 'label')
+                .attr('x', 500)
+                .attr('y', 480)
+                .attr('text-anchor', 'middle')
+                .text(barChartType)
+           
+            // title
             barChartSVG.append('text')
                 .attr('class', 'title')
                 .attr('x', width / 2 + 60)
@@ -259,10 +285,11 @@ function barChartInit() {
                 .attr('text-anchor', 'middle')
                 .text('Number of deaths caused by the war')
 
-            // svg.append('text')
+            // source
+            // barChartSVG.append('text')
             //     .attr('class', 'source')
-            //     .attr('x', width - margin / 2)
-            //     .attr('y', height + margin * 1.7)
+            //     .attr('x', 900)
+            //     .attr('y', 360)
             //     .attr('text-anchor', 'start')
             //     .text('Source: ...')
 
