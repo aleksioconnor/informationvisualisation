@@ -4,14 +4,23 @@
 
 function europeMapInit() {
 
-    var w = (windowWidth / 2)
-    var h = (windowHeight / 2)
+    // var width = (windowWidth / 3),
+    // mapRatio = 1.1,
+    // height = width * mapRatio,
+    // mapRatioAdjuster = 6, // adjust map ratio here without changing map container size.
+    // syria_center = [39, 35]; // Syria's geographical center
+
+    var w = (windowWidth / 3),
+        mapRatio = 1.1,
+        mapRatioAdjuster = 0.1,
+        h = w * mapRatio,
+        europeCenter = [9, 50];
 
     var projection = d3
         .geoMercator()
-        .center([5, 51])
+        .center(europeCenter)
         .translate([w / 2, h / 2])
-        .scale([w / 1.7]);
+        .scale(w * [mapRatio + mapRatioAdjuster]);
 
     var path = d3
         .geoPath()
@@ -22,7 +31,8 @@ function europeMapInit() {
         .append("svg")
         .attr("width", w)
         .attr("height", h)
-        .attr("style", "margin: 0 auto; display: block;  border: 3px solid black;");
+        .attr("style", "margin: 0 auto; display: block;  border: 1px dotted #bfbfbf;");
+
 
 
     //----------------------------
@@ -30,8 +40,8 @@ function europeMapInit() {
     //----------------------------
 
     var data = d3.map();
-    var colorScheme = d3.schemeReds[6];
-    colorScheme.unshift("#eee");
+    var colorScheme = d3.schemeBlues[6];
+    // colorScheme.unshift("#eee");
     var colorScale = d3
         .scaleThreshold()
         .domain([1, 1000, 5000, 10000, 20000, 100000])
@@ -61,11 +71,33 @@ function europeMapInit() {
                         .data(json.features)
                         .enter()
                         .append("path")
-                        .attr("fill", function (d) {
-                            return colorScale(data[currentDate][d.properties.name] || 0);
-                        })
+                        .attr("fill", "#bfbfbf")
+                        // .attr("fill", function (d) {
+                        //     return colorScale(data[currentDate][d.properties.name] || 0);
+                        // })
                         .attr("d", path)
-                        .attr("stroke", "rgba(8, 81, 156, 0.4)");
+                        .attr("stroke", "rgba(131,131,131, 0.4)")
+                        .attr("stroke-width", .3)
+                        // .on("mousemove", function (d) {
+                        //     d3.select("#tooltipEurope")
+                        //         .style("top", (d3.event.pageY) + 20 + "px")
+                        //         .style("left", (d3.event.pageX) + 20 + "px")
+                        //         .select('#country')
+                        //         .text(d.properties.name);
+                        //     d3.select("#tooltipEurope")
+                        //         .select("#refugees")
+                        //         .text(data[currentDate][d.properties.name]);
+                        //     // d3.select('#governorate-name')
+                        //     //     .text(d.properties.NAME_1);
+                        //     // d3.select('#district-name')
+                        //     //     .text(d.properties.NAME_2);
+                        //     // d3.select('#deaths')
+                        //     //     .text(deaths[d.properties.NAME_1] || 0);
+                        //     d3.select("#tooltipEurope").classed("hidden", false);
+                        // })
+                        // .on("mouseout", function (d) {
+                        //     d3.select("#tooltipEurope").classed("hidden", true);
+                        // });
                 }
 
             });
@@ -94,7 +126,7 @@ function europeMapInit() {
 
         const g = svg
             .append("g")
-            .attr("transform", "translate(" + (-w + 20) + "," + (20) + ")");
+            .attr("transform", "translate(" + (-w + (-0.35 * w)) + "," + (h - (0.08 * h)) + ")");
 
         g.selectAll("rect")
             .data(color.range().map(d => color.invertExtent(d)))

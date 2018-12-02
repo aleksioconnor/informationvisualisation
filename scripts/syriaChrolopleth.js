@@ -22,11 +22,11 @@ function syriaMapInit() {
 
 
 
-    var width = (windowWidth / 2),
-        mapRatio = .5,
+    var width = (windowWidth / 3),
+        mapRatio = 1.1,
         height = width * mapRatio,
-        mapRatioAdjuster = 4, // adjust map ratio here without changing map container size.
-        syria_center = [38, 35]; // Syria's geographical center
+        mapRatioAdjuster = 6, // adjust map ratio here without changing map container size.
+        syria_center = [39, 35]; // Syria's geographical center
 
     //Define map projection
     var projection = d3
@@ -45,53 +45,70 @@ function syriaMapInit() {
         .append("svg")
         .attr("width", width)
         .attr("height", height)
-        .attr("style", "margin: 0 auto; display: block;  border: 1px dotted black;");
-
-    d3.json("data/syria-districts-topojson.json").then(function (syr) {
-        svg
-            .selectAll("path")
-            .data(topojson.feature(syr, syr.objects.SYR_adm2).features)
-            .enter()
-            .append("path")
-            .attr("d", path)
-            .attr("fill", "#e8d8c3")
-            .attr("stroke", "#404040")
-            .attr("stroke-width", .3)
-            // Update tooltip and info boxes when user hovers over a district on map
-            .on("mousemove", function (d) {
+        .attr("style", "margin: 0 auto; display: block;  border: 1px dotted #bfbfbf;");
 
 
-                //Update the tooltip position and value
-                d3.select("#tooltip")
-                    .style("top", (d3.event.pageY) + 20 + "px")
-                    .style("left", (d3.event.pageX) + 20 + "px")
+    var colorScheme = d3.schemeReds[6];
+    // colorScheme.unshift("#eee");
+    var colorScale = d3
+        .scaleThreshold()
+        .domain([1, 10, 50, 100, 200, 500])
+        .range(colorScheme);
 
-                    // update governorate name
-                    .select('#governorate')
-                    .text(d.properties.NAME_1);
 
-                // update district name
-                d3.select("#tooltip")
-                    .select("#district")
-                    .text(d.properties.NAME_2);
+    rerenderSyriaMap = function () {
+        d3.json("data/provincesDeaths.json").then(data => {
 
-                // Update province and district names in info box
-                d3.select('#governorate-name')
-                    .text(d.properties.NAME_1);
+            const deaths = data[currentDate]
 
-                d3.select('#district-name')
-                    .text(d.properties.NAME_2);
+            d3.json("data/syria-districts-topojson.json").then(function (syr) {
 
-                // Show tooltip
-                d3.select("#tooltip").classed("hidden", false);
-            })
+                var mapSVG = svg.selectAll("path")
 
-            // Hide tooltip when user stops hovering over map
-            .on("mouseout", function (d) {
-                d3.select("#tooltip").classed("hidden", true);
+                if (currentDate !== "2013-01") {
+                    mapSVG
+                        .attr("fill", function (d) {
+                            return colorScale(deaths[d.properties.NAME_1] || 0);
+                        })
+                } else {
+                    // First draw map and fill it with colour
+                    mapSVG
+                        .data(topojson.feature(syr, syr.objects.SYR_adm2).features)
+                        .enter()
+                        .append("path")
+                        .attr("d", path)
+                        .attr("fill", "#bfbfbf")
+                        .attr("fill", function (d) {
+                            return colorScale(deaths[d.properties.NAME_1] || 0);
+                        })
+                        .attr("stroke", "rgba(131,131,131, 0.4)")
+                        .attr("stroke-width", .3)
+                        .on("mousemove", function (d) {
+                            d3.select("#tooltip")
+                                .style("top", (d3.event.pageY) + 20 + "px")
+                                .style("left", (d3.event.pageX) + 20 + "px")
+                                .select('#governorate')
+                                .text(d.properties.NAME_1);
+                            d3.select("#tooltip")
+                                .select("#district")
+                                .text(d.properties.NAME_2);
+                            d3.select('#governorate-name')
+                                .text(d.properties.NAME_1);
+                            d3.select('#district-name')
+                                .text(d.properties.NAME_2);
+                            d3.select('#deaths')
+                                .text(deaths[d.properties.NAME_1] || 0);
+                            d3.select("#tooltip").classed("hidden", false);
+                        })
+                        .on("mouseout", function (d) {
+                            d3.select("#tooltip").classed("hidden", true);
+                        });
+                }
             });
+        })
+    }
 
-    });
+    rerenderSyriaMap()
 
     // resize()
 
