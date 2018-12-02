@@ -96,6 +96,8 @@ function syriaMapInit() {
                                 .text(d.properties.NAME_1);
                             d3.select('#district-name')
                                 .text(d.properties.NAME_2);
+                            d3.select('#deaths')
+                                .text(deaths[d.properties.NAME_1] || 0);
                             d3.select("#tooltip").classed("hidden", false);
                         })
                         .on("mouseout", function (d) {

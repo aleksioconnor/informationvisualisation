@@ -33,16 +33,19 @@
     <div id="tooltip" class="hidden">
         <div><strong>Governorate:</strong> <span id="governorate">100</span></div>
         <div><strong>District:</strong> <span id="district">200</span></div>
+        <div><strong>Deaths:</strong> <span id="deaths">200</span></div>
+    </div>
+
+    <!-- HIDDEN - europe map tooltips  -->
+    <div id="tooltipEurope" class="hidden">
+        <div><strong>Country:</strong> <span id="country">100</span></div>
+        <div><strong>Refugees:</strong> <span id="refugees">200</span></div>
     </div>
 
     <div class='main-container'>
 
         <!-- Total numbers -->
-        <div class='info-box'>
-            <!-- <p>
-                Total deaths: 1324
-                Total refugees: 1324
-            </p> -->
+        <!-- <div class='info-box'>
             <table style="width:100%">
                 <tr>
                     <th>Total deaths</th>
@@ -53,7 +56,7 @@
                     <th id='total' class='blue'>555</th>
                 </tr>
             </table>
-        </div>
+        </div> -->
 
         <!-- Slider + title -->
         <div id='slider'>
@@ -62,30 +65,30 @@
 
         <!-- Main contetn -->
         <div class='flex-container'>
-            <!-- <div id='map'></div> -->
+            <div id='map'></div>
 
-            <!-- <div id='linechart'>
+            <div id='linechart'>
                 <span class="button" id="USDtoSYP">ASD to SYP</span>
                 <span class="button" id="sugar">Sugar</span>
                 <span class="button" id="rice">Rice</span>
-            </div> -->
+            </div>
 
         </div>
         <div class='flex-container'>
             <div id="syriaMap"></div>
-            <!-- <select id="line-chart-dropdown">
-            <option value="sugar">Sugar</option>
-            <option value="bread">Bread</option>
-            <option value="fuel">Fuel</option>
-            <option value="rice">Rice</option>
-            <option value="tea">Tea</option>
-        </select> -->
+            <select id="line-chart-dropdown">
+                <option value="sugar">Sugar</option>
+                <option value="bread">Bread</option>
+                <option value="fuel">Fuel</option>
+                <option value="rice">Rice</option>
+                <option value="tea">Tea</option>
+            </select>
 
-            <!-- <div id='bar_chart'>
+            <div id='bar_chart'>
                 <span class="button" id="province">Province</span>
                 <span class="button" id="actor">Actor</span>
                 <span class="button" id="cause">Cause</span>
-            </div> -->
+            </div>
 
             <!-- <div id='sankey'></div> -->
         </div>

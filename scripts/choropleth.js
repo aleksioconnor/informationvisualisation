@@ -78,7 +78,27 @@ function europeMapInit() {
                         .attr("d", path)
                         .attr("stroke", "rgba(131,131,131, 0.4)")
                         .attr("stroke-width", .3)
-                }
+                //         .on("mousemove", function (d) {
+                //             d3.select("#tooltipEurope")
+                //                 .style("top", (d3.event.pageY) + 20 + "px")
+                //                 .style("left", (d3.event.pageX) + 20 + "px")
+                //                 .select('#country')
+                //                 .text("test");
+                //             d3.select("#tooltipEurope")
+                //                 .select("#refugees")
+                //                 .text(data[currentDate][d.properties.name]);
+                //             // d3.select('#governorate-name')
+                //             //     .text(d.properties.NAME_1);
+                //             // d3.select('#district-name')
+                //             //     .text(d.properties.NAME_2);
+                //             // d3.select('#deaths')
+                //             //     .text(deaths[d.properties.NAME_1] || 0);
+                //             d3.select("#tooltipEurope").classed("hidden", false);
+                //         })
+                //         .on("mouseout", function (d) {
+                //             d3.select("#tooltipEurope").classed("hidden", true);
+                //         });
+                // }
 
             });
         });
