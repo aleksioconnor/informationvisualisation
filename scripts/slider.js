@@ -91,8 +91,9 @@ function initSlider() {
         if (newDate !== currentDate) {
             currentDate = newDate;
             rerenderMap()
+            rerenderSyriaMap()
             // drawScale()
-            drawLineChart()
+            // drawLineChart()
             updateBarchart()
         }
 
