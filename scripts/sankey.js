@@ -8,7 +8,7 @@ function sankeyInit() {
 
     d3.json("../data-parsing/sankey/sankey2016.json").then(function (data) {
         console.log(data);
-        var width = 600
+        var width = 1285
         var height = 370
 
         function format(d) {
