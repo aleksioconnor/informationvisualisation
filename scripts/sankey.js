@@ -8,8 +8,8 @@ function sankeyInit() {
 
     d3.json("../data-parsing/sankey/sankey2016.json").then(function (data) {
         console.log(data);
-        var width = 650
-        var height = 500
+        var width = 600
+        var height = 370
 
         function format(d) {
             const f = d3.format(",.0f");
@@ -18,7 +18,7 @@ function sankeyInit() {
         var svg = d3.select("#sankey").append("svg")
             .attr("width", width)
             .attr("height", height)
-            .attr("style", "margin: 0 auto; display: block;  border: 3px solid black;")
+            .attr("style", "margin: 0 auto; display: block;")
         // .attr("style", "background-color: black")
 
         var sankey = d3.sankey().size([width, height]).iterations(0); // Constructs a new Sankey generator with the default settings.
@@ -40,7 +40,7 @@ function sankeyInit() {
             .attr("y", d => d.y0)
             .attr("height", d => Math.max(1, d.y1 - d.y0))
             .attr("width", d => d.x1 - d.x0)
-            .attr("fill", "black")
+            .attr("fill", "#838383")
             .attr("opacity", 0.8)
             .append("title")
             .on("mouseover", d => {

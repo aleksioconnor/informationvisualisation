@@ -10,7 +10,7 @@ function europeMapInit() {
     // mapRatioAdjuster = 6, // adjust map ratio here without changing map container size.
     // syria_center = [39, 35]; // Syria's geographical center
 
-    var w = (windowWidth / 3),
+    var w = 336,
         mapRatio = 1.1,
         mapRatioAdjuster = 0.1,
         h = w * mapRatio,

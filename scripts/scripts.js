@@ -5,5 +5,5 @@ window.onload = function () {
     syriaMapInit();
     lineChartInit();
     barChartInit();
-    // sankeyInit();
+    sankeyInit();
 };

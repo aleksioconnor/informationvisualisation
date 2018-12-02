@@ -3,11 +3,12 @@
 //----------------------------
 var currentDate = "2013-01";
 
+// slider margin
 var margin = {
     top: 20,
     right: 30,
     bottom: 20,
-    left: 30
+    left: 100
 };
 
 

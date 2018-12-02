@@ -15,8 +15,8 @@ function lineChartInit() {
         left: 60
     },
     
-    width = (windowWidth / 2) - margin.left - margin.right,
-    height = (windowHeight / 2) - margin.top - margin.bottom;
+    width = 500 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
 
     // parse the date / time
     var parseTime = d3
@@ -89,7 +89,7 @@ function lineChartInit() {
         $(this).toggleClass('blue');
     });
 
-    var bUSDtoSYP = Boolean(false);
+    var bUSDtoSYP = Boolean(true);
     var bSugar = Boolean(false);
     var bRice = Boolean(false);
 

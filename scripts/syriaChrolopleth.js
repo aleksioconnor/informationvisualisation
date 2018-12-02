@@ -22,7 +22,7 @@ function syriaMapInit() {
 
 
 
-    var width = (windowWidth / 3),
+    var width = 336,
         mapRatio = 1.1,
         height = width * mapRatio,
         mapRatioAdjuster = 6, // adjust map ratio here without changing map container size.

@@ -62,11 +62,19 @@
 
         <!-- Slider + title -->
         <div id='slider'>
-            <h1>What is the impact of the Syrian civil war on its population?</h1>
+            <!-- <h1>What is the impact of the Syrian civil war on its population?</h1> -->
         </div>
 
         <!-- Main contetn -->
         <div class='flex-container'>
+            <div class='visualisation'>
+                <div class='visualisation-title'>Sankey diagram</div>
+                <div id='sankey' class='vis'></div>
+            </div>
+            <div class='visualisation'>
+                    <div class='visualisation-title'>Deaths per district in Syria</div>
+                    <div id="syriaMap" class='vis'></div>
+                </div>
             <div class='visualisation'>
                 <div class='visualisation-title'>Amount of Syrian refugees in Europe</div>
                 <div id='map' class='vis'></div>
@@ -75,7 +83,7 @@
             <div class='visualisation'>
                 <div class='visualisation-title'>Prices of commodities</div>
                 <div class='linechart-buttons'>
-                    <span class="button" id="USDtoSYP">USD to SYP</span>
+                    <span class="button darkblue" id="USDtoSYP">USD to SYP</span>
                     <span class="button" id="sugar">Sugar</span>
                     <span class="button" id="rice">Rice</span>
                 </div>
@@ -84,19 +92,13 @@
                 </div>
             </div>
 
-        </div>
-        <div class='flex-container'>
-            <div class='visualisation'>
-                <div class='visualisation-title'>Map of Syria</div>
-                <div id="syriaMap" class='vis'></div>
-            </div>
             <!-- <select id="line-chart-dropdown">
-                <option value="sugar">Sugar</option>
-                <option value="bread">Bread</option>
-                <option value="fuel">Fuel</option>
-                <option value="rice">Rice</option>
-                <option value="tea">Tea</option>
-            </select> -->
+                    <option value="sugar">Sugar</option>
+                    <option value="bread">Bread</option>
+                    <option value="fuel">Fuel</option>
+                    <option value="rice">Rice</option>
+                    <option value="tea">Tea</option>
+                </select> -->
 
             <div class='visualisation'>
                 <div class='visualisation-title'>Number of deaths caused by the war</div>
@@ -110,7 +112,9 @@
                 </div>
             </div>
 
-            <!-- <div id='sankey'></div> -->
+        </div>
+        <div class='flex-container'>
+
         </div>
     </div>
 </body>

@@ -2,8 +2,8 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   /* color: #bfbfbf; */
-  padding: 10px;
-  margin-top: 100px;
+  /* padding: 10px; */
+  /* margin-top: 100px; */
   /* background-color: #1a1a1a; */
 
 }
@@ -31,7 +31,7 @@ body {
 
 .visualisation-title {
   color: white;
-  background-color: gray;
+  background-color: #838383;
   /* change this */
   padding-top: 15px;
   text-align: center;
@@ -91,6 +91,14 @@ body {
 #slider {
   position: fixed;
   top: 0px;
+  background-color: #fff;
+  z-index: 500;
+  padding-top: 10px;
+  -webkit-box-shadow: 0px 2px 26px -6px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: 0px 2px 26px -6px rgba(0, 0, 0, 0.71);
+  box-shadow: 0px 2px 26px -6px rgba(0, 0, 0, 0.71);
+  padding-bottom: 15px;
+  
   /* background-color: #1a1a1a; */
 }
 
@@ -99,6 +107,7 @@ body {
 }
 
 .main-container {
+  padding-top: 100px;
   position: relative;
 }
 
@@ -134,6 +143,8 @@ td {
 
 .flex-container {
   display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 
 .node rect {
@@ -242,10 +253,10 @@ h1 {
   fill: #80cbc4;
 }
 
-text {
+/* text {
   font-size: 12px;
   fill: #bfbfbf;
-}
+} */
 
 /* careful, these affect ALL svg paths */
 path {
@@ -279,21 +290,21 @@ text.divergence {
   fill: gray;
 }
 
-text.value {
+/* text.value {
   font-size: 14px;
 }
 
 text.title {
   font-size: 22px;
   font-weight: 600;
-}
+} */
 
-text.label {
+/* text.label {
   font-size: 14px;
   font-weight: bold;
   background: white;
-}
+} */
 
-text.source {
+/* text.source {
   font-size: 10px;
-}
+} */
