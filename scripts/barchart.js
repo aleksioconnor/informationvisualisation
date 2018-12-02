@@ -164,7 +164,7 @@ function barChartInit() {
 
                     d3.select(this)
                         .transition()
-                        .duration(300)
+                        .duration(500)
                         .attr("opacity", 0.6)
                         .attr('x', (a) => xScale(a[barChartType]) - 5)
                         .attr('width', xScale.bandwidth() + 10)

@@ -129,13 +129,15 @@ function europeMapInit() {
             .attr("transform", "translate(" + (-w + (-0.35 * w)) + "," + (h - (0.08 * h)) + ")");
 
         g.selectAll("rect")
-            .data(color.range().map(d => color.invertExtent(d)))
+            .data(color.range().map(d => {
+                return color.invertExtent(d)
+            }))
             .enter()
             .append("rect")
             .attr("height", 15)
             .attr("x", d => x(d[0]))
             .attr("width", d => x(d[1]) - x(d[0]))
-            .attr("fill", d => color(d[0]));
+            .attr("fill", d => colorScale(d));
 
         g.append("text")
             .attr("class", "caption")

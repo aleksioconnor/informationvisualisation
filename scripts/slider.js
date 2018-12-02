@@ -7,20 +7,20 @@ function initSlider() {
     var startDate = new Date("2013-01-01"),
         endDate = new Date("2017-12-01");
 
-    var width = windowWidth,
+    var width = windowWidth - 200,
         height = sliderHeight;
 
     var svg = d3
         .select("#slider")
         .append("svg")
-        .attr("width", '100vw')
+        .attr("width", width + 200)
         .attr("height", height)
         .attr("style", "margin: 0 auto; display: block;"); // could be included in stylesheet, centering slider
 
     var x = d3
         .scaleTime()
         .domain([startDate, endDate])
-        .range([0, (width - 100)])
+        .range([0, (width)])
         .clamp(true);
 
     var slider = svg

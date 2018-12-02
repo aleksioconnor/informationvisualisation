@@ -8,7 +8,7 @@ var margin = {
     top: 20,
     right: 30,
     bottom: 20,
-    left: 100
+    left: 40
 };
 
 

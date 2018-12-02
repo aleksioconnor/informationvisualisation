@@ -40,8 +40,8 @@ function sankeyInit() {
             .attr("y", d => d.y0)
             .attr("height", d => Math.max(1, d.y1 - d.y0))
             .attr("width", d => d.x1 - d.x0)
-            .attr("fill", "#838383")
-            .attr("opacity", 0.8)
+            .attr("fill", "#16262E")
+            .attr("opacity", 0.9)
             .append("title")
             .on("mouseover", d => {
                 console.log(d);

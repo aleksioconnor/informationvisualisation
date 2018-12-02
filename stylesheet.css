@@ -31,7 +31,7 @@ body {
 
 .visualisation-title {
   color: white;
-  background-color: #838383;
+  background-color: #16262E;
   /* change this */
   padding-top: 15px;
   text-align: center;
@@ -88,18 +88,30 @@ body {
 /* ------------------------------ */
 /* ------------------------------ */
 /* SLIDER */
-#slider {
+
+.slider-container {
   position: fixed;
   top: 0px;
-  background-color: #fff;
+  background-color: #D6D1CD;
   z-index: 500;
   padding-top: 10px;
   -webkit-box-shadow: 0px 2px 26px -6px rgba(0, 0, 0, 0.71);
   -moz-box-shadow: 0px 2px 26px -6px rgba(0, 0, 0, 0.71);
   box-shadow: 0px 2px 26px -6px rgba(0, 0, 0, 0.71);
   padding-bottom: 15px;
-  
-  /* background-color: #1a1a1a; */
+  display: flex;
+  width: 100%;
+
+}
+
+.title {
+  text-align: center;
+  margin-top: 10px;
+  padding-left: 18px;
+  font-size: 15px;
+  padding-right: 4px;
+  font-weight: 700;
+  min-width: 180px;
 }
 
 #slider:hover {
@@ -107,8 +119,10 @@ body {
 }
 
 .main-container {
-  padding-top: 100px;
+  height: 100%;
+  padding-top: 105px;
   position: relative;
+  background-color: #D6D1CD;
 }
 
 /* ------------------------------ */
@@ -244,13 +258,13 @@ h1 {
 }
 
 .button.barsblue {
-  background: #80cbc4;
+  background: #16262E;
 }
 
 /* Bar chart */
 
 .bar {
-  fill: #80cbc4;
+  fill: #16262E;
 }
 
 /* text {
