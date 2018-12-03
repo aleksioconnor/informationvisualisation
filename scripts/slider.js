@@ -4,6 +4,8 @@ function initSlider() {
     var formatDate = d3.timeFormat("%b %Y"); // year and month
     var commonDateFormat = d3.timeFormat("%Y-%m");
 
+    var dragging = false;
+
     var startDate = new Date("2013-01-01"),
         endDate = new Date("2017-12-01");
 
@@ -46,10 +48,55 @@ function initSlider() {
             .drag()
             .on("start.interrupt", function () {
                 slider.interrupt();
+                
+                dragging = false;
+                console.log("stop")
             })
-            .on("start drag", function () {
-                moveSlider(x.invert(d3.event.x));
+            .on("start drag", function (p) {
+                // console.log('d3.event.x)', d3.event.x);
+
+                if (dragging) {
+                    return;
+                }
+
+                console.log("START DRAG")
+                dragging = true
+
+
+                const dragX = d3.event.x
+
+                // console.log("p", p)
+                const t1 = slider.select("rect")["_groups"][0];
+                const t2 = t1[0].attributes
+                const width = parseInt(t2.width.value)
+                const x = t2.x && parseInt(t2.x.value) || 0
+
+                const x1 = x - width
+                const x2 = x + width
+                console.log('test', x1, x2, dragX);
+
+                if (x1 + 2 >= dragX && dragX >= x1 - 2) {
+                    console.log("move left slider", x1 + 2, dragX, x1 - 2)
+                    resizeLeft()
+
+                } else if (x2 + 2 >= dragX && dragX >= x2 - 2) {
+                    console.log("move right slider")
+
+                    // console.log("x.invert(d3.event.x)", x.invert(d3.event.x))
+
+                    resizeRight(width, x, d3.event.x)
+
+                } else if ((t2.x + (width / 2)) >= dragX && dragX >= (t2.x - (width / 2))) {
+                    console.log("move slider")
+                    moveSlider(x.invert(d3.event.x));
+                }
+
+                // d3.select(this.parentNode).attr("transform")).translate
             })
+            // .on("stop drag", function () {
+            //     dragging = false;
+            //     console.log("stop")
+            // })
         );
 
     slider
@@ -75,13 +122,29 @@ function initSlider() {
         .attr("transform", "translate(0," + -20 + ")")
 
     var handle = slider
-        .insert("circle", ".track-overlay")
+        .insert("rect", ".track-overlay")
         .attr("class", "handle")
-        .attr("r", 9);
+        .attr("width", 10)
+        .attr("height", 20)
+        .attr("y", -10)
+        .attr("x", 0)
+
+
+
+    function resizeRight(width, x, pos) {
+
+        // debugger
+        slider
+            .select("rect")
+            .attr("width", width + (pos - x) * 2)
+            .attr("x", (pos - x))
+
+        console.log("zrobione")
+    }
 
     // What happens when you move the slider should be defined in here
     function moveSlider(h) {
-        handle.attr("cx", x(h));
+        handle.attr("x", x(h));
 
         var newDate = commonDateFormat(h);
 
