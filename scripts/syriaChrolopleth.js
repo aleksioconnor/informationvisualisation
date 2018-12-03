@@ -77,7 +77,7 @@ function syriaMapInit() {
                         .enter()
                         .append("path")
                         .attr("d", path)
-                        .attr("fill", "#bfbfbf")
+                        // .attr("fill", "#bfbfbf")
                         .attr("fill", function (d) {
                             return colorScale(deaths[d.properties.NAME_1] || 0);
                         })
@@ -98,10 +98,14 @@ function syriaMapInit() {
                                 .text(d.properties.NAME_2);
                             d3.select('#deaths')
                                 .text(deaths[d.properties.NAME_1] || 0);
+
+                            // Hide tooltip
                             d3.select("#tooltip").classed("hidden", false);
+                            d3.select("#syriaTooltip").classed("hidden", false);
                         })
                         .on("mouseout", function (d) {
                             d3.select("#tooltip").classed("hidden", true);
+                            d3.select("#syriaTooltip").classed("hidden", true);
                         });
                 }
             });

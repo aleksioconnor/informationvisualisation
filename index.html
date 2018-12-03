@@ -33,15 +33,15 @@
 
     <!-- HIDDEN - syria map tooltips  -->
     <div id="tooltip" class="hidden">
-        <div><strong>Governorate:</strong> <span id="governorate">100</span></div>
-        <div><strong>District:</strong> <span id="district">200</span></div>
-        <div><strong>Deaths:</strong> <span id="deaths">200</span></div>
-    </div>
-
-    <!-- HIDDEN - europe map tooltips  -->
-    <div id="tooltipEurope" class="hidden">
-        <div><strong>Country:</strong> <span id="country">100</span></div>
-        <div><strong>Refugees:</strong> <span id="refugees">200</span></div>
+        <div id="syriaTooltip" class="hidden">
+            <div><strong>Governorate:</strong> <span id="governorate">100</span></div>
+            <div><strong>District:</strong> <span id="district">200</span></div>
+            <div><strong>Deaths:</strong> <span id="deaths">200</span></div>
+        </div>
+        <div id="euroTooltip" class="hidden">
+            <div><strong>Country:</strong> <span id="country">100</span></div>
+            <div><strong>Refugees:</strong> <span id="refugees">200</span></div>
+        </div>
     </div>
 
     <div class='main-container'>
@@ -73,10 +73,12 @@
                 <div class='visualisation-title'>Sankey diagram</div>
                 <div id='sankey' class='vis'></div>
             </div>
+
             <div class='visualisation'>
                 <div class='visualisation-title'>Deaths per district in Syria</div>
                 <div id="syriaMap" class='vis'></div>
             </div>
+
             <div class='visualisation'>
                 <div class='visualisation-title'>Amount of Syrian refugees in Europe</div>
                 <div id='map' class='vis'></div>
@@ -94,13 +96,13 @@
                 </div>
             </div>
 
-            <!-- <select id="line-chart-dropdown">
+            <select id="line-chart-dropdown">
                     <option value="sugar">Sugar</option>
                     <option value="bread">Bread</option>
                     <option value="fuel">Fuel</option>
                     <option value="rice">Rice</option>
                     <option value="tea">Tea</option>
-                </select> -->
+                </select>
 
             <div class='visualisation'>
                 <div class='visualisation-title'>Number of deaths caused by the war</div>
