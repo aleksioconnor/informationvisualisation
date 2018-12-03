@@ -247,6 +247,8 @@ function lineChartInit() {
                     .tickSize(-width, 0, 0)
                     .tickFormat(''))
 
+            
+
             //----------------------------
             // Draw labels
             //----------------------------
@@ -292,12 +294,22 @@ function lineChartInit() {
     //----------------------------
 
     function makeInteractive(foodPrices, color) {
-
         var mouseG = lineChart.append("g")
             .attr("class", "mouse-over-effects");
 
+        // trying to append a line on click
         mouseG.on("click", function () {
             console.log("test")
+            lineChart
+                .data([foodPrices])
+                .enter()
+                .append("g")
+                .attr("class", "path")
+                .style("stroke", "black")
+                .style("stroke-width", "1px")
+                .attr("x", function (d) {
+                    return parseTime(d.date)
+                })
 
         })
 
