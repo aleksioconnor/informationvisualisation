@@ -1,6 +1,7 @@
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
+  background-color: #D6D1CD;
   /* color: #bfbfbf; */
   /* padding: 10px; */
   /* margin-top: 100px; */
@@ -122,7 +123,6 @@ body {
   height: 100%;
   padding-top: 105px;
   position: relative;
-  background-color: #D6D1CD;
 }
 
 /* ------------------------------ */
