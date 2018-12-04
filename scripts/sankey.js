@@ -133,6 +133,7 @@ function sankeyInit() {
                         }
                         updateSankey = function () {
                             var date = newDate.substring(0,4); // year
+                            $('#sankey-year').html(date)
                             console.log(date);
                             var graph = data[date];
 
