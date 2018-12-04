@@ -87,7 +87,7 @@ function initSlider() {
         newDate = commonDateFormat(h);
 
         if (newDate !== currentDate) {
-            if(newDate.substring(0,4) !== currentDate.substring(0,4)) {
+            if (newDate.substring(0, 4) !== currentDate.substring(0, 4)) {
                 updateSankey();
             }
             currentDate = newDate;
@@ -98,9 +98,6 @@ function initSlider() {
             updateBarchart()
 
         }
-
-
-
 
         label.attr("x", x(h)).text(formatDate(h));
     }

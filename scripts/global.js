@@ -13,6 +13,9 @@ var margin = {
 };
 
 
+var selectedDistricts = [];
+
+
 //calculate screen width
 var sliderHeight = 60;
 var windowHeight = $(window).height() - sliderHeight - margin.top - margin.bottom;

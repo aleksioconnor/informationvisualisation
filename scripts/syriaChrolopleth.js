@@ -106,7 +106,15 @@ function syriaMapInit() {
                         .on("mouseout", function (d) {
                             d3.select("#tooltip").classed("hidden", true);
                             d3.select("#syriaTooltip").classed("hidden", true);
-                        });
+                        })
+                        .on("click", function (d) {
+                            const province = d.properties.NAME_1
+
+                            if (!selectedDistricts.find(item => item === province)) {
+                                selectedDistricts.push(province)
+                            }
+                            updateBarchart()
+                        })
                 }
             });
         })
