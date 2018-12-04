@@ -2,6 +2,7 @@
 // Global variables
 //----------------------------
 var currentDate = "2013-01";
+var newDate = '2013-01'
 
 // slider margin
 var margin = {
