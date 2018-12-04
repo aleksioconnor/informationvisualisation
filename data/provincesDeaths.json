@@ -1,11 +1,13 @@
 {
     "2013-01": {
         "Idleb": 414,
+        "Rural Damascus": 1079,
         "Aleppo": 859,
         "Dara": 349,
         "Tartous": 4,
         "Homs": 537,
-        "Damascus": 1369,
+        "Damascus": 290,
+        "Other": 36,
         "Hama": 241,
         "Deir-ez-Zor": 171,
         "Al-Hasakeh": 37,
@@ -13,15 +15,17 @@
         "Lattakia": 23,
         "Ar-Raqqa": 68,
         "As-Sweida": 8,
-        "Rif Dimashq": 36
+        "Rif Dimashq": 0
     },
     "2013-02": {
         "Idleb": 272,
+        "Rural Damascus": 888,
         "Aleppo": 1094,
         "Dara": 309,
         "Tartous": 2,
         "Homs": 347,
-        "Damascus": 1309,
+        "Damascus": 421,
+        "Other": 62,
         "Hama": 261,
         "Deir-ez-Zor": 195,
         "Al-Hasakeh": 30,
@@ -29,15 +33,17 @@
         "Lattakia": 4,
         "Ar-Raqqa": 79,
         "As-Sweida": 4,
-        "Rif Dimashq": 62
+        "Rif Dimashq": 0
     },
     "2013-03": {
         "Idleb": 329,
+        "Rural Damascus": 1037,
         "Aleppo": 723,
         "Dara": 386,
         "Tartous": 5,
         "Homs": 545,
-        "Damascus": 1496,
+        "Damascus": 459,
+        "Other": 40,
         "Hama": 201,
         "Deir-ez-Zor": 193,
         "Al-Hasakeh": 58,
@@ -45,15 +51,17 @@
         "Lattakia": 19,
         "Ar-Raqqa": 131,
         "As-Sweida": 3,
-        "Rif Dimashq": 40
+        "Rif Dimashq": 0
     },
     "2013-04": {
         "Idleb": 384,
+        "Rural Damascus": 962,
         "Aleppo": 695,
         "Dara": 320,
         "Tartous": 2,
         "Homs": 508,
-        "Damascus": 1253,
+        "Damascus": 291,
+        "Other": 68,
         "Hama": 245,
         "Deir-ez-Zor": 173,
         "Al-Hasakeh": 30,
@@ -61,15 +69,17 @@
         "Lattakia": 21,
         "Ar-Raqqa": 45,
         "As-Sweida": 5,
-        "Rif Dimashq": 68
+        "Rif Dimashq": 0
     },
     "2013-05": {
         "Idleb": 257,
+        "Rural Damascus": 790,
         "Aleppo": 562,
         "Dara": 264,
         "Tartous": 203,
         "Homs": 616,
-        "Damascus": 959,
+        "Damascus": 169,
+        "Other": 24,
         "Hama": 278,
         "Deir-ez-Zor": 146,
         "Al-Hasakeh": 19,
@@ -77,15 +87,17 @@
         "Lattakia": 35,
         "Ar-Raqqa": 73,
         "As-Sweida": 1,
-        "Rif Dimashq": 24
+        "Rif Dimashq": 0
     },
     "2013-06": {
         "Idleb": 226,
+        "Rural Damascus": 649,
         "Aleppo": 770,
         "Dara": 225,
         "Tartous": 4,
         "Homs": 355,
-        "Damascus": 846,
+        "Damascus": 197,
+        "Other": 24,
         "Hama": 161,
         "Deir-ez-Zor": 158,
         "Al-Hasakeh": 63,
@@ -93,15 +105,17 @@
         "Lattakia": 8,
         "Ar-Raqqa": 75,
         "As-Sweida": 4,
-        "Rif Dimashq": 24
+        "Rif Dimashq": 0
     },
     "2013-07": {
         "Idleb": 441,
+        "Rural Damascus": 845,
         "Aleppo": 612,
         "Dara": 383,
         "Tartous": 19,
         "Homs": 342,
-        "Damascus": 1201,
+        "Damascus": 356,
+        "Other": 30,
         "Hama": 180,
         "Deir-ez-Zor": 114,
         "Al-Hasakeh": 50,
@@ -109,15 +123,17 @@
         "Lattakia": 12,
         "Ar-Raqqa": 51,
         "As-Sweida": 1,
-        "Rif Dimashq": 30
+        "Rif Dimashq": 0
     },
     "2013-08": {
         "Idleb": 637,
+        "Rural Damascus": 1694,
         "Aleppo": 690,
         "Dara": 411,
         "Tartous": 3,
         "Homs": 309,
-        "Damascus": 1955,
+        "Damascus": 261,
+        "Other": 42,
         "Hama": 178,
         "Deir-ez-Zor": 250,
         "Al-Hasakeh": 24,
@@ -125,15 +141,17 @@
         "Lattakia": 54,
         "Ar-Raqqa": 46,
         "As-Sweida": 0,
-        "Rif Dimashq": 42
+        "Rif Dimashq": 0
     },
     "2013-09": {
         "Idleb": 355,
+        "Rural Damascus": 727,
         "Aleppo": 399,
         "Dara": 357,
         "Tartous": 1,
         "Homs": 227,
-        "Damascus": 860,
+        "Damascus": 133,
+        "Other": 30,
         "Hama": 228,
         "Deir-ez-Zor": 132,
         "Al-Hasakeh": 31,
@@ -141,15 +159,17 @@
         "Lattakia": 10,
         "Ar-Raqqa": 79,
         "As-Sweida": 6,
-        "Rif Dimashq": 30
+        "Rif Dimashq": 0
     },
     "2013-10": {
         "Idleb": 234,
+        "Rural Damascus": 640,
         "Aleppo": 496,
         "Dara": 339,
         "Tartous": 15,
         "Homs": 280,
-        "Damascus": 813,
+        "Damascus": 173,
+        "Other": 29,
         "Hama": 162,
         "Deir-ez-Zor": 200,
         "Al-Hasakeh": 22,
@@ -157,15 +177,17 @@
         "Lattakia": 12,
         "Ar-Raqqa": 26,
         "As-Sweida": 1,
-        "Rif Dimashq": 29
+        "Rif Dimashq": 0
     },
     "2013-11": {
         "Idleb": 180,
+        "Rural Damascus": 650,
         "Aleppo": 704,
         "Dara": 214,
         "Tartous": 0,
         "Homs": 283,
-        "Damascus": 804,
+        "Damascus": 154,
+        "Other": 27,
         "Hama": 145,
         "Deir-ez-Zor": 71,
         "Al-Hasakeh": 12,
@@ -173,15 +195,17 @@
         "Lattakia": 8,
         "Ar-Raqqa": 26,
         "As-Sweida": 4,
-        "Rif Dimashq": 27
+        "Rif Dimashq": 0
     },
     "2013-12": {
         "Idleb": 134,
+        "Rural Damascus": 901,
         "Aleppo": 1113,
         "Dara": 272,
         "Tartous": 2,
         "Homs": 238,
-        "Damascus": 1016,
+        "Damascus": 115,
+        "Other": 38,
         "Hama": 87,
         "Deir-ez-Zor": 127,
         "Al-Hasakeh": 4,
@@ -189,15 +213,17 @@
         "Lattakia": 23,
         "Ar-Raqqa": 34,
         "As-Sweida": 2,
-        "Rif Dimashq": 38
+        "Rif Dimashq": 0
     },
     "2014-01": {
         "Idleb": 217,
+        "Rural Damascus": 465,
         "Aleppo": 1295,
         "Dara": 275,
         "Tartous": 7,
         "Homs": 294,
-        "Damascus": 667,
+        "Damascus": 202,
+        "Other": 24,
         "Hama": 134,
         "Deir-ez-Zor": 58,
         "Al-Hasakeh": 23,
@@ -205,15 +231,17 @@
         "Lattakia": 12,
         "Ar-Raqqa": 47,
         "As-Sweida": 4,
-        "Rif Dimashq": 24
+        "Rif Dimashq": 0
     },
     "2014-02": {
         "Idleb": 226,
+        "Rural Damascus": 414,
         "Aleppo": 1295,
         "Dara": 333,
         "Tartous": 2,
         "Homs": 234,
-        "Damascus": 528,
+        "Damascus": 114,
+        "Other": 17,
         "Hama": 228,
         "Deir-ez-Zor": 106,
         "Al-Hasakeh": 53,
@@ -221,15 +249,17 @@
         "Lattakia": 14,
         "Ar-Raqqa": 8,
         "As-Sweida": 1,
-        "Rif Dimashq": 17
+        "Rif Dimashq": 0
     },
     "2014-03": {
         "Idleb": 287,
+        "Rural Damascus": 546,
         "Aleppo": 599,
         "Dara": 224,
         "Tartous": 2,
         "Homs": 281,
-        "Damascus": 675,
+        "Damascus": 129,
+        "Other": 32,
         "Hama": 135,
         "Deir-ez-Zor": 134,
         "Al-Hasakeh": 12,
@@ -237,15 +267,17 @@
         "Lattakia": 13,
         "Ar-Raqqa": 18,
         "As-Sweida": 6,
-        "Rif Dimashq": 32
+        "Rif Dimashq": 0
     },
     "2014-04": {
         "Idleb": 321,
+        "Rural Damascus": 737,
         "Aleppo": 809,
         "Dara": 231,
         "Tartous": 5,
         "Homs": 273,
-        "Damascus": 860,
+        "Damascus": 123,
+        "Other": 15,
         "Hama": 166,
         "Deir-ez-Zor": 205,
         "Al-Hasakeh": 7,
@@ -253,15 +285,17 @@
         "Lattakia": 15,
         "Ar-Raqqa": 22,
         "As-Sweida": 0,
-        "Rif Dimashq": 15
+        "Rif Dimashq": 0
     },
     "2014-05": {
         "Idleb": 270,
+        "Rural Damascus": 458,
         "Aleppo": 711,
         "Dara": 334,
         "Tartous": 4,
         "Homs": 138,
-        "Damascus": 563,
+        "Damascus": 105,
+        "Other": 21,
         "Hama": 185,
         "Deir-ez-Zor": 249,
         "Al-Hasakeh": 4,
@@ -269,15 +303,17 @@
         "Lattakia": 15,
         "Ar-Raqqa": 14,
         "As-Sweida": 0,
-        "Rif Dimashq": 21
+        "Rif Dimashq": 0
     },
     "2014-06": {
         "Idleb": 237,
+        "Rural Damascus": 556,
         "Aleppo": 569,
         "Dara": 194,
         "Tartous": 2,
         "Homs": 254,
-        "Damascus": 649,
+        "Damascus": 93,
+        "Other": 6,
         "Hama": 123,
         "Deir-ez-Zor": 198,
         "Al-Hasakeh": 3,
@@ -285,15 +321,17 @@
         "Lattakia": 7,
         "Ar-Raqqa": 41,
         "As-Sweida": 2,
-        "Rif Dimashq": 6
+        "Rif Dimashq": 0
     },
     "2014-07": {
         "Idleb": 268,
+        "Rural Damascus": 383,
         "Aleppo": 437,
         "Dara": 287,
         "Tartous": 3,
         "Homs": 109,
-        "Damascus": 439,
+        "Damascus": 56,
+        "Other": 16,
         "Hama": 185,
         "Deir-ez-Zor": 108,
         "Al-Hasakeh": 19,
@@ -301,15 +339,17 @@
         "Lattakia": 5,
         "Ar-Raqqa": 9,
         "As-Sweida": 1,
-        "Rif Dimashq": 16
+        "Rif Dimashq": 0
     },
     "2014-08": {
         "Idleb": 174,
+        "Rural Damascus": 472,
         "Aleppo": 388,
         "Dara": 203,
         "Tartous": 3,
         "Homs": 175,
-        "Damascus": 561,
+        "Damascus": 89,
+        "Other": 12,
         "Hama": 207,
         "Deir-ez-Zor": 229,
         "Al-Hasakeh": 11,
@@ -317,15 +357,17 @@
         "Lattakia": 6,
         "Ar-Raqqa": 40,
         "As-Sweida": 2,
-        "Rif Dimashq": 12
+        "Rif Dimashq": 0
     },
     "2014-09": {
         "Idleb": 267,
+        "Rural Damascus": 583,
         "Aleppo": 300,
         "Dara": 148,
         "Tartous": 2,
         "Homs": 183,
-        "Damascus": 667,
+        "Damascus": 84,
+        "Other": 8,
         "Hama": 216,
         "Deir-ez-Zor": 119,
         "Al-Hasakeh": 25,
@@ -333,15 +375,17 @@
         "Lattakia": 12,
         "Ar-Raqqa": 74,
         "As-Sweida": 0,
-        "Rif Dimashq": 8
+        "Rif Dimashq": 0
     },
     "2014-10": {
         "Idleb": 236,
+        "Rural Damascus": 408,
         "Aleppo": 235,
         "Dara": 276,
         "Tartous": 0,
         "Homs": 288,
-        "Damascus": 469,
+        "Damascus": 61,
+        "Other": 9,
         "Hama": 96,
         "Deir-ez-Zor": 54,
         "Al-Hasakeh": 4,
@@ -349,15 +393,17 @@
         "Lattakia": 10,
         "Ar-Raqqa": 3,
         "As-Sweida": 0,
-        "Rif Dimashq": 9
+        "Rif Dimashq": 0
     },
     "2014-11": {
         "Idleb": 100,
+        "Rural Damascus": 276,
         "Aleppo": 236,
         "Dara": 396,
         "Tartous": 0,
         "Homs": 156,
-        "Damascus": 331,
+        "Damascus": 55,
+        "Other": 10,
         "Hama": 101,
         "Deir-ez-Zor": 55,
         "Al-Hasakeh": 9,
@@ -365,15 +411,17 @@
         "Lattakia": 9,
         "Ar-Raqqa": 126,
         "As-Sweida": 1,
-        "Rif Dimashq": 10
+        "Rif Dimashq": 0
     },
     "2014-12": {
         "Idleb": 175,
+        "Rural Damascus": 338,
         "Aleppo": 536,
         "Dara": 280,
         "Tartous": 1,
         "Homs": 147,
-        "Damascus": 409,
+        "Damascus": 71,
+        "Other": 6,
         "Hama": 69,
         "Deir-ez-Zor": 133,
         "Al-Hasakeh": 9,
@@ -381,15 +429,17 @@
         "Lattakia": 4,
         "Ar-Raqqa": 44,
         "As-Sweida": 2,
-        "Rif Dimashq": 6
+        "Rif Dimashq": 0
     },
     "2015-01": {
         "Idleb": 103,
+        "Rural Damascus": 273,
         "Aleppo": 157,
         "Dara": 159,
         "Tartous": 1,
         "Homs": 82,
-        "Damascus": 335,
+        "Damascus": 62,
+        "Other": 10,
         "Hama": 49,
         "Deir-ez-Zor": 81,
         "Al-Hasakeh": 78,
@@ -397,15 +447,17 @@
         "Lattakia": 4,
         "Ar-Raqqa": 4,
         "As-Sweida": 0,
-        "Rif Dimashq": 10
+        "Rif Dimashq": 0
     },
     "2015-02": {
         "Idleb": 137,
+        "Rural Damascus": 491,
         "Aleppo": 288,
         "Dara": 212,
         "Tartous": 1,
         "Homs": 70,
-        "Damascus": 520,
+        "Damascus": 29,
+        "Other": 8,
         "Hama": 45,
         "Deir-ez-Zor": 58,
         "Al-Hasakeh": 15,
@@ -413,15 +465,17 @@
         "Lattakia": 7,
         "Ar-Raqqa": 13,
         "As-Sweida": 0,
-        "Rif Dimashq": 8
+        "Rif Dimashq": 0
     },
     "2015-03": {
         "Idleb": 250,
+        "Rural Damascus": 563,
         "Aleppo": 169,
         "Dara": 350,
         "Tartous": 1,
         "Homs": 110,
-        "Damascus": 728,
+        "Damascus": 165,
+        "Other": 15,
         "Hama": 103,
         "Deir-ez-Zor": 76,
         "Al-Hasakeh": 75,
@@ -429,15 +483,17 @@
         "Lattakia": 13,
         "Ar-Raqqa": 3,
         "As-Sweida": 0,
-        "Rif Dimashq": 15
+        "Rif Dimashq": 0
     },
     "2015-04": {
         "Idleb": 390,
+        "Rural Damascus": 264,
         "Aleppo": 371,
         "Dara": 248,
         "Tartous": 1,
         "Homs": 91,
-        "Damascus": 355,
+        "Damascus": 91,
+        "Other": 8,
         "Hama": 58,
         "Deir-ez-Zor": 73,
         "Al-Hasakeh": 16,
@@ -445,15 +501,17 @@
         "Lattakia": 4,
         "Ar-Raqqa": 12,
         "As-Sweida": 0,
-        "Rif Dimashq": 8
+        "Rif Dimashq": 0
     },
     "2015-05": {
         "Idleb": 299,
+        "Rural Damascus": 239,
         "Aleppo": 570,
         "Dara": 169,
         "Tartous": 0,
         "Homs": 142,
-        "Damascus": 268,
+        "Damascus": 29,
+        "Other": 3,
         "Hama": 97,
         "Deir-ez-Zor": 195,
         "Al-Hasakeh": 42,
@@ -461,15 +519,17 @@
         "Lattakia": 3,
         "Ar-Raqqa": 6,
         "As-Sweida": 1,
-        "Rif Dimashq": 3
+        "Rif Dimashq": 0
     },
     "2015-06": {
         "Idleb": 263,
+        "Rural Damascus": 199,
         "Aleppo": 596,
         "Dara": 351,
         "Tartous": 0,
         "Homs": 190,
-        "Damascus": 218,
+        "Damascus": 19,
+        "Other": 1,
         "Hama": 91,
         "Deir-ez-Zor": 74,
         "Al-Hasakeh": 19,
@@ -477,15 +537,17 @@
         "Lattakia": 3,
         "Ar-Raqqa": 5,
         "As-Sweida": 0,
-        "Rif Dimashq": 1
+        "Rif Dimashq": 0
     },
     "2015-07": {
         "Idleb": 201,
+        "Rural Damascus": 287,
         "Aleppo": 297,
         "Dara": 240,
         "Tartous": 1,
         "Homs": 96,
-        "Damascus": 321,
+        "Damascus": 34,
+        "Other": 6,
         "Hama": 100,
         "Deir-ez-Zor": 93,
         "Al-Hasakeh": 12,
@@ -493,15 +555,17 @@
         "Lattakia": 0,
         "Ar-Raqqa": 13,
         "As-Sweida": 0,
-        "Rif Dimashq": 6
+        "Rif Dimashq": 0
     },
     "2015-08": {
         "Idleb": 257,
+        "Rural Damascus": 885,
         "Aleppo": 172,
         "Dara": 137,
         "Tartous": 1,
         "Homs": 94,
-        "Damascus": 921,
+        "Damascus": 36,
+        "Other": 4,
         "Hama": 71,
         "Deir-ez-Zor": 98,
         "Al-Hasakeh": 9,
@@ -509,15 +573,17 @@
         "Lattakia": 3,
         "Ar-Raqqa": 27,
         "As-Sweida": 0,
-        "Rif Dimashq": 4
+        "Rif Dimashq": 0
     },
     "2015-09": {
         "Idleb": 87,
+        "Rural Damascus": 328,
         "Aleppo": 80,
         "Dara": 99,
         "Tartous": 0,
         "Homs": 133,
-        "Damascus": 355,
+        "Damascus": 27,
+        "Other": 3,
         "Hama": 8,
         "Deir-ez-Zor": 55,
         "Al-Hasakeh": 1,
@@ -525,15 +591,17 @@
         "Lattakia": 1,
         "Ar-Raqqa": 1,
         "As-Sweida": 0,
-        "Rif Dimashq": 3
+        "Rif Dimashq": 0
     },
     "2015-10": {
         "Idleb": 201,
+        "Rural Damascus": 386,
         "Aleppo": 365,
         "Dara": 171,
         "Tartous": 0,
         "Homs": 240,
-        "Damascus": 401,
+        "Damascus": 15,
+        "Other": 14,
         "Hama": 116,
         "Deir-ez-Zor": 126,
         "Al-Hasakeh": 5,
@@ -541,15 +609,17 @@
         "Lattakia": 11,
         "Ar-Raqqa": 7,
         "As-Sweida": 0,
-        "Rif Dimashq": 14
+        "Rif Dimashq": 0
     },
     "2015-11": {
         "Idleb": 282,
+        "Rural Damascus": 370,
         "Aleppo": 281,
         "Dara": 173,
         "Tartous": 1,
         "Homs": 152,
-        "Damascus": 401,
+        "Damascus": 31,
+        "Other": 12,
         "Hama": 117,
         "Deir-ez-Zor": 195,
         "Al-Hasakeh": 9,
@@ -557,15 +627,17 @@
         "Lattakia": 23,
         "Ar-Raqqa": 37,
         "As-Sweida": 1,
-        "Rif Dimashq": 12
+        "Rif Dimashq": 0
     },
     "2015-12": {
         "Idleb": 293,
+        "Rural Damascus": 505,
         "Aleppo": 454,
         "Dara": 167,
         "Tartous": 1,
         "Homs": 139,
-        "Damascus": 532,
+        "Damascus": 27,
+        "Other": 4,
         "Hama": 83,
         "Deir-ez-Zor": 116,
         "Al-Hasakeh": 6,
@@ -573,15 +645,17 @@
         "Lattakia": 21,
         "Ar-Raqqa": 28,
         "As-Sweida": 0,
-        "Rif Dimashq": 4
+        "Rif Dimashq": 0
     },
     "2016-01": {
         "Idleb": 283,
+        "Rural Damascus": 356,
         "Aleppo": 286,
         "Dara": 148,
         "Tartous": 5,
         "Homs": 91,
-        "Damascus": 379,
+        "Damascus": 23,
+        "Other": 3,
         "Hama": 70,
         "Deir-ez-Zor": 221,
         "Al-Hasakeh": 24,
@@ -589,15 +663,17 @@
         "Lattakia": 13,
         "Ar-Raqqa": 61,
         "As-Sweida": 0,
-        "Rif Dimashq": 3
+        "Rif Dimashq": 0
     },
     "2016-02": {
         "Idleb": 178,
+        "Rural Damascus": 294,
         "Aleppo": 415,
         "Dara": 140,
         "Tartous": 1,
         "Homs": 144,
-        "Damascus": 319,
+        "Damascus": 25,
+        "Other": 2,
         "Hama": 60,
         "Deir-ez-Zor": 108,
         "Al-Hasakeh": 25,
@@ -605,15 +681,17 @@
         "Lattakia": 23,
         "Ar-Raqqa": 31,
         "As-Sweida": 1,
-        "Rif Dimashq": 2
+        "Rif Dimashq": 0
     },
     "2016-03": {
         "Idleb": 103,
+        "Rural Damascus": 142,
         "Aleppo": 124,
         "Dara": 151,
         "Tartous": 0,
         "Homs": 94,
-        "Damascus": 153,
+        "Damascus": 11,
+        "Other": 7,
         "Hama": 35,
         "Deir-ez-Zor": 114,
         "Al-Hasakeh": 6,
@@ -621,15 +699,17 @@
         "Lattakia": 6,
         "Ar-Raqqa": 11,
         "As-Sweida": 0,
-        "Rif Dimashq": 7
+        "Rif Dimashq": 0
     },
     "2016-04": {
         "Idleb": 235,
+        "Rural Damascus": 173,
         "Aleppo": 450,
         "Dara": 81,
         "Tartous": 1,
         "Homs": 106,
-        "Damascus": 195,
+        "Damascus": 22,
+        "Other": 3,
         "Hama": 78,
         "Deir-ez-Zor": 111,
         "Al-Hasakeh": 13,
@@ -637,15 +717,17 @@
         "Lattakia": 13,
         "Ar-Raqqa": 37,
         "As-Sweida": 0,
-        "Rif Dimashq": 3
+        "Rif Dimashq": 0
     },
     "2016-05": {
         "Idleb": 191,
+        "Rural Damascus": 200,
         "Aleppo": 352,
         "Dara": 88,
         "Tartous": 0,
         "Homs": 155,
-        "Damascus": 212,
+        "Damascus": 12,
+        "Other": 5,
         "Hama": 44,
         "Deir-ez-Zor": 99,
         "Al-Hasakeh": 12,
@@ -653,15 +735,17 @@
         "Lattakia": 8,
         "Ar-Raqqa": 17,
         "As-Sweida": 1,
-        "Rif Dimashq": 5
+        "Rif Dimashq": 0
     },
     "2016-06": {
         "Idleb": 280,
+        "Rural Damascus": 170,
         "Aleppo": 747,
         "Dara": 42,
         "Tartous": 0,
         "Homs": 102,
-        "Damascus": 192,
+        "Damascus": 22,
+        "Other": 3,
         "Hama": 66,
         "Deir-ez-Zor": 142,
         "Al-Hasakeh": 7,
@@ -669,15 +753,17 @@
         "Lattakia": 11,
         "Ar-Raqqa": 54,
         "As-Sweida": 0,
-        "Rif Dimashq": 3
+        "Rif Dimashq": 0
     },
     "2016-07": {
         "Idleb": 264,
+        "Rural Damascus": 290,
         "Aleppo": 1007,
         "Dara": 125,
         "Tartous": 0,
         "Homs": 176,
-        "Damascus": 309,
+        "Damascus": 19,
+        "Other": 2,
         "Hama": 61,
         "Deir-ez-Zor": 99,
         "Al-Hasakeh": 0,
@@ -685,15 +771,17 @@
         "Lattakia": 1,
         "Ar-Raqqa": 22,
         "As-Sweida": 0,
-        "Rif Dimashq": 3
+        "Rif Dimashq": 1
     },
     "2016-08": {
         "Idleb": 396,
+        "Rural Damascus": 214,
         "Aleppo": 657,
         "Dara": 70,
         "Tartous": 0,
         "Homs": 169,
-        "Damascus": 227,
+        "Damascus": 13,
+        "Other": 3,
         "Hama": 123,
         "Deir-ez-Zor": 94,
         "Al-Hasakeh": 3,
@@ -701,15 +789,17 @@
         "Lattakia": 4,
         "Ar-Raqqa": 15,
         "As-Sweida": 0,
-        "Rif Dimashq": 4
+        "Rif Dimashq": 1
     },
     "2016-09": {
         "Idleb": 263,
+        "Rural Damascus": 157,
         "Aleppo": 770,
         "Dara": 141,
         "Tartous": 0,
         "Homs": 79,
-        "Damascus": 166,
+        "Damascus": 9,
+        "Other": 2,
         "Hama": 174,
         "Deir-ez-Zor": 86,
         "Al-Hasakeh": 3,
@@ -717,15 +807,17 @@
         "Lattakia": 0,
         "Ar-Raqqa": 2,
         "As-Sweida": 1,
-        "Rif Dimashq": 5
+        "Rif Dimashq": 3
     },
     "2016-10": {
         "Idleb": 246,
+        "Rural Damascus": 173,
         "Aleppo": 615,
         "Dara": 118,
         "Tartous": 1,
         "Homs": 86,
-        "Damascus": 195,
+        "Damascus": 22,
+        "Other": 1,
         "Hama": 110,
         "Deir-ez-Zor": 36,
         "Al-Hasakeh": 0,
@@ -733,15 +825,17 @@
         "Lattakia": 2,
         "Ar-Raqqa": 3,
         "As-Sweida": 0,
-        "Rif Dimashq": 1
+        "Rif Dimashq": 0
     },
     "2016-11": {
         "Idleb": 276,
+        "Rural Damascus": 213,
         "Aleppo": 745,
         "Dara": 51,
         "Tartous": 0,
         "Homs": 117,
-        "Damascus": 221,
+        "Damascus": 8,
+        "Other": 14,
         "Hama": 113,
         "Deir-ez-Zor": 13,
         "Al-Hasakeh": 1,
@@ -749,15 +843,17 @@
         "Lattakia": 1,
         "Ar-Raqqa": 26,
         "As-Sweida": 0,
-        "Rif Dimashq": 16
+        "Rif Dimashq": 2
     },
     "2016-12": {
         "Idleb": 137,
+        "Rural Damascus": 147,
         "Aleppo": 491,
         "Dara": 52,
         "Tartous": 0,
         "Homs": 54,
-        "Damascus": 156,
+        "Damascus": 9,
+        "Other": 2,
         "Hama": 71,
         "Deir-ez-Zor": 51,
         "Al-Hasakeh": 0,
@@ -765,15 +861,17 @@
         "Lattakia": 0,
         "Ar-Raqqa": 3,
         "As-Sweida": 0,
-        "Rif Dimashq": 3
+        "Rif Dimashq": 1
     },
     "2017-01": {
         "Idleb": 61,
+        "Rural Damascus": 166,
         "Aleppo": 245,
         "Dara": 65,
         "Tartous": 9,
         "Homs": 58,
-        "Damascus": 179,
+        "Damascus": 13,
+        "Other": 2,
         "Hama": 16,
         "Deir-ez-Zor": 121,
         "Al-Hasakeh": 0,
@@ -781,15 +879,17 @@
         "Lattakia": 1,
         "Ar-Raqqa": 3,
         "As-Sweida": 0,
-        "Rif Dimashq": 3
+        "Rif Dimashq": 1
     },
     "2017-02": {
         "Idleb": 189,
+        "Rural Damascus": 122,
         "Aleppo": 425,
         "Dara": 287,
         "Tartous": 7,
         "Homs": 112,
-        "Damascus": 143,
+        "Damascus": 21,
+        "Other": 18,
         "Hama": 164,
         "Deir-ez-Zor": 45,
         "Al-Hasakeh": 1,
@@ -797,15 +897,17 @@
         "Lattakia": 10,
         "Ar-Raqqa": 30,
         "As-Sweida": 9,
-        "Rif Dimashq": 20
+        "Rif Dimashq": 2
     },
     "2017-03": {
         "Idleb": 174,
+        "Rural Damascus": 193,
         "Aleppo": 266,
         "Dara": 114,
         "Tartous": 1,
         "Homs": 87,
-        "Damascus": 251,
+        "Damascus": 58,
+        "Other": 4,
         "Hama": 85,
         "Deir-ez-Zor": 51,
         "Al-Hasakeh": 8,
@@ -813,15 +915,17 @@
         "Lattakia": 4,
         "Ar-Raqqa": 112,
         "As-Sweida": 0,
-        "Rif Dimashq": 12
+        "Rif Dimashq": 8
     },
     "2017-04": {
         "Idleb": 270,
+        "Rural Damascus": 266,
         "Aleppo": 109,
         "Dara": 167,
         "Tartous": 5,
         "Homs": 68,
-        "Damascus": 306,
+        "Damascus": 40,
+        "Other": 22,
         "Hama": 180,
         "Deir-ez-Zor": 51,
         "Al-Hasakeh": 0,
@@ -829,15 +933,17 @@
         "Lattakia": 1,
         "Ar-Raqqa": 30,
         "As-Sweida": 0,
-        "Rif Dimashq": 62
+        "Rif Dimashq": 40
     },
     "2017-05": {
         "Idleb": 70,
+        "Rural Damascus": 176,
         "Aleppo": 125,
         "Dara": 92,
         "Tartous": 0,
         "Homs": 88,
-        "Damascus": 207,
+        "Damascus": 31,
+        "Other": 0,
         "Hama": 80,
         "Deir-ez-Zor": 202,
         "Al-Hasakeh": 0,
@@ -849,11 +955,13 @@
     },
     "2017-06": {
         "Idleb": 79,
+        "Rural Damascus": 89,
         "Aleppo": 79,
         "Dara": 221,
         "Tartous": 1,
         "Homs": 75,
-        "Damascus": 104,
+        "Damascus": 15,
+        "Other": 3,
         "Hama": 28,
         "Deir-ez-Zor": 203,
         "Al-Hasakeh": 0,
@@ -861,15 +969,17 @@
         "Lattakia": 0,
         "Ar-Raqqa": 61,
         "As-Sweida": 0,
-        "Rif Dimashq": 3
+        "Rif Dimashq": 0
     },
     "2017-07": {
         "Idleb": 70,
+        "Rural Damascus": 135,
         "Aleppo": 93,
         "Dara": 63,
         "Tartous": 0,
         "Homs": 90,
-        "Damascus": 151,
+        "Damascus": 16,
+        "Other": 2,
         "Hama": 47,
         "Deir-ez-Zor": 226,
         "Al-Hasakeh": 3,
@@ -877,15 +987,17 @@
         "Lattakia": 0,
         "Ar-Raqqa": 193,
         "As-Sweida": 15,
-        "Rif Dimashq": 3
+        "Rif Dimashq": 1
     },
     "2017-08": {
         "Idleb": 55,
+        "Rural Damascus": 105,
         "Aleppo": 44,
         "Dara": 93,
         "Tartous": 0,
         "Homs": 130,
-        "Damascus": 126,
+        "Damascus": 21,
+        "Other": 0,
         "Hama": 35,
         "Deir-ez-Zor": 53,
         "Al-Hasakeh": 0,
@@ -897,11 +1009,13 @@
     },
     "2017-09": {
         "Idleb": 236,
+        "Rural Damascus": 107,
         "Aleppo": 31,
         "Dara": 42,
         "Tartous": 0,
         "Homs": 61,
-        "Damascus": 115,
+        "Damascus": 8,
+        "Other": 1,
         "Hama": 94,
         "Deir-ez-Zor": 318,
         "Al-Hasakeh": 0,
@@ -909,15 +1023,17 @@
         "Lattakia": 0,
         "Ar-Raqqa": 101,
         "As-Sweida": 0,
-        "Rif Dimashq": 2
+        "Rif Dimashq": 1
     },
     "2017-10": {
         "Idleb": 61,
+        "Rural Damascus": 94,
         "Aleppo": 30,
         "Dara": 62,
         "Tartous": 0,
         "Homs": 164,
-        "Damascus": 111,
+        "Damascus": 17,
+        "Other": 0,
         "Hama": 42,
         "Deir-ez-Zor": 287,
         "Al-Hasakeh": 0,
@@ -929,11 +1045,13 @@
     },
     "2017-11": {
         "Idleb": 60,
+        "Rural Damascus": 282,
         "Aleppo": 91,
         "Dara": 43,
         "Tartous": 0,
         "Homs": 22,
-        "Damascus": 307,
+        "Damascus": 25,
+        "Other": 4,
         "Hama": 32,
         "Deir-ez-Zor": 184,
         "Al-Hasakeh": 0,
@@ -941,15 +1059,17 @@
         "Lattakia": 1,
         "Ar-Raqqa": 82,
         "As-Sweida": 0,
-        "Rif Dimashq": 10
+        "Rif Dimashq": 6
     },
     "2017-12": {
         "Idleb": 155,
+        "Rural Damascus": 164,
         "Aleppo": 28,
         "Dara": 14,
         "Tartous": 0,
         "Homs": 39,
-        "Damascus": 186,
+        "Damascus": 22,
+        "Other": 16,
         "Hama": 30,
         "Deir-ez-Zor": 176,
         "Al-Hasakeh": 0,
@@ -957,6 +1077,6 @@
         "Lattakia": 2,
         "Ar-Raqqa": 82,
         "As-Sweida": 1,
-        "Rif Dimashq": 17
+        "Rif Dimashq": 1
     }
 }
