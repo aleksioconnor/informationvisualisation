@@ -147,9 +147,9 @@ function lineChartInit() {
         // Load the data
         d3.json("data/foodPrices2.json").then(function (data) {
 
-            const foodPricesBig = Object.values(data)
-            const currentDateIndex = foodPricesBig.findIndex(item => item.date === currentDate)
-            const foodPrices = foodPricesBig.slice(0, currentDateIndex)
+            const foodPrices = Object.values(data)
+            //const currentDateIndex = foodPricesBig.findIndex(item => item.date === currentDate)
+            //const foodPrices = foodPricesBig.slice(0, currentDateIndex)
 
             x.domain(d3.extent(Object.keys(data), function (d) {
                 return parseTime(d);
