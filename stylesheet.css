@@ -1,12 +1,15 @@
+html {
+  height: 100%;
+}
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
   background-color: #D6D1CD;
+  height: 100%;
   /* color: #bfbfbf; */
   /* padding: 10px; */
   /* margin-top: 100px; */
   /* background-color: #1a1a1a; */
-
 }
 
 #linechart {
@@ -66,6 +69,16 @@ body {
   stroke-width: 50px;
   stroke: transparent;
   cursor: crosshair;
+}
+/* sankey node */
+.s-node:hover {
+  fill: #000000;
+  opacity: 1;
+}
+
+.s-node {
+  transition: 0.2s all;
+  cursor: pointer;
 }
 
 .handle {
@@ -185,8 +198,9 @@ h1 {
   stroke: #000;
   stroke-opacity: .2; */
   /* transition: all 0.2s; */
+  transition: all 0.2s;
   fill: none;
-  stroke: #bfbfbf;
+  stroke: #383838;
   stroke-opacity: .2;
 }
 

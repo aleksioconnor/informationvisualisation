@@ -10,7 +10,7 @@
     <script src="plugins/jquery.3.3.1.min.js" charset="utf-8"></script>
     <!-- <script src="//d3js.org/topojson.v1.min.js"></script> -->
     <script src="//d3js.org/topojson.v1.min.js"></script>
-    <!-- <script src="https://d3js.org/d3-queue.v3.min.js"></script> -->
+    <script src="https://d3js.org/d3-queue.v3.min.js"></script>
     <script src="plugins/d3-array.min.js"></script>
     <script src="plugins/d3-collection.min.js"></script>
     <script src="plugins/d3-path.min.js"></script>
@@ -30,7 +30,6 @@
 </head>
 
 <body>
-
     <!-- HIDDEN - syria map tooltips  -->
     <div id="tooltip" class="hidden">
         <div id="syriaTooltip" class="hidden">
@@ -70,7 +69,7 @@
         <!-- Main content -->
         <div class='flex-container'>
             <div class='visualisation'>
-                <div class='visualisation-title'>Sankey diagram</div>
+                <div class='visualisation-title'>Casualties in <span id='sankey-year'></span></div>
                 <div id='sankey' class='vis'></div>
             </div>
 
