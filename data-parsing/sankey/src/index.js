@@ -191,9 +191,9 @@ function createLinksCollection(collection, sourceName, targetName) {
 
 // const dateToProvince = createLinksCollection(monthlyData[52].data, 'deathdate', 'province');
 
-const dateToProvince = createLinksCollection(monthlyData[0].data, 'deathdate', 'deathcause')
-const provinceToActor = createLinksCollection(monthlyData[0].data, 'deathcause', 'actor');
-const actorToMethod = createLinksCollection(monthlyData[0].data, 'actor', 'province');
+const dateToProvince = createLinksCollection(monthlyData[4].data, 'deathdate', 'actor')
+const provinceToActor = createLinksCollection(monthlyData[4].data, 'actor', 'deathcause');
+const actorToMethod = createLinksCollection(monthlyData[4].data, 'deathcause', 'province');
 
 const linksWithoutIndex = dateToProvince.concat(provinceToActor, actorToMethod);
 

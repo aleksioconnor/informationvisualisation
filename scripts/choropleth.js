@@ -71,33 +71,32 @@ function europeMapInit() {
                         .data(json.features)
                         .enter()
                         .append("path")
-                        .attr("fill", "#bfbfbf")
-                        // .attr("fill", function (d) {
-                        //     return colorScale(data[currentDate][d.properties.name] || 0);
-                        // })
                         .attr("d", path)
+                        .attr("fill", function (d) {
+                            return colorScale(data[currentDate][d.properties.name] || 0);
+                        })
                         .attr("stroke", "rgba(131,131,131, 0.4)")
                         .attr("stroke-width", .3)
-                        // .on("mousemove", function (d) {
-                        //     d3.select("#tooltipEurope")
-                        //         .style("top", (d3.event.pageY) + 20 + "px")
-                        //         .style("left", (d3.event.pageX) + 20 + "px")
-                        //         .select('#country')
-                        //         .text(d.properties.name);
-                        //     d3.select("#tooltipEurope")
-                        //         .select("#refugees")
-                        //         .text(data[currentDate][d.properties.name]);
-                        //     // d3.select('#governorate-name')
-                        //     //     .text(d.properties.NAME_1);
-                        //     // d3.select('#district-name')
-                        //     //     .text(d.properties.NAME_2);
-                        //     // d3.select('#deaths')
-                        //     //     .text(deaths[d.properties.NAME_1] || 0);
-                        //     d3.select("#tooltipEurope").classed("hidden", false);
-                        // })
-                        // .on("mouseout", function (d) {
-                        //     d3.select("#tooltipEurope").classed("hidden", true);
-                        // });
+                        .on("mousemove", function (d) {
+
+                            d3.select("#tooltip")
+                                .style("top", (d3.event.pageY) + 20 + "px")
+                                .style("left", (d3.event.pageX) + 20 + "px")
+                                .select('#country')
+                                .text(d.properties.name);
+
+                            d3.select("#tooltip")
+                                .select("#refugees")
+                                .text(data[currentDate][d.properties.name]);
+
+                            // Hide tooltip
+                            d3.select("#tooltip").classed("hidden", false);
+                            d3.select("#euroTooltip").classed("hidden", false);
+                        })
+                        .on("mouseout", function (d) {
+                            d3.select("#tooltip").classed("hidden", true);
+                            d3.select("#euroTooltip").classed("hidden", true);
+                        });
                 }
 
             });

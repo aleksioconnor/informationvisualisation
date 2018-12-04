@@ -79,21 +79,24 @@ function initSlider() {
         .attr("class", "handle")
         .attr("r", 9);
 
+
     // What happens when you move the slider should be defined in here
     function moveSlider(h) {
         handle.attr("cx", x(h));
 
-        var newDate = commonDateFormat(h);
+        newDate = commonDateFormat(h);
 
         if (newDate !== currentDate) {
+            if (newDate.substring(0, 4) !== currentDate.substring(0, 4)) {
+                updateSankey();
+            }
             currentDate = newDate;
             rerenderMap()
             rerenderSyriaMap()
             // drawScale()
-
             updateLineChart()
-
             updateBarchart()
+
         }
 
         label.attr("x", x(h)).text(formatDate(h));

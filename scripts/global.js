@@ -2,6 +2,7 @@
 // Global variables
 //----------------------------
 var currentDate = "2013-01";
+var newDate = '2013-01'
 
 // slider margin
 var margin = {
@@ -10,6 +11,9 @@ var margin = {
     bottom: 20,
     left: 40
 };
+
+
+var selectedDistricts = [];
 
 
 //calculate screen width

@@ -1,6 +1,4 @@
 function resize() {
-    console.log('doing resize');
-
     width = parseInt(d3.select('#viz').style('width'));
     width = width - margin.left - margin.right;
     height = width * mapRatio;
@@ -61,25 +59,25 @@ function syriaMapInit() {
 
             const deaths = data[currentDate]
 
-            d3.json("data/syria-districts-topojson.json").then(function (syr) {
+            d3.json("data/syria.json").then(function (syr) {
 
                 var mapSVG = svg.selectAll("path")
 
                 if (currentDate !== "2013-01") {
                     mapSVG
                         .attr("fill", function (d) {
-                            return colorScale(deaths[d.properties.NAME_1] || 0);
+                            return colorScale(deaths[d.properties.NAM_EN_REF] || 0);
                         })
                 } else {
                     // First draw map and fill it with colour
                     mapSVG
-                        .data(topojson.feature(syr, syr.objects.SYR_adm2).features)
+                        .data(topojson.feature(syr, syr.objects.syr_admin1).features)
                         .enter()
                         .append("path")
                         .attr("d", path)
-                        .attr("fill", "#bfbfbf")
+                        // .attr("fill", "#bfbfbf")
                         .attr("fill", function (d) {
-                            return colorScale(deaths[d.properties.NAME_1] || 0);
+                            return colorScale(deaths[d.properties.NAM_EN_REF] || 0);
                         })
                         .attr("stroke", "rgba(131,131,131, 0.4)")
                         .attr("stroke-width", .3)
@@ -87,22 +85,29 @@ function syriaMapInit() {
                             d3.select("#tooltip")
                                 .style("top", (d3.event.pageY) + 20 + "px")
                                 .style("left", (d3.event.pageX) + 20 + "px")
-                                .select('#governorate')
-                                .text(d.properties.NAME_1);
-                            d3.select("#tooltip")
-                                .select("#district")
-                                .text(d.properties.NAME_2);
-                            d3.select('#governorate-name')
-                                .text(d.properties.NAME_1);
-                            d3.select('#district-name')
-                                .text(d.properties.NAME_2);
+                                .select('#province')
+                                .text(d.properties.NAM_EN_REF);
+                            d3.select('#province-name')
+                                .text(d.properties.NAM_EN_REF);
                             d3.select('#deaths')
-                                .text(deaths[d.properties.NAME_1] || 0);
+                                .text(deaths[d.properties.NAM_EN_REF] || 0);
+
+                            // Hide tooltip
                             d3.select("#tooltip").classed("hidden", false);
+                            d3.select("#syriaTooltip").classed("hidden", false);
                         })
                         .on("mouseout", function (d) {
                             d3.select("#tooltip").classed("hidden", true);
-                        });
+                            d3.select("#syriaTooltip").classed("hidden", true);
+                        })
+                        .on("click", function (d) {
+                            const province = d.properties.NAM_EN_REF
+
+                            if (!selectedDistricts.find(item => item === province)) {
+                                selectedDistricts.push(province)
+                            }
+                            updateBarchart()
+                        })
                 }
             });
         })

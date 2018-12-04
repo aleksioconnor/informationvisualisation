@@ -14,9 +14,9 @@ function lineChartInit() {
         bottom: 60,
         left: 60
     },
-
-        width = 500 - margin.left - margin.right,
-        height = 300 - margin.top - margin.bottom;
+    
+    width = 650 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
 
     // parse the date / time
     var parseTime = d3
