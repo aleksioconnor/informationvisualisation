@@ -14,7 +14,7 @@ function lineChartInit() {
         bottom: 60,
         left: 60
     },
-    
+
     width = 650 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
@@ -77,6 +77,7 @@ function lineChartInit() {
 
                 return y(d["Fuel (diesel, liter, SYP)"])
             }),
+    
     }
 
     //----------------------------
@@ -148,7 +149,7 @@ function lineChartInit() {
         d3.json("data/foodPrices2.json").then(function (data) {
 
             const foodPrices = Object.values(data)
-            //const currentDateIndex = foodPricesBig.findIndex(item => item.date === currentDate)
+            const currentDateIndex = foodPrices.findIndex(item => item.date === currentDate)
             //const foodPrices = foodPricesBig.slice(0, currentDateIndex)
 
             x.domain(d3.extent(Object.keys(data), function (d) {
@@ -175,6 +176,17 @@ function lineChartInit() {
             //----------------------------
             // Draw lines
             //----------------------------
+
+            // vertical line attempt
+            // var verticalLine = lineChart.append("path")
+            // .data([foodPrices])
+            // .attr("class", "line")
+            // .style("stroke", "red")
+            // .attr("stroke-width", "2" )
+            // .attr("y1", y(0))
+            // .attr("y2", y(100))
+            // .attr("x1", x(10))
+            // .attr("x2", x(10))
 
             if (bBread == true) {
                 var sBread = "Bread (SYP)"
@@ -282,7 +294,7 @@ function lineChartInit() {
             //     .attr('x', 900)
             //     .attr('y', 360)
             //     .attr('text-anchor', 'start')
-            //     .text('Source: ...')
+            //     .text('Source: ...')                
 
         });
     }
@@ -294,22 +306,6 @@ function lineChartInit() {
     function makeInteractive(foodPrices, color) {
         var mouseG = lineChart.append("g")
             .attr("class", "mouse-over-effects");
-
-        // trying to append a line on click
-        mouseG.on("click", function () {
-            console.log("test")
-            lineChart
-                .data([foodPrices])
-                .enter()
-                .append("g")
-                .attr("class", "path")
-                .style("stroke", "black")
-                .style("stroke-width", "1px")
-                .attr("x", function (d) {
-                    return parseTime(d.date)
-                })
-
-        })
 
         mouseG.append("path") // this is the black vertical line to follow mouse
             .attr("class", "mouse-line")
@@ -326,11 +322,11 @@ function lineChartInit() {
             .attr("class", "mouse-per-line");
 
         mousePerLine.append("circle")
-            .attr("r", 7)
-            .style("stroke", color)
-            .style("fill", "none")
-            .style("stroke-width", "1px")
-            .style("opacity", "0");
+                .attr("r", 7)
+                .style("stroke", color)
+                .style("fill", "none")
+                .style("stroke-width", "1px")
+                .style("opacity", "0");
 
         mousePerLine.append("text")
             .attr('class', 'label')
@@ -360,6 +356,7 @@ function lineChartInit() {
             })
 
             .on('mousemove', function () { // mouse moving over canvas
+
                 var mouse = d3.mouse(this);
                 d3.select(".mouse-line")
                     .attr("d", function () {
