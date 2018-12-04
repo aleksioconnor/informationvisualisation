@@ -61,7 +61,9 @@ function syriaMapInit() {
 
             const deaths = data[currentDate]
 
-            d3.json("data/syria-districts-topojson.json").then(function (syr) {
+            d3.json("data/syria.json").then(function (syr) {
+
+                console.log(syr)
 
                 var mapSVG = svg.selectAll("path")
 
@@ -73,13 +75,14 @@ function syriaMapInit() {
                 } else {
                     // First draw map and fill it with colour
                     mapSVG
-                        .data(topojson.feature(syr, syr.objects.SYR_adm2).features)
+                        .data(topojson.feature(syr, syr.objects.syr_admin1).features)
                         .enter()
                         .append("path")
                         .attr("d", path)
                         // .attr("fill", "#bfbfbf")
                         .attr("fill", function (d) {
-                            return colorScale(deaths[d.properties.NAME_1] || 0);
+                            console.log(d.properties.NAME_EN, d.properties.NAM_EN_REF)
+                            return colorScale(deaths[d.properties.NAME_EN] || 0);
                         })
                         .attr("stroke", "rgba(131,131,131, 0.4)")
                         .attr("stroke-width", .3)
