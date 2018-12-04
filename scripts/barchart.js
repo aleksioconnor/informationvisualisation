@@ -12,7 +12,7 @@ function barChartInit() {
         left: 75
     },
 
-    width = 500 - margin.left - margin.right,
+    width = 660 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
     // define the scales and axes

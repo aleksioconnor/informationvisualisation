@@ -9,7 +9,7 @@ function sankeyInit() {
         .duration(100)
         .ease(d3.easeLinear);
 
-    var width = 600
+    var width = 706
     var height = 370
 
     var sankey = d3.sankey().size([width, height]).iterations(0); // Constructs a new Sankey generator with the default settings.
