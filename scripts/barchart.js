@@ -12,8 +12,8 @@ function barChartInit() {
             left: 75
         },
 
-        width = 450 - margin.left - margin.right,
-        height = 300 - margin.top - margin.bottom;
+    width = 660 - margin.left - margin.right,
+    height = 300 - margin.top - margin.bottom;
 
     // define the scales and axes
     var xScale = d3

@@ -15,7 +15,7 @@ function lineChartInit() {
         left: 60
     },
     
-    width = 500 - margin.left - margin.right,
+    width = 650 - margin.left - margin.right,
     height = 300 - margin.top - margin.bottom;
 
     // parse the date / time
