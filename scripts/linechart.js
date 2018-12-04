@@ -85,22 +85,22 @@ function lineChartInit() {
 
     // change button colors onClick
     jQuery('#bread').click(function () {
-        $(this).toggleClass('darkblue');
+        $(this).toggleClass('bread');
     });
 
     jQuery('#sugar').click(function () {
-        $(this).toggleClass('steelblue');
+        $(this).toggleClass('sugar');
     });
 
     jQuery('#rice').click(function () {
-        $(this).toggleClass('blue');
+        $(this).toggleClass('rice');
     });
 
     jQuery('#fuel').click(function () {
-        $(this).toggleClass('powderblue');
+        $(this).toggleClass('fuel');
     });
 
-    var bBread = Boolean(true);
+    var bBread = Boolean(false);
     var bSugar = Boolean(false);
     var bRice = Boolean(false);
     var bFuel = Boolean(false);
@@ -178,7 +178,7 @@ function lineChartInit() {
 
             if (bBread == true) {
                 var sBread = "Bread (SYP)"
-                var color = "darkblue"
+                var color = "#DB4437"
                 var line = lineChart.append("path")
                     .data([foodPrices])
                     .attr("class", "line")
@@ -189,22 +189,9 @@ function lineChartInit() {
 
             }
 
-            if (bFuel == true) {
-                var sFuel = "Fuel (diesel, liter, SYP)"
-                var color = "teal"
-                var line = lineChart.append("path")
-                    .data([foodPrices])
-                    .attr("class", "line")
-                    .style("stroke", color)
-                    .attr("d", valueLines[sFuel]);
-
-                makeInteractive(foodPrices, color)
-
-            }
-
             if (bSugar == true) {
                 var sSugar = "Sugar (kg, SYP)"
-                var color = "steelblue"
+                var color = "#4285F4"
                 var line = lineChart.append("path")
                     .data([foodPrices])
                     .attr("class", "line")
@@ -217,12 +204,25 @@ function lineChartInit() {
 
             if (bRice == true) {
                 var sRice = "Rice (kg, SYP)"
-                var color = "lightblue"
+                var color = "#F4B400"
                 var line = lineChart.append("path")
                     .data([foodPrices])
                     .attr("class", "line")
                     .style("stroke", color)
                     .attr("d", valueLines[sRice]);
+
+                makeInteractive(foodPrices, color)
+
+            }
+
+            if (bFuel == true) {
+                var sFuel = "Fuel (diesel, liter, SYP)"
+                var color = "#0F9D58"
+                var line = lineChart.append("path")
+                    .data([foodPrices])
+                    .attr("class", "line")
+                    .style("stroke", color)
+                    .attr("d", valueLines[sFuel]);
 
                 makeInteractive(foodPrices, color)
 
@@ -246,8 +246,6 @@ function lineChartInit() {
                     .scale(y)
                     .tickSize(-width, 0, 0)
                     .tickFormat(''))
-
-            
 
             //----------------------------
             // Draw labels

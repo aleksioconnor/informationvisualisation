@@ -192,7 +192,7 @@ h1 {
 
 .axis text {
   /* font-family: calibri, sans serif; */
-  font-size: 10pt;
+  font-size: 8pt;
 }
 
 .yxis text {
@@ -245,20 +245,20 @@ h1 {
   outline: none;
 }
 
-.button.steelblue {
-  background: steelblue;
+.button.bread {
+  background: #DB4437;
 }
 
-.button.darkblue {
-  background: darkblue;
+.button.sugar {
+  background: #4285F4;
 }
 
-.button.blue {
-  background: lightblue;
+.button.rice {
+  background: #F4B400;
 }
 
-.button.powderblue{
-  background:powderblue;
+.button.fuel{
+  background:#0F9D58;
 }
 
 .button.barsblue {

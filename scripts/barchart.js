@@ -99,10 +99,10 @@ function barChartInit() {
             // Define x and y-scale
             //----------------------------
 
-            //yScale.domain([0, d3.max(dataCurrentDate, function (d) {
-              //   return d.quantity;
-            //})]);
-            yScale.domain([0, 1500])
+            yScale.domain([0, d3.max(dataCurrentDate, function (d) {
+                 return d.quantity + 350;
+            })]);
+            //yScale.domain([0, 1500])
 
             xScale.domain(dataCurrentDate.map(function (d) {
                 return d[barChartType];
@@ -229,7 +229,12 @@ function barChartInit() {
                 .attr("class", "x axis")
                 .attr("transform", "translate(0," + (height) + ")")
                 .call(xAxis)
-                .selectAll("text");
+                .selectAll("text")
+                .attr("y", 0)
+                .attr("x", 9)
+                .attr("dy", ".35em")
+                .attr("transform", "rotate(45)")
+                .style("text-anchor", "start");
 
             barChartSVG.append("g")
                 .attr("class", "y axis")
@@ -296,6 +301,9 @@ function barChartInit() {
         });
 
     }
+
+   
+      
 
     updateBarchart()
 
