@@ -105,22 +105,14 @@ function barChartInit() {
             yScale.domain([0, 1500])
 
             xScale
-            .domain(
-                dataCurrentDate
-                .filter(item => selectedDistricts.includes(item.province))
-                .map(function (d) {
-                // d[barChartType]
-
-                console.log(d, dataCurrentDate)
-
-                if (selectedDistricts.includes(d[barChartType])) {
-                    console.log(d[barChartType], selectedDistricts, selectedDistricts.includes(d[barChartType]))
-
-                    return d[barChartType]
-                }
-            }));
-
-            console.log(xScale)
+                .domain(
+                    dataCurrentDate
+                    .filter(item => selectedDistricts.includes(item.province))
+                    .map(function (d) {
+                        if (selectedDistricts.includes(d[barChartType])) {
+                            return d[barChartType]
+                        }
+                    }));
 
             //----------------------------
             // Refresh view
@@ -178,77 +170,77 @@ function barChartInit() {
             // Define interactivity
             //----------------------------
 
-            // barChartSVG.selectAll("rect")
-            //     .on('mouseenter', function (actual, i) {
+            barChartSVG.selectAll("rect")
+                .on('mouseenter', function (actual, i) {
 
-            //         // change opacity of the bars on mouseenter
-            //         // d3.selectAll('.value')
-            //         //     .attr('opacity', 0)
+                    // change opacity of the bars on mouseenter
+                    // d3.selectAll('.value')
+                    //     .attr('opacity', 0)
 
-            //         d3.select(this)
-            //             .transition()
-            //             .duration(500)
-            //             .attr("opacity", 0.6)
-            //             .attr('x', (a) => xScale(a[barChartType]) - 5)
-            //             .attr('width', xScale.bandwidth() + 10)
+                    d3.select(this)
+                        .transition()
+                        .duration(500)
+                        .attr("opacity", 0.6)
+                        .attr('x', (a) => xScale(a[barChartType]) - 5)
+                        .attr('width', xScale.bandwidth() + 10)
 
-            //         // draw text showing relative percentages
-            //         barChartSVG
-            //             .selectAll()
-            //             .data(dataCurrentDate)
-            //             .enter()
-            //             .filter(function (d) {
-            //                 return selectedDistricts.includes(d.province)
-            //             })
-            //             .append('text')
-            //             .attr('class', 'divergence')
-            //             .attr('x', (a) => {
-            //                 return xScale(a[barChartType]) + xScale.bandwidth() / 2
-            //             })
-            //             .attr('y', (a) => yScale(a.quantity) - 30)
-            //             .attr('fill', 'white')
-            //             .attr('text-anchor', 'middle')
-            //             .text("test")
-            //             .text((a, idx) => {
-            //                 const divergence = (a.quantity - actual.quantity).toFixed(1)
+                    // draw text showing relative percentages
+                    barChartSVG
+                        .selectAll()
+                        .data(dataCurrentDate)
+                        .enter()
+                        .filter(function (d) {
+                            return selectedDistricts.includes(d.province)
+                        })
+                        .append('text')
+                        .attr('class', 'divergence')
+                        .attr('x', (a) => {
+                            return xScale(a[barChartType]) + xScale.bandwidth() / 2
+                        })
+                        .attr('y', (a) => yScale(a.quantity) - 30)
+                        .attr('fill', 'white')
+                        .attr('text-anchor', 'middle')
+                        .text("test")
+                        .text((a, idx) => {
+                            const divergence = (a.quantity - actual.quantity).toFixed(1)
 
-            //                 let text = ''
-            //                 if (divergence > 0) text += '+'
-            //                 text += `${divergence}%`
+                            let text = ''
+                            if (divergence > 0) text += '+'
+                            text += `${divergence}%`
 
-            //                 return idx !== i ? text : '';
-            //             })
+                            return idx !== i ? text : '';
+                        })
 
-            //         // draw line on top of bar
-            //         const y = yScale(actual.quantity)
+                    // draw line on top of bar
+                    const y = yScale(actual.quantity)
 
-            //         line = barChartSVG
-            //             .append('line')
-            //             .attr('id', 'limit')
-            //             .attr('x1', 0)
-            //             .attr('y1', y)
-            //             .attr('x2', width)
-            //             .attr('y2', y)
+                    line = barChartSVG
+                        .append('line')
+                        .attr('id', 'limit')
+                        .attr('x1', 0)
+                        .attr('y1', y)
+                        .attr('x2', width)
+                        .attr('y2', y)
 
-            //     })
-            //     .on("mouseleave", function () {
-            //         // d3.selectAll('.value')
-            //         //     .attr('opacity', 1)
+                })
+                .on("mouseleave", function () {
+                    // d3.selectAll('.value')
+                    //     .attr('opacity', 1)
 
-            //         // change opacity and bar width back to normal
-            //         d3.select(this)
-            //             .transition()
-            //             .duration(300)
-            //             .attr('opacity', 1)
-            //             .attr("x", function (d) {
-            //                 return xScale(d[barChartType]);
-            //             })
-            //             .attr('width', xScale.bandwidth())
+                    // change opacity and bar width back to normal
+                    d3.select(this)
+                        .transition()
+                        .duration(300)
+                        .attr('opacity', 1)
+                        .attr("x", function (d) {
+                            return xScale(d[barChartType]);
+                        })
+                        .attr('width', xScale.bandwidth())
 
-            //         // remove the line and additional text showing percentages
-            //         barChartSVG.selectAll('#limit').remove()
-            //         barChartSVG.selectAll('.divergence').remove()
-            //     })
+                    // remove the line and additional text showing percentages
+                    barChartSVG.selectAll('#limit').remove()
+                    barChartSVG.selectAll('.divergence').remove()
+                })
 
             //----------------------------
             // Draw x-axis, y-axes, and grid
@@ -279,42 +271,42 @@ function barChartInit() {
             // //----------------------------
 
             // numbers on top of the bars
-            // barChartSVG.selectAll()
-            //     .data(dataCurrentDate)
-            //     .enter()
-            //     .filter(function (d) {
-            //         return selectedDistricts.includes(d.province)
-            //     })
-            //     .append('text')
-            //     .attr('class', 'value')
-            //     .attr('x', (a) => xScale(a[barChartType]) + xScale.bandwidth() / 2)
-            //     .attr('y', (a) => yScale(a.quantity) + -5)
-            //     .attr('text-anchor', 'middle')
-            //     .text((a) => `${a.quantity}`)
+            barChartSVG.selectAll()
+                .data(dataCurrentDate)
+                .enter()
+                .filter(function (d) {
+                    return selectedDistricts.includes(d.province)
+                })
+                .append('text')
+                .attr('class', 'value')
+                .attr('x', (a) => xScale(a[barChartType]) + xScale.bandwidth() / 2)
+                .attr('y', (a) => yScale(a.quantity) + -5)
+                .attr('text-anchor', 'middle')
+                .text((a) => `${a.quantity}`)
 
-            // // y-axis label
-            // barChartSVG.append('text')
-            //     .attr('class', 'label')
-            //     .attr('x', -height / 2)
-            //     .attr('y', -50)
-            //     .attr('transform', 'rotate(-90)')
-            //     .attr('text-anchor', 'middle')
-            //     .text('Number of casualties')
+            // y-axis label
+            barChartSVG.append('text')
+                .attr('class', 'label')
+                .attr('x', -height / 2)
+                .attr('y', -50)
+                .attr('transform', 'rotate(-90)')
+                .attr('text-anchor', 'middle')
+                .text('Number of casualties')
 
-            // // x-axis label
-            // barChartSVG.append('text')
-            //     .attr('class', 'label')
-            //     .attr('x', 500)
-            //     .attr('y', 480)
-            //     .attr('text-anchor', 'middle')
-            //     .text(barChartType)
+            // x-axis label
+            barChartSVG.append('text')
+                .attr('class', 'label')
+                .attr('x', 500)
+                .attr('y', 480)
+                .attr('text-anchor', 'middle')
+                .text(barChartType)
 
-            // // title
-            // barChartSVG.append('text')
-            //     .attr('class', 'title')
-            //     .attr('x', width / 2 + 60)
-            //     .attr('y', -20)
-            //     .attr('text-anchor', 'middle')
+            // title
+            barChartSVG.append('text')
+                .attr('class', 'title')
+                .attr('x', width / 2 + 60)
+                .attr('y', -20)
+                .attr('text-anchor', 'middle')
 
 
 
