@@ -70,6 +70,16 @@ body {
   stroke: transparent;
   cursor: crosshair;
 }
+/* sankey node */
+.s-node:hover {
+  fill: #000000;
+  opacity: 1;
+}
+
+.s-node {
+  transition: 0.2s all;
+  cursor: pointer;
+}
 
 .handle {
   fill: #fff;
