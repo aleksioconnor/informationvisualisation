@@ -45,28 +45,29 @@ function barChartInit() {
     // Decide what clicking the buttons does
     //----------------------------
 
-    // change button colors onClick
-    jQuery('#province').click(function () {
+    //change button colors onClick
+    $('#province-button').click(function () {
         $(this).toggleClass('barsblue')
         $('#actor').removeClass("barsblue")
         $('#cause').removeClass("barsblue")
     });
+    
 
-    jQuery('#actor').click(function () {
+    $('#actor').click(function () {
         $(this).toggleClass('barsblue')
-        $('#province').removeClass("barsblue")
+        $('#province-button').removeClass("barsblue")
         $('#cause').removeClass("barsblue")
     });
 
-    jQuery('#cause').click(function () {
+    $('#cause').click(function () {
         $(this).toggleClass('barsblue')
         $('#actor').removeClass("barsblue")
-        $('#province').removeClass("barsblue")
+        $('#province-button').removeClass("barsblue")
     });
 
     var barChartType = "province";
 
-    d3.selectAll("#province")
+    d3.selectAll("#province-button")
         .on("click", function () {
             barChartType = "province"
             updateBarchart()
@@ -150,7 +151,6 @@ function barChartInit() {
                 })
                 .append("rect")
                 .attr("x", function (d) {
-                    console.log("draw x")
                     if (selectedDistricts.includes(d[barChartType])) {
                         console.log(d[barChartType], selectedDistricts, selectedDistricts.includes(d[barChartType]))
 
