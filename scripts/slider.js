@@ -96,6 +96,7 @@ function initSlider() {
             // drawScale()
             updateLineChart()
             updateBarchart()
+            updateLine();
 
         }
 

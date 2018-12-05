@@ -3,20 +3,21 @@
 //----------------------------
 
 var lineChart = null
+var mousePos = 'M177,220 177,0';
 
 // Initialize line chart
 function lineChartInit() {
 
     // set the dimensions and margins of the graph
     var margin = {
-        top: 20,
-        right: 60,
-        bottom: 60,
-        left: 60
-    },
+            top: 20,
+            right: 60,
+            bottom: 60,
+            left: 60
+        },
 
-    width = 650 - margin.left - margin.right,
-    height = 300 - margin.top - margin.bottom;
+        width = 650 - margin.left - margin.right,
+        height = 300 - margin.top - margin.bottom;
 
     // parse the date / time
     var parseTime = d3
@@ -50,34 +51,34 @@ function lineChartInit() {
 
     var valueLines = {
         "Sugar (kg, SYP)": d3.line().x(function (d) {
-            return x(parseTime(d.date));
-        })
+                return x(parseTime(d.date));
+            })
             .y(function (d) {
 
                 return y(d["Sugar (kg, SYP)"])
             }),
         "Bread (SYP)": d3.line().x(function (d) {
-            return x(parseTime(d.date));
-        })
+                return x(parseTime(d.date));
+            })
             .y(function (d) {
 
                 return y(d["Bread (SYP)"])
             }),
         "Rice (kg, SYP)": d3.line().x(function (d) {
-            return x(parseTime(d.date));
-        })
+                return x(parseTime(d.date));
+            })
             .y(function (d) {
 
                 return y(d["Rice (kg, SYP)"])
             }),
         "Fuel (diesel, liter, SYP)": d3.line().x(function (d) {
-            return x(parseTime(d.date));
-        })
+                return x(parseTime(d.date));
+            })
             .y(function (d) {
 
                 return y(d["Fuel (diesel, liter, SYP)"])
             }),
-    
+
     }
 
     //----------------------------
@@ -150,6 +151,7 @@ function lineChartInit() {
 
             const foodPrices = Object.values(data)
             const currentDateIndex = foodPrices.findIndex(item => item.date === currentDate)
+            console.log(currentDateIndex);
             //const foodPrices = foodPricesBig.slice(0, currentDateIndex)
 
             x.domain(d3.extent(Object.keys(data), function (d) {
@@ -303,6 +305,59 @@ function lineChartInit() {
     // Define interactivity
     //----------------------------
 
+    updateLine = function () {
+        d3.select(".mouse-line")
+            .attr("d", function () {
+                var dateObj = new Date(currentDate.split('-')[0], currentDate.split('-')[1]);
+                dateObj.setDate(dateObj.getDate() - 31); // awful hack
+                var xDate = x(dateObj);
+                console.log(dateObj);
+
+                // var d = 'M177,220 177,0'
+                var d = 'M' + xDate + ',220 ' + xDate + ',0';
+                mousePos = d;
+                return d;
+            });
+        d3.selectAll(".mouse-per-line")
+        
+            .attr("transform", function (d, i) {
+                var lines = document.getElementsByClassName('line');
+
+                var dateObj = new Date(currentDate.split('-')[0], currentDate.split('-')[1]);
+                dateObj.setDate(dateObj.getDate() - 31); // awful hack
+                var xDate = x(dateObj);
+                bisect = d3.bisector(function (d) {
+                    return d.date;
+                }).right;
+                idx = bisect(d.values, xDate);
+
+                var beginning = 0,
+                    end = lines[i].getTotalLength(),
+                    target = null;
+
+                while (true) {
+                    target = Math.floor((beginning + end) / 2);
+                    pos = lines[i].getPointAtLength(target);
+
+                    if ((target === end || target === beginning) && pos.x !== xDate) {
+                        break;
+                    }
+
+                    if (pos.x > xDate) end = target;
+
+                    else if (pos.x < xDate) beginning = target;
+
+                    else break; //position found
+                }
+
+                d3.select(this).select('text')
+                    .text(y.invert(pos.y).toFixed(2));
+
+                return "translate(" + xDate + "," + pos.y + ")";
+
+            });
+    }
+
     function makeInteractive(foodPrices, color) {
         var mouseG = lineChart.append("g")
             .attr("class", "mouse-over-effects");
@@ -311,7 +366,8 @@ function lineChartInit() {
             .attr("class", "mouse-line")
             .style("stroke", "black")
             .style("stroke-width", "1px")
-            .style("opacity", "0");
+            .style("opacity", "1")
+            .attr("d", mousePos);
 
         var lines = document.getElementsByClassName('line');
 
@@ -319,14 +375,16 @@ function lineChartInit() {
             .data([foodPrices])
             .enter()
             .append("g")
-            .attr("class", "mouse-per-line");
+            .attr("class", "mouse-per-line")
+            .style("opacity", "1");
+
 
         mousePerLine.append("circle")
-                .attr("r", 7)
-                .style("stroke", color)
-                .style("fill", "none")
-                .style("stroke-width", "1px")
-                .style("opacity", "0");
+            .attr("r", 7)
+            .style("stroke", color)
+            .style("fill", "none")
+            .style("stroke-width", "1px")
+            .style("opacity", "1");
 
         mousePerLine.append("text")
             .attr('class', 'label')
@@ -337,66 +395,35 @@ function lineChartInit() {
             .attr('height', height)
             .attr('fill', 'none')
             .attr('pointer-events', 'all')
-            .on('mouseout', function () { // on mouse out hide line, circles and text
-                d3.select(".mouse-line")
-                    .style("opacity", "0");
-                d3.selectAll(".mouse-per-line circle")
-                    .style("opacity", "0");
-                d3.selectAll(".mouse-per-line text")
-                    .style("opacity", "0");
-            })
+            // .on('mouseout', function () { // on mouse out hide line, circles and text
+            //     d3.select(".mouse-line")
+            //         .style("opacity", "0");
+            //     d3.selectAll(".mouse-per-line circle")
+            //         .style("opacity", "0");
+            //     d3.selectAll(".mouse-per-line text")
+            //         .style("opacity", "0");
+            // })
 
-            .on('mouseover', function () { // on mouse in show line, circles and text
-                d3.select(".mouse-line")
-                    .style("opacity", "1");
-                d3.selectAll(".mouse-per-line circle")
-                    .style("opacity", "1");
-                d3.selectAll(".mouse-per-line text")
-                    .style("opacity", "1");
-            })
+            //     .on('mouseover', function () { // on mouse in show line, circles and text
+            //         d3.select(".mouse-line")
+            //             .style("opacity", "1");
+            //         d3.selectAll(".mouse-per-line circle")
+            //             .style("opacity", "1");
+            //         d3.selectAll(".mouse-per-line text")
+            //             .style("opacity", "1");
+            //     })
 
             .on('mousemove', function () { // mouse moving over canvas
 
                 var mouse = d3.mouse(this);
-                d3.select(".mouse-line")
-                    .attr("d", function () {
-                        var d = "M" + mouse[0] + "," + height;
-                        d += " " + mouse[0] + "," + 0;
-                        return d;
-                    });
+                // d3.select(".mouse-line")
+                //     .attr("d", function () {
+                //         var d = "M" + mouse[0] + "," + height;
+                //         d += " " + mouse[0] + "," + 0;
+                //         return d;
+                //     });
 
-                d3.selectAll(".mouse-per-line")
-                    .attr("transform", function (d, i) {
-                        //console.log(width/mouse[0])
-                        var xDate = x.invert(mouse[0]),
-                            bisect = d3.bisector(function (d) { return d.date; }).right;
-                        idx = bisect(d.values, xDate);
 
-                        var beginning = 0,
-                            end = lines[i].getTotalLength(),
-                            target = null;
-
-                        while (true) {
-                            target = Math.floor((beginning + end) / 2);
-                            pos = lines[i].getPointAtLength(target);
-
-                            if ((target === end || target === beginning) && pos.x !== mouse[0]) {
-                                break;
-                            }
-
-                            if (pos.x > mouse[0]) end = target;
-
-                            else if (pos.x < mouse[0]) beginning = target;
-
-                            else break; //position found
-                        }
-
-                        d3.select(this).select('text')
-                            .text(y.invert(pos.y).toFixed(2));
-
-                        return "translate(" + mouse[0] + "," + pos.y + ")";
-
-                    });
 
             });
     }
