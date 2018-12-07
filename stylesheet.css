@@ -41,6 +41,10 @@ body {
   text-align: center;
   padding-bottom: 15px;
   border-radius: 10px 10px 0px 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
 .ticks {
@@ -242,7 +246,7 @@ h1 {
   background-color: lightgray;
   border: 1px solid #ccc;
 
-  color: white;
+  color: black;
   padding: 5px;
   border-radius: 3px;
   text-align: center;
@@ -277,6 +281,7 @@ h1 {
 
 .button.barsblue {
   background: #16262E;
+  color: white;
 }
 
 /* Bar chart */

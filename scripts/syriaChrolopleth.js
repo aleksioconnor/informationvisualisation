@@ -18,7 +18,12 @@ function resize() {
 
 function syriaMapInit() {
 
-
+    $('#syria').click(function () {
+        const isSelected = document.getElementById("syria").className === "button barsblue";
+        $(this).toggleClass('barsblue')
+        !isSelected ? allProvinces.forEach(item => selectedDistricts.add(item)) : allProvinces.forEach(item => selectedDistricts.delete(item))
+        rerenderSyriaMap()
+    });
 
     var width = 336,
         mapRatio = 1.1,
