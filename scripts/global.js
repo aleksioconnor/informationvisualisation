@@ -40,9 +40,14 @@ var light = "#bfbfbf", // (191,191,191)
     red = "#b40d0d" // (180,13,13)
 
 
-var colorScheme = d3.schemeReds[6];
+var colorScheme = d3.schemeReds[9];
+const test = d3.interpolateReds(1);
+
 // colorScheme.unshift("#eee");
 var colorScale = d3
     .scaleThreshold()
-    .domain([1, 10, 50, 100, 200, 500])
+    // .domain([1, 10, 50, 100, 200, 500])
+    .domain([1, 50, 100, 300, 500, 800, 1000, 1200, 1400])
     .range(colorScheme);
+
+// console.log(test, colorScheme, colorScale)
