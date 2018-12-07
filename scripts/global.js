@@ -38,3 +38,11 @@ var light = "#bfbfbf", // (191,191,191)
     dark = "#1a1a1a", // (26,26,26)
     blood = "#4d1414", //(77,20,20)
     red = "#b40d0d" // (180,13,13)
+
+
+var colorScheme = d3.schemeReds[6];
+// colorScheme.unshift("#eee");
+var colorScale = d3
+    .scaleThreshold()
+    .domain([1, 10, 50, 100, 200, 500])
+    .range(colorScheme);

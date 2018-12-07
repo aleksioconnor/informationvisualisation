@@ -166,6 +166,9 @@ function barChartInit() {
                 .attr("height", function (d) {
                     return height - yScale(d.quantity);
                 })
+                .attr("fill", (d) => {
+                    return colorScale(d.quantity)
+                })
 
             //----------------------------
             // Define interactivity

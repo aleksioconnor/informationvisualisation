@@ -46,12 +46,7 @@ function syriaMapInit() {
         .attr("style", "margin: 0 auto; display: block;");
 
 
-    var colorScheme = d3.schemeReds[6];
-    // colorScheme.unshift("#eee");
-    var colorScale = d3
-        .scaleThreshold()
-        .domain([1, 10, 50, 100, 200, 500])
-        .range(colorScheme);
+
 
 
     rerenderSyriaMap = function () {
