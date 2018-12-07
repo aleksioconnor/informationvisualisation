@@ -100,13 +100,18 @@ function sankeyInit() {
                                     // return (d.index + 0.1) * 0.02 + 0.3;
                                     return d.value * 0.00009 + 0.3
                                 })
-                                .attr("fill", "#16262E");
+                                .on("click", function (d) {
+                                    console.log('clicked', d.name)
+                                })
 
 
                             node.select("rect").transition(t)
                                 // .attr("x", function(d) { return d.x0; })
                                 .attr("y", function (d) {
                                     return d.y0;
+                                })
+                                .attr("fill", d => {
+                                    return selectedDistricts.has(d.name) ? "red" : "black"
                                 })
                                 .attr("height", function (d) {
                                     return d.y1 - d.y0;

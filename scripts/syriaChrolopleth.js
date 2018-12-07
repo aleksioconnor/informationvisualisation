@@ -20,12 +20,13 @@ function syriaMapInit() {
 
     $('#syria').click(function () {
         const isSelected = document.getElementById("syria").className === "button barsblue";
-        
-        $(this).toggleClass('barsblue')
+
+        $(this).toggleClass('barsblue') 
         !isSelected ? allProvinces.forEach(item => selectedDistricts.add(item)) : allProvinces.forEach(item => selectedDistricts.delete(item))
 
         rerenderSyriaMap()
         updateBarchart()
+        updateSankey()
     });
 
     var width = 336,
@@ -132,6 +133,7 @@ function syriaMapInit() {
 
                             updateBarchart()
                             rerenderSyriaMap()
+                            updateSankey()
                         })
                 }
             });
