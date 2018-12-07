@@ -10,6 +10,9 @@ function initSlider() {
     var width = windowWidth - 200,
         height = sliderHeight;
 
+    var currentSliderValue = 0,
+        timer
+
     var svg = d3
         .select("#slider")
         .append("svg")
@@ -28,7 +31,7 @@ function initSlider() {
         .attr("class", "slider")
         .attr("transform", "translate(" + margin.left + "," + height / 2 + ")");
 
-    slider
+    var sliderSVG = slider
         .append("line")
         .attr("class", "track")
         .attr("x1", x.range()[0])
@@ -48,6 +51,7 @@ function initSlider() {
                 slider.interrupt();
             })
             .on("start drag", function () {
+                currentSliderValue = d3.event.x;
                 moveSlider(x.invert(d3.event.x));
             })
         );
@@ -101,4 +105,22 @@ function initSlider() {
 
         label.attr("x", x(h)).text(formatDate(h));
     }
+
+
+    $('#play').click(function () {
+        const isSelected = document.getElementById("play").className === "button barsblue";
+
+        $(this).toggleClass('barsblue')
+
+        if (isSelected) {
+            clearInterval(timer)
+            document.getElementById("play").textContent = "Play"
+        } else {
+            timer = window.setInterval(function () {
+                moveSlider(x.invert(currentSliderValue + 1));
+                currentSliderValue += 1;
+            }, 30);
+            document.getElementById("play").textContent = "Stop"
+        }
+    });
 }
