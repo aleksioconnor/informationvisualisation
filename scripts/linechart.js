@@ -302,7 +302,7 @@ function lineChartInit() {
     }
 
     //----------------------------
-    // Define interactivity
+    // Line that follows the timeline
     //----------------------------
 
     updateLine = function () {
@@ -318,6 +318,7 @@ function lineChartInit() {
                 mousePos = d;
                 return d;
             });
+
         d3.selectAll(".mouse-per-line")
         
             .attr("transform", function (d, i) {
@@ -358,76 +359,175 @@ function lineChartInit() {
             });
     }
 
-    function makeInteractive(foodPrices, color) {
-        var mouseG = lineChart.append("g")
-            .attr("class", "mouse-over-effects");
+    //----------------------------
+    // Define interactivity with the mouse
+    //----------------------------
 
-        mouseG.append("path") // this is the black vertical line to follow mouse
+    function makeInteractive(foodPrices, color) {
+
+        // initialize group mouse-over-effects
+        var mouseG = lineChart.append("g")
+        .attr("class", "mouse-over-effects");
+            
+        // the black vertical lines
+        movingLine = mouseG.append("path") 
             .attr("class", "mouse-line")
             .style("stroke", "black")
             .style("stroke-width", "1px")
             .style("opacity", "1")
             .attr("d", mousePos);
 
-        var lines = document.getElementsByClassName('line');
+        fixedLine = mouseG.append("path") 
+            .attr("class", "mouse-line")
+            .attr("id", "fixed-line")
+            .style("stroke", "black")
+            .style("stroke-width", "1px")
+            .style("opacity", "0")
 
-        var mousePerLine = mouseG.selectAll('.mouse-per-line')
+        // both colored circles and text
+        var mousePerLine = mouseG.selectAll('.mouse-per-line') 
             .data([foodPrices])
             .enter()
             .append("g")
             .attr("class", "mouse-per-line")
             .style("opacity", "1");
 
-
-        mousePerLine.append("circle")
+        // the colored circles
+        movingCircles = mousePerLine.append("circle") 
             .attr("r", 7)
             .style("stroke", color)
             .style("fill", "none")
             .style("stroke-width", "1px")
             .style("opacity", "1");
 
-        mousePerLine.append("text")
+        fixedCircles = mousePerLine.append("circle")
+            .attr("r", 7)
+            .style("stroke", color)
+            .style("fill", "none")
+            .style("stroke-width", "1px")
+            .style("opacity", "0");
+
+        // the labels showing the values at that point
+        movingText = mousePerLine.append("text") 
             .attr('class', 'label')
             .attr("transform", "translate(10,3)");
 
-        mouseG.append('svg:rect') // append a rect to catch mouse movements on canvas
+        fixedText = mousePerLine.append("text") 
+            .attr('class', 'label')
+            .attr("transform", "translate(10,3)");
+
+        //----------------------------
+        // On mouse out, over, click, and move
+        //----------------------------
+
+        catchMouse = mouseG.append('svg:rect') // append a rect to catch mouse movements on canvas
             .attr('width', width) // can't catch mouse events on a g element
             .attr('height', height)
             .attr('fill', 'none')
             .attr('pointer-events', 'all')
-            // .on('mouseout', function () { // on mouse out hide line, circles and text
-            //     d3.select(".mouse-line")
-            //         .style("opacity", "0");
-            //     d3.selectAll(".mouse-per-line circle")
-            //         .style("opacity", "0");
-            //     d3.selectAll(".mouse-per-line text")
-            //         .style("opacity", "0");
-            // })
 
-            //     .on('mouseover', function () { // on mouse in show line, circles and text
-            //         d3.select(".mouse-line")
-            //             .style("opacity", "1");
-            //         d3.selectAll(".mouse-per-line circle")
-            //             .style("opacity", "1");
-            //         d3.selectAll(".mouse-per-line text")
-            //             .style("opacity", "1");
-            //     })
+            .on('mouseout', function () { // on mouse out hide line, circles and text
+                d3.select(".mouse-line")
+                    .style("opacity", "0");
+                d3.selectAll(".mouse-per-line circle")
+                    .style("opacity", "0");
+                d3.selectAll(".mouse-per-line text")
+                    .style("opacity", "0");
+            })
+
+            .on('mouseover', function () { // on mouse in show line, circles and text
+                d3.select(".mouse-line")
+                    .style("opacity", "1");
+                d3.selectAll(".mouse-per-line circle")
+                    .style("opacity", "1");
+                d3.selectAll(".mouse-per-line text")
+                    .style("opacity", "1");
+            })
+
+           .on("click", function(){ // on clicking
+               
+                var mouse = d3.mouse(this);   
+
+                fixedLine
+                    .style("opacity", "1")
+                    .attr("d", function () {
+                        var d = "M" + mouse[0] + "," + height;
+                        d += " " + mouse[0] + "," + 0;
+                        return d;
+                    });
+
+                fixedCircles
+                    .style("opacity", "1")
+
+                // d3.selectAll(".mouse-per-line")
+                //     .attr("transform", function (d, i) {
+                //         d3.select(this).select('text')
+                //             .text(y.invert(pos.y).toFixed(2));
+                //         })
+
+                updatePosition(mouse);
+                    
+            })
 
             .on('mousemove', function () { // mouse moving over canvas
-
                 var mouse = d3.mouse(this);
-                // d3.select(".mouse-line")
-                //     .attr("d", function () {
-                //         var d = "M" + mouse[0] + "," + height;
-                //         d += " " + mouse[0] + "," + 0;
-                //         return d;
-                //     });
+                d3.select(".mouse-line")
+                    .attr("d", function () {
+                        var d = "M" + mouse[0] + "," + height;
+                        d += " " + mouse[0] + "," + 0;
+                        return d;
+                    });
 
-
+            updatePosition(mouse);
 
             });
+
+    }
+
+    //----------------------------
+    // Defines the position of the circles and text
+    //----------------------------
+
+    function updatePosition(mousePosition){
+        d3.selectAll(".mouse-per-line")
+            .attr("transform", function (d, i) {
+                
+                var mouse = mousePosition;
+                var lines = document.getElementsByClassName('line');
+
+                var xDate = x.invert(mouse[0]),
+                    bisect = d3.bisector(function (d) { return d.date; }).right;
+                idx = bisect(d.values, xDate);
+
+                var beginning = 0,
+                    end = lines[i].getTotalLength(),
+                    target = null;
+
+                while (true) {
+                    target = Math.floor((beginning + end) / 2);
+                    pos = lines[i].getPointAtLength(target);
+
+                    if ((target === end || target === beginning) && pos.x !== mouse[0]) {
+                        break;
+                    }
+
+                    if (pos.x > mouse[0]) end = target;
+
+                    else if (pos.x < mouse[0]) beginning = target;
+
+                    else break; //position found
+                }
+
+                d3.select(this).select('text')
+                    .text(y.invert(pos.y).toFixed(2));
+
+                return "translate(" + mouse[0] + "," + pos.y + ")";
+
+            });
+
     }
 
     updateLineChart()
 
 }
+
