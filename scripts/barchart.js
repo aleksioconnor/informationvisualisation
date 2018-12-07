@@ -12,8 +12,8 @@ function barChartInit() {
             left: 75
         },
 
-    width = 660 - margin.left - margin.right,
-    height = 300 - margin.top - margin.bottom;
+        width = 660 - margin.left - margin.right,
+        height = 300 - margin.top - margin.bottom;
 
     // define the scales and axes
     var xScale = d3
@@ -51,7 +51,7 @@ function barChartInit() {
         $('#actor').removeClass("barsblue")
         $('#cause').removeClass("barsblue")
     });
-    
+
 
     $('#actor').click(function () {
         $(this).toggleClass('barsblue')
@@ -101,16 +101,18 @@ function barChartInit() {
             //----------------------------
 
             yScale.domain([0, d3.max(dataCurrentDate, function (d) {
-                 return d.quantity + 350;
+                return d.quantity + 350;
             })]);
             //yScale.domain([0, 1500])
 
             xScale
                 .domain(
                     dataCurrentDate
-                    .filter(item => selectedDistricts.includes(item.province))
+                    .filter(item => {
+                        return selectedDistricts.has(item.province)
+                    })
                     .map(function (d) {
-                        if (selectedDistricts.includes(d[barChartType])) {
+                        if (selectedDistricts.has(d[barChartType])) {
                             return d[barChartType]
                         }
                     }));
@@ -147,12 +149,11 @@ function barChartInit() {
                 .data(dataCurrentDate)
                 .enter()
                 .filter(function (d) {
-                    return selectedDistricts.includes(d.province)
+                    return selectedDistricts.has(d.province)
                 })
                 .append("rect")
                 .attr("x", function (d) {
-                    if (selectedDistricts.includes(d[barChartType])) {
-                        console.log(d[barChartType], selectedDistricts, selectedDistricts.includes(d[barChartType]))
+                    if (selectedDistricts.has(d[barChartType])) {
 
                         // return d[barChartType]
                         return xScale(d[barChartType]);
@@ -190,7 +191,7 @@ function barChartInit() {
                         .data(dataCurrentDate)
                         .enter()
                         .filter(function (d) {
-                            return selectedDistricts.includes(d.province)
+                            return selectedDistricts.has(d.province)
                         })
                         .append('text')
                         .attr('class', 'divergence')
@@ -280,7 +281,7 @@ function barChartInit() {
                 .data(dataCurrentDate)
                 .enter()
                 .filter(function (d) {
-                    return selectedDistricts.includes(d.province)
+                    return selectedDistricts.has(d.province)
                 })
                 .append('text')
                 .attr('class', 'value')
@@ -333,8 +334,8 @@ function barChartInit() {
 
     }
 
-   
-      
+
+
 
     updateBarchart()
 

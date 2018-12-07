@@ -63,11 +63,15 @@ function syriaMapInit() {
 
                 var mapSVG = svg.selectAll("path")
 
+                var getProvinceName = (d) =>
+                    otherProvinces.includes(d.properties.NAM_EN_REF) ? "Other" : d.properties.NAM_EN_REF;
+
                 if (currentDate !== "2013-01") {
                     mapSVG
-                        .attr("fill", function (d) {
-                            return colorScale(deaths[d.properties.NAM_EN_REF] || 0);
-                        })
+                        .attr("fill", (d) =>
+                            colorScale(selectedDistricts.has(getProvinceName(d)) ?
+                                deaths[getProvinceName(d)] :
+                                0));
                 } else {
                     // First draw map and fill it with colour
                     mapSVG
@@ -76,21 +80,27 @@ function syriaMapInit() {
                         .append("path")
                         .attr("d", path)
                         // .attr("fill", "#bfbfbf")
-                        .attr("fill", function (d) {
-                            return colorScale(deaths[d.properties.NAM_EN_REF] || 0);
-                        })
+                        .attr("fill", (d) =>
+                            colorScale(selectedDistricts.has(getProvinceName(d)) ?
+                                deaths[getProvinceName(d)] :
+                                0))
                         .attr("stroke", "rgba(131,131,131, 0.4)")
-                        .attr("stroke-width", .3)
+                        .attr("stroke-width", (d) => {
+                            if (selectedDistricts.has(getProvinceName(d))) {
+                                return 0.8
+                            }
+                            return 0.3
+                        })
                         .on("mousemove", function (d) {
                             d3.select("#tooltip")
                                 .style("top", (d3.event.pageY) + 20 + "px")
                                 .style("left", (d3.event.pageX) + 20 + "px")
                                 .select('#province')
-                                .text(d.properties.NAM_EN_REF);
+                                .text(getProvinceName(d));
                             d3.select('#province-name')
-                                .text(d.properties.NAM_EN_REF);
+                                .text(getProvinceName(d));
                             d3.select('#deaths')
-                                .text(deaths[d.properties.NAM_EN_REF] || 0);
+                                .text(deaths[getProvinceName(d)] || 0);
 
                             // Hide tooltip
                             d3.select("#tooltip").classed("hidden", false);
@@ -101,12 +111,13 @@ function syriaMapInit() {
                             d3.select("#syriaTooltip").classed("hidden", true);
                         })
                         .on("click", function (d) {
-                            const province = d.properties.NAM_EN_REF
+                            const provinceName = getProvinceName(d)
+                            selectedDistricts.has(provinceName) ?
+                                selectedDistricts.delete(provinceName) :
+                                selectedDistricts.add(provinceName)
 
-                            if (!selectedDistricts.find(item => item === province)) {
-                                selectedDistricts.push(province)
-                            }
                             updateBarchart()
+                            rerenderSyriaMap()
                         })
                 }
             });
