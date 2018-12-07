@@ -57,11 +57,13 @@ function syriaMapInit() {
             d3.json("data/syria.json").then(function (syr) {
 
                 var mapSVG = svg.selectAll("path")
+                const isMapDrown = mapSVG._groups[0].length
 
                 var getProvinceName = (d) =>
                     otherProvinces.includes(d.properties.NAM_EN_REF) ? "Other" : d.properties.NAM_EN_REF;
 
-                if (currentDate !== "2013-01") {
+
+                if (isMapDrown) {
                     mapSVG
                         .attr("fill", (d) =>
                             colorScale(selectedDistricts.has(getProvinceName(d)) ?
@@ -69,16 +71,25 @@ function syriaMapInit() {
                                 0));
                 } else {
                     // First draw map and fill it with colour
+                    console.log("initial draw")
+
+
                     mapSVG
                         .data(topojson.feature(syr, syr.objects.syr_admin1).features)
                         .enter()
                         .append("path")
                         .attr("d", path)
                         // .attr("fill", "#bfbfbf")
-                        .attr("fill", (d) =>
-                            colorScale(selectedDistricts.has(getProvinceName(d)) ?
+                        .attr("fill", (d) => {
+                            const test = colorScale(selectedDistricts.has(getProvinceName(d)) ?
                                 deaths[getProvinceName(d)] :
-                                0))
+                                0)
+
+                            console.log("test", test)
+
+                            return test
+
+                        })
                         .attr("stroke", "rgba(131,131,131, 0.4)")
                         .attr("stroke-width", (d) => {
                             if (selectedDistricts.has(getProvinceName(d))) {
