@@ -21,8 +21,11 @@ function syriaMapInit() {
     $('#syria').click(function () {
         const isSelected = document.getElementById("syria").className === "button barsblue";
 
-        $(this).toggleClass('barsblue') 
-        !isSelected ? allProvinces.forEach(item => selectedDistricts.add(item)) : allProvinces.forEach(item => selectedDistricts.delete(item))
+        $(this).toggleClass('barsblue')
+
+        console.log('')
+
+            !isSelected ? allProvinces.forEach(item => selectedDistricts.add(item)) : allProvinces.forEach(item => selectedDistricts.delete(item))
 
         rerenderSyriaMap()
         updateBarchart()
@@ -59,6 +62,9 @@ function syriaMapInit() {
 
 
     rerenderSyriaMap = function () {
+
+        console.log('rerendering syria map')
+
         d3.json("data/provincesDeaths.json").then(data => {
 
             const deaths = data[currentDate]
@@ -74,10 +80,22 @@ function syriaMapInit() {
 
                 if (isMapDrown) {
                     mapSVG
-                        .attr("fill", (d) =>
-                            colorScale(selectedDistricts.has(getProvinceName(d)) ?
+                        .attr("fill", (d) => {
+
+                            const test = colorScale(selectedDistricts.has(getProvinceName(d)) ?
                                 deaths[getProvinceName(d)] :
-                                0));
+                                0)
+
+                            console.log("test", highlighted, test)
+
+                            console.log(highlighted.type, highlighted.value, getProvinceName(d))
+
+                            if (highlighted.type === province && highlighted.value === getProvinceName(d)) {
+                                return "black"
+                            }
+
+                            return test
+                        })
                 } else {
                     // First draw map and fill it with colour
                     console.log("initial draw")
@@ -94,7 +112,6 @@ function syriaMapInit() {
                                 deaths[getProvinceName(d)] :
                                 0)
 
-                            console.log("test", test)
 
                             return test
 

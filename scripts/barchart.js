@@ -198,6 +198,16 @@ function barChartInit() {
             barChartSVG.selectAll("rect")
                 .on('mouseenter', function (actual, i) {
 
+
+                    highlighted = {
+                        type: Object.keys(actual)[0],
+                        value: actual[Object.keys(actual)[0]]
+                    }
+
+                    console.log('mouse enter', actual, highlighted)
+
+                    rerenderSyriaMap()
+
                     // change opacity of the bars on mouseenter
                     // d3.selectAll('.value')
                     //     .attr('opacity', 0)

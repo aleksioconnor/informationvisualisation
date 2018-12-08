@@ -12,6 +12,8 @@ var margin = {
     left: 40
 };
 
+var highlighted = {type: '', value: ''};
+
 
 const selectedDistricts = new Set([]);
 var mainProvinces = ["Dara", "Damascus", "Aleppo", "Deir-ez-Zor", "Rural Damascus", "Homs", "Idleb", "Ar-Raqqa", "Hama"];
