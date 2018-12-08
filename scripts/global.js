@@ -12,7 +12,10 @@ var margin = {
     left: 40
 };
 
-var highlighted = {type: '', value: ''};
+var highlighted = {
+    type: '',
+    value: ''
+};
 
 
 const selectedDistricts = new Set([]);
@@ -53,4 +56,6 @@ var colorScale = d3
     .domain([1, 50, 100, 300, 500, 800, 1000, 1200, 1400])
     .range(colorScheme);
 
+
+var moveSlider = null;
 // console.log(test, colorScheme, colorScale)

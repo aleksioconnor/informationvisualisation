@@ -23,18 +23,39 @@ function lineChartInit() {
     var width = size.width - margin.left - margin.right;
     var height = 300 - margin.top - margin.bottom;
 
+
+    var startDate = new Date("2013-01-01"),
+        endDate = new Date("2017-12-01");
+
+    var currentSliderValue = 0,
+        timer
+
     // parse the date / time
     var parseTime = d3
         .timeParse("%Y-%m");
 
     // set the ranges
+    // var x = d3
+    //     .scaleTime()
+    //     .range([0, width]);
     var x = d3
         .scaleTime()
-        .range([0, width]);
+        .domain([startDate, endDate])
+        .range([0, (width)])
+        .clamp(true);
 
     var y = d3
         .scaleLinear()
         .range([height, 0]);
+
+
+
+
+
+
+
+
+
 
     // define the svg
     lineChart = d3
@@ -44,10 +65,36 @@ function lineChartInit() {
         .attr("height", height + margin.top + margin.bottom)
         .attr("style", "margin: 0 auto; display: block;")
         .append("g")
-        .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+        .attr("transform", "translate(" + margin.left + "," + margin.top + ")")
+    // .attr("class", "track")
+    // .attr("x1", x.range()[0])
+    // .attr("x2", x.range()[1])
+    // .select(function () {
+    //     return this.parentNode.appendChild(this.cloneNode(true));
+    // })
+    // .attr("class", "track-inset")
+    // .select(function () {
+    //     return this.parentNode.appendChild(this.cloneNode(true));
+    // })
+    // .attr("class", "track-overlay")
+    // .call(
+    //     d3
+    //     .drag()
+    //     .on("start.interrupt", function () {
+    //         lineChart.interrupt();
+    //     })
+    //     .on("start drag", function () {
+    //         currentSliderValue = d3.event.x;
+    //         console.log(currentSliderValue)
+    //         // moveSlider(x.invert(d3.event.x));
+    //     })
+    // )
 
-    focus = lineChart.append("g") // define focus body
-        .style("display", "none");
+
+
+
+    // focus = lineChart.append("g") // define focus body
+    //     .style("display", "none");
 
     //----------------------------
     // Load the values for each category
@@ -154,7 +201,8 @@ function lineChartInit() {
 
             const foodPricesBig = Object.values(data)
             const currentDateIndex = foodPricesBig.findIndex(item => item.date === currentDate)
-            const foodPrices = foodPricesBig.slice(0, currentDateIndex)
+            // const foodPrices = foodPricesBig.slice(0, currentDateIndex)
+            const foodPrices = foodPricesBig
 
             x.domain(d3.extent(Object.keys(data), function (d) {
                 return parseTime(d);
@@ -188,7 +236,8 @@ function lineChartInit() {
                     .data([foodPrices])
                     .attr("class", "line")
                     .style("stroke", color)
-                    .attr("d", valueLines[sBread]);
+                    .attr("d", valueLines[sBread])
+
 
                 makeInteractive(foodPrices, color)
 
@@ -201,9 +250,12 @@ function lineChartInit() {
                     .data([foodPrices])
                     .attr("class", "line")
                     .style("stroke", color)
-                    .attr("d", valueLines[sSugar]);
+                    .attr("d", valueLines[sSugar])
+                // .on("click", function (d) {
+                //     console.log("test5", d)
+                // })
 
-                makeInteractive(foodPrices, color)
+                // makeInteractive(foodPrices, color)
 
             }
 
@@ -216,7 +268,7 @@ function lineChartInit() {
                     .style("stroke", color)
                     .attr("d", valueLines[sRice]);
 
-                makeInteractive(foodPrices, color)
+                // makeInteractive(foodPrices, color)
 
             }
 
@@ -229,7 +281,7 @@ function lineChartInit() {
                     .style("stroke", color)
                     .attr("d", valueLines[sFuel]);
 
-                makeInteractive(foodPrices, color)
+                // makeInteractive(foodPrices, color)
 
             }
 
@@ -245,12 +297,12 @@ function lineChartInit() {
                 .attr("id", "yaxis")
                 .call(d3.axisLeft(y));
 
-            grid = lineChart.append('g')
-                .attr('class', 'grid')
-                .call(d3.axisLeft()
-                    .scale(y)
-                    .tickSize(-width, 0, 0)
-                    .tickFormat(''))
+            // grid = lineChart.append('g')
+            //     .attr('class', 'grid')
+            //     .call(d3.axisLeft()
+            //         .scale(y)
+            //         .tickSize(-width, 0, 0)
+            //         .tickFormat(''))
 
             //----------------------------
             // Draw labels
@@ -265,14 +317,6 @@ function lineChartInit() {
                 .attr('text-anchor', 'middle')
                 .text('Value')
 
-            // title
-            // lineChart.append('text')
-            //     .attr('class', 'title')
-            //     .attr('x', width / 2 + 60)
-            //     .attr('y', -20)
-            //     .attr('text-anchor', 'middle')
-            //     .text('Prices of commodities during the war')
-
             // x-axis label
             lineChart.append('text')
                 .attr('class', 'label')
@@ -281,14 +325,11 @@ function lineChartInit() {
                 .attr('text-anchor', 'middle')
                 .text("Date")
 
-            // source
-            // lineChart.append('text')
-            //     .attr('class', 'source')
-            //     .attr('x', 900)
-            //     .attr('y', 360)
-            //     .attr('text-anchor', 'start')
-            //     .text('Source: ...')
 
+            // lineChart
+            //     .on("mousemove", function (d) {
+            //         console.log(d)
+            //     })
         });
     }
 
@@ -297,24 +338,32 @@ function lineChartInit() {
     //----------------------------
 
     function makeInteractive(foodPrices, color) {
-        var mouseG = lineChart.append("g")
-            .attr("class", "mouse-over-effects");
+        var mouseG = lineChart
+            // .enter()
+            .append("g")
+        // .attr("class", "mouse-over-effects");
 
         // trying to append a line on click
-        mouseG.on("click", function () {
-            console.log("test")
-            lineChart
-                .data([foodPrices])
-                .enter()
-                .append("g")
-                .attr("class", "path")
-                .style("stroke", "black")
-                .style("stroke-width", "1px")
-                .attr("x", function (d) {
-                    return parseTime(d.date)
-                })
+        mouseG
+            // .attr("d", )
+            .on("click", function (d) {
+                console.log("test", d3.event.x, x.invert(d3.event.x))
+                currentDate = x.invert(d3.event.x)
+                console.log("->", currentDate)
+                moveSlider(currentDate)
+                // lineChart
+                //     .data([foodPrices])
+                //     .enter()
+                //     .append("g")
+                //     .attr("class", "path")
+                //     .style("stroke", "black")
+                //     .style("stroke-width", "1px")
+                //     .attr("x", function (d) {
+                //         console.log("test2", d)
+                //         return parseTime(d.date)
+                //     })
 
-        })
+            })
 
         mouseG.append("path") // this is the black vertical line to follow mouse
             .attr("class", "mouse-line")

@@ -31,6 +31,14 @@ function initSlider() {
         .attr("class", "slider")
         .attr("transform", "translate(" + margin.left + "," + height / 2 + ")");
 
+
+
+
+
+
+
+
+
     var sliderSVG = slider
         .append("line")
         .attr("class", "track")
@@ -85,12 +93,16 @@ function initSlider() {
 
 
     // What happens when you move the slider should be defined in here
-    function moveSlider(h) {
+     moveSlider = function (h) {
+
+        console.log(h)
+
         handle.attr("cx", x(h));
 
         newDate = commonDateFormat(h);
 
         if (newDate !== currentDate) {
+            // debugger
             if (newDate.substring(0, 4) !== currentDate.substring(0, 4)) {
                 updateSankey();
             }
