@@ -5,7 +5,7 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  background-color: #D6D1CD;
+  /* background-color: #D6D1CD; */
   height: 100%;
   /* color: #bfbfbf; */
   /* padding: 10px; */
@@ -31,15 +31,15 @@ body {
 
 .vis {
   /* background-color: #373737; */
-  background-color: #f4f4f4;
-  border-radius: 0px 0px 10px 10px;
+  /* background-color: #f4f4f4; */
+  border-radius: 0px 0px 5px 5px;
 }
 
 .visualisation-title {
   color: white;
   background-color: #16262E;
   text-align: center;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -115,7 +115,7 @@ body {
 .slider-container {
   position: fixed;
   top: 0px;
-  background-color: #D6D1CD;
+  /* background-color: #D6D1CD; */
   z-index: 500;
   padding-top: 10px;
   -webkit-box-shadow: 0px 2px 26px -6px rgba(0, 0, 0, 0.71);
