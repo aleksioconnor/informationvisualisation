@@ -10,13 +10,18 @@ function lineChartInit() {
     // set the dimensions and margins of the graph
     var margin = {
         top: 20,
-        right: 60,
+        right: 100,
         bottom: 60,
         left: 60
-    },
-    
-    width = 650 - margin.left - margin.right,
-    height = 300 - margin.top - margin.bottom;
+    };
+
+    var size = {
+        width: window.innerWidth || document.body.clientWidth,
+        height: window.innerHeight || document.body.clientHeight
+    }
+
+    var width = size.width - margin.left - margin.right;
+    var height = 300 - margin.top - margin.bottom;
 
     // parse the date / time
     var parseTime = d3
@@ -50,29 +55,29 @@ function lineChartInit() {
 
     var valueLines = {
         "Sugar (kg, SYP)": d3.line().x(function (d) {
-            return x(parseTime(d.date));
-        })
+                return x(parseTime(d.date));
+            })
             .y(function (d) {
 
                 return y(d["Sugar (kg, SYP)"])
             }),
         "Bread (SYP)": d3.line().x(function (d) {
-            return x(parseTime(d.date));
-        })
+                return x(parseTime(d.date));
+            })
             .y(function (d) {
 
                 return y(d["Bread (SYP)"])
             }),
         "Rice (kg, SYP)": d3.line().x(function (d) {
-            return x(parseTime(d.date));
-        })
+                return x(parseTime(d.date));
+            })
             .y(function (d) {
 
                 return y(d["Rice (kg, SYP)"])
             }),
         "Fuel (diesel, liter, SYP)": d3.line().x(function (d) {
-            return x(parseTime(d.date));
-        })
+                return x(parseTime(d.date));
+            })
             .y(function (d) {
 
                 return y(d["Fuel (diesel, liter, SYP)"])
@@ -372,7 +377,9 @@ function lineChartInit() {
                     .attr("transform", function (d, i) {
                         //console.log(width/mouse[0])
                         var xDate = x.invert(mouse[0]),
-                            bisect = d3.bisector(function (d) { return d.date; }).right;
+                            bisect = d3.bisector(function (d) {
+                                return d.date;
+                            }).right;
                         idx = bisect(d.values, xDate);
 
                         var beginning = 0,

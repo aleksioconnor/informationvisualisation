@@ -5,13 +5,20 @@ html {
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  /* background-color: #D6D1CD; */
   height: 100%;
+  /* background-color: #D6D1CD; */
   /* color: #bfbfbf; */
   /* padding: 10px; */
   /* margin-top: 100px; */
   /* background-color: #1a1a1a; */
+  margin: 0;
+  overflow: hidden
 }
+
+/* html,
+body {
+  height: 100%;
+} */
 
 #linechart {
   padding-right: 40px;
@@ -27,6 +34,17 @@ body {
   margin-bottom: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
+
+.timeline {
+  position: absolute;
+  bottom: 100;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  width: 98%;
+}
+
 
 
 .vis {
