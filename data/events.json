@@ -1,0 +1,118 @@
+{
+    "data": [
+        {
+        "date": "2013-06",
+        "event": "Syrian army recaptures Qusayr",
+        "event_description": "The Syrian army recaptures the key border town of Qusayr, in an assault led by fighters from Lebanon's Hezbollah."
+    }, {
+        "date": "2013-08",
+        "event": "Syrian Army accused of using chemical weapons",
+        "event_description": "The Syrian Army is accused of killing more than 1,400 people, according to the United States, with chemical weapons in two rebel-held zones near Damascus."
+    },
+    {
+        "date": "2013-09",
+        "event": "Around a dozen rebel groups abandon the Syrian National Coalition",
+        "event_description": "Around a dozen rebel groups abandon the Syrian National Coalition and reject its calls for a civil, democratic government. Seven of them later form their own alliance, the Islamic Front, intended to eventually create a state governed by Islamic law."
+    },
+    {
+        "date": "2013-10",
+        "event": "Syria destroys its chemical weapons production",
+        "event_description": "Syria destroys its chemical weapons production equipment. The number of Syrian refugees registered with the UN tops 2 million."
+    },
+    {
+        "date": "2014-01",
+        "event": "Infighting among rebels spreads",
+        "event_description": "Infighting among rebels spreads, pitting a variety of Islamists groups and moderate factions against the al-Qaida-breakaway calling itself Islamic State of Iraq and the Levant."
+    },
+    {
+        "date": "2014-02",
+        "event": "Peace talks don't gain traction",
+        "event_description": "Two rounds of peace talks led by UN-Arab League mediator Lakhdar Brahimi in Geneva end without a breakthrough."
+    },
+    {
+        "date": "2014-05",
+        "event": "Rebels withdraw from Homs",
+        "event_description": "Rebels withdraw from the old quarter of the central city of Homs in a significant symbolic victory for the government, putting the area that had been under siege for more than a year firmly in government hands."
+    },
+    {
+        "date": "2014-06",
+        "event": "Assad wins presidential election",
+        "event_description": "Syrians in government areas vote in presidential elections. Assad, one of three candidates, overwhelmingly wins with 88.7 percent."
+    },
+    {
+        "date": "2014-06",
+        "event": "ISIS declares a self-styled Islamic caliphate",
+        "event_description": "So called Islamic State group, as the Islamic State of Iraq and the Levant is now known, seizes large parts of northern and western Iraq. In control of around a third of Syria and Iraq, it declares a self-styled Islamic caliphate."
+    },
+    {
+        "date": "2014-07",
+        "event": "ISIS takes control of Syria's largest oil-field",
+        "event_description": "Islamic State group takes control of Syria's largest oil field, al-Omar, after fierce battles with the Nusra Front, al-Qaida's branch in Syria."
+    },
+    {
+        "date": "2014-08",
+        "event": "ISIS captures Tabqa military air base",
+        "event_description": "Islamic State fighters capture Tabqa military air base in northeastern Syria, eliminating the last government-held outpost in Raqqa province."
+    },
+    {
+        "date": "2014-09",
+        "event": "US-led coalition begins airstrikes",
+        "event_description": "US-led coalition begins airstrikes against Islamic State group targets in Syria.",
+    },
+    {
+        "date": "2014-09",
+        "event": "ISIS begins attack on Kobani",
+        "event_description": "IS begins offensive to take Syrian Kurdish town of Kobani, on the Turkish border.",
+    },
+    {
+        "date": "2015-01",
+        "event": "Kurdish fighters take control of Kobani",
+        "event_description": "With the help of US-led airstrikes, Kurdish fighters take control of Kobani.",
+    },
+    {
+        "date": "2015-02",
+        "event": "ISIS overruns several Christian villages in eastern Hassakeh",
+        "event_description": "IS overruns several Christian villages in Syria's eastern Hassakeh province, taking at least 220 Assyrian Christians hostage.",
+    },
+    {
+        "date": "2015-03",
+        "event": "Idlib falls to Isalmist groups",
+        "event_description": "The northwestern city of Idlib falls to Islamist groups led by al-Qaida’s affiliate, known as the Nusra Front.",
+    },
+    {
+        "date": "2015-09",
+        "event": "Russia begins airstrikes",
+        "event_description": "Russia begins launching airstrikes in Syria in support of Assad’s forces",
+    },
+    {
+        "date": "2016-01",
+        "event": "Syria takes control of Bastion of Salma",
+        "event_description": "Syrian Armed forces take control of the rebel Bastion of Salma in the Latakia Governorate",
+    },
+    {
+        "date": "2016-08",
+        "event": "Turkey captures areas from ISIS",
+        "event_description": "Turkish forces cross into northern Syria, capturing areas along the border from the Islamic State group",
+    },
+    {
+        "date": "2016-12",
+        "event": "Syrian insurgents evacuate rebel-held eastern neighborhoods in Aleppo",
+        "event_description": "Syrian insurgents evacuate rebel-held eastern neighborhoods of the northern city of Aleppo after a Russia-backed government offensive.",
+    },
+    {
+        "date": "2017-04",
+        "event": "Nerve gas attacks kill 58 in Khan Sheikhoun",
+        "event_description": "At least 58 people are killed in what doctors say could be a nerve gas attack on the town of Khan Sheikhoun in the rebel-held Idlib province. Witnesses say the attack was carried out by either Russian or Syrian Sukhoi jets. Moscow and Damascus deny responsibility."
+    },
+    {
+        "date": "2017-04",
+        "event": "U.S fires cruise missiles into Syria",
+        "event_description": "The U.S. fires a barrage of cruise missiles into Syria in retaliation for the Khan Sheikhoun attack, in the first direct American assault on the Syrian government."
+    },
+    {
+        "date": "2017-05",
+        "event": "Rebels withdraw from Homs",
+        "event_description": "Rebels withdraw from the last neighborhood they controlled in the city of Homs, once dubbed the capital of the revolution."
+    }
+    ]
+}
