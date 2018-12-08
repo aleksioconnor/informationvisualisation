@@ -16,7 +16,7 @@ var highlighted = {type: '', value: ''};
 
 
 const selectedDistricts = new Set([]);
-var mainProvinces = ["Dara", "Damascus", "Aleppo", "Deir-ez-Zor", "Rural Damascus", "Homs", "Idleb", "Ar-Raqqa", "Hama"];
+var mainProvinces = ["Daraa", "Damascus", "Aleppo", "Deir ez-Zor", "Damascus Suburbs", "Homs", "Idlib", "Raqqa", "Hama"];
 var otherProvinces = ["Tartous", "Al-Hasakeh", "Quneitra", "Lattakia", "As-Sweida", "Rif Dimashq"]
 var allProvinces = [...mainProvinces, "Other"]
 var otherSelected = false;

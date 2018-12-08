@@ -43,7 +43,7 @@ function sankeyInit() {
                             '2017': sankey(data2017),
                         }
                         updateSankey = function () {
-                            var date = newDate.substring(0,4); // year
+                            var date = newDate.substring(0, 4); // year
                             $('#sankey-year').html(date)
                             var graph = data[date];
 
@@ -85,7 +85,7 @@ function sankeyInit() {
                                 .attr("x", function (d) {
                                     return d.x0;
                                 })
-                                
+
                                 .attr("y", function (d) {
                                     return d.y0;
                                 })
@@ -101,7 +101,16 @@ function sankeyInit() {
                                     return d.value * 0.00009 + 0.3
                                 })
                                 .on("click", function (d) {
-                                    console.log('clicked', d.name)
+                                    if (allProvinces.includes(d.name)) {
+                                        console.log("includes")
+                                        const provinceName = d.name;
+                                        selectedDistricts.has(provinceName) ?
+                                            selectedDistricts.delete(provinceName) :
+                                            selectedDistricts.add(provinceName)
+                                        rerenderSyriaMap();
+                                        updateBarchart()
+                                        updateSankey()
+                                    }
                                 })
 
 

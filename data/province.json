@@ -1,6 +1,6 @@
 {
     "2013-01": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 349
     }, {
         "province": "Damascus",
@@ -9,22 +9,22 @@
         "province": "Aleppo",
         "quantity": 859
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 171
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 1079
     }, {
         "province": "Homs",
         "quantity": 537
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 414
     }, {
         "province": "Other",
         "quantity": 123
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 68
     }, {
         "province": "Hama",
@@ -33,7 +33,7 @@
 
 
     "2013-02": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 309
     }, {
         "province": "Damascus",
@@ -42,29 +42,29 @@
         "province": "Aleppo",
         "quantity": 1094
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 195
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 888
     }, {
         "province": "Homs",
         "quantity": 347
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 272
     }, {
         "province": "Other",
         "quantity": 110
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 79
     }, {
         "province": "Hama",
         "quantity": 261
     }],
     "2013-03": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 386
     }, {
         "province": "Damascus",
@@ -73,29 +73,29 @@
         "province": "Aleppo",
         "quantity": 723
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 193
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 1037
     }, {
         "province": "Homs",
         "quantity": 545
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 329
     }, {
         "province": "Other",
         "quantity": 179
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 131
     }, {
         "province": "Hama",
         "quantity": 201
     }],
     "2013-04": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 320
     }, {
         "province": "Damascus",
@@ -104,29 +104,29 @@
         "province": "Aleppo",
         "quantity": 695
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 173
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 962
     }, {
         "province": "Homs",
         "quantity": 508
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 384
     }, {
         "province": "Other",
         "quantity": 161
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 45
     }, {
         "province": "Hama",
         "quantity": 245
     }],
     "2013-05": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 264
     }, {
         "province": "Damascus",
@@ -135,29 +135,29 @@
         "province": "Aleppo",
         "quantity": 562
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 146
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 790
     }, {
         "province": "Homs",
         "quantity": 616
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 257
     }, {
         "province": "Other",
         "quantity": 311
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 73
     }, {
         "province": "Hama",
         "quantity": 278
     }],
     "2013-06": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 225
     }, {
         "province": "Damascus",
@@ -166,29 +166,29 @@
         "province": "Aleppo",
         "quantity": 770
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 158
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 649
     }, {
         "province": "Homs",
         "quantity": 355
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 226
     }, {
         "province": "Other",
         "quantity": 136
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 75
     }, {
         "province": "Hama",
         "quantity": 161
     }],
     "2013-07": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 383
     }, {
         "province": "Damascus",
@@ -197,29 +197,29 @@
         "province": "Aleppo",
         "quantity": 612
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 114
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 845
     }, {
         "province": "Homs",
         "quantity": 342
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 441
     }, {
         "province": "Other",
         "quantity": 158
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 51
     }, {
         "province": "Hama",
         "quantity": 180
     }],
     "2013-08": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 411
     }, {
         "province": "Damascus",
@@ -228,29 +228,29 @@
         "province": "Aleppo",
         "quantity": 690
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 250
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 1694
     }, {
         "province": "Homs",
         "quantity": 309
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 637
     }, {
         "province": "Other",
         "quantity": 146
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 46
     }, {
         "province": "Hama",
         "quantity": 178
     }],
     "2013-09": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 357
     }, {
         "province": "Damascus",
@@ -259,29 +259,29 @@
         "province": "Aleppo",
         "quantity": 399
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 132
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 727
     }, {
         "province": "Homs",
         "quantity": 227
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 355
     }, {
         "province": "Other",
         "quantity": 123
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 79
     }, {
         "province": "Hama",
         "quantity": 228
     }],
     "2013-10": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 339
     }, {
         "province": "Damascus",
@@ -290,29 +290,29 @@
         "province": "Aleppo",
         "quantity": 496
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 200
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 640
     }, {
         "province": "Homs",
         "quantity": 280
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 234
     }, {
         "province": "Other",
         "quantity": 128
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 26
     }, {
         "province": "Hama",
         "quantity": 162
     }],
     "2013-11": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 214
     }, {
         "province": "Damascus",
@@ -321,29 +321,29 @@
         "province": "Aleppo",
         "quantity": 704
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 71
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 650
     }, {
         "province": "Homs",
         "quantity": 283
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 180
     }, {
         "province": "Other",
         "quantity": 110
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 26
     }, {
         "province": "Hama",
         "quantity": 145
     }],
     "2013-12": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 272
     }, {
         "province": "Damascus",
@@ -352,29 +352,29 @@
         "province": "Aleppo",
         "quantity": 1113
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 127
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 901
     }, {
         "province": "Homs",
         "quantity": 238
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 134
     }, {
         "province": "Other",
         "quantity": 107
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 34
     }, {
         "province": "Hama",
         "quantity": 87
     }],
     "2014-01": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 275
     }, {
         "province": "Damascus",
@@ -383,29 +383,29 @@
         "province": "Aleppo",
         "quantity": 1295
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 58
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 465
     }, {
         "province": "Homs",
         "quantity": 294
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 217
     }, {
         "province": "Other",
         "quantity": 119
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 47
     }, {
         "province": "Hama",
         "quantity": 134
     }],
     "2014-02": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 333
     }, {
         "province": "Damascus",
@@ -414,29 +414,29 @@
         "province": "Aleppo",
         "quantity": 1295
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 106
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 414
     }, {
         "province": "Homs",
         "quantity": 234
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 226
     }, {
         "province": "Other",
         "quantity": 154
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 8
     }, {
         "province": "Hama",
         "quantity": 228
     }],
     "2014-03": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 224
     }, {
         "province": "Damascus",
@@ -445,29 +445,29 @@
         "province": "Aleppo",
         "quantity": 599
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 134
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 546
     }, {
         "province": "Homs",
         "quantity": 281
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 287
     }, {
         "province": "Other",
         "quantity": 83
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 18
     }, {
         "province": "Hama",
         "quantity": 135
     }],
     "2014-04": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 231
     }, {
         "province": "Damascus",
@@ -476,29 +476,29 @@
         "province": "Aleppo",
         "quantity": 809
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 205
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 737
     }, {
         "province": "Homs",
         "quantity": 273
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 321
     }, {
         "province": "Other",
         "quantity": 67
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 22
     }, {
         "province": "Hama",
         "quantity": 166
     }],
     "2014-05": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 334
     }, {
         "province": "Damascus",
@@ -507,29 +507,29 @@
         "province": "Aleppo",
         "quantity": 711
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 249
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 458
     }, {
         "province": "Homs",
         "quantity": 138
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 270
     }, {
         "province": "Other",
         "quantity": 62
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 14
     }, {
         "province": "Hama",
         "quantity": 185
     }],
     "2014-06": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 194
     }, {
         "province": "Damascus",
@@ -538,29 +538,29 @@
         "province": "Aleppo",
         "quantity": 569
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 198
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 556
     }, {
         "province": "Homs",
         "quantity": 254
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 237
     }, {
         "province": "Other",
         "quantity": 38
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 41
     }, {
         "province": "Hama",
         "quantity": 123
     }],
     "2014-07": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 287
     }, {
         "province": "Damascus",
@@ -569,29 +569,29 @@
         "province": "Aleppo",
         "quantity": 437
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 108
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 383
     }, {
         "province": "Homs",
         "quantity": 109
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 268
     }, {
         "province": "Other",
         "quantity": 56
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 9
     }, {
         "province": "Hama",
         "quantity": 185
     }],
     "2014-08": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 203
     }, {
         "province": "Damascus",
@@ -600,29 +600,29 @@
         "province": "Aleppo",
         "quantity": 388
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 229
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 472
     }, {
         "province": "Homs",
         "quantity": 175
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 174
     }, {
         "province": "Other",
         "quantity": 52
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 40
     }, {
         "province": "Hama",
         "quantity": 207
     }],
     "2014-09": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 148
     }, {
         "province": "Damascus",
@@ -631,29 +631,29 @@
         "province": "Aleppo",
         "quantity": 300
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 119
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 583
     }, {
         "province": "Homs",
         "quantity": 183
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 267
     }, {
         "province": "Other",
         "quantity": 92
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 74
     }, {
         "province": "Hama",
         "quantity": 216
     }],
     "2014-10": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 276
     }, {
         "province": "Damascus",
@@ -662,29 +662,29 @@
         "province": "Aleppo",
         "quantity": 235
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 54
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 408
     }, {
         "province": "Homs",
         "quantity": 288
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 236
     }, {
         "province": "Other",
         "quantity": 44
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 3
     }, {
         "province": "Hama",
         "quantity": 96
     }],
     "2014-11": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 396
     }, {
         "province": "Damascus",
@@ -693,29 +693,29 @@
         "province": "Aleppo",
         "quantity": 236
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 55
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 276
     }, {
         "province": "Homs",
         "quantity": 156
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 100
     }, {
         "province": "Other",
         "quantity": 33
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 126
     }, {
         "province": "Hama",
         "quantity": 101
     }],
     "2014-12": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 280
     }, {
         "province": "Damascus",
@@ -724,29 +724,29 @@
         "province": "Aleppo",
         "quantity": 536
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 133
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 338
     }, {
         "province": "Homs",
         "quantity": 147
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 175
     }, {
         "province": "Other",
         "quantity": 37
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 44
     }, {
         "province": "Hama",
         "quantity": 69
     }],
     "2015-01": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 159
     }, {
         "province": "Damascus",
@@ -755,29 +755,29 @@
         "province": "Aleppo",
         "quantity": 157
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 81
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 273
     }, {
         "province": "Homs",
         "quantity": 82
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 103
     }, {
         "province": "Other",
         "quantity": 95
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 4
     }, {
         "province": "Hama",
         "quantity": 49
     }],
     "2015-02": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 212
     }, {
         "province": "Damascus",
@@ -786,29 +786,29 @@
         "province": "Aleppo",
         "quantity": 288
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 58
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 491
     }, {
         "province": "Homs",
         "quantity": 70
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 137
     }, {
         "province": "Other",
         "quantity": 38
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 13
     }, {
         "province": "Hama",
         "quantity": 45
     }],
     "2015-03": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 350
     }, {
         "province": "Damascus",
@@ -817,29 +817,29 @@
         "province": "Aleppo",
         "quantity": 169
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 76
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 563
     }, {
         "province": "Homs",
         "quantity": 110
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 250
     }, {
         "province": "Other",
         "quantity": 109
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 3
     }, {
         "province": "Hama",
         "quantity": 103
     }],
     "2015-04": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 248
     }, {
         "province": "Damascus",
@@ -848,29 +848,29 @@
         "province": "Aleppo",
         "quantity": 371
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 73
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 264
     }, {
         "province": "Homs",
         "quantity": 91
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 390
     }, {
         "province": "Other",
         "quantity": 32
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 12
     }, {
         "province": "Hama",
         "quantity": 58
     }],
     "2015-05": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 169
     }, {
         "province": "Damascus",
@@ -879,29 +879,29 @@
         "province": "Aleppo",
         "quantity": 570
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 195
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 239
     }, {
         "province": "Homs",
         "quantity": 142
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 299
     }, {
         "province": "Other",
         "quantity": 53
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 6
     }, {
         "province": "Hama",
         "quantity": 97
     }],
     "2015-06": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 351
     }, {
         "province": "Damascus",
@@ -910,29 +910,29 @@
         "province": "Aleppo",
         "quantity": 596
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 74
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 199
     }, {
         "province": "Homs",
         "quantity": 190
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 263
     }, {
         "province": "Other",
         "quantity": 33
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 5
     }, {
         "province": "Hama",
         "quantity": 91
     }],
     "2015-07": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 240
     }, {
         "province": "Damascus",
@@ -941,29 +941,29 @@
         "province": "Aleppo",
         "quantity": 297
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 93
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 287
     }, {
         "province": "Homs",
         "quantity": 96
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 201
     }, {
         "province": "Other",
         "quantity": 25
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 13
     }, {
         "province": "Hama",
         "quantity": 100
     }],
     "2015-08": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 137
     }, {
         "province": "Damascus",
@@ -972,29 +972,29 @@
         "province": "Aleppo",
         "quantity": 172
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 98
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 885
     }, {
         "province": "Homs",
         "quantity": 94
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 257
     }, {
         "province": "Other",
         "quantity": 18
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 27
     }, {
         "province": "Hama",
         "quantity": 71
     }],
     "2015-09": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 99
     }, {
         "province": "Damascus",
@@ -1003,29 +1003,29 @@
         "province": "Aleppo",
         "quantity": 80
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 55
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 328
     }, {
         "province": "Homs",
         "quantity": 133
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 87
     }, {
         "province": "Other",
         "quantity": 17
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 1
     }, {
         "province": "Hama",
         "quantity": 8
     }],
     "2015-10": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 171
     }, {
         "province": "Damascus",
@@ -1034,29 +1034,29 @@
         "province": "Aleppo",
         "quantity": 365
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 126
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 386
     }, {
         "province": "Homs",
         "quantity": 240
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 201
     }, {
         "province": "Other",
         "quantity": 34
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 7
     }, {
         "province": "Hama",
         "quantity": 116
     }],
     "2015-11": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 173
     }, {
         "province": "Damascus",
@@ -1065,29 +1065,29 @@
         "province": "Aleppo",
         "quantity": 281
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 195
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 370
     }, {
         "province": "Homs",
         "quantity": 152
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 282
     }, {
         "province": "Other",
         "quantity": 50
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 37
     }, {
         "province": "Hama",
         "quantity": 117
     }],
     "2015-12": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 167
     }, {
         "province": "Damascus",
@@ -1096,29 +1096,29 @@
         "province": "Aleppo",
         "quantity": 454
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 116
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 505
     }, {
         "province": "Homs",
         "quantity": 139
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 293
     }, {
         "province": "Other",
         "quantity": 34
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 28
     }, {
         "province": "Hama",
         "quantity": 83
     }],
     "2016-01": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 148
     }, {
         "province": "Damascus",
@@ -1127,29 +1127,29 @@
         "province": "Aleppo",
         "quantity": 286
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 221
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 356
     }, {
         "province": "Homs",
         "quantity": 91
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 283
     }, {
         "province": "Other",
         "quantity": 49
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 61
     }, {
         "province": "Hama",
         "quantity": 70
     }],
     "2016-02": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 140
     }, {
         "province": "Damascus",
@@ -1158,29 +1158,29 @@
         "province": "Aleppo",
         "quantity": 415
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 108
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 294
     }, {
         "province": "Homs",
         "quantity": 144
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 178
     }, {
         "province": "Other",
         "quantity": 52
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 31
     }, {
         "province": "Hama",
         "quantity": 60
     }],
     "2016-03": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 151
     }, {
         "province": "Damascus",
@@ -1189,29 +1189,29 @@
         "province": "Aleppo",
         "quantity": 124
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 114
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 142
     }, {
         "province": "Homs",
         "quantity": 94
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 103
     }, {
         "province": "Other",
         "quantity": 39
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 11
     }, {
         "province": "Hama",
         "quantity": 35
     }],
     "2016-04": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 81
     }, {
         "province": "Damascus",
@@ -1220,29 +1220,29 @@
         "province": "Aleppo",
         "quantity": 450
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 111
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 173
     }, {
         "province": "Homs",
         "quantity": 106
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 235
     }, {
         "province": "Other",
         "quantity": 31
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 37
     }, {
         "province": "Hama",
         "quantity": 78
     }],
     "2016-05": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 88
     }, {
         "province": "Damascus",
@@ -1251,29 +1251,29 @@
         "province": "Aleppo",
         "quantity": 352
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 99
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 200
     }, {
         "province": "Homs",
         "quantity": 155
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 191
     }, {
         "province": "Other",
         "quantity": 26
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 17
     }, {
         "province": "Hama",
         "quantity": 44
     }],
     "2016-06": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 42
     }, {
         "province": "Damascus",
@@ -1282,29 +1282,29 @@
         "province": "Aleppo",
         "quantity": 747
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 142
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 170
     }, {
         "province": "Homs",
         "quantity": 102
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 280
     }, {
         "province": "Other",
         "quantity": 22
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 54
     }, {
         "province": "Hama",
         "quantity": 66
     }],
     "2016-07": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 125
     }, {
         "province": "Damascus",
@@ -1313,29 +1313,29 @@
         "province": "Aleppo",
         "quantity": 1007
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 99
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 290
     }, {
         "province": "Homs",
         "quantity": 176
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 264
     }, {
         "province": "Other",
         "quantity": 7
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 22
     }, {
         "province": "Hama",
         "quantity": 61
     }],
     "2016-08": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 70
     }, {
         "province": "Damascus",
@@ -1344,29 +1344,29 @@
         "province": "Aleppo",
         "quantity": 657
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 94
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 214
     }, {
         "province": "Homs",
         "quantity": 169
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 396
     }, {
         "province": "Other",
         "quantity": 11
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 15
     }, {
         "province": "Hama",
         "quantity": 123
     }],
     "2016-09": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 141
     }, {
         "province": "Damascus",
@@ -1375,29 +1375,29 @@
         "province": "Aleppo",
         "quantity": 770
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 86
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 157
     }, {
         "province": "Homs",
         "quantity": 79
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 263
     }, {
         "province": "Other",
         "quantity": 19
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 2
     }, {
         "province": "Hama",
         "quantity": 174
     }],
     "2016-10": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 118
     }, {
         "province": "Damascus",
@@ -1406,29 +1406,29 @@
         "province": "Aleppo",
         "quantity": 615
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 36
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 173
     }, {
         "province": "Homs",
         "quantity": 86
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 246
     }, {
         "province": "Other",
         "quantity": 8
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 3
     }, {
         "province": "Hama",
         "quantity": 110
     }],
     "2016-11": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 51
     }, {
         "province": "Damascus",
@@ -1437,29 +1437,29 @@
         "province": "Aleppo",
         "quantity": 745
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 13
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 213
     }, {
         "province": "Homs",
         "quantity": 117
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 276
     }, {
         "province": "Other",
         "quantity": 20
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 26
     }, {
         "province": "Hama",
         "quantity": 113
     }],
     "2016-12": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 52
     }, {
         "province": "Damascus",
@@ -1468,29 +1468,29 @@
         "province": "Aleppo",
         "quantity": 491
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 51
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 147
     }, {
         "province": "Homs",
         "quantity": 54
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 137
     }, {
         "province": "Other",
         "quantity": 4
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 3
     }, {
         "province": "Hama",
         "quantity": 71
     }],
     "2017-01": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 65
     }, {
         "province": "Damascus",
@@ -1499,29 +1499,29 @@
         "province": "Aleppo",
         "quantity": 245
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 121
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 166
     }, {
         "province": "Homs",
         "quantity": 58
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 61
     }, {
         "province": "Other",
         "quantity": 15
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 3
     }, {
         "province": "Hama",
         "quantity": 16
     }],
     "2017-02": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 287
     }, {
         "province": "Damascus",
@@ -1530,29 +1530,29 @@
         "province": "Aleppo",
         "quantity": 425
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 45
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 122
     }, {
         "province": "Homs",
         "quantity": 112
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 189
     }, {
         "province": "Other",
         "quantity": 48
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 30
     }, {
         "province": "Hama",
         "quantity": 164
     }],
     "2017-03": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 114
     }, {
         "province": "Damascus",
@@ -1561,29 +1561,29 @@
         "province": "Aleppo",
         "quantity": 266
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 51
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 193
     }, {
         "province": "Homs",
         "quantity": 87
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 174
     }, {
         "province": "Other",
         "quantity": 28
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 112
     }, {
         "province": "Hama",
         "quantity": 85
     }],
     "2017-04": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 167
     }, {
         "province": "Damascus",
@@ -1592,29 +1592,29 @@
         "province": "Aleppo",
         "quantity": 109
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 51
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 266
     }, {
         "province": "Homs",
         "quantity": 68
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 270
     }, {
         "province": "Other",
         "quantity": 68
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 30
     }, {
         "province": "Hama",
         "quantity": 180
     }],
     "2017-05": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 92
     }, {
         "province": "Damascus",
@@ -1623,29 +1623,29 @@
         "province": "Aleppo",
         "quantity": 125
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 202
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 176
     }, {
         "province": "Homs",
         "quantity": 88
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 70
     }, {
         "province": "Other",
         "quantity": 3
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 27
     }, {
         "province": "Hama",
         "quantity": 80
     }],
     "2017-06": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 221
     }, {
         "province": "Damascus",
@@ -1654,29 +1654,29 @@
         "province": "Aleppo",
         "quantity": 79
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 203
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 89
     }, {
         "province": "Homs",
         "quantity": 75
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 79
     }, {
         "province": "Other",
         "quantity": 50
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 61
     }, {
         "province": "Hama",
         "quantity": 28
     }],
     "2017-07": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 63
     }, {
         "province": "Damascus",
@@ -1685,29 +1685,29 @@
         "province": "Aleppo",
         "quantity": 93
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 226
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 135
     }, {
         "province": "Homs",
         "quantity": 90
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 70
     }, {
         "province": "Other",
         "quantity": 24
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 193
     }, {
         "province": "Hama",
         "quantity": 47
     }],
     "2017-08": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 93
     }, {
         "province": "Damascus",
@@ -1716,29 +1716,29 @@
         "province": "Aleppo",
         "quantity": 44
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 53
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 105
     }, {
         "province": "Homs",
         "quantity": 130
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 55
     }, {
         "province": "Other",
         "quantity": 12
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 205
     }, {
         "province": "Hama",
         "quantity": 35
     }],
     "2017-09": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 42
     }, {
         "province": "Damascus",
@@ -1747,29 +1747,29 @@
         "province": "Aleppo",
         "quantity": 31
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 318
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 107
     }, {
         "province": "Homs",
         "quantity": 61
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 236
     }, {
         "province": "Other",
         "quantity": 5
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 101
     }, {
         "province": "Hama",
         "quantity": 94
     }],
     "2017-10": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 62
     }, {
         "province": "Damascus",
@@ -1778,29 +1778,29 @@
         "province": "Aleppo",
         "quantity": 30
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 287
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 94
     }, {
         "province": "Homs",
         "quantity": 164
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 61
     }, {
         "province": "Other",
         "quantity": 7
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 144
     }, {
         "province": "Hama",
         "quantity": 42
     }],
     "2017-11": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 43
     }, {
         "province": "Damascus",
@@ -1809,29 +1809,29 @@
         "province": "Aleppo",
         "quantity": 91
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 184
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 282
     }, {
         "province": "Homs",
         "quantity": 22
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 60
     }, {
         "province": "Other",
         "quantity": 11
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 82
     }, {
         "province": "Hama",
         "quantity": 32
     }],
     "2017-12": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 14
     }, {
         "province": "Damascus",
@@ -1840,29 +1840,29 @@
         "province": "Aleppo",
         "quantity": 28
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 176
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 164
     }, {
         "province": "Homs",
         "quantity": 39
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 155
     }, {
         "province": "Other",
         "quantity": 21
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 82
     }, {
         "province": "Hama",
         "quantity": 30
     }],
     "2018-12": [{
-        "province": "Dara",
+        "province": "Daraa",
         "quantity": 0
     }, {
         "province": "Damascus",
@@ -1871,22 +1871,22 @@
         "province": "Aleppo",
         "quantity": 0
     }, {
-        "province": "Deir-ez-Zor",
+        "province": "Deir ez-Zor",
         "quantity": 1
     }, {
-        "province": "Rural Damascus",
+        "province": "Damascus Suburbs",
         "quantity": 0
     }, {
         "province": "Homs",
         "quantity": 0
     }, {
-        "province": "Idleb",
+        "province": "Idlib",
         "quantity": 0
     }, {
         "province": "Other",
         "quantity": 0
     }, {
-        "province": "Ar-Raqqa",
+        "province": "Raqqa",
         "quantity": 0
     }, {
         "province": "Hama",

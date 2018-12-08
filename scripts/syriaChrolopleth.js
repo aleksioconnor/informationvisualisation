@@ -23,7 +23,6 @@ function syriaMapInit() {
 
         $(this).toggleClass('barsblue')
 
-        console.log('')
 
             !isSelected ? allProvinces.forEach(item => selectedDistricts.add(item)) : allProvinces.forEach(item => selectedDistricts.delete(item))
 
