@@ -12,7 +12,7 @@ function barChartInit() {
             left: 75
         },
 
-        width = 620 - margin.left - margin.right,
+        width = 660 - margin.left - margin.right,
         height = 300 - margin.top - margin.bottom;
 
     var sortBarChart = true;
@@ -68,17 +68,15 @@ function barChartInit() {
     });
 
     $('#sort').click(function () {
-
-
-        sortBarChart = document.getElementById("sort").className === "button barsblue";
-        console.log('clicked', sortBarChart)
+        sortBarChart = document.getElementById("sort").className !== "button barsblue";
 
         $(this).toggleClass('barsblue')
+
+        sortBarChart ?
+            document.getElementById("sort").textContent = "Sorted" :
+            document.getElementById("sort").textContent = "Sort";
+
         updateBarchart()
-
-        // $(this).toggleClass('barsblue')
-        // $('#sort').removeClass("barsblue")
-
     });
 
     var barChartType = "province";
