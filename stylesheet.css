@@ -1,6 +1,7 @@
 html {
   height: 100%;
 }
+
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
@@ -24,6 +25,7 @@ body {
   position: relative;
   margin-left: 10px;
   margin-bottom: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
 }
 
 
@@ -36,15 +38,17 @@ body {
 .visualisation-title {
   color: white;
   background-color: #16262E;
-  /* change this */
-  padding-top: 15px;
   text-align: center;
-  padding-bottom: 15px;
   border-radius: 10px 10px 0px 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+}
+
+.visualisation-title-text {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .ticks {
@@ -74,6 +78,7 @@ body {
   stroke: transparent;
   cursor: crosshair;
 }
+
 /* sankey node */
 .s-node:hover {
   fill: #000000;
@@ -275,8 +280,8 @@ h1 {
   background: #F4B400;
 }
 
-.button.fuel{
-  background:#0F9D58;
+.button.fuel {
+  background: #0F9D58;
 }
 
 .button.barsblue {
