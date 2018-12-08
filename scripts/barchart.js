@@ -12,8 +12,10 @@ function barChartInit() {
             left: 75
         },
 
-        width = 660 - margin.left - margin.right,
+        width = 620 - margin.left - margin.right,
         height = 300 - margin.top - margin.bottom;
+
+    var sortBarChart = true;
 
     // define the scales and axes
     var xScale = d3
@@ -65,6 +67,20 @@ function barChartInit() {
         $('#province-button').removeClass("barsblue")
     });
 
+    $('#sort').click(function () {
+
+
+        sortBarChart = document.getElementById("sort").className === "button barsblue";
+        console.log('clicked', sortBarChart)
+
+        $(this).toggleClass('barsblue')
+        updateBarchart()
+
+        // $(this).toggleClass('barsblue')
+        // $('#sort').removeClass("barsblue")
+
+    });
+
     var barChartType = "province";
 
     d3.selectAll("#province-button")
@@ -93,8 +109,15 @@ function barChartInit() {
 
         d3.json(`data/${barChartType}.json`).then(function (data) {
 
-            // get the right data
             var dataCurrentDate = data[currentDate]
+
+            dataCurrentDate.sort((a, b) =>
+                sortBarChart ?
+                b.quantity - a.quantity :
+                a.province.localeCompare(b.province)
+            )
+
+
 
             //----------------------------
             // Define x and y-scale
