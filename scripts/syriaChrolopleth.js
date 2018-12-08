@@ -86,11 +86,8 @@ function syriaMapInit() {
                                 deaths[getProvinceName(d)] :
                                 0)
 
-                            console.log("test", highlighted, test)
 
-                            console.log(highlighted.type, highlighted.value, getProvinceName(d))
-
-                            if (highlighted.type === province && highlighted.value === getProvinceName(d)) {
+                            if (highlighted.type === 'province' && highlighted.value === getProvinceName(d)) {
                                 return "black"
                             }
 
@@ -98,7 +95,6 @@ function syriaMapInit() {
                         })
                 } else {
                     // First draw map and fill it with colour
-                    console.log("initial draw")
 
 
                     mapSVG

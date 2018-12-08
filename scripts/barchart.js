@@ -204,8 +204,6 @@ function barChartInit() {
                         value: actual[Object.keys(actual)[0]]
                     }
 
-                    console.log('mouse enter', actual, highlighted)
-
                     rerenderSyriaMap()
 
                     // change opacity of the bars on mouseenter
