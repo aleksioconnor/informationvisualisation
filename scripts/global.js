@@ -58,4 +58,5 @@ var colorScale = d3
 
 
 var moveSlider = null;
+var makeInteractive = null;
 // console.log(test, colorScheme, colorScale)

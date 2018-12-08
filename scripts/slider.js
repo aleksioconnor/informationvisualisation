@@ -61,6 +61,7 @@ function initSlider() {
             .on("start drag", function () {
                 currentSliderValue = d3.event.x;
                 moveSlider(x.invert(d3.event.x));
+                makeInteractive(null, null, x.invert(d3.event.x))
             })
         );
 
@@ -93,9 +94,9 @@ function initSlider() {
 
 
     // What happens when you move the slider should be defined in here
-     moveSlider = function (h) {
+    moveSlider = function (h) {
 
-        console.log(h)
+        // console.log(h)
 
         handle.attr("cx", x(h));
 
@@ -103,9 +104,9 @@ function initSlider() {
 
         if (newDate !== currentDate) {
             // debugger
-            if (newDate.substring(0, 4) !== currentDate.substring(0, 4)) {
-                updateSankey();
-            }
+            // if (newDate.substring(0, 4) !== currentDate.substring(0, 4)) {
+            //     updateSankey();
+            // }
             currentDate = newDate;
             rerenderMap()
             rerenderSyriaMap()
