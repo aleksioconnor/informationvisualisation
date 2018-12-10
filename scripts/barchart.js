@@ -133,7 +133,7 @@ function barChartInit() {
                     dataCurrentDate
                     .filter(d => {
                         console.log(d.actor)
-                        return selectedDistricts.has(d.province) || selectedActors.has(d.actor)
+                        return selectedDistricts.has(d.province) || selectedActors.has(d.actor) || selectedCause.has(d.cause)
                     })
                     .map(function (d) {
                         if (selectedDistricts.has(d[barChartType])) {
@@ -141,6 +141,10 @@ function barChartInit() {
                         }
 
                         if (selectedActors.has(d[barChartType])) {
+                            return d[barChartType]
+                        }
+
+                        if (selectedCause.has(d[barChartType])) {
                             return d[barChartType]
                         }
                     }));
@@ -178,7 +182,7 @@ function barChartInit() {
                 .data(dataCurrentDate)
                 .enter()
                 .filter(function (d) {
-                    return selectedDistricts.has(d.province) || selectedActors.has(d.actor)
+                    return selectedDistricts.has(d.province) || selectedActors.has(d.actor) || selectedCause.has(d.cause)
                 })
                 .append("rect")
                 .attr("x", function (d) {
@@ -186,6 +190,9 @@ function barChartInit() {
                         return xScale(d[barChartType]);
                     }
                     if (selectedActors.has(d[barChartType])) {
+                        return xScale(d[barChartType]);
+                    }
+                    if (selectedCause.has(d[barChartType])) {
                         return xScale(d[barChartType]);
                     }
                 })
@@ -202,6 +209,9 @@ function barChartInit() {
 
                     if (barChartType === "actor")
                         return greenColorScale(d.quantity)
+
+                    if (barChartType === "cause")
+                        return blueColorScale(d.quantity)
 
                 })
 
@@ -237,7 +247,7 @@ function barChartInit() {
                         .data(dataCurrentDate)
                         .enter()
                         .filter(function (d) {
-                            return selectedDistricts.has(d.province) || selectedActors.has(d.actor)
+                            return selectedDistricts.has(d.province) || selectedActors.has(d.actor) || selectedCause.has(d.cause)
                         })
                         .append('text')
                         .attr('class', 'divergence')
@@ -327,7 +337,7 @@ function barChartInit() {
                 .data(dataCurrentDate)
                 .enter()
                 .filter(function (d) {
-                    return selectedDistricts.has(d.province) || selectedActors.has(d.actor)
+                    return selectedDistricts.has(d.province) || selectedActors.has(d.actor) || selectedCause.has(d.cause)
                 })
                 .append('text')
                 .attr('class', 'value')
