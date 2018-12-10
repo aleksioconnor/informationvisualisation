@@ -109,7 +109,6 @@ function barChartInit() {
     //----------------------------
 
     updateBarchart = function () {
-        // console.log("updated")
 
         d3.json(`data/${barChartType}.json`).then(function (data) {
 

@@ -3,7 +3,7 @@
 //----------------------------
 
 var lineChart = null
-var mousePos = 'M177,220 177,0';
+var mousePos = 'M0,220 0,0';
 
 // Initialize line chart
 function lineChartInit() {
@@ -88,24 +88,31 @@ function lineChartInit() {
     // change button colors onClick
     jQuery('#bread').click(function () {
         $(this).toggleClass('bread');
+        $('#bread-value').toggleClass('low-opacity')
     });
 
     jQuery('#sugar').click(function () {
         $(this).toggleClass('sugar');
+        $('#sugar-value').toggleClass('low-opacity')
+
     });
 
     jQuery('#rice').click(function () {
         $(this).toggleClass('rice');
+        $('#rice-value').toggleClass('low-opacity')
+
     });
 
     jQuery('#fuel').click(function () {
         $(this).toggleClass('fuel');
+        $('#fuel-value').toggleClass('low-opacity')
+
     });
 
-    var bBread = Boolean(false);
-    var bSugar = Boolean(false);
-    var bRice = Boolean(false);
-    var bFuel = Boolean(false);
+    var bBread = Boolean(true);
+    var bSugar = Boolean(true);
+    var bRice = Boolean(true);
+    var bFuel = Boolean(true);
 
     d3.selectAll("#bread")
         .on("click", function () {
@@ -151,7 +158,6 @@ function lineChartInit() {
 
             const foodPrices = Object.values(data)
             const currentDateIndex = foodPrices.findIndex(item => item.date === currentDate)
-            // console.log(currentDateIndex);
             //const foodPrices = foodPricesBig.slice(0, currentDateIndex)
 
             x.domain(d3.extent(Object.keys(data), function (d) {
@@ -306,57 +312,18 @@ function lineChartInit() {
     //----------------------------
 
     updateLine = function () {
-        d3.select(".mouse-line")
+        d3.select(".mouse-line-fixed")
+
             .attr("d", function () {
                 var dateObj = new Date(currentDate.split('-')[0], currentDate.split('-')[1]);
                 dateObj.setDate(dateObj.getDate() - 31); // awful hack
                 var xDate = x(dateObj);
-                // console.log(dateObj);
-
-                // var d = 'M177,220 177,0'
                 var d = 'M' + xDate + ',220 ' + xDate + ',0';
                 mousePos = d;
                 return d;
             });
 
-        d3.selectAll(".mouse-per-line")
-        
-            .attr("transform", function (d, i) {
-                var lines = document.getElementsByClassName('line');
 
-                var dateObj = new Date(currentDate.split('-')[0], currentDate.split('-')[1]);
-                dateObj.setDate(dateObj.getDate() - 31); // awful hack
-                var xDate = x(dateObj);
-                bisect = d3.bisector(function (d) {
-                    return d.date;
-                }).right;
-                idx = bisect(d.values, xDate);
-
-                var beginning = 0,
-                    end = lines[i].getTotalLength(),
-                    target = null;
-
-                while (true) {
-                    target = Math.floor((beginning + end) / 2);
-                    pos = lines[i].getPointAtLength(target);
-
-                    if ((target === end || target === beginning) && pos.x !== xDate) {
-                        break;
-                    }
-
-                    if (pos.x > xDate) end = target;
-
-                    else if (pos.x < xDate) beginning = target;
-
-                    else break; //position found
-                }
-
-                d3.select(this).select('text')
-                    .text(y.invert(pos.y).toFixed(2));
-
-                return "translate(" + xDate + "," + pos.y + ")";
-
-            });
     }
 
     //----------------------------
@@ -367,25 +334,27 @@ function lineChartInit() {
 
         // initialize group mouse-over-effects
         var mouseG = lineChart.append("g")
-        .attr("class", "mouse-over-effects");
-            
+            .attr("class", "mouse-over-effects");
+
         // the black vertical lines
-        movingLine = mouseG.append("path") 
+        movingLine = mouseG.append("path")
             .attr("class", "mouse-line")
             .style("stroke", "black")
+            .style('stroke-dasharray', "2")
+
             .style("stroke-width", "1px")
             .style("opacity", "1")
             .attr("d", mousePos);
 
-        fixedLine = mouseG.append("path") 
-            .attr("class", "mouse-line")
+        fixedLine = mouseG.append("path")
+            .attr("class", "mouse-line-fixed")
             .attr("id", "fixed-line")
-            .style("stroke", "black")
+            .style('stroke', 'red')
             .style("stroke-width", "1px")
             .style("opacity", "0")
 
         // both colored circles and text
-        var mousePerLine = mouseG.selectAll('.mouse-per-line') 
+        var mousePerLine = mouseG.selectAll('.mouse-per-line')
             .data([foodPrices])
             .enter()
             .append("g")
@@ -393,26 +362,39 @@ function lineChartInit() {
             .style("opacity", "1");
 
         // the colored circles
-        movingCircles = mousePerLine.append("circle") 
-            .attr("r", 7)
-            .style("stroke", color)
-            .style("fill", "none")
-            .style("stroke-width", "1px")
-            .style("opacity", "1");
-
-        fixedCircles = mousePerLine.append("circle")
+        movingCircles = mousePerLine.append("circle")
             .attr("r", 7)
             .style("stroke", color)
             .style("fill", "none")
             .style("stroke-width", "1px")
             .style("opacity", "0");
 
+        // hacky fix to displaying correct data on the buttons on the linechart
+        // lets hope this doesnt have to be changed lol
+        const colorMapping = {
+            '#DB4437': 'bread info',
+            '#4285F4': 'sugar info',
+            '#F4B400': 'rice info',
+            '#0F9D58': 'fuel info'
+        }
+
+        fixedCircles = mousePerLine.append("circle")
+            .attr("r", 7)
+            .style("stroke", color)
+            //.attr('class', foodPrices)
+            .style("fill", "none")
+            .style("stroke-width", "1px")
+            .style("opacity", "0");
+
         // the labels showing the values at that point
-        movingText = mousePerLine.append("text") 
+        movingText = mousePerLine.append("text")
             .attr('class', 'label')
+            .attr('class', function () {
+                return colorMapping[color]
+            })
             .attr("transform", "translate(10,3)");
 
-        fixedText = mousePerLine.append("text") 
+        fixedText = mousePerLine.append("text")
             .attr('class', 'label')
             .attr("transform", "translate(10,3)");
 
@@ -444,31 +426,6 @@ function lineChartInit() {
                     .style("opacity", "1");
             })
 
-           .on("click", function(){ // on clicking
-               
-                var mouse = d3.mouse(this);   
-
-                fixedLine
-                    .style("opacity", "1")
-                    .attr("d", function () {
-                        var d = "M" + mouse[0] + "," + height;
-                        d += " " + mouse[0] + "," + 0;
-                        return d;
-                    });
-
-                fixedCircles
-                    .style("opacity", "1")
-
-                // d3.selectAll(".mouse-per-line")
-                //     .attr("transform", function (d, i) {
-                //         d3.select(this).select('text')
-                //             .text(y.invert(pos.y).toFixed(2));
-                //         })
-
-                updatePosition(mouse);
-                    
-            })
-
             .on('mousemove', function () { // mouse moving over canvas
                 var mouse = d3.mouse(this);
                 d3.select(".mouse-line")
@@ -478,7 +435,7 @@ function lineChartInit() {
                         return d;
                     });
 
-            updatePosition(mouse);
+                updatePosition(mouse);
 
             });
 
@@ -488,15 +445,17 @@ function lineChartInit() {
     // Defines the position of the circles and text
     //----------------------------
 
-    function updatePosition(mousePosition){
+    function updatePosition(mousePosition) {
         d3.selectAll(".mouse-per-line")
             .attr("transform", function (d, i) {
-                
+
                 var mouse = mousePosition;
                 var lines = document.getElementsByClassName('line');
 
                 var xDate = x.invert(mouse[0]),
-                    bisect = d3.bisector(function (d) { return d.date; }).right;
+                    bisect = d3.bisector(function (d) {
+                        return d.date;
+                    }).right;
                 idx = bisect(d.values, xDate);
 
                 var beginning = 0,
@@ -521,6 +480,9 @@ function lineChartInit() {
                 d3.select(this).select('text')
                     .text(y.invert(pos.y).toFixed(2));
 
+                const classToBind = ($(this).find('.info').attr('class').split(' '));
+                $('#'+classToBind[0]+'-value').html(d3.select(this).text() + " &#163;S");
+
                 return "translate(" + mouse[0] + "," + pos.y + ")";
 
             });
@@ -530,4 +492,3 @@ function lineChartInit() {
     updateLineChart()
 
 }
-

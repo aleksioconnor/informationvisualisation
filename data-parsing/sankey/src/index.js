@@ -142,7 +142,6 @@ const monthlyData = splitData(jsonContent.data);
   { source: 1841, target: 1857, value: 2 } ]
  */
 function createLinksCollection(collection, sourceName, targetName) {
-    console.log("simple mapping to source and target")
     // Want to change the format to source:, target:, value:, etc..
     const store = _.map(collection, item => ({
         'source': item[sourceName],
@@ -150,7 +149,6 @@ function createLinksCollection(collection, sourceName, targetName) {
         'value': 1
     }))
 
-    console.log("reducer")
     // Get a list of all unique values in the collection
     const reducer = store.reduce((_acc, curr) => {
         _.forEach(store, item => {
@@ -203,7 +201,6 @@ const links = mapLinksToIndex(linksWithoutIndex, nodes);
 
 const data = {nodes, links}
 
-// console.log(data);
 
 
 // const jsonWriteLinks = JSON.stringify(linksWithIndex);
@@ -212,10 +209,8 @@ const jsonWrite = JSON.stringify(data);
 
 
 
-// // console.log(filterAllKeys(linksWithoutIndex, allKeys));
 
 fs.writeFile('linksAndNodes.json', jsonWrite, 'utf8', () => {
-    console.log("links and nodes ready")
 });
 // fs.writeFile('links.json', jsonWriteLinks, 'utf8', () => {
 //     console.log("links ready")

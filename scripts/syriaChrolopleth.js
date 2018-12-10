@@ -120,8 +120,6 @@ function syriaMapInit() {
 
     rerenderSyriaMap = function () {
 
-        // console.log('rerendering syria map')
-
         d3.json("data/provincesDeaths.json").then(data => {
 
             const deaths = data[currentDate]
