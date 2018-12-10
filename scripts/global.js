@@ -25,28 +25,26 @@ var allProvinces = [...mainProvinces, "Other"]
 var otherSelected = false;
 
 var allActors = [
-    "NA",
-    "Syrian government and affiliated militias",
-    "The organization of the Islamic State in Iraq and the Levant - ISIS",
     "Not identified",
-    "Armed opposition groups",
-    "Al-Nusra Front",
-    "Self administration forces",
+    "Syrian government",
+    "ISIS",
+    "Opposition groups",
     "Russian troops",
-    "International coalition forces"
+    "U.S Coalition"
 ];
+const selectedActors = new Set([])
 
-const selectedActors = new Set([
-    "NA",
-    "Syrian government and affiliated militias",
-    "The organization of the Islamic State in Iraq and the Levant - ISIS",
-    "Not identified",
-    "Armed opposition groups",
-    "Al-Nusra Front",
-    "Self administration forces",
-    "Russian troops",
-    "International coalition forces"
-])
+var allCause = [
+    "Shooting",
+    "Shelling",
+    "Field Execution",
+    "Unknown",
+    "Torture",
+    "Warplane shelling",
+    "Kidnapping",
+    "Explosion"
+];
+const selectedCause = new Set([])
 
 
 //calculate screen width
@@ -72,7 +70,8 @@ var light = "#bfbfbf", // (191,191,191)
 
 var colorScheme = d3.schemeReds[9];
 var greenColorScheme = d3.schemeGreens[9];
-const test = d3.interpolateReds(1);
+var blueColorScheme = d3.schemeBlues[9];
+// const test = d3.interpolateReds(1);
 
 // colorScheme.unshift("#eee");
 var colorScale = d3
@@ -81,11 +80,14 @@ var colorScale = d3
     .domain([1, 50, 100, 300, 500, 800, 1000, 1200, 1400])
     .range(colorScheme);
 
-
 var greenColorScale = d3
-.scaleThreshold()
-// .domain([1, 10, 50, 100, 200, 500])
-.domain([1, 50, 100, 300, 500, 800, 1000, 1200, 1400])
-.range(greenColorScheme);
+    .scaleThreshold()
+    // .domain([1, 10, 50, 100, 200, 500])
+    .domain([1, 50, 100, 300, 500, 800, 1000, 1200, 1400])
+    .range(greenColorScheme);
 
-// console.log(test, colorScheme, colorScale)
+var bluesColorScale = d3
+    .scaleThreshold()
+    // .domain([1, 10, 50, 100, 200, 500])
+    .domain([1, 50, 100, 300, 500, 800, 1000, 1200, 1400])
+    .range(blueColorScheme);

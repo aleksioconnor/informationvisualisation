@@ -1,1682 +1,1142 @@
 {
     "2013-01": [{
-        "actor": "NA",
+        "status": "Not identified",
         "quantity": 4121
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 9
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 1
     }, {
-        "actor": "Not identified",
+        "status": "Opposition groups",
         "quantity": 0
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 0
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2013-02": [{
-        "actor": "NA",
-        "quantity": 3965
+        "status": "Not identified",
+        "quantity": 3967
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 9
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 0
     }, {
-        "actor": "Not identified",
-        "quantity": 2
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 0
     }, {
-        "actor": "Al-Nusra Front",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2013-03": [{
-        "actor": "NA",
+        "status": "Not identified",
         "quantity": 4170
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 13
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 0
     }, {
-        "actor": "Not identified",
+        "status": "Opposition groups",
         "quantity": 0
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 0
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2013-04": [{
-        "actor": "NA",
-        "quantity": 3760
+        "status": "Not identified",
+        "quantity": 3763
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 21
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 0
     }, {
-        "actor": "Not identified",
-        "quantity": 3
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 0
     }, {
-        "actor": "Al-Nusra Front",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2013-05": [{
-        "actor": "NA",
-        "quantity": 3451
+        "status": "Not identified",
+        "quantity": 3452
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 14
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 0
     }, {
-        "actor": "Not identified",
-        "quantity": 1
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 0
     }, {
-        "actor": "Al-Nusra Front",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2013-06": [{
-        "actor": "NA",
-        "quantity": 2915
+        "status": "Not identified",
+        "quantity": 2917
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 34
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 0
     }, {
-        "actor": "Not identified",
-        "quantity": 2
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 1
     }, {
-        "actor": "Al-Nusra Front",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2013-07": [{
-        "actor": "NA",
-        "quantity": 2848
+        "status": "Not identified",
+        "quantity": 2851
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 629
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 2
     }, {
-        "actor": "Not identified",
-        "quantity": 3
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 0
     }, {
-        "actor": "Al-Nusra Front",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2013-08": [{
-        "actor": "NA",
-        "quantity": 3889
+        "status": "Not identified",
+        "quantity": 3892
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 730
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 0
     }, {
-        "actor": "Not identified",
-        "quantity": 3
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 0
     }, {
-        "actor": "Al-Nusra Front",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2013-09": [{
-        "actor": "NA",
-        "quantity": 2655
+        "status": "Not identified",
+        "quantity": 2659
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 99
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 2
     }, {
-        "actor": "Not identified",
-        "quantity": 4
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 0
     }, {
-        "actor": "Al-Nusra Front",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2013-10": [{
-        "actor": "NA",
-        "quantity": 2661
+        "status": "Not identified",
+        "quantity": 2664
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 5
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 7
+        "status": "ISIS",
+        "quantity": 8
     }, {
-        "actor": "Not identified",
-        "quantity": 3
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 1
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 1
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2013-11": [{
-        "actor": "NA",
-        "quantity": 2421
+        "status": "Not identified",
+        "quantity": 2433
     }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 88
+        "status": "Syrian government",
+        "quantity": 93
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 5
+        "status": "ISIS",
+        "quantity": 8
     }, {
-        "actor": "Not identified",
-        "quantity": 12
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 3
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 3
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 5
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2013-12": [{
-        "actor": "NA",
-        "quantity": 3089
+        "status": "Not identified",
+        "quantity": 3104
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 6
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 16
+        "status": "ISIS",
+        "quantity": 18
     }, {
-        "actor": "Not identified",
-        "quantity": 15
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 0
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 2
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2014-01": [{
-        "actor": "NA",
-        "quantity": 2375
+        "status": "Not identified",
+        "quantity": 2452
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 9
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 625
+        "status": "ISIS",
+        "quantity": 626
     }, {
-        "actor": "Not identified",
-        "quantity": 77
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 19
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 1
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2014-02": [{
-        "actor": "NA",
-        "quantity": 2785
+        "status": "Not identified",
+        "quantity": 2839
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 6
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 258
+        "status": "ISIS",
+        "quantity": 262
     }, {
-        "actor": "Not identified",
-        "quantity": 54
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 5
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 4
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2014-03": [{
-        "actor": "NA",
-        "quantity": 1971
+        "status": "Not identified",
+        "quantity": 2014
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 256
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 165
     }, {
-        "actor": "Not identified",
-        "quantity": 43
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 1
     }, {
-        "actor": "Al-Nusra Front",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2014-04": [{
-        "actor": "NA",
-        "quantity": 2437
+        "status": "Not identified",
+        "quantity": 2451
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 338
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 164
     }, {
-        "actor": "Not identified",
-        "quantity": 14
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 1
     }, {
-        "actor": "Al-Nusra Front",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2014-05": [{
-        "actor": "NA",
-        "quantity": 2215
+        "status": "Not identified",
+        "quantity": 2235
     }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 69
+        "status": "Syrian government",
+        "quantity": 70
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 215
+        "status": "ISIS",
+        "quantity": 216
     }, {
-        "actor": "Not identified",
-        "quantity": 20
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 5
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 1
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 1
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2014-06": [{
-        "actor": "NA",
-        "quantity": 1953
+        "status": "Not identified",
+        "quantity": 1991
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 201
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 105
     }, {
-        "actor": "Not identified",
-        "quantity": 38
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 6
     }, {
-        "actor": "Al-Nusra Front",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2014-07": [{
-        "actor": "NA",
-        "quantity": 1661
+        "status": "Not identified",
+        "quantity": 1696
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 64
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 125
+        "status": "ISIS",
+        "quantity": 131
     }, {
-        "actor": "Not identified",
-        "quantity": 35
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 7
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 6
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2014-08": [{
-        "actor": "NA",
-        "quantity": 1782
+        "status": "Not identified",
+        "quantity": 1813
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 31
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 174
+        "status": "ISIS",
+        "quantity": 176
     }, {
-        "actor": "Not identified",
-        "quantity": 31
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 8
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 2
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 1
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2014-09": [{
-        "actor": "NA",
-        "quantity": 1972
+        "status": "Not identified",
+        "quantity": 1999
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 25
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 38
     }, {
-        "actor": "Not identified",
-        "quantity": 27
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 4
     }, {
-        "actor": "Al-Nusra Front",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2014-10": [{
-        "actor": "NA",
-        "quantity": 1503
+        "status": "Not identified",
+        "quantity": 1589
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 68
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 39
+        "status": "ISIS",
+        "quantity": 40
     }, {
-        "actor": "Not identified",
-        "quantity": 86
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 4
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 1
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2014-11": [{
-        "actor": "NA",
-        "quantity": 1297
+        "status": "Not identified",
+        "quantity": 1323
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 132
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 55
+        "status": "ISIS",
+        "quantity": 61
     }, {
-        "actor": "Not identified",
-        "quantity": 26
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 18
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 6
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2014-12": [{
-        "actor": "NA",
-        "quantity": 1343
+        "status": "Not identified",
+        "quantity": 1381
     }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 277
+        "status": "Syrian government",
+        "quantity": 278
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 51
+        "status": "ISIS",
+        "quantity": 57
     }, {
-        "actor": "Not identified",
-        "quantity": 38
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 15
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 6
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 1
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 99
     }],
     "2015-01": [{
-        "actor": "NA",
-        "quantity": 971
+        "status": "Not identified",
+        "quantity": 993
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 9
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 48
+        "status": "ISIS",
+        "quantity": 54
     }, {
-        "actor": "Not identified",
-        "quantity": 22
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 9
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 6
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2015-02": [{
-        "actor": "NA",
-        "quantity": 1165
+        "status": "Not identified",
+        "quantity": 1184
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 157
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 29
+        "status": "ISIS",
+        "quantity": 35
     }, {
-        "actor": "Not identified",
-        "quantity": 19
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 5
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 6
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2015-03": [{
-        "actor": "NA",
-        "quantity": 1782
+        "status": "Not identified",
+        "quantity": 1805
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 33
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 33
+        "status": "ISIS",
+        "quantity": 52
     }, {
-        "actor": "Not identified",
-        "quantity": 23
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 8
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 19
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2015-04": [{
-        "actor": "NA",
-        "quantity": 1270
+        "status": "Not identified",
+        "quantity": 1281
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 185
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 152
+        "status": "ISIS",
+        "quantity": 153
     }, {
-        "actor": "Not identified",
+        "status": "Opposition groups",
         "quantity": 11
     }, {
-        "actor": "Armed opposition groups",
-        "quantity": 11
-    }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 1
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2015-05": [{
-        "actor": "NA",
-        "quantity": 1465
+        "status": "Not identified",
+        "quantity": 1473
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 128
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 185
+        "status": "ISIS",
+        "quantity": 188
     }, {
-        "actor": "Not identified",
-        "quantity": 8
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 9
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 3
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 1
     }],
     "2015-06": [{
-        "actor": "NA",
-        "quantity": 1253
+        "status": "Not identified",
+        "quantity": 1266
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 145
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 403
+        "status": "ISIS",
+        "quantity": 407
     }, {
-        "actor": "Not identified",
-        "quantity": 13
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 3
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 4
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2015-07": [{
-        "actor": "NA",
-        "quantity": 1211
+        "status": "Not identified",
+        "quantity": 1220
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 63
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 91
+        "status": "ISIS",
+        "quantity": 97
     }, {
-        "actor": "Not identified",
-        "quantity": 9
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 6
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 6
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2015-08": [{
-        "actor": "NA",
-        "quantity": 1389
+        "status": "Not identified",
+        "quantity": 1400
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 259
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 122
+        "status": "ISIS",
+        "quantity": 131
     }, {
-        "actor": "Not identified",
-        "quantity": 11
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 5
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 9
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2015-09": [{
-        "actor": "NA",
-        "quantity": 772
+        "status": "Not identified",
+        "quantity": 780
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 24
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 29
+        "status": "ISIS",
+        "quantity": 30
     }, {
-        "actor": "Not identified",
-        "quantity": 8
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 1
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 1
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2015-10": [{
-        "actor": "NA",
-        "quantity": 1520
+        "status": "Not identified",
+        "quantity": 1555
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 26
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 70
+        "status": "ISIS",
+        "quantity": 73
     }, {
-        "actor": "Not identified",
-        "quantity": 35
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 5
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 3
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 2
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2015-11": [{
-        "actor": "NA",
-        "quantity": 1476
+        "status": "Not identified",
+        "quantity": 1495
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 31
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 112
+        "status": "ISIS",
+        "quantity": 127
     }, {
-        "actor": "Not identified",
-        "quantity": 19
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 35
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 15
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "Russian troops",
-        "quantity": 0
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2015-12": [{
-        "actor": "NA",
-        "quantity": 1644
+        "status": "Not identified",
+        "quantity": 1667
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 18
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 139
     }, {
-        "actor": "Not identified",
-        "quantity": 23
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 20
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 0
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 2
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2016-01": [{
-        "actor": "NA",
-        "quantity": 1430
+        "status": "Not identified",
+        "quantity": 1460
     }, {
-        "actor": "Syrian government and affiliated militias",
+        "status": "Syrian government",
         "quantity": 19
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 88
+        "status": "ISIS",
+        "quantity": 92
     }, {
-        "actor": "Not identified",
-        "quantity": 30
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 14
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 4
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 0
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 3
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2016-02": [{
-        "actor": "NA",
-        "quantity": 1337
+        "status": "Not identified",
+        "quantity": 1364
     }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 9
+        "status": "Syrian government",
+        "quantity": 10
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 56
     }, {
-        "actor": "Not identified",
-        "quantity": 27
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 16
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 0
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 1
     }, {
-        "actor": "Russian troops",
-        "quantity": 1
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2016-03": [{
-        "actor": "NA",
-        "quantity": 595
+        "status": "Not identified",
+        "quantity": 648
     }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 10
+        "status": "Syrian government",
+        "quantity": 13
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 136
+        "status": "ISIS",
+        "quantity": 146
     }, {
-        "actor": "Not identified",
-        "quantity": 53
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 17
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 10
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 3
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 0
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 0
     }],
     "2016-04": [{
-        "actor": "NA",
-        "quantity": 308
+        "status": "Not identified",
+        "quantity": 356
     }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 591
+        "status": "Syrian government",
+        "quantity": 655
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 176
+        "status": "ISIS",
+        "quantity": 178
     }, {
-        "actor": "Not identified",
-        "quantity": 48
-    }, {
-        "actor": "Armed opposition groups",
+        "status": "Opposition groups",
         "quantity": 100
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 2
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 64
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 26
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 9
     }],
     "2016-05": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 748
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 136
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 68
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 764
+    }, {
+        "status": "ISIS",
+        "quantity": 142
+    }, {
+        "status": "Opposition groups",
         "quantity": 115
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 6
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 16
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 87
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 8
     }],
     "2016-06": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 879
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 208
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 146
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 914
+    }, {
+        "status": "ISIS",
+        "quantity": 211
+    }, {
+        "status": "Opposition groups",
         "quantity": 87
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 3
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 35
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 236
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 53
     }],
     "2016-07": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 1096
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 161
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 285
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 1118
+    }, {
+        "status": "ISIS",
+        "quantity": 161
+    }, {
+        "status": "Opposition groups",
         "quantity": 67
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 0
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 22
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 281
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 158
     }],
     "2016-08": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 1183
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 181
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 117
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 1205
+    }, {
+        "status": "ISIS",
+        "quantity": 182
+    }, {
+        "status": "Opposition groups",
         "quantity": 119
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 1
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 22
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 132
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 7
     }],
     "2016-09": [{
-        "actor": "NA",
-        "quantity": 0
+        "status": "Not identified",
+        "quantity": 50
     }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 947
+        "status": "Syrian government",
+        "quantity": 951
     }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
+        "status": "ISIS",
         "quantity": 125
     }, {
-        "actor": "Not identified",
+        "status": "Opposition groups",
         "quantity": 50
     }, {
-        "actor": "Armed opposition groups",
-        "quantity": 50
-    }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 0
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 4
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 518
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 6
     }],
     "2016-10": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 791
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 190
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 58
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 800
+    }, {
+        "status": "ISIS",
+        "quantity": 190
+    }, {
+        "status": "Opposition groups",
         "quantity": 78
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 0
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 9
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 248
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 43
     }],
     "2016-11": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 972
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 88
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 118
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 983
+    }, {
+        "status": "ISIS",
+        "quantity": 94
+    }, {
+        "status": "Opposition groups",
         "quantity": 46
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 6
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 11
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 312
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 29
     }],
     "2016-12": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 554
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 58
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 170
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 561
+    }, {
+        "status": "ISIS",
+        "quantity": 59
+    }, {
+        "status": "Opposition groups",
         "quantity": 53
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 1
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 7
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 127
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 49
     }],
     "2017-01": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 387
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 106
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 138
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 388
+    }, {
+        "status": "ISIS",
+        "quantity": 106
+    }, {
+        "status": "Opposition groups",
         "quantity": 17
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 0
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 1
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 77
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 37
     }],
     "2017-02": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 557
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 355
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 214
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 563
+    }, {
+        "status": "ISIS",
+        "quantity": 363
+    }, {
+        "status": "Opposition groups",
         "quantity": 202
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 8
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 6
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 74
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 27
     }],
     "2017-03": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 598
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 122
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 87
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 611
+    }, {
+        "status": "ISIS",
+        "quantity": 154
+    }, {
+        "status": "Opposition groups",
         "quantity": 16
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 32
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 13
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 100
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 200
     }],
     "2017-04": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 720
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 81
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 70
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 731
+    }, {
+        "status": "ISIS",
+        "quantity": 101
+    }, {
+        "status": "Opposition groups",
         "quantity": 112
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 20
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 11
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 159
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 76
     }],
     "2017-05": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 314
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 157
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 69
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 339
+    }, {
+        "status": "ISIS",
+        "quantity": 157
+    }, {
+        "status": "Opposition groups",
         "quantity": 121
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 0
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 25
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 54
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 154
     }],
     "2017-06": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 386
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 84
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 120
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 427
+    }, {
+        "status": "ISIS",
+        "quantity": 88
+    }, {
+        "status": "Opposition groups",
         "quantity": 54
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 4
-    }, {
-        "actor": "Self administration forces",
+        "status": "Russian troops",
         "quantity": 41
     }, {
-        "actor": "Russian troops",
-        "quantity": 41
-    }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 170
     }],
     "2017-07": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 272
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 99
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 114
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 323
+    }, {
+        "status": "ISIS",
+        "quantity": 101
+    }, {
+        "status": "Opposition groups",
         "quantity": 34
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 2
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 51
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 105
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 280
     }],
     "2017-08": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 213
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 65
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 113
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 242
+    }, {
+        "status": "ISIS",
+        "quantity": 67
+    }, {
+        "status": "Opposition groups",
         "quantity": 49
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 2
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 29
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 34
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 248
     }],
     "2017-09": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 398
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 62
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 49
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 403
+    }, {
+        "status": "ISIS",
+        "quantity": 63
+    }, {
+        "status": "Opposition groups",
         "quantity": 13
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 1
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 5
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 331
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 144
     }],
     "2017-10": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 250
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 138
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 76
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 283
+    }, {
+        "status": "ISIS",
+        "quantity": 138
+    }, {
+        "status": "Opposition groups",
         "quantity": 16
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 0
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 33
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 159
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 236
     }],
     "2017-11": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 420
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 93
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 50
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 423
+    }, {
+        "status": "ISIS",
+        "quantity": 95
+    }, {
+        "status": "Opposition groups",
         "quantity": 26
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 2
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 3
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 228
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 10
     }],
     "2017-12": [{
-        "actor": "NA",
-        "quantity": 0
-    }, {
-        "actor": "Syrian government and affiliated militias",
-        "quantity": 365
-    }, {
-        "actor": "The organization of the Islamic State in Iraq and the Levant - ISIS",
-        "quantity": 119
-    }, {
-        "actor": "Not identified",
+        "status": "Not identified",
         "quantity": 56
     }, {
-        "actor": "Armed opposition groups",
+        "status": "Syrian government",
+        "quantity": 376
+    }, {
+        "status": "ISIS",
+        "quantity": 119
+    }, {
+        "status": "Opposition groups",
         "quantity": 13
     }, {
-        "actor": "Al-Nusra Front",
-        "quantity": 0
-    }, {
-        "actor": "Self administration forces",
-        "quantity": 11
-    }, {
-        "actor": "Russian troops",
+        "status": "Russian troops",
         "quantity": 96
     }, {
-        "actor": "International coalition forces",
+        "status": "U.S Coalition",
         "quantity": 71
     }]
 }

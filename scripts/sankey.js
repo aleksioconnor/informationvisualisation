@@ -130,7 +130,7 @@ function sankeyInit() {
                                     return d.y0;
                                 })
                                 .attr("fill", d => {
-                                    return selectedDistricts.has(d.name) ? "red" : "black"
+                                    return selectedDistricts.has(d.name) ? "#A50F15" : "black"
                                 })
                                 .attr("height", function (d) {
                                     return d.y1 - d.y0;
