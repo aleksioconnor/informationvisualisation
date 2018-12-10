@@ -148,29 +148,51 @@ function sankeyInit() {
                                         updateSankey();
                                     }
                                 })
+                                .on('mouseenter', function (actual, i) {
+                                    highlighted = {
+                                        type: Object.keys(actual)[0],
+                                        value: actual[Object.keys(actual)[0]]
+                                    }
 
-
-                            node.select("rect").transition(t)
-                                // .attr("x", function(d) { return d.x0; })
-                                .attr("y", function (d) {
-                                    return d.y0;
+                                    updateBarchart()
+                                    rerenderNode()
                                 })
-                                .attr("fill", d => {
-                                    if (selectedDistricts.has(d.name))
-                                        return "#A50F15"
 
-                                    if (selectedActors.has(d.name))
-                                        return "green"
 
-                                    if (selectedCause.has(d.name))
-                                        return "blue"
+                            rerenderNode = function () {
+                                node.select("rect").transition(t)
+                                    // .attr("x", function(d) { return d.x0; })
+                                    .attr("y", function (d) {
+                                        return d.y0;
+                                    })
+                                    .attr("fill", d => {
+                                        if (selectedDistricts.has(d.name))
+                                            return "#A50F15"
 
-                                    return "black"
-                                })
-                                .attr("height", function (d) {
-                                    return d.y1 - d.y0;
-                                });
-                            // .attr("width", function(d) { return d.x1 - d.x0; });
+                                        if (selectedActors.has(d.name))
+                                            return "green"
+
+                                        if (selectedCause.has(d.name))
+                                            return "blue"
+
+                                        return "black"
+                                    })
+                                    .attr("opacity", (d) => {
+
+                                        if (highlighted.value === d.name) {
+                                            return "0.4"
+                                        }
+
+                                        return "1.0"
+                                    })
+                                    .attr("height", function (d) {
+                                        return d.y1 - d.y0;
+                                    });
+                                // .attr("width", function(d) { return d.x1 - d.x0; });
+
+                            }
+
+                            rerenderNode()
 
                             nodeEnter.append("text")
                                 .attr("dy", "0.35em")

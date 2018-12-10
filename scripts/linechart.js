@@ -151,7 +151,7 @@ function lineChartInit() {
 
             const foodPrices = Object.values(data)
             const currentDateIndex = foodPrices.findIndex(item => item.date === currentDate)
-            console.log(currentDateIndex);
+            // console.log(currentDateIndex);
             //const foodPrices = foodPricesBig.slice(0, currentDateIndex)
 
             x.domain(d3.extent(Object.keys(data), function (d) {
@@ -311,7 +311,7 @@ function lineChartInit() {
                 var dateObj = new Date(currentDate.split('-')[0], currentDate.split('-')[1]);
                 dateObj.setDate(dateObj.getDate() - 31); // awful hack
                 var xDate = x(dateObj);
-                console.log(dateObj);
+                // console.log(dateObj);
 
                 // var d = 'M177,220 177,0'
                 var d = 'M' + xDate + ',220 ' + xDate + ',0';
