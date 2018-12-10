@@ -318,7 +318,6 @@ function lineChartInit() {
                 var dateObj = new Date(currentDate.split('-')[0], currentDate.split('-')[1]);
                 dateObj.setDate(dateObj.getDate() - 31); // awful hack
                 var xDate = x(dateObj);
-
                 var d = 'M' + xDate + ',220 ' + xDate + ',0';
                 mousePos = d;
                 return d;

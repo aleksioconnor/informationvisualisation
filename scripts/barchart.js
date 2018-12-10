@@ -216,6 +216,14 @@ function barChartInit() {
                         return bluesColorScale(d.quantity)
 
                 })
+                .attr("opacity", (d) => {
+
+                    if (highlighted.value === Object.values(d)[0]) {
+                        return "0.4"
+                    }
+
+                    return "1.0"
+                })
 
             //----------------------------
             // Define interactivity
@@ -231,6 +239,7 @@ function barChartInit() {
                     }
 
                     rerenderSyriaMap()
+                    rerenderNode()
 
                     // change opacity of the bars on mouseenter
                     // d3.selectAll('.value')

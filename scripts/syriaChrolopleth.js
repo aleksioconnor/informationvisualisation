@@ -68,7 +68,6 @@ function syriaMapInit() {
 
     rerenderSyriaMap = function () {
 
-
         d3.json("data/provincesDeaths.json").then(data => {
 
             const deaths = data[currentDate]
@@ -90,12 +89,15 @@ function syriaMapInit() {
                                 deaths[getProvinceName(d)] :
                                 0)
 
+                            return test
+                        })
+                        .attr("opacity", (d) => {
 
                             if (highlighted.type === 'province' && highlighted.value === getProvinceName(d)) {
-                                return "black"
+                                return "0.4"
                             }
 
-                            return test
+                            return "1.0"
                         })
                 } else {
                     // First draw map and fill it with colour
