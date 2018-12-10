@@ -1,1142 +1,1142 @@
 {
     "2013-01": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 4121
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 9
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 1
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 0
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2013-02": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 3967
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 9
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 0
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 0
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2013-03": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 4170
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 13
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 0
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 0
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2013-04": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 3763
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 21
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 0
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 0
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2013-05": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 3452
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 14
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 0
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 0
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2013-06": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 2917
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 34
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 0
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 1
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2013-07": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 2851
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 629
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 2
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 0
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2013-08": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 3892
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 730
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 0
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 0
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2013-09": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 2659
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 99
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 2
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 0
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2013-10": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 2664
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 5
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 8
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 1
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2013-11": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 2433
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 93
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 8
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 3
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2013-12": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 3104
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 6
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 18
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 0
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2014-01": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 2452
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 9
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 626
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 19
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2014-02": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 2839
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 6
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 262
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 5
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2014-03": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 2014
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 256
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 165
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 1
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2014-04": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 2451
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 338
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 164
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 1
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2014-05": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 2235
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 70
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 216
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 5
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2014-06": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1991
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 201
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 105
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 6
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2014-07": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1696
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 64
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 131
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 7
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2014-08": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1813
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 31
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 176
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 8
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 1
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2014-09": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1999
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 25
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 38
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 4
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2014-10": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1589
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 68
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 40
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 4
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2014-11": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1323
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 132
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 61
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 18
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2014-12": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1381
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 278
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 57
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 15
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 99
     }],
     "2015-01": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 993
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 9
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 54
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 9
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2015-02": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1184
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 157
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 35
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 5
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2015-03": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1805
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 33
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 52
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 8
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2015-04": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1281
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 185
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 153
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 11
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2015-05": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1473
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 128
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 188
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 9
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 1
     }],
     "2015-06": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1266
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 145
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 407
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 3
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2015-07": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1220
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 63
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 97
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 6
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2015-08": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1400
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 259
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 131
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 5
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2015-09": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 780
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 24
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 30
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 1
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2015-10": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1555
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 26
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 73
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 5
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 2
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2015-11": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1495
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 31
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 127
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 35
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2015-12": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1667
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 18
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 139
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 20
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 2
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2016-01": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1460
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 19
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 92
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 14
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 3
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2016-02": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 1364
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 10
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 56
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 16
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 1
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2016-03": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 648
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 13
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 146
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 17
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 0
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 0
     }],
     "2016-04": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 356
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 655
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 178
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 100
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 26
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 9
     }],
     "2016-05": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 68
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 764
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 142
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 115
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 87
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 8
     }],
     "2016-06": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 146
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 914
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 211
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 87
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 236
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 53
     }],
     "2016-07": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 285
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 1118
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 161
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 67
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 281
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 158
     }],
     "2016-08": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 117
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 1205
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 182
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 119
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 132
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 7
     }],
     "2016-09": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 50
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 951
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 125
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 50
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 518
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 6
     }],
     "2016-10": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 58
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 800
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 190
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 78
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 248
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 43
     }],
     "2016-11": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 118
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 983
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 94
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 46
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 312
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 29
     }],
     "2016-12": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 170
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 561
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 59
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 53
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 127
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 49
     }],
     "2017-01": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 138
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 388
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 106
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 17
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 77
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 37
     }],
     "2017-02": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 214
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 563
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 363
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 202
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 74
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 27
     }],
     "2017-03": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 87
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 611
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 154
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 16
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 100
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 200
     }],
     "2017-04": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 70
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 731
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 101
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 112
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 159
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 76
     }],
     "2017-05": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 69
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 339
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 157
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 121
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 54
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 154
     }],
     "2017-06": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 120
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 427
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 88
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 54
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 41
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 170
     }],
     "2017-07": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 114
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 323
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 101
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 34
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 105
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 280
     }],
     "2017-08": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 113
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 242
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 67
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 49
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 34
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 248
     }],
     "2017-09": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 49
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 403
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 63
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 13
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 331
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 144
     }],
     "2017-10": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 76
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 283
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 138
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 16
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 159
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 236
     }],
     "2017-11": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 50
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 423
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 95
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 26
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 228
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 10
     }],
     "2017-12": [{
-        "status": "Not identified",
+        "actor": "Not identified",
         "quantity": 56
     }, {
-        "status": "Syrian government",
+        "actor": "Syrian government",
         "quantity": 376
     }, {
-        "status": "ISIS",
+        "actor": "ISIS",
         "quantity": 119
     }, {
-        "status": "Opposition groups",
+        "actor": "Opposition groups",
         "quantity": 13
     }, {
-        "status": "Russian troops",
+        "actor": "Russian troops",
         "quantity": 96
     }, {
-        "status": "U.S Coalition",
+        "actor": "U.S Coalition",
         "quantity": 71
     }]
 }

@@ -1,1502 +1,1502 @@
 {
     "2013-01": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1445
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 1118
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 533
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 62
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 120
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 698
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 81
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 74
     }],
     "2013-02": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1460
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 1303
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 399
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 33
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 140
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 429
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 28
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 184
     }],
     "2013-03": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1702
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 1397
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 343
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 74
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 192
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 365
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 21
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 89
     }],
     "2013-04": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1562
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 1234
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 318
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 44
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 272
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 277
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 19
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 58
     }],
     "2013-05": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1591
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 999
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 373
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 93
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 165
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 172
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 11
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 62
     }],
     "2013-06": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1358
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 807
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 349
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 58
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 205
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 126
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 10
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 39
     }],
     "2013-07": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1440
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 1251
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 166
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 44
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 193
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 289
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 20
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 79
     }],
     "2013-08": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1518
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 1241
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 154
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 962
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 171
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 480
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 10
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 86
     }],
     "2013-09": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1361
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 749
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 135
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 37
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 138
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 222
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 10
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 108
     }],
     "2013-10": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1053
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 797
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 89
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 55
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 151
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 272
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 13
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 248
     }],
     "2013-11": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1096
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 759
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 136
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 58
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 137
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 295
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 8
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 48
     }],
     "2013-12": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1016
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 668
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 171
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 153
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 146
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 924
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 16
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 34
     }],
     "2014-01": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1220
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 521
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 97
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 143
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 196
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 655
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 140
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 134
     }],
     "2014-02": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 894
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 401
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 151
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 85
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 202
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 1071
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 81
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 227
     }],
     "2014-03": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1039
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 350
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 72
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 102
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 214
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 517
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 79
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 63
     }],
     "2014-04": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 1328
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 460
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 83
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 56
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 223
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 740
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 12
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 52
     }],
     "2014-05": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 969
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 393
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 24
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 41
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 325
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 587
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 32
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 155
     }],
     "2014-06": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 759
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 376
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 11
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 31
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 304
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 740
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 21
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 61
     }],
     "2014-07": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 711
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 313
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 21
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 24
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 166
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 568
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 21
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 74
     }],
     "2014-08": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 569
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 257
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 13
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 25
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 239
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 732
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 128
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 66
     }],
     "2014-09": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 631
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 291
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 48
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 30
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 132
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 877
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 7
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 50
     }],
     "2014-10": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 608
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 213
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 3
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 15
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 151
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 540
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 30
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 141
     }],
     "2014-11": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 482
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 204
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 82
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 19
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 179
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 506
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 29
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 33
     }],
     "2014-12": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 626
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 160
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 47
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 42
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 142
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 714
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 53
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 46
     }],
     "2015-01": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 336
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 108
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 7
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 71
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 95
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 363
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 44
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 41
     }],
     "2015-02": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 464
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 169
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 67
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 40
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 82
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 490
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 28
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 41
     }],
     "2015-03": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 445
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 186
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 16
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 41
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 686
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 390
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 33
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 101
     }],
     "2015-04": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 475
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 182
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 15
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 26
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 147
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 666
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 51
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 68
     }],
     "2015-05": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 473
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 199
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 16
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 40
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 53
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 879
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 97
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 42
     }],
     "2015-06": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 718
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 192
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 4
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 26
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 62
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 709
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 49
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 61
     }],
     "2015-07": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 422
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 185
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 12
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 17
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 66
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 580
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 52
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 52
     }],
     "2015-08": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 536
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 386
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 6
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 23
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 64
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 681
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 46
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 53
     }],
     "2015-09": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 310
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 245
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 8
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 8
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 30
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 219
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 2
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 13
     }],
     "2015-10": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 605
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 223
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 7
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 16
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 65
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 649
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 45
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 51
     }],
     "2015-11": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 614
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 259
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 15
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 22
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 81
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 569
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 68
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 60
     }],
     "2015-12": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 579
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 190
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 1
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 21
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 38
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 878
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 74
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 65
     }],
     "2016-01": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 468
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 126
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 5
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 37
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 61
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 783
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 47
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 61
     }],
     "2016-02": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 605
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 153
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 2
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 33
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 37
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 548
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 45
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 24
     }],
     "2016-03": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 380
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 86
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 0
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 10
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 37
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 191
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 52
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 68
     }],
     "2016-04": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 599
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 177
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 3
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 16
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 33
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 406
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 39
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 51
     }],
     "2016-05": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 515
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 193
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 5
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 30
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 50
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 313
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 40
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 38
     }],
     "2016-06": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 500
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 239
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 8
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 20
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 32
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 714
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 22
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 112
     }],
     "2016-07": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 466
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 290
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 36
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 49
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 39
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 1067
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 23
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 100
     }],
     "2016-08": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 614
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 294
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 8
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 21
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 27
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 634
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 25
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 139
     }],
     "2016-09": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 409
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 164
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 9
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 29
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 24
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 954
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 21
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 90
     }],
     "2016-10": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 454
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 207
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 1
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 17
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 19
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 570
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 23
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 126
     }],
     "2016-11": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 401
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 285
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 1
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 23
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 42
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 739
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 17
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 74
     }],
     "2016-12": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 208
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 200
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 94
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 46
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 15
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 408
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 4
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 44
     }],
     "2017-01": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 204
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 191
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 18
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 16
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 9
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 267
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 6
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 52
     }],
     "2017-02": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 433
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 212
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 52
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 124
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 21
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 351
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 15
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 235
     }],
     "2017-03": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 321
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 99
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 30
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 19
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 13
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 518
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 15
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 153
     }],
     "2017-04": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 417
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 111
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 16
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 121
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 10
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 480
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 9
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 85
     }],
     "2017-05": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 295
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 121
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 27
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 34
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 16
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 292
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 13
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 96
     }],
     "2017-06": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 316
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 120
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 15
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 16
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 17
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 309
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 4
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 103
     }],
     "2017-07": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 199
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 120
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 9
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 26
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 14
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 466
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 6
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 117
     }],
     "2017-08": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 156
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 122
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 8
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 20
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 17
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 313
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 9
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 108
     }],
     "2017-09": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 171
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 115
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 38
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 25
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 17
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 585
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 7
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 45
     }],
     "2017-10": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 141
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 131
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 94
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 16
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 15
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 460
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 10
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 41
     }],
     "2017-11": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 176
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 139
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 0
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 35
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 9
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 350
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 2
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 121
     }],
     "2017-12": [{
-        "status": "Shooting",
+        "cause": "Shooting",
         "quantity": 148
     }, {
-        "status": "Shelling",
+        "cause": "Shelling",
         "quantity": 93
     }, {
-        "status": "Field Execution",
+        "cause": "Field Execution",
         "quantity": 9
     }, {
-        "status": "Unknown",
+        "cause": "Unknown",
         "quantity": 17
     }, {
-        "status": "Torture",
+        "cause": "Torture",
         "quantity": 5
     }, {
-        "status": "Warplane shelling",
+        "cause": "Warplane shelling",
         "quantity": 306
     }, {
-        "status": "Kidnapping",
+        "cause": "Kidnapping",
         "quantity": 13
     }, {
-        "status": "Explosion",
+        "cause": "Explosion",
         "quantity": 140
     }]
 }

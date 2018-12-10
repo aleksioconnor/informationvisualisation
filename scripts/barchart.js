@@ -109,6 +109,8 @@ function barChartInit() {
 
             var dataCurrentDate = data[currentDate]
 
+            console.log(dataCurrentDate)
+
             dataCurrentDate.sort((a, b) =>
                 sortBarChart ?
                 b.quantity - a.quantity :
@@ -130,6 +132,7 @@ function barChartInit() {
                 .domain(
                     dataCurrentDate
                     .filter(d => {
+                        console.log(d.actor)
                         return selectedDistricts.has(d.province) || selectedActors.has(d.actor)
                     })
                     .map(function (d) {

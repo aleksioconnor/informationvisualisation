@@ -121,6 +121,15 @@ function sankeyInit() {
                                         updateBarchart()
                                         updateSankey()
                                     }
+                                    
+                                    if (allCause.includes(d.name)) {
+                                        const causeName = d.name;
+                                        selectedCause.has(causeName) ?
+                                            selectedCause.delete(causeName) :
+                                            selectedCause.add(causeName)
+                                        updateBarchart()
+                                        updateSankey()
+                                    }
                                 })
 
 
@@ -130,7 +139,16 @@ function sankeyInit() {
                                     return d.y0;
                                 })
                                 .attr("fill", d => {
-                                    return selectedDistricts.has(d.name) ? "#A50F15" : "black"
+                                    if (selectedDistricts.has(d.name))
+                                        return "#A50F15"
+
+                                    if (selectedActors.has(d.name))
+                                        return "green"
+
+                                    if (selectedCause.has(d.name))
+                                        return "blue"
+
+                                    return "black"
                                 })
                                 .attr("height", function (d) {
                                     return d.y1 - d.y0;
