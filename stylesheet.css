@@ -17,6 +17,14 @@ body {
   padding-right: 40px;
 }
 
+.low-opacity {
+  opacity: 0.3;
+}
+
+.syp {
+  margin-bottom: 12px;
+}
+
 #bar_chart {
   padding-right: 40px;
 }
