@@ -211,7 +211,7 @@ function barChartInit() {
                         return greenColorScale(d.quantity)
 
                     if (barChartType === "cause")
-                        return blueColorScale(d.quantity)
+                        return bluesColorScale(d.quantity)
 
                 })
 
