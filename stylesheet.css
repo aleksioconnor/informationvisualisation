@@ -330,6 +330,10 @@ text.divergence {
   fill: gray;
 }
 
+.legend {
+  font-size: 12px;
+}
+
 /* text.value {
   font-size: 14px;
 }

@@ -2,6 +2,8 @@
 // Map component
 //----------------------------
 
+var drawScale;
+
 function europeMapInit() {
 
     // var width = (windowWidth / 3),
@@ -46,6 +48,59 @@ function europeMapInit() {
         .scaleThreshold()
         .domain([1, 1000, 5000, 10000, 20000, 100000])
         .range(colorScheme);
+
+
+
+    //----------------------------
+    // Draw scale
+    //----------------------------
+    drawScale = function () {
+
+        var ext_color_domain = [1, 1000, 5000, 10000, 20000, 100000]
+
+        var legend_labels = ["< 1000", "1000+", "5000+", "10000+", "20000+", "100000+"]
+
+        var color = d3
+            .scaleThreshold()
+            .domain([1, 1000, 5000, 10000, 20000, 100000])
+            .range(colorScheme)
+
+        var legend = svg.selectAll("g.legend")
+            .data(ext_color_domain)
+            .enter().append("g")
+            .attr("class", "legend");
+
+        var ls_w = 15,
+            ls_h = 15,
+            x_pos = 10;
+
+        legend.append("rect")
+            .attr("x", x_pos)
+            .attr("y", function (d, i) {
+                return h - (i * ls_h) - 2 * ls_h;
+            })
+            .attr("width", ls_w)
+            .attr("height", ls_h)
+            .style("fill", function (d, i) {
+                return color(d);
+            })
+            .style("opacity", 0.8);
+
+        legend.append("text")
+            .attr("x", x_pos + 25)
+            .attr("y", function (d, i) {
+                return h - (i * ls_h) - ls_h - 4;
+            })
+            .text(function (d, i) {
+                return legend_labels[i];
+            });
+
+
+        var thisNode = d3.selectAll("g.legend");
+        console.log(thisNode)
+        thisNode.node().parentNode.appendChild(thisNode.node());
+
+    }
 
     //----------------------------
     // Draw map
@@ -101,6 +156,7 @@ function europeMapInit() {
 
             });
         });
+        drawScale()
     }
 
     rerenderMap()
@@ -113,54 +169,6 @@ function europeMapInit() {
             chart.attr("width", targetWidth);
             chart.attr("height", targetWidth / aspect);
         });
-    //----------------------------
-    // Draw scale
-    //----------------------------
 
-    drawScale = function () {
-        const x = d3
-            .scaleLinear()
-            .domain(d3.extent(color.domain()))
-            .rangeRound([600, 760]);
-
-        const g = svg
-            .append("g")
-            .attr("transform", "translate(" + (-w + (-0.35 * w)) + "," + (h - (0.08 * h)) + ")");
-
-        g.selectAll("rect")
-            .data(color.range().map(d => {
-                return color.invertExtent(d)
-            }))
-            .enter()
-            .append("rect")
-            .attr("height", 15)
-            .attr("x", d => x(d[0]))
-            .attr("width", d => x(d[1]) - x(d[0]))
-            .attr("fill", d => colorScale(d));
-
-        g.append("text")
-            .attr("class", "caption")
-            .attr("x", x.range()[0])
-            .attr("y", -6)
-            .attr("fill", "#000")
-            .attr("text-anchor", "start")
-            .attr("font-weight", "bold")
-            .text("Refugees in europe");
-
-        g.call(
-                d3
-                .axisBottom(x)
-                .tickSize(13)
-                .tickFormat(d3.format(""))
-                .tickValues(
-                    color
-                    .range()
-                    .slice(1)
-                    .map(d => color.invertExtent(d)[0])
-                )
-            )
-            .select(".domain")
-            .remove();
-    }
     drawScale()
 }

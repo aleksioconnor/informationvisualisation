@@ -16,6 +16,14 @@ function resize() {
     svg.selectAll("path").attr('d', path);
 }
 
+var drawScale;
+
+var colorScale = d3
+    .scaleThreshold()
+    // .domain([1, 10, 50, 100, 200, 500])
+    .domain([1, 50, 100, 300, 500, 800, 1000, 1200, 1400])
+    .range(colorScheme);
+
 function syriaMapInit() {
 
     $('#syria').click(function () {
@@ -63,7 +71,51 @@ function syriaMapInit() {
         .attr("style", "margin: 0 auto; display: block;");
 
 
+    //----------------------------
+    // Draw scale
+    //----------------------------
+    drawScale = function () {
 
+        var ext_color_domain = [1, 50, 100, 300, 500, 800, 1000, 1200, 1400]
+
+        var legend_labels = ["< 50", "50+", "100+", "300+", "500+", "800+", "1000+", "1200+", "1400+"]
+
+        var color = d3
+            .scaleThreshold()
+            .domain(ext_color_domain)
+            .range(colorScheme)
+
+        var legend = svg.selectAll("g.legend")
+            .data(ext_color_domain)
+            .enter().append("g")
+            .attr("class", "legend");
+
+        var ls_w = 15,
+            ls_h = 15,
+            x_pos = 270;
+
+        legend.append("rect")
+            .attr("x", x_pos)
+            .attr("y", function (d, i) {
+                return height - (i * ls_h) - 2 * ls_h;
+            })
+            .attr("width", ls_w)
+            .attr("height", ls_h)
+            .style("fill", function (d, i) {
+                return color(d);
+            })
+            .style("opacity", 0.8);
+
+        legend.append("text")
+            .attr("x", x_pos + 25)
+            .attr("y", function (d, i) {
+                return height - (i * ls_h) - ls_h - 4;
+            })
+            .text(function (d, i) {
+                return legend_labels[i];
+            });
+
+    }
 
 
     rerenderSyriaMap = function () {
@@ -165,6 +217,7 @@ function syriaMapInit() {
                 }
             });
         })
+        drawScale();
     }
 
     rerenderSyriaMap()
