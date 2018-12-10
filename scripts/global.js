@@ -12,7 +12,10 @@ var margin = {
     left: 40
 };
 
-var highlighted = {type: '', value: ''};
+var highlighted = {
+    type: '',
+    value: ''
+};
 
 
 const selectedDistricts = new Set([]);
@@ -20,6 +23,30 @@ var mainProvinces = ["Daraa", "Damascus", "Aleppo", "Deir ez-Zor", "Damascus Sub
 var otherProvinces = ["Tartous", "Al-Hasakeh", "Quneitra", "Lattakia", "As-Sweida", "Rif Dimashq"]
 var allProvinces = [...mainProvinces, "Other"]
 var otherSelected = false;
+
+var allActors = [
+    "NA",
+    "Syrian government and affiliated militias",
+    "The organization of the Islamic State in Iraq and the Levant - ISIS",
+    "Not identified",
+    "Armed opposition groups",
+    "Al-Nusra Front",
+    "Self administration forces",
+    "Russian troops",
+    "International coalition forces"
+];
+
+const selectedActors = new Set([
+    "NA",
+    "Syrian government and affiliated militias",
+    "The organization of the Islamic State in Iraq and the Levant - ISIS",
+    "Not identified",
+    "Armed opposition groups",
+    "Al-Nusra Front",
+    "Self administration forces",
+    "Russian troops",
+    "International coalition forces"
+])
 
 
 //calculate screen width
@@ -44,6 +71,7 @@ var light = "#bfbfbf", // (191,191,191)
 
 
 var colorScheme = d3.schemeReds[9];
+var greenColorScheme = d3.schemeGreens[9];
 const test = d3.interpolateReds(1);
 
 // colorScheme.unshift("#eee");
@@ -52,5 +80,12 @@ var colorScale = d3
     // .domain([1, 10, 50, 100, 200, 500])
     .domain([1, 50, 100, 300, 500, 800, 1000, 1200, 1400])
     .range(colorScheme);
+
+
+var greenColorScale = d3
+.scaleThreshold()
+// .domain([1, 10, 50, 100, 200, 500])
+.domain([1, 50, 100, 300, 500, 800, 1000, 1200, 1400])
+.range(greenColorScheme);
 
 // console.log(test, colorScheme, colorScale)

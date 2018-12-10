@@ -129,11 +129,15 @@ function barChartInit() {
             xScale
                 .domain(
                     dataCurrentDate
-                    .filter(item => {
-                        return selectedDistricts.has(item.province)
+                    .filter(d => {
+                        return selectedDistricts.has(d.province) || selectedActors.has(d.actor)
                     })
                     .map(function (d) {
                         if (selectedDistricts.has(d[barChartType])) {
+                            return d[barChartType]
+                        }
+
+                        if (selectedActors.has(d[barChartType])) {
                             return d[barChartType]
                         }
                     }));
@@ -164,19 +168,21 @@ function barChartInit() {
             // Draw bars
             //----------------------------
 
+
             barChartSVG
                 .attr("class", "bar")
                 .selectAll(".bar")
                 .data(dataCurrentDate)
                 .enter()
                 .filter(function (d) {
-                    return selectedDistricts.has(d.province)
+                    return selectedDistricts.has(d.province) || selectedActors.has(d.actor)
                 })
                 .append("rect")
                 .attr("x", function (d) {
                     if (selectedDistricts.has(d[barChartType])) {
-
-                        // return d[barChartType]
+                        return xScale(d[barChartType]);
+                    }
+                    if (selectedActors.has(d[barChartType])) {
                         return xScale(d[barChartType]);
                     }
                 })
@@ -188,7 +194,12 @@ function barChartInit() {
                     return height - yScale(d.quantity);
                 })
                 .attr("fill", (d) => {
-                    return colorScale(d.quantity)
+                    if (barChartType === "province")
+                        return colorScale(d.quantity)
+
+                    if (barChartType === "actor")
+                        return greenColorScale(d.quantity)
+
                 })
 
             //----------------------------
@@ -223,7 +234,7 @@ function barChartInit() {
                         .data(dataCurrentDate)
                         .enter()
                         .filter(function (d) {
-                            return selectedDistricts.has(d.province)
+                            return selectedDistricts.has(d.province) || selectedActors.has(d.actor)
                         })
                         .append('text')
                         .attr('class', 'divergence')
@@ -313,7 +324,7 @@ function barChartInit() {
                 .data(dataCurrentDate)
                 .enter()
                 .filter(function (d) {
-                    return selectedDistricts.has(d.province)
+                    return selectedDistricts.has(d.province) || selectedActors.has(d.actor)
                 })
                 .append('text')
                 .attr('class', 'value')

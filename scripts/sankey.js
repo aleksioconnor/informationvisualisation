@@ -111,6 +111,16 @@ function sankeyInit() {
                                         updateBarchart()
                                         updateSankey()
                                     }
+
+                                    if (allActors.includes(d.name)) {
+                                        console.log("includes actor")
+                                        const actorName = d.name;
+                                        selectedActors.has(actorName) ?
+                                            selectedActors.delete(actorName) :
+                                            selectedActors.add(actorName)
+                                        updateBarchart()
+                                        updateSankey()
+                                    }
                                 })
 
 
