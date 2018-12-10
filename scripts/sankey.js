@@ -102,7 +102,6 @@ function sankeyInit() {
                                 })
                                 .on("click", function (d) {
                                     if (allProvinces.includes(d.name)) {
-                                        console.log("includes")
                                         const provinceName = d.name;
                                         selectedDistricts.has(provinceName) ?
                                             selectedDistricts.delete(provinceName) :
@@ -113,7 +112,6 @@ function sankeyInit() {
                                     }
 
                                     if (allActors.includes(d.name)) {
-                                        console.log("includes actor")
                                         const actorName = d.name;
                                         selectedActors.has(actorName) ?
                                             selectedActors.delete(actorName) :
