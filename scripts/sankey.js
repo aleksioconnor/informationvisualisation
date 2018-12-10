@@ -103,30 +103,49 @@ function sankeyInit() {
                                 .on("click", function (d) {
                                     if (allProvinces.includes(d.name)) {
                                         const provinceName = d.name;
+                                        barChartType = 'province'
                                         selectedDistricts.has(provinceName) ?
                                             selectedDistricts.delete(provinceName) :
                                             selectedDistricts.add(provinceName)
+                                        if (!$('#province-button').hasClass('barsblue')) {
+                                            $('#province-button').toggleClass('barsblue')
+                                        }
+                                        $('#actor').removeClass("barsblue")
+                                        $('#cause').removeClass("barsblue")
                                         rerenderSyriaMap();
                                         updateBarchart()
                                         updateSankey()
+
                                     }
 
                                     if (allActors.includes(d.name)) {
                                         const actorName = d.name;
+                                        barChartType = 'actor'
                                         selectedActors.has(actorName) ?
                                             selectedActors.delete(actorName) :
                                             selectedActors.add(actorName)
+                                        if (!$('#actor').hasClass('barsblue')) {
+                                            $('#actor').toggleClass('barsblue')
+                                        }
+                                        $('#province-button').removeClass("barsblue")
+                                        $('#cause').removeClass("barsblue")
                                         updateBarchart()
                                         updateSankey()
                                     }
-                                    
+
                                     if (allCause.includes(d.name)) {
                                         const causeName = d.name;
+                                        barChartType = 'cause'
                                         selectedCause.has(causeName) ?
                                             selectedCause.delete(causeName) :
                                             selectedCause.add(causeName)
-                                        updateBarchart()
-                                        updateSankey()
+                                        if (!$('#cause').hasClass('barsblue')) {
+                                            $('#cause').toggleClass('barsblue')
+                                        }
+                                        $('#actor').removeClass("barsblue")
+                                        $('#province-button').removeClass("barsblue")
+                                        updateBarchart();
+                                        updateSankey();
                                     }
                                 })
 

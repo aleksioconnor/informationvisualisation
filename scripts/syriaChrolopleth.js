@@ -19,6 +19,12 @@ function resize() {
 function syriaMapInit() {
 
     $('#syria').click(function () {
+        barChartType = 'province';
+        if (!$('#province-button').hasClass('barsblue')) {
+            $('#province-button').toggleClass('barsblue')
+        }
+        $('#actor').removeClass("barsblue")
+        $('#cause').removeClass("barsblue")
         const isSelected = document.getElementById("syria").className === "button barsblue";
 
         $(this).toggleClass('barsblue')
@@ -139,10 +145,16 @@ function syriaMapInit() {
                         })
                         .on("click", function (d) {
                             const provinceName = getProvinceName(d)
+                            barChartType = 'province'
+
                             selectedDistricts.has(provinceName) ?
                                 selectedDistricts.delete(provinceName) :
                                 selectedDistricts.add(provinceName)
-
+                            if (!$('#province-button').hasClass('barsblue')) {
+                                $('#province-button').toggleClass('barsblue')
+                            }
+                            $('#actor').removeClass("barsblue")
+                            $('#cause').removeClass("barsblue")
                             updateBarchart()
                             rerenderSyriaMap()
                             updateSankey()

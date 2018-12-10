@@ -4,6 +4,9 @@
 var currentDate = "2013-01";
 var newDate = '2013-01'
 
+var barChartType = "province";
+
+
 // slider margin
 var margin = {
     top: 20,

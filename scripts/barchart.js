@@ -49,20 +49,26 @@ function barChartInit() {
 
     //change button colors onClick
     $('#province-button').click(function () {
-        $(this).toggleClass('barsblue')
+        if (!$(this).hasClass('barsblue')) {
+            $(this).toggleClass('barsblue')
+        }
         $('#actor').removeClass("barsblue")
         $('#cause').removeClass("barsblue")
     });
 
 
     $('#actor').click(function () {
-        $(this).toggleClass('barsblue')
+        if (!$(this).hasClass('barsblue')) {
+            $(this).toggleClass('barsblue')
+        }
         $('#province-button').removeClass("barsblue")
         $('#cause').removeClass("barsblue")
     });
 
     $('#cause').click(function () {
-        $(this).toggleClass('barsblue')
+        if (!$(this).hasClass('barsblue')) {
+            $(this).toggleClass('barsblue')
+        }
         $('#actor').removeClass("barsblue")
         $('#province-button').removeClass("barsblue")
     });
@@ -79,7 +85,6 @@ function barChartInit() {
         updateBarchart()
     });
 
-    var barChartType = "province";
 
     d3.selectAll("#province-button")
         .on("click", function () {
@@ -104,6 +109,7 @@ function barChartInit() {
     //----------------------------
 
     updateBarchart = function () {
+        console.log("updated")
 
         d3.json(`data/${barChartType}.json`).then(function (data) {
 
