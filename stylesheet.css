@@ -79,10 +79,8 @@ body {
   cursor: crosshair;
 }
 
-/* sankey node */
-.s-node:hover {
-  fill: #000000;
-  opacity: 1;
+.slider-container {
+  user-select: none;
 }
 
 .s-node {

@@ -12,7 +12,10 @@ var margin = {
     left: 40
 };
 
-var highlighted = {type: '', value: ''};
+var highlighted = {
+    type: '',
+    value: ''
+};
 
 
 const selectedDistricts = new Set([]);
@@ -20,6 +23,15 @@ var mainProvinces = ["Daraa", "Damascus", "Aleppo", "Deir ez-Zor", "Damascus Sub
 var otherProvinces = ["Tartous", "Al-Hasakeh", "Quneitra", "Lattakia", "As-Sweida", "Rif Dimashq"]
 var allProvinces = [...mainProvinces, "Other"]
 var otherSelected = false;
+
+const selectedActors = new Set([
+    "Not identified",
+    "Syrian government",
+    "ISIS",
+    "Opposition groups",
+    "Russian troops",
+    "U.S Coalition"
+])
 
 
 //calculate screen width
@@ -53,4 +65,4 @@ var colorScale = d3
     .domain([1, 50, 100, 300, 500, 800, 1000, 1200, 1400])
     .range(colorScheme);
 
-// console.log(test, colorScheme, colorScale)
+
