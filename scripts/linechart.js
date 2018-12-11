@@ -459,7 +459,7 @@ function lineChartInit() {
                     });
 
                 updatePosition((".mouse-per-line"), mouse[0]);
-
+                
             });
 
     }
@@ -499,6 +499,11 @@ function lineChartInit() {
 
                 d3.select(this).select('text')
                     .text(y.invert(pos.y).toFixed(2));
+
+                if(selection == ".mouse-per-line" || selection == ".time-line"){
+                        const classToBind = ($(this).find('.info').attr('class').split(' '));
+                        $('#'+classToBind[0]+'-value').html(d3.select(this).text() + " &#163;S");
+                }
 
                 return "translate(" + xDate + "," + pos.y + ")";
 
