@@ -104,14 +104,18 @@ function sankeyInit() {
                                     if (allProvinces.includes(d.name)) {
                                         const provinceName = d.name;
                                         barChartType = 'province'
+
                                         selectedDistricts.has(provinceName) ?
                                             selectedDistricts.delete(provinceName) :
                                             selectedDistricts.add(provinceName)
+
                                         if (!$('#province-button').hasClass('barsblue')) {
                                             $('#province-button').toggleClass('barsblue')
                                         }
+
                                         $('#actor').removeClass("barsblue")
                                         $('#cause').removeClass("barsblue")
+
                                         rerenderSyriaMap();
                                         updateBarchart()
                                         updateSankey()
@@ -121,14 +125,17 @@ function sankeyInit() {
                                     if (allActors.includes(d.name)) {
                                         const actorName = d.name;
                                         barChartType = 'actor'
+
                                         selectedActors.has(actorName) ?
                                             selectedActors.delete(actorName) :
                                             selectedActors.add(actorName)
+
                                         if (!$('#actor').hasClass('barsblue')) {
                                             $('#actor').toggleClass('barsblue')
                                         }
                                         $('#province-button').removeClass("barsblue")
                                         $('#cause').removeClass("barsblue")
+
                                         updateBarchart()
                                         updateSankey()
                                     }
@@ -139,11 +146,13 @@ function sankeyInit() {
                                         selectedCause.has(causeName) ?
                                             selectedCause.delete(causeName) :
                                             selectedCause.add(causeName)
+
                                         if (!$('#cause').hasClass('barsblue')) {
                                             $('#cause').toggleClass('barsblue')
                                         }
                                         $('#actor').removeClass("barsblue")
                                         $('#province-button').removeClass("barsblue")
+
                                         updateBarchart();
                                         updateSankey();
                                     }
@@ -155,12 +164,12 @@ function sankeyInit() {
                                     }
 
                                     updateBarchart()
-                                    rerenderNode()
+                                    // rerenderNode()
                                 })
 
 
                             rerenderNode = function () {
-                                node.select("rect").transition(t)
+                                node.select("rect")
                                     // .attr("x", function(d) { return d.x0; })
                                     .attr("y", function (d) {
                                         return d.y0;
@@ -183,7 +192,8 @@ function sankeyInit() {
                                             return "0.4"
                                         }
 
-                                        return "1.0"
+                                        // return "1.0"
+                                        return d.value * 0.00009 + 0.3
                                     })
                                     .attr("height", function (d) {
                                         return d.y1 - d.y0;
