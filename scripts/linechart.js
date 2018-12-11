@@ -337,6 +337,7 @@ function lineChartInit() {
             verticalLine = mouseG.append("path") 
             .attr("class", className)
             .style("stroke", "black")
+            .style('stroke-dasharray', "2")
             .style("stroke-width", "1px");
 
             return verticalLine;
