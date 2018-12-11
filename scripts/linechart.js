@@ -364,6 +364,9 @@ function lineChartInit() {
         timeLineCirclesText = newCirclesText('.time-circles-text', "time-circles-text");
         d3.selectAll(".time-circles-text")
             .style("opacity", "0");
+            
+        // make sure these visuals do not dissapear on time line changed
+        updateLine();
 
         // vertical line, circles, and text that appear on mouse-over
         movingLine = newVerticalLine("mouse-line")
