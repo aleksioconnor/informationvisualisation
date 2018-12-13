@@ -340,7 +340,7 @@ function barChartInit() {
 
                         d3.select("#syriaTooltip").classed("hidden", false);
                     } else {
-                        d3.select('#actor')
+                        d3.select('#actorData')
                             .text(d[Object.keys(d)[0]]);
 
                         d3.select("#barChartTooltip").classed("hidden", false);
