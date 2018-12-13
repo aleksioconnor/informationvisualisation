@@ -1,17 +1,20 @@
 html {
   height: 100%;
+  overflow: hidden;
 }
 
 body {
   font-family: 'Open Sans', sans-serif;
   font-size: 12px;
-  background-color: #D6D1CD;
+  /* background-color: #D6D1CD; */
   height: 100%;
   /* color: #bfbfbf; */
   /* padding: 10px; */
   /* margin-top: 100px; */
   /* background-color: #1a1a1a; */
+  overflow: hidden;
 }
+
 #tooltip {
   /* font-family: 'Open Sans', sans-serif;
   font-size: 12px; */
@@ -44,16 +47,24 @@ body {
 
 /* The Help Button (background) */
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
 }
 
 /* Modal Header */
@@ -67,32 +78,60 @@ body {
 .modal-body {
   padding: 20px 16px;
   font-size: 14pt;
+  font-weight: 100;
+  background-color: white;
 }
 
 /* Modal Footer */
 .modal-footer {
-  padding: 5px 16px;
+  padding: 10px 16px;
   background-color: black;
   color: white;
+  height: 60px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center; */
 }
 
 /* Modal Content */
 .modal-content {
   position: relative;
-  background-color: #fefefe;
+  /* background-color: #fefefe; */
   margin: 5% auto;
   padding: 0;
   border: 1px solid #888;
   width: 50%;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  height: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   animation-name: animatetop;
-  animation-duration: 0.4s
+  animation-duration: 0.4s;
+  background-color: white;
+
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
 }
+
+.modal-title {
+  font-weight: 900;
+}
+
+.ul {
+  align-content: left;
+}
+
 
 /* Add Animation */
 @keyframes animatetop {
-  from {top: -300px; opacity: 0}
-  to {top: 0; opacity: 1}
+  from {
+    top: -300px;
+    opacity: 0
+  }
+
+  to {
+    top: 0;
+    opacity: 1
+  }
 }
 
 /* The Close Button */
@@ -136,7 +175,7 @@ body {
 
 .vis {
   /* background-color: #373737; */
-  background-color: #f4f4f4;
+  /* background-color: #f4f4f4; */
   border-radius: 0px 0px 10px 10px;
 }
 
@@ -144,11 +183,12 @@ body {
   color: white;
   background-color: #16262E;
   text-align: center;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  font-weight: 700;
 }
 
 .visualisation-title-text {
@@ -217,8 +257,10 @@ body {
 
 .slider-container {
   position: fixed;
-  top: 0px;
-  background-color: #D6D1CD;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  /* background-color: #D6D1CD; */
   z-index: 500;
   padding-top: 10px;
   -webkit-box-shadow: 0px 2px 26px -6px rgba(0, 0, 0, 0.71);
@@ -226,8 +268,7 @@ body {
   box-shadow: 0px 2px 26px -6px rgba(0, 0, 0, 0.71);
   padding-bottom: 15px;
   display: flex;
-  width: 100%;
-
+  /* width: 100%; */
 }
 
 .title {
@@ -261,7 +302,7 @@ body {
   padding: 20px;
   color: #bfbfbf;
   background-color: #1a1a1a;
-  border: 1px solid #bfbfbf;
+  /* border: 1px solid #bfbfbf; */
 }
 
 th,
@@ -365,10 +406,10 @@ h3 {
 .button {
   margin-top: 5px;
   margin-bottom: 5px;
-  background-color: lightgray;
-  border: 1px solid rgb(0, 0, 0);
+  /* background-color: lightgray; */
+  border: 1px solid grey;
 
-  color: black;
+  /* color: black; */
   padding: 5px;
   border-radius: 3px;
   text-align: center;
@@ -403,6 +444,7 @@ h3 {
 
 .button.barsblue {
   background: #16262E;
+  border-color: white;
   color: white;
 }
 
