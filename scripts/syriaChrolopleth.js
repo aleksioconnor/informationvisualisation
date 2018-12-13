@@ -24,6 +24,11 @@ var colorScale = d3
     .domain([1, 50, 100, 300, 500, 800, 1000, 1200, 1400])
     .range(colorScheme);
 
+
+var t = d3.transition()
+    .duration(500)
+    .ease(d3.easeLinear);
+
 function syriaMapInit() {
 
     $('#syria').click(function () {
@@ -135,10 +140,11 @@ function syriaMapInit() {
 
                 if (isMapDrown) {
                     mapSVG
+                        .transition(t)
                         .attr("fill", (d) => {
 
                             const test = colorScale(selectedDistricts.has(getProvinceName(d)) ?
-                                deaths[getProvinceName(d)] :
+                                data[currentDate][getProvinceName(d)] :
                                 0)
 
                             return test
@@ -163,7 +169,7 @@ function syriaMapInit() {
                         // .attr("fill", "#bfbfbf")
                         .attr("fill", (d) => {
                             const test = colorScale(selectedDistricts.has(getProvinceName(d)) ?
-                                deaths[getProvinceName(d)] :
+                                data[currentDate][getProvinceName(d)] :
                                 0)
 
 
@@ -184,8 +190,9 @@ function syriaMapInit() {
                                 .select('#province')
                                 .text(getProvinceName(d));
 
+
                             d3.selectAll('.deaths')
-                                .text(deaths[getProvinceName(d)] || 0)
+                                .text(data[currentDate][getProvinceName(d)] || 0)
 
                             d3.selectAll('.date')
                                 .text(currentDate || "");

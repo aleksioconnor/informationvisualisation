@@ -4,6 +4,10 @@
 
 var drawScale;
 
+var t = d3.transition()
+    .duration(500)
+    .ease(d3.easeLinear);
+
 function europeMapInit() {
 
     // var width = (windowWidth / 3),
@@ -117,6 +121,7 @@ function europeMapInit() {
                 // todo: fix condition
                 if (currentDate !== "2013-01") {
                     mapSVG
+                        .transition(t)
                         .attr("fill", function (d) {
                             return colorScale(data[currentDate][d.properties.name] || 0);
                         })
