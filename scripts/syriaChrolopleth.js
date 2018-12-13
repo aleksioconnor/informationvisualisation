@@ -183,10 +183,15 @@ function syriaMapInit() {
                                 .style("left", (d3.event.pageX) + 20 + "px")
                                 .select('#province')
                                 .text(getProvinceName(d));
-                            d3.select('#province-name')
-                                .text(getProvinceName(d));
-                            d3.select('#deaths')
-                                .text(deaths[getProvinceName(d)] || 0);
+
+                            d3.selectAll('.deaths')
+                                .text(deaths[getProvinceName(d)] || 0)
+
+                            d3.selectAll('.date')
+                                .text(currentDate || "");
+
+                            d3.selectAll('.datetype')
+                                .text("in");
 
                             // Hide tooltip
                             d3.select("#tooltip").classed("hidden", false);

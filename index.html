@@ -32,13 +32,18 @@
 <body>
     <!-- HIDDEN - syria map tooltips  -->
     <div id="tooltip" class="hidden">
+
         <div id="syriaTooltip" class="hidden">
-            <div><strong>Province:</strong> <span id="province">100</span></div>
-            <div><strong>Deaths:</strong> <span id="deaths">200</span></div>
+            <span class="deaths"></span> people killed in province of <span id="province"></span> <span class="datetype"></span> <span class="date"></span>
         </div>
+
         <div id="euroTooltip" class="hidden">
-            <div><strong>Country:</strong> <span id="country">100</span></div>
-            <div><strong>Refugees:</strong> <span id="refugees">200</span></div>
+            In total <span id="refugees"></span> refugees arrived to <span id="country"></span> by <span class="date"></span>
+        </div>
+
+
+        <div id="barChartTooltip" class="hidden">
+            <span class="deaths"></span> people killed by <span id="actor"></span> <span class="datetype"></span> <span class="date"></span>
         </div>
     </div>
 
@@ -66,6 +71,33 @@
                     Syrian Civil War
                 </p>
                 <span class="button" id="play">Play</span>
+
+                <!-- help button modal-->
+                <span class="button" id="help">Help</span>
+                <div id="myModal" class="modal">
+                    <!-- Modal content -->
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <span class="close">&times;</span>
+                            <h2>Welcome to this visualization on the Syrian civil war</h2>
+                        </div>
+                        <div class="modal-body">
+                            <p>Instruction: You can click play to automatically move the timeline.</p>
+                            <p>This visualization answers the following research questions:</p>
+                            <ul>
+                                <li>Which countries are destinations for Syrian refugees?</li>
+                                <li>Which political actors are responsible for the destruction in Syria?</li>
+                                <li>Which regions have the highest deathtolls?</li>
+                                <li>How have prices of commodities changed during the war? </li>
+                            </ul>
+
+                        </div>
+                        <div class="modal-footer">
+                            <h3>This visualization was created by Jakub Syrek, Aleksi O'Connor, and Carlijn Quik for
+                                the Information Visualization course at Técnico Lisboa (2018)</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div id='slider'></div>
         </div>
@@ -142,10 +174,10 @@
                     <span class="button barsblue" id="province-button">Province</span>
                     <span class="button" id="actor">Actor</span>
                     <span class="button" id="cause">Cause</span>
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                     <span class="button barsblue" id="sort">Sorted</span>
                 </div>
                 <div id='bar_chart' class='vis'>

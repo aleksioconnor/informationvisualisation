@@ -480,8 +480,11 @@ function lineChartInit() {
                 d3.select(this).select('text')
                     .text(y.invert(pos.y).toFixed(2));
 
-                const classToBind = ($(this).find('.info').attr('class').split(' '));
-                $('#'+classToBind[0]+'-value').html(d3.select(this).text() + " &#163;S");
+                if(selection == ".mouse-per-line" || selection == ".time-line"){
+                        const classToBind = ($(this).find('.info').attr('class').split(' '));
+                        console.log(classToBind[0], d3.select(this).text())
+                        $('#'+classToBind[0]+'-value').html(d3.select(this).text() + " &#163;S");
+                }
 
                 return "translate(" + mouse[0] + "," + pos.y + ")";
 

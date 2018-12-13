@@ -157,6 +157,51 @@ function sankeyInit() {
                                     updateBarchart()
                                     rerenderNode()
                                 })
+                                .on("mousemove", function (d) {
+
+                                    const type = Object.keys(d)[0];
+
+                                    d3.selectAll('.deaths')
+                                        .text(d.value)
+
+                                    d3.selectAll('.date')
+                                        .text(currentDate.slice(0,4) || "");
+
+                                    d3.selectAll('.datetype')
+                                        .text("in");
+
+                                    var w = window.innerWidth;
+
+                                    if (w / 3 * 2 < d3.event.pageX) {
+                                        d3.select("#tooltip")
+                                            .style("top", (d3.event.pageY) + 20 + "px")
+                                            .style("left", (d3.event.pageX) - 240 + "px")
+                                    } else {
+                                        d3.select("#tooltip")
+                                            .style("top", (d3.event.pageY) + 20 + "px")
+                                            .style("left", (d3.event.pageX) + 20 + "px")
+                                    }
+
+                                    if (type === "province") {
+
+                                        d3.select('#province')
+                                            .text(d[Object.keys(d)[0]]);
+
+                                        d3.select("#syriaTooltip").classed("hidden", false);
+                                    } else {
+                                        d3.select('#actor')
+                                            .text(d[Object.keys(d)[0]]);
+
+                                        d3.select("#barChartTooltip").classed("hidden", false);
+                                    }
+
+                                    d3.select("#tooltip").classed("hidden", false);
+                                })
+                                .on("mouseout", function (d) {
+                                    d3.select("#tooltip").classed("hidden", true);
+                                    d3.select("#syriaTooltip").classed("hidden", true);
+                                    d3.select("#barChartTooltip").classed("hidden", true);
+                                })
 
 
                             rerenderNode = function () {

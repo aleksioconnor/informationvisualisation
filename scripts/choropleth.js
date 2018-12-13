@@ -140,9 +140,14 @@ function europeMapInit() {
                                 .select('#country')
                                 .text(d.properties.name);
 
+                            d3.selectAll(".date")
+                                .text(currentDate || "");
+
                             d3.select("#tooltip")
                                 .select("#refugees")
                                 .text(data[currentDate][d.properties.name]);
+
+
 
                             // Hide tooltip
                             d3.select("#tooltip").classed("hidden", false);
