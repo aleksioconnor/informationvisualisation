@@ -15,13 +15,13 @@ const a3 = table.reduce((acc, curr) => {
                         var keys = Object.keys(acc)
                         if (keys.length >= 1) {
                             const k = keys[keys.length - 1]
-                            // console.log(acc[k], curr2, acc[k][curr2])
+                            // // console.log(acc[k], curr2, acc[k][curr2])
                             t = acc[k][curr2]
                         }
                     // }
 
                     
-                        // console.log(curr.Date, curr[curr2], t)
+                        // // console.log(curr.Date, curr[curr2], t)
                     // }
 
                     return {
@@ -58,13 +58,13 @@ const a3 = table.reduce((acc, curr) => {
                         var keys = Object.keys(acc)
                         if (keys.length >= 1) {
                             const k = keys[keys.length - 1]
-                            // console.log(acc[k], curr2, acc[k][curr2])
+                            // // console.log(acc[k], curr2, acc[k][curr2])
                             t = acc[k][curr2]
                         }
                     // }
 
                     
-                        // console.log(curr.Date, curr[curr2], t)
+                        // // console.log(curr.Date, curr[curr2], t)
                     // }
 
                     return {

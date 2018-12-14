@@ -213,5 +213,5 @@ const jsonWrite = JSON.stringify(data);
 fs.writeFile('linksAndNodes.json', jsonWrite, 'utf8', () => {
 });
 // fs.writeFile('links.json', jsonWriteLinks, 'utf8', () => {
-//     console.log("links ready")
+//     // console.log("links ready")
 // });

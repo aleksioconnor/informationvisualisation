@@ -65,10 +65,10 @@ function sankeyInit() {
                                     return Math.max(1, d.width);
                                 });
 
-                            linkEnter.append("title")
-                                .text(function (d) {
-                                    return d.source.name + " → " + d.target.name + "\n" + format(d.value);
-                                });
+                            // linkEnter.append("title")
+                            //     .text(function (d) {
+                            //         return d.source.name + " → " + d.target.name + "\n" + format(d.value);
+                            //     });
 
                             link.exit().remove();
 
@@ -282,15 +282,15 @@ function sankeyInit() {
                                 // .attr("x", function(d) { return d.x1 + 6; })
                                 .attr("text-anchor", "start");
 
-                            nodeEnter.append("title")
-                                .text(function (d) {
-                                    return d.name + "\n" + format(d.value);
-                                });
+                            // nodeEnter.append("title")
+                            //     .text(function (d) {
+                            //         return d.name + "\n" + format(d.value);
+                            //     });
 
-                            node.select("title")
-                                .text(function (d) {
-                                    return d.name + "\n" + format(d.value);
-                                });
+                            // node.select("title")
+                            //     .text(function (d) {
+                            //         return d.name + "\n" + format(d.value);
+                            //     });
 
                             node.exit().remove();
                         }

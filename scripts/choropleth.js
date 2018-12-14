@@ -101,7 +101,7 @@ function europeMapInit() {
 
 
         var thisNode = d3.selectAll("g.legend");
-        console.log(thisNode)
+        // console.log(thisNode)
         thisNode.node().parentNode.appendChild(thisNode.node());
 
     }

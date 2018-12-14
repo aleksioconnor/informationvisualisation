@@ -480,4 +480,4 @@ const test3 = food1.reduce((acc, curr) => {
 
 }, {})
 
-console.log(test)
+// console.log(test)
