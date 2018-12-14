@@ -2,6 +2,8 @@
 // Barchart idiom
 //----------------------------
 
+var previousHeight = {};
+
 function barChartInit() {
 
     // set the dimensions and margins of the chart
@@ -200,6 +202,15 @@ function barChartInit() {
                 })
                 .attr("width", xScale.bandwidth())
                 .attr("y", function (d) {
+                    return yScale(previousHeight[Object.values(d)[0]] || 0);
+                })
+                .attr("height", function (d) {
+                    return height - yScale(previousHeight[Object.values(d)[0]] || 0);
+                })
+                .transition()
+                .attr("y", function (d) {
+                    previousHeight[Object.values(d)[0]] = Object.values(d)[1]
+
                     return yScale(d.quantity);
                 })
                 .attr("height", function (d) {
@@ -252,44 +263,46 @@ function barChartInit() {
                         .attr('x', (a) => xScale(a[barChartType]) - 5)
                         .attr('width', xScale.bandwidth() + 10)
 
-                    // draw text showing relative percentages
-                    barChartSVG
-                        .selectAll()
-                        .data(dataCurrentDate)
-                        .enter()
-                        .filter(function (d) {
-                            return selectedDistricts.has(d.province) || selectedActors.has(d.actor) || selectedCause.has(d.cause)
-                        })
-                        .append('text')
-                        .attr('class', 'divergence')
-                        .attr('x', (a) => {
-                            return xScale(a[barChartType]) + xScale.bandwidth() / 2
-                        })
-                        .attr('y', (a) => yScale(a.quantity) - 30)
-                        .attr('fill', 'white')
-                        .attr('text-anchor', 'middle')
-                        .text("test")
-                        .text((a, idx) => {
-                            const divergence = (a.quantity - actual.quantity).toFixed(1)
+                    if (document.getElementById("play").className !== "button barsblue") {
+                        // draw text showing relative percentages
+                        barChartSVG
+                            .selectAll()
+                            .data(dataCurrentDate)
+                            .enter()
+                            .filter(function (d) {
+                                return selectedDistricts.has(d.province) || selectedActors.has(d.actor) || selectedCause.has(d.cause)
+                            })
+                            .append('text')
+                            .attr('class', 'divergence')
+                            .attr('x', (a) => {
+                                return xScale(a[barChartType]) + xScale.bandwidth() / 2
+                            })
+                            .attr('y', (a) => yScale(a.quantity) - 30)
+                            .attr('fill', 'white')
+                            .attr('text-anchor', 'middle')
+                            .text("test")
+                            .text((a, idx) => {
+                                const divergence = (a.quantity - actual.quantity).toFixed(1)
 
-                            let text = ''
-                            if (divergence > 0) text += '+'
-                            text += `${divergence}%`
+                                let text = ''
+                                if (divergence > 0) text += '+'
+                                text += `${divergence}%`
 
-                            return idx !== i ? text : '';
-                        })
+                                return idx !== i ? text : '';
+                            })
 
-                    // draw line on top of bar
-                    const y = yScale(actual.quantity)
+                        // draw line on top of bar
+                        const y = yScale(actual.quantity)
 
-                    line = barChartSVG
-                        .append('line')
-                        .attr('id', 'limit')
-                        .attr('x1', 0)
-                        .attr('y1', y)
-                        .attr('x2', width)
-                        .attr('y2', y)
+                        line = barChartSVG
+                            .append('line')
+                            .attr('id', 'limit')
+                            .attr('x1', 0)
+                            .attr('y1', y)
+                            .attr('x2', width)
+                            .attr('y2', y)
 
+                    }
                 })
                 .on("mouseleave", function () {
                     // d3.selectAll('.value')
@@ -397,6 +410,8 @@ function barChartInit() {
                 .append('text')
                 .attr('class', 'value')
                 .attr('x', (a) => xScale(a[barChartType]) + xScale.bandwidth() / 2)
+                .attr('y', (a) => yScale(previousHeight[Object.values(a)[0]] || 0) + -5)
+                .transition()
                 .attr('y', (a) => yScale(a.quantity) + -5)
                 .attr('text-anchor', 'middle')
                 .text((a) => `${a.quantity}`)
