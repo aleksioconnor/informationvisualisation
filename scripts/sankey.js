@@ -57,6 +57,33 @@ function sankeyInit() {
                                 .attr("class", "link")
                                 .attr("stroke-width", function (d) {
                                     return Math.max(1, d.width);
+                                })
+                                .on("mousemove", function (d) {
+
+                                    // d.source.name + " → " + d.target.name + "\n" + format(d.value);
+
+                                    d3.select("#tooltip")
+                                        .style("top", (d3.event.pageY) + 20 + "px")
+                                        .style("left", (d3.event.pageX) + 20 + "px")
+                                    // .select('#country')
+                                    // .text(d.properties.name);
+
+                                    d3.selectAll(".deaths")
+                                        .text(d.source.name);
+
+                                    d3.select("#linkTo")
+                                        .text(d.target.name);
+
+                                    d3.selectAll(".date")
+                                        .text(format(d.value));
+
+                                    // Hide tooltip
+                                    d3.select("#tooltip").classed("hidden", false);
+                                    d3.select("#sankeyLinkTooltip").classed("hidden", false);
+                                })
+                                .on("mouseout", function (d) {
+                                    d3.select("#tooltip").classed("hidden", true);
+                                    d3.select("#sankeyLinkTooltip").classed("hidden", true);
                                 });
 
                             link.transition(t)
@@ -69,6 +96,8 @@ function sankeyInit() {
                             //     .text(function (d) {
                             //         return d.source.name + " → " + d.target.name + "\n" + format(d.value);
                             //     });
+
+                            //    linkEnter(i => {console.log("test")}) 
 
                             link.exit().remove();
 
@@ -174,7 +203,7 @@ function sankeyInit() {
                                         .text(d.value)
 
                                     d3.selectAll('.date')
-                                        .text(currentDate.slice(0,4) || "");
+                                        .text(currentDate.slice(0, 4) || "");
 
                                     d3.selectAll('.datetype')
                                         .text("in");
