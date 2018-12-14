@@ -18,14 +18,14 @@ function europeMapInit() {
 
     var w = 336,
         mapRatio = 1.1,
-        mapRatioAdjuster = 0.1,
+        mapRatioAdjuster = -0.1,
         h = w * mapRatio,
         europeCenter = [9, 50];
 
     var projection = d3
         .geoMercator()
         .center(europeCenter)
-        .translate([w / 2, h / 2])
+        .translate([w / 2 + 30, h / 2+30])
         .scale(w * [mapRatio + mapRatioAdjuster]);
 
     var path = d3
@@ -150,7 +150,7 @@ function europeMapInit() {
 
                             d3.select("#tooltip")
                                 .select("#refugees")
-                                .text(data[currentDate][d.properties.name]);
+                                .text(data[currentDate][d.properties.name] || 0);
 
 
 
