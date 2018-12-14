@@ -158,7 +158,11 @@ function lineChartInit() {
 
             const foodPrices = Object.values(data)
             const currentDateIndex = foodPrices.findIndex(item => item.date === currentDate)
-            //const foodPrices = foodPricesBig.slice(0, currentDateIndex)
+
+            $("#bread-value").text(foodPrices[currentDateIndex]["Bread (SYP)"] + ' £S');
+            $("#fuel-value").text(foodPrices[currentDateIndex]["Fuel (diesel, liter, SYP)"] + ' £S');
+            $("#rice-value").text(foodPrices[currentDateIndex]["Rice (kg, SYP)"] + ' £S');
+            $("#sugar-value").text(foodPrices[currentDateIndex]["Sugar (kg, SYP)"] + ' £S');
 
             x.domain(d3.extent(Object.keys(data), function (d) {
                 return parseTime(d);
@@ -311,7 +315,7 @@ function lineChartInit() {
                 var d = 'M' + xDate + ',220 ' + xDate + ',0';
                 return d;
             });
-        
+
         // appends circles and text to the line
         d3.selectAll(".time-circles-text")
             .style("opacity", "1")
@@ -333,19 +337,19 @@ function lineChartInit() {
         // Functions to create a vertical line, circles, and text 
         //----------------------------
 
-        function newVerticalLine(className){
-            verticalLine = mouseG.append("path") 
-            .attr("class", className)
-            .style("stroke", "black")
-            .style('stroke-dasharray', "2")
-            .style("stroke-width", "1px");
+        function newVerticalLine(className) {
+            verticalLine = mouseG.append("path")
+                .attr("class", className)
+                .style("stroke", "black")
+                .style('stroke-dasharray', "2")
+                .style("stroke-width", "1px");
 
             return verticalLine;
 
         }
 
-        function newCirclesText(selection, className){
-            var circlesText = mouseG.selectAll(selection) 
+        function newCirclesText(selection, className) {
+            var circlesText = mouseG.selectAll(selection)
                 .data([foodPrices])
                 .enter()
                 .append("g")
@@ -357,7 +361,7 @@ function lineChartInit() {
                 .style("fill", "none")
                 .style("stroke-width", "1px");
 
-            circlesText.append("text") 
+            circlesText.append("text")
                 .attr('class', 'label')
                 .attr("transform", "translate(10,3)");
 
@@ -370,7 +374,7 @@ function lineChartInit() {
         timeLineCirclesText = newCirclesText('.time-circles-text', "time-circles-text");
         d3.selectAll(".time-circles-text")
             .style("opacity", "0");
-            
+
         // make sure these visuals do not dissapear on time line changed
         updateLine();
 
@@ -380,8 +384,8 @@ function lineChartInit() {
             .style("opacity", "0");
         mousePerLine = newCirclesText(".mouse-per-line", "mouse-per-line");
         d3.selectAll(".mouse-per-line")
-             .style("opacity", "0");
-                
+            .style("opacity", "0");
+
         // vertical line, circles, and text that can be set fixed to compare
         fixedLine = newVerticalLine("fixed-line")
             .style("opacity", "0");
@@ -424,18 +428,18 @@ function lineChartInit() {
                 d3.select(".mouse-line")
                     .style("opacity", "0");
                 d3.selectAll(".mouse-per-line")
-                .style("opacity", "0");
+                    .style("opacity", "0");
             })
 
             .on('mouseover', function () { // on mouse in show line, circles and text
                 d3.select(".mouse-line")
                     .style("opacity", "1");
                 d3.selectAll(".mouse-per-line")
-                .style("opacity", "1");
+                    .style("opacity", "1");
             })
 
-            .on("click", function(){ // on clicking                        
-                var mouse = d3.mouse(this);   
+            .on("click", function () { // on clicking                        
+                var mouse = d3.mouse(this);
                 fixedLine
                     .style("opacity", "1")
                     .attr("d", function () {
@@ -447,7 +451,7 @@ function lineChartInit() {
                 d3.selectAll(".fixed-circles-text")
                     .style("opacity", "1");
                 updatePosition(".fixed-circles-text", mouse[0]);
-      
+
             })
 
             .on('mousemove', function () { // mouse moving over canvas
@@ -460,7 +464,7 @@ function lineChartInit() {
                     });
 
                 updatePosition((".mouse-per-line"), mouse[0]);
-                
+
             });
 
     }
@@ -469,14 +473,16 @@ function lineChartInit() {
     // Defines the position of the circles and text
     //----------------------------
 
-    function updatePosition(selection, thisDate){
+    function updatePosition(selection, thisDate) {
         d3.selectAll(selection)
             .attr("transform", function (d, i) {
-         
+
                 var lines = document.getElementsByClassName('line');
 
                 var xDate = thisDate,
-                    bisect = d3.bisector(function (d) { return d.date; }).right;
+                    bisect = d3.bisector(function (d) {
+                        return d.date;
+                    }).right;
                 idx = bisect(d.values, xDate);
 
                 var beginning = 0,
@@ -501,9 +507,9 @@ function lineChartInit() {
                 d3.select(this).select('text')
                     .text(y.invert(pos.y).toFixed(2));
 
-                if(selection == ".mouse-per-line" || selection == ".time-line"){
-                        const classToBind = ($(this).find('.info').attr('class').split(' '));
-                        $('#'+classToBind[0]+'-value').html(d3.select(this).text() + " &#163;S");
+                if (selection == ".mouse-per-line" || selection == ".time-line") {
+                    const classToBind = ($(this).find('.info').attr('class').split(' '));
+                    $('#' + classToBind[0] + '-value').html(d3.select(this).text() + " &#163;S");
                 }
 
                 return "translate(" + xDate + "," + pos.y + ")";
